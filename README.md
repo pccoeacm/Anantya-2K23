@@ -1,5 +1,8 @@
 # Anantya 2K23
 
+Anantya is an intercollegiate event for undergraduate students organized by the Department of Computer Engineering, PCCoE.
+Consisting of technical and non-technical events, Anantya is held to encourage students to create, hack, innovate and show off their talents. It offers students a platform to learn, grow and earn exciting prizes along the way.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
