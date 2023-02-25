@@ -1,0 +1,49 @@
+.navbar{
+    margin: 1%;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    box-shadow: 1px 1px 15px 2px #0081B4;
+}
+
+
+.navbar-nav{
+    color: white;
+}
+
+.navitem{
+    color: white;
+    margin: 0 20px 0 0;
+    font-size: 1.2rem;
+    font-family: cursive;
+}
+
+.menu-img{
+    height: 35px;
+    width: 35px;
+}
+
+
+/* Title Design */
+.logo-bottom{
+    font-family: Arial, Helvetica, sans-serif;   
+    padding:0 0 10px 15px;
+    border-bottom: 5px solid #0081B4;
+    border-left: 5px solid #0081B4;
+    display: inline;
+}
+
+.logo-top{
+    padding:0 20px 0 0;
+    border-right: 5px solid #0081B4;
+    border-top: 5px solid #0081B4;   
+}
+
+.title{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-family: cursive;
+    text-decoration: none;
+}
