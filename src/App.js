@@ -1,13 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar'
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import Home from './pages/Home'
+import About from './pages/About'
+import Events from './pages/Events'
+import Calender from './pages/Calender'
 
 function App() {
   return (
-    <div className="App">
-     <h1>
-      Anantya 2K23.
-     </h1>
-    </div>
+    <>
+     <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/events" element={<Events/>} />
+          <Route path="/calender" element={<Calender/>} />
+        </Routes>
+     </BrowserRouter>
+    </>
   );
 }
 
