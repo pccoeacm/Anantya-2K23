@@ -1,0 +1,29 @@
+
+/* .footer{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: rgb(43, 61, 82);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+} */
+
+
+.footer-main-container{
+    background: linear-gradient(#1C5556, #00002F);
+    color: white;
+}
+
+.footer-col{
+    /* text-align: center; */
+    margin: 3% 0;
+}
+
+.contact-us-footer{
+    margin-left:10%;
+}
+
+.footer-navlinks{
+    margin-bottom: 15px;
+}
