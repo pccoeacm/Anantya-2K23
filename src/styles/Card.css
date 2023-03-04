@@ -1,4 +1,4 @@
-p {
+.events-p{
   /* margin: 0 150px; */
   font-size:20px;
   color: white;
@@ -10,21 +10,20 @@ p {
 }
 
 .events_Info {
-
   margin: 4% 10%;
-  /* height:350px;
-  */
 }
 
-/* .card-container2 {
-  margin-top: 100px;
+.event-card{
+  background-color: red;
+  /* height: 300px;
+  width: 200px; */
+  margin: 10px;
 }
 
-.card-container-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
+.card-main-container{
+  margin: 5% 10%;
+}
+
 
 
 
