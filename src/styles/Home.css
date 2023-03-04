@@ -44,9 +44,127 @@
 .astronaut {
 
     position: absolute;
-    width: 518px;
-    height: 414px;
-    left: 60%;
+    /* image dimensions: 697x871 */
+    width: 278.8px;
+    height: 348.4px;
+    left: 70%;
     top: calc(100vh - 40px);
+    z-index: 2;
+
+    animation: mover 0.8s infinite  alternate;
+
+}
+
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); }
+}
+
+.about-box {
+
+    position: absolute;
+    width: 87.5%;
+    height: 550px;
+    left: 6.375%;
+    top: calc(123vh);
+
+    background: #000000;
+    border-radius: 20px;
+    z-index: 0;
+
+    filter: drop-shadow(10px 0px 10px rgba(0, 0, 0, 0.25));
+
+}
+
+.about-anantya {
+
+    position: absolute;
+    width: 535px;
+    height: 116px;
+    top: 12%;
+    left: 12%;
+
+    font-family: Play;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 116px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: white;
+
+    z-index: 2;
+}
+
+.about-anantya-desc {
+
+    position: absolute;
+    width: 80%;
+    height: 306px;
+    left: 12%;
+    top: 35%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+
+    z-index: 2;
+    
+}
+
+.aboutBg {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    opacity: 50%;
+    filter: saturate(250%);
+    user-select: none;
+    border-radius: 20px;
+
+}
+
+.our-sponsors {
+
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 200vh;
+
+}
+
+.our-sponsors-heading {
+
+    position: absolute;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 98px;
+    color: #FFFFFF;
+    top: 5%;
+    backdrop-filter: blur(2px);
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+.our-sponsors-card {
+
+    position: absolute;
+    width: 224px;
+    height: 250px;
+    left: 50%;
+    transform: translate(-50%);
+    top: 20%;
+
+    background: #D9D9D9;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
 
 }
