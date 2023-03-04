@@ -1,60 +1,29 @@
 import React from "react";
-import "../styles/Footer.css";
-import { NavLink } from "react-router-dom";
+import { FooterCss } from "../styles";
 
 const Footer = () => {
 	return (
-		// <div className='footer' style={{ background: "linear-gradient(#1C5556, #00002F)" }}>
-
-		// </div>
-
-		<div className="row footer-main-container fixed-bottom">
-			<div
-				className="col-lg-4 footer-col "
-				style={{ textAlign: "center", paddingTop: "20px" }}
-			>
-				<h1>
-					ANANTYA
-					<span style={{ display: "block", fontSize: "1.5rem" }}>2023</span>
-				</h1>
-			</div>
-			<div
-				className="col-lg-4 footer-col"
-				style={{ textAlign: "center", paddingTop: "20px" }}
-			>
-				<div className="row">
-					<div className="col-lg-6 footer-navlinks">
-						<NavLink to="/" className="nav-link">
-							<span className="navitem ">Home</span>
-						</NavLink>
+		<div className="footer-main">
+			<div>
+				<div className="footer-anantya-year">
+					<h1 className="footer-anantya">ANANTYA</h1>
+					<h2 className="footer-year">2023</h2>
+				</div>
+				<div className="useFulLinks">
+					<div className="useFulLinks-1">
+						<a>Home &nbsp;</a>
+						<a>About</a>
 					</div>
-					<div className="col-lg-6 footer-navlinks">
-						<NavLink to="/about" className="nav-link">
-							<span className="navitem ">About</span>
-						</NavLink>
+					<div className="useFulLinks-2">
+						<a>Events</a>
+						<a>Calendar</a>
 					</div>
 				</div>
-				<div className="row">
-					<div className="col-lg-6 footer-navlinks">
-						<NavLink to="/events" className="nav-link">
-							<span className="navitem ">Events</span>
-						</NavLink>
-					</div>
-					<div className="col-lg-6 footer-navlinks">
-						<NavLink to="/calender" className="nav-link">
-							<span className="navitem ">Calender</span>
-						</NavLink>
-					</div>
-				</div>
-			</div>
-			<div className="col-lg-4 footer-col">
-				<div className="contact-us-footer">
+				<div className="design-with-love">
 					<p>
-						<strong>CONTACT US :</strong>
+						© Designed and developed with ❤️ by Web Team CESA | Copyright ©2023
+						All rights reserved
 					</p>
-					<p>Pimpri Chinchwad College of Engineering</p>
-					<p>acm@pccoepune.org</p>
-					<div></div>
 				</div>
 			</div>
 		</div>
