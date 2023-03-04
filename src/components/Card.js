@@ -1,12 +1,11 @@
 import React ,{useState} from 'react'
 import '../styles/Card.css';
 import Data from '../API/card-data'
-
+import { NavLink } from "react-router-dom";
 const Card = () => {
 
   const [data,setData]= useState(Data);
 
-  console.log(data);
 
   return (
    
@@ -20,16 +19,29 @@ const Card = () => {
         <div className='card-main-container row'>
         {data.map((elem)=>{
           return(
-            
-          <div className='event-card col-lg-3'>
-              <h1>card No : {elem.id}</h1>
-              <p>descriptions</p>
-          </div>
+         <div className="card col-lg-4" >
+			<img src="https://t4.ftcdn.net/jpg/05/59/08/01/240_F_559080129_4fWvQkVrQQCAJxaLFstZIfmWUW7DEgQ2.jpg" alt="image" />
+			<div className="data">
+				<h1 className="card-title">Event {elem.id}</h1>
+				<p className="card-subtitle">dd/mm/yyyy</p>
+				<p className="card-info">
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis,
+					minima recusandae. Similique consequatur excepturi, soluta nam, vero
+					corrupti aut fuga voluptatum ex ipsam error laborum, eos laboriosam
+					veritatis rerum. Dolore?
+				</p>
+				<div className="btn">
+					<button className="card-btn">
+					   <NavLink to={"/about"}className="nav-link">ANANTYA</NavLink>
+					</button>
+				</div>
+			</div>
+		</div>
           )
         })}
         </div>
 
-       
+		
        </>
       
        
