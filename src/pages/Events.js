@@ -7,9 +7,9 @@ const Events = () => {
     <>
       <Navbar/>
       
-      <div style={{textAlign:'center',marginTop:'70px'}}>
+      {/* <div style={{textAlign:'center',marginTop:'70px'}}>
       <h1 style={{color:'white', fontSize: '6rem', fontWeight: '400' }} >EVENTS</h1>
-      </div>
+      </div> */}
 
       <Card />
     </>
