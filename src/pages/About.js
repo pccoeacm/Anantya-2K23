@@ -2,10 +2,12 @@ import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import "../styles/About.css";
 import Data from "../API/card-data";
+import Design from "../components/Design";
 
-const About = ({ ids }) => {  
+const About = ({ ids }) => {
   return (
     <>
+      <Design />
       <Navbar />
 
       {Data.filter((item) => item.id == ids).map((filteredPerson) => (
