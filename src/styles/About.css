@@ -1,0 +1,14 @@
+.events-details-container{
+    color: white;
+    margin:0 3%;
+}
+
+.event-details-description{
+    border: 2px solid red;
+    border-radius: 10px;
+    margin: 5%;
+}
+
+.description-para-tag{
+    margin: 10px;
+}

@@ -124,6 +124,7 @@ const Registration = () =>
         {/*<Footer />*/ }
 		</>
     );        
+
 };
 
 export default Registration;
