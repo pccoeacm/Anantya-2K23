@@ -1,17 +1,20 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import Design from "../components/Design";
+import { Design, Footer, Navbar } from "../components";
 
-const Calander = () => {
-  return (
-    <>
-      <Design />
-      <Navbar />
-      <div style={{ textAlign: "center" }}>
-        <h1 style={{ color: "white" }}>Calender</h1>
-      </div>
-    </>
-  );
+const Calender = () => {
+	return (
+		<>
+			<div className="bg-gradients">
+				<div className="bg-gradient-1">.</div>
+				<div className="bg-gradient-2">.</div>
+				<div className="bg-gradient-3">.</div>
+				<div className="bg-gradient-4">.</div>
+			</div>
+			<Navbar />
+			<Design />
+			<Footer />
+		</>
+	);
 };
 
-export default Calander;
+export default Calender;

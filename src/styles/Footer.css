@@ -1,86 +1,112 @@
 .footer-main {
 
-    position: relative;
-    width: 100%;
-    height: 379px;
-    top: 250vh;
-
-}
-
-.footer-anantya-year {
-
-    position: absolute;
-    left: 5%;
-
-}
-
-.footer-anantya {
-
-    font-family: 'Urbanist';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 80px;
-    line-height: 96px;
-    color: #FFFFFF;
-
-}
-
-.footer-year {
-
-    position: absolute;
-    font-family: 'Urbanist';
-    font-style: normal;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%);
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 60px;
-    color: #FFFFFF;
-
-}
-
-.useFulLinks {
-
-    position: absolute;
-    width: 174.33px;
-    height: 73px;
-    left: 589.5px;
-    top: 3%;
-    color: white;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    justify-content: space-between;
+    background: linear-gradient(260deg, #022976 0.58%, rgba(64, 168, 163, 0.3) 100%);
+    border-bottom: #fa00fe 2px solid;
+    overflow: hidden;
 
 }
 
-.useFulLinks-1 {
+.footer-anantya-logo {
 
-    display: flex;
-    justify-content: start;
-    gap: 50px;
-
+    width: 40%;
+    
 }
 
-.useFulLinks-2 {
+.footer-links-main {
 
     display: flex;
-    justify-content: start;
-    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links {
+
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
 
 }
 
 .design-with-love {
 
-    position: absolute;
+    box-sizing: border-box;
+    border-top: #022976 1px solid;
+
+}
+
+.design-with-love-text {
+
+    color: #fff;
+    text-align: center;
     font-family: 'Urbanist';
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
-    line-height: 0%;
-    color: #FFFFFF;
-    left: 50%;
-    top: 70%;
-    transform: translate(-50%);
+    margin: 5px 0px;
 
+}
+
+.footer-contact-us-div {
+
+    margin-left: 15.4%;
+}
+
+.footer-contact-us {
+
+    color: #99FFEF;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.footer-icons-main {
+
+    margin-left: 15.4%;
+    margin-bottom: 5%;
+    
+}
+
+.footer-contact-icon {
+
+    width: 25px;
+    height: 25px;
+    align-self: center;
+
+}
+
+.footer-contact-us-icons {
+
+    width: 40px;
+    height: 40px;
+
+}
+
+.footer-contact-text {
+
+    color: #fff;
+    text-align: start;
+    font-family: 'Urbanist';
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 5px 0px;
+
+}
+
+@media screen and (max-width: 570px) {
+    .footer-icons-main {
+
+        display: flex;
+        flex-direction: column;
+        
+    }
 }
