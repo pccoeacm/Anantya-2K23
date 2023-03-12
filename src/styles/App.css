@@ -2,3 +2,56 @@ body{
   background: #051937;
   /* background: linear-gradient(242.86deg, #9B00FF 0.9%, rgba(5, 25, 55, 0) 100%, #051937 100%); */
 }
+
+.bg-gradients {
+
+  position: absolute;
+  height: fit-content;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+
+}
+
+.bg-gradient-1 {
+
+  position: relative;
+  width: 100%;
+  height: calc(100vh+30px);
+  background: linear-gradient(242.86deg, #9B00FF 0.9%, rgba(5, 25, 55, 0) 100%, #051937 100%);
+  filter: blur(50px);
+
+}
+
+.bg-gradient-2 {
+
+  position: relative;
+  width: 100%;
+  height: calc(100vh + 30px);
+  background: linear-gradient(296.82deg, #9B00FF 0%, rgba(5, 25, 55, 0) 100%, #051937 100%);
+  filter: blur(50px);
+  margin-top: -30px;
+
+}
+
+.bg-gradient-3 {
+
+  position: relative;
+  width: 100%;
+  height: calc(100vh + 30px);
+  background: linear-gradient(242.86deg, #9B00FF 0.9%, rgba(5, 25, 55, 0) 100%, #051937 100%);
+  filter: blur(50px);
+  margin-top: -30px;
+
+}
+
+.bg-gradient-4 {
+
+  position: relative;
+  width: 100%;
+  height: calc(100vh + 30px);
+  background: linear-gradient(296.82deg, #9B00FF 0%, rgba(5, 25, 55, 0) 100%, #051937 100%);
+  filter: blur(50px);
+  margin-top: -30px;
+
+}

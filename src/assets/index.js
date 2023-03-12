@@ -6,6 +6,7 @@ import linkedinPng from "./icons8-linkedin-120.png";
 import locationPng from "./icons8-place-marker-96.png";
 import twitterPng from "./icons8-twitter-120.png";
 import youtubePng from "./icons8-youtube-120.png";
+import instaPng from "./theme.png";
 
 export {
 	astronaut,
@@ -16,4 +17,5 @@ export {
 	locationPng,
 	twitterPng,
 	youtubePng,
+	instaPng,
 };
