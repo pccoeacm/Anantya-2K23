@@ -8,7 +8,6 @@ const Home1 = () => {
 	return (
 		<div>
 			<Navbar />
-			<Calendar />
 			<Footer />
 			<div className="bg-gradients">
 				<div className="bg-gradient-1">.</div>
