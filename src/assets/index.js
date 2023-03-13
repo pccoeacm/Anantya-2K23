@@ -1,5 +1,5 @@
 import astronaut from "./astro.png";
-import aboutBG from "./seeing.jpg";
+import aboutBG from "./seeing1.jpg";
 import facebookPng from "./icons8-facebook-120.png";
 import gmailPng from "./icons8-gmail-120.png";
 import linkedinPng from "./icons8-linkedin-120.png";

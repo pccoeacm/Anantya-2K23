@@ -1,9 +1,24 @@
+.about {
+
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-section {
+
+    margin-top: -120px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+
+}
+
 .astro-png {
 
-    width: 20%;
-    height: 20%;
-    margin-left: 80%;
+    width: 200px;
     z-index: 2;
+    margin-left: 80%;
     animation: mover 0.8s infinite  alternate;
     user-select: none;
 
@@ -14,54 +29,92 @@
     100% { transform: translateY(-30px); }
 }
 
-.anantya-title-bg {
-
-    margin-top: -115px;
-    border-radius: 20px;
-
-}
-
-.bg-image {
-
-    position: absolute;
-    z-index: -1;
-    border-radius: 20px;
-    left: auto;
-
-}
-
 .about-bg {
 
     object-fit: contain;
     border-radius: 20px;
+
 }
 
-.anantya-title {
+.about-desc {
+
+    color: #FFFFFF;
+    width: 85vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    background: url(../assets/seeing1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+.anantya-head {
 
     font-family: 'Play';
     font-style: normal;
-    margin-left: 10%;
     font-weight: 700;
-    padding-top: 100px;
-    font-size: 7rem;
-    line-height: 116px;
-    letter-spacing: 0.1em;
-    color: white;
-
-
+    font-size: 100px;
+    margin-left: 7rem;
+    margin-top: 2rem;
 
 }
 
-.anantya-para {
+.anantya-desc {
 
+    position: relative;
+    left: 50px;
+    padding: 20px 80px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
-    margin-left: 10%;
-    margin-right: 5%;
-    padding-top: 10px;
-    padding-bottom: 50px;
-    color: #FFFFFF;
+
+}
+
+@media screen and (max-width: 850px) {
+    
+    .about {
+
+        flex-direction: row;
+        
+    }
+    .about-section {
+
+        margin-top: -50px;
+
+    }
+
+    .astro-png {
+
+        width: 90px;
+
+    }
+
+    .anantya-head {
+
+        margin: 0;
+        margin-left: 15px;
+        font-size: 70px;
+
+    }
+
+    .anantya-desc {
+
+        position: inherit;
+        padding: 20px;
+
+    }
+
+    .about-desc {
+
+        background: linear-gradient(242.86deg, #9B00FF 0.9%, rgba(5, 25, 55, 0) 100%, #051937 100%);
+        border: #051937 2.5px solid;
+        flex-direction: row;
+
+    }
 }

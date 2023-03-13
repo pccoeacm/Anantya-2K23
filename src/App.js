@@ -7,10 +7,18 @@ import Calender from "./pages/Calender";
 import Registration from "./pages/Registration";
 import React from "react";
 import Home1 from "./pages/Home1";
+import { Design, Footer, Navbar } from "./components";
 
 function App() {
 	return (
 		<>
+			<Design />
+			<div className="bg-gradients">
+				<div className="bg-gradient-1">&nbsp;</div>
+				<div className="bg-gradient-2">&nbsp;</div>
+				<div className="bg-gradient-3">&nbsp;</div>
+				<div className="bg-gradient-4">&nbsp;</div>
+			</div>
 			<BrowserRouter>
 				<Routes>
 					<Route path="/" element={<Home1 />} />
@@ -27,6 +35,7 @@ function App() {
 					<Route path="/about7" element={<About ids={7} />} />
 				</Routes>
 			</BrowserRouter>
+			<Footer />
 		</>
 	);
 }
