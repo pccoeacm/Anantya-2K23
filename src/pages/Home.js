@@ -1,15 +1,13 @@
 import React from "react";
-import { Home1Css } from "../styles";
-import { ISS, Navbar } from "../components";
+import { HomeCss } from "../styles";
+import { Design, Footer, ISS, Navbar } from "../components";
 import { astronaut, aboutBG } from "../assets";
 
-const Home1 = () => {
+const Home = () => {
 	return (
 		<div>
-			<Design />
 			<Navbar />
 			<ISS />
-			<Footer />
 			<div className="bg-gradients">
 				<div className="bg-gradient-1">.</div>
 				<div className="bg-gradient-2">.</div>
@@ -43,4 +41,4 @@ const Home1 = () => {
 	);
 };
 
-export default Home1;
+export default Home;
