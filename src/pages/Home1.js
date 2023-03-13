@@ -1,21 +1,23 @@
 import React from "react";
 import { Home1Css } from "../styles";
-import { Design, Footer, Navbar } from "../components";
+import { Design, Footer, ISS, Navbar } from "../components";
 import { astronaut, aboutBG } from "../assets";
 import Calendar from "./Calender.js";
 
 const Home1 = () => {
-	return (
-		<div>
-			<Navbar />
-			<Footer />
-			<div className="bg-gradients">
-				<div className="bg-gradient-1">.</div>
-				<div className="bg-gradient-2">.</div>
-				<div className="bg-gradient-3">.</div>
-				<div className="bg-gradient-4">.</div>
-			</div>
-			{/*<div className="container">
+  return (
+    <div>
+      <Design />
+      <Navbar />
+      <ISS />
+      <Footer />
+      <div className="bg-gradients">
+        <div className="bg-gradient-1">.</div>
+        <div className="bg-gradient-2">.</div>
+        <div className="bg-gradient-3">.</div>
+        <div className="bg-gradient-4">.</div>
+      </div>
+      {/*<div className="container">
 				<img src={astronaut} className="astro-png" />
 				<div className="container-fluid anantya-title-bg">
 					<div className="bg-image">
@@ -38,8 +40,8 @@ const Home1 = () => {
 					</p>
 				</div>
 			</div> */}
-		</div>
-	);
+    </div>
+  );
 };
 
 export default Home1;

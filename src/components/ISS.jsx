@@ -4,14 +4,34 @@ import { Canvas } from "@react-three/fiber";
 import "./ISS.css";
 
 function Model() {
+  const [scrolls, setScroll] = useState(0);
+
+  window.addEventListener("scroll", handleScroll);
+
+  function handleScroll() {
+    setScroll(window.scrollY);
+  }
+
+  const vw = Math.max(
+    document.documentElement.clientWidth || 0,
+    window.innerWidth || 0
+  );
+
   const { scene } = useGLTF("ISS_stationary.glb");
-  return <primitive object={scene} scale={0.003} rotation={[0, 0, 0]} />;
+  return (
+    <primitive
+      object={scene}
+      scale={0.002}
+      rotation={[scrolls * -0.005, 0, scrolls * -0.001]}
+    />
+  );
 }
 
 export default function ShowDonut(props) {
   window.addEventListener("mousemove", handleMouseMove);
   const [mouseX, setMouseX] = useState(10);
   const [mouseY, setMouseY] = useState(10);
+
   function handleMouseMove(event) {
     setMouseX(event.clientX);
     setMouseY(event.clientY);
@@ -30,7 +50,7 @@ export default function ShowDonut(props) {
         <Suspense fallback={null}>
           <Model />
         </Suspense>
-        <OrbitControls />
+        {/* <OrbitControls /> */}
       </Canvas>
     </div>
   );
