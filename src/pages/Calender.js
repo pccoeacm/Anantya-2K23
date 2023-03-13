@@ -3,7 +3,7 @@ import { CalendarCss } from "../styles";
 import { Design, Footer, Navbar } from "../components";
 
 const Calender = () => {
-	const d = new Date(2023, 3, 12, 10);
+	const d = new Date();
 	var hour = false;
 	const currHour = d.getHours();
 
@@ -14,13 +14,6 @@ const Calender = () => {
 	return (
 		<>
 			<Navbar />
-			<Design />
-			<div className="bg-gradients">
-				<div className="bg-gradient-1">.</div>
-				<div className="bg-gradient-2">.</div>
-				<div className="bg-gradient-3">.</div>
-				<div className="bg-gradient-4">.</div>
-			</div>
 			<div className="d-flex flex-column">
 				<h1 className="text-fluid text-center calendar-heading">CALENDAR</h1>
 				<div className="d-flex flex-column">

@@ -14,11 +14,11 @@ import {
 const Footer = () => {
 	return (
 		<div className="container-fluid footer-main">
-			<div className="row">
-				<div className="col d-flex justify-content-center align-items-center border-end">
+			<div className="row d-flex flex-sm-column flex-lg-row justfity-content-center align-items-center footer-main-row">
+				<div className="col d-flex justify-content-center align-items-center">
 					<img src={astronaut} className="img-fluid footer-anantya-logo" />
 				</div>
-				<div className="col text-center footer-links-main border-end">
+				<div className="col text-center footer-links-main">
 					<div className="row d-flex row-gap-4">
 						<div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
 							<a href="#" className="footer-links">
@@ -42,7 +42,7 @@ const Footer = () => {
 						</div>
 					</div>
 				</div>
-				<div className="col-5 d-flex flex-column justify-content-center row-gap-3">
+				<div className="col-5 row-gap-3 footer-contact-us-div-col">
 					<div className="row footer-contact-us-div">
 						<p className="footer-contact-us">Contact Us:</p>
 					</div>
@@ -85,7 +85,7 @@ const Footer = () => {
 							</a>
 						</div>
 					</div>
-					<div className="row row-cols-lg-5 row-cols-md-3 row-cols-sm-2 row-gap-2 d-flex flex-lg-row flex-xs-column footer-icons-main">
+					<div className="row footer-icons-main">
 						<div className="col">
 							<a
 								href="https://www.linkedin.com/company/pccoe-acm-student-chapter/"
