@@ -4,12 +4,14 @@ import Footer from "../components/Footer";
 import { HomeCss } from "../styles";
 import { aboutBG, astronaut } from "../assets";
 import Design from "../components/Design";
+import ISS from "../components/ISS";
 
 const Home = () => {
   return (
     <>
       <Design />
       <Navbar />
+      <ISS />
       <div className="bg-1-gradient">.</div>
       <div className="bg-2-gradient">.</div>
       <img src={astronaut} className="astronaut" />
