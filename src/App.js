@@ -8,6 +8,16 @@ import Registration from "./pages/Registration";
 import React from "react";
 
 import Webbit from './components/registerations/Webbit'
+import Codigo from './components/registerations/Codigo'
+import Perplexo from './components/registerations/Perplexo'
+import Hackathon from './components/registerations/Hackathon'
+import  Cosmic from './components/registerations/Cosmic'
+import IplAuction from './components/registerations/IplAuction'
+import StarupMenia from './components/registerations/StartupMenia'
+import AlphaAnalyst from './components/registerations/AlphaAnalyst'
+import G20x from './components/registerations/G20x'
+import MovieTrivia from './components/registerations/MovieTrivia'
+
 
 import { Design, Footer, Navbar } from "./components";
 
@@ -15,12 +25,12 @@ function App() {
 	return (
 		<>
 			{/* <Design /> */}
-			<div className="bg-gradients">
+			{/* <div className="bg-gradients">
 				<div className="bg-gradient-1">&nbsp;</div>
 				<div className="bg-gradient-2">&nbsp;</div>
 				<div className="bg-gradient-3">&nbsp;</div>
 				<div className="bg-gradient-4">&nbsp;</div>
-			</div>
+			</div> */}
 			<BrowserRouter>
 				<Routes>
 					<Route path="/" element={<Home />} />
@@ -44,6 +54,16 @@ function App() {
 
 
 					<Route path="/webbit" element={<Webbit/>} />
+					<Route path="/codigo" element={<Codigo/>} />
+					<Route path="/perplexo" element={<Perplexo/>} />
+					<Route path="/hackathon" element={<Hackathon/>} />
+					<Route path="/cosmic_Aptitude_Test" element={<Cosmic/>} />
+					<Route path="/IPL_Auction" element={<IplAuction/>} />
+					<Route path="/Startup_Mania" element={<StarupMenia/>} />
+					<Route path="/The_Alpha_Analyst" element={<AlphaAnalyst/>} />
+				    <Route path="/G20x_Anantya" element={<G20x/>} />
+					<Route path="/Movie_Trivia" element={<MovieTrivia/>} />
+					
 				</Routes>
 			</BrowserRouter>
 			<Footer />

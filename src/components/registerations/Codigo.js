@@ -10,7 +10,7 @@ const eventRegister = () => {
     const formDatab = new FormData(formEle);
     e.preventDefault();
     fetch(
-      "https://script.google.com/macros/s/AKfycbxgIwCQjOj8_s4Hg7Dyo3dkprUNmhoTyluh1F3Ikm4HDBtLf8tg-7fCnAMVoL7-TQy5/exec",
+      "https://script.google.com/macros/s/AKfycbz7BzsVaazkwmzYWAUwZsaglTcm48PktFzycpjJ0ZuuZ71J3qTTWqIgI-xKtJlQWFLq/exec",
       {
         method: "POST",
         body: formDatab

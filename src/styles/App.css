@@ -1,6 +1,9 @@
 body{
   background: #051937;
   /* background: linear-gradient(242.86deg, #9B00FF 0.9%, rgba(5, 25, 55, 0) 100%, #051937 100%); */
+  /* background: linear-gradient(242.86deg, #9B00FF 0.9%, rgba(5, 25, 55, 0) 100%, #051937 100%); */
+  background-color:  linear-gradient(242.86deg, #9B00FF 0.9%, rgba(5, 25, 55, 0) 100%, #051937 100%);
+ 
 }
 
 .bg-gradients {
@@ -17,7 +20,7 @@ body{
 
   position: relative;
   width: 100%;
-  /* height: calc(100vh+30px); */
+  height: calc(100vh+30px);
   background: linear-gradient(242.86deg, #9B00FF 0.9%, rgba(5, 25, 55, 0) 100%, #051937 100%);
   filter: blur(50px);
 

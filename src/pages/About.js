@@ -15,7 +15,7 @@ const About = ({ ids }) => {
         return(
           <>
           <div
-        className="row"
+        className="row about-page"
         style={{ margin: "5% 3%", display: "flex", justifyContent: "center" }}
       >
         <div className="bg-1-gradient"></div>
