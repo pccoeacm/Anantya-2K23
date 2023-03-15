@@ -10,7 +10,7 @@ const eventRegister = () => {
     const formDatab = new FormData(formEle);
     e.preventDefault();
     fetch(
-      "https://script.google.com/macros/s/AKfycbz_Ar2So392B_xU2T3VBrTL1p-SHcHA2ABnhvTO25D44jynlhl7PSC_8c1TGd7xIqfC/exec",
+      "https://script.google.com/macros/s/AKfycbxMCbVowFkT76NvQPT4Epe3ApqD8M3cSLeaZjGsN-LrQ5hRwDB2U5kRbxyh1rvZrYXt/exec",
       {
         method: "POST",
         body: formDatab
@@ -55,6 +55,7 @@ const eventRegister = () => {
 
                     
                        
+                       
                        <label id='lable-tag' for="name">Name </label>
                        <input className="column" type="text" name="name" id="registeration-input" placeholder="Same as to be printed on Certificates" required/>
                      
@@ -68,12 +69,17 @@ const eventRegister = () => {
 
                         
                         <label id="lable-tag" className="" for="college_name">College Name  </label>
-                        <input type="tel" className="column" name="college_name" id="registeration-input" placeholder="Active whatsapp Number" required ></input>
+                        <input type="tel" className="column" name="college_name" id="registeration-input" placeholder="Enter Your College Name" required ></input>
 
                         
                         <label id="lable-tag" className="" for="academic_year">Academic Year   </label>
-                        <input type="tel" className="column" name="academic_year" id="registeration-input" placeholder="Active whatsapp Number" required></input>
-                      
+                        <input type="tel" className="column" name="academic_year" id="registeration-input" placeholder="Eg. FE/SE/TE/BE" required></input>
+
+                        <label id="lable-tag" className="" for="" >Enter Your PRN</label>
+                        <p className='p-tag'>*Note: If you are from Other College Please Pay registration fee  And Add transaction ID otherwise registration will be rejected.</p>
+
+                        <input type="text" className="column" name="PRN" id="registeration-input" placeholder="PRN or Transaction ID" required></input>
+                        <label id="lable-tag" className="" for="UPI ID" >UPI ID:</label>
 
                        <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
                           <input name="Name" type="submit" className='Button-for-submission'/>
