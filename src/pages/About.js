@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 const About = ({ ids }) => {
   return (
     <>
-      <Design />
+      {/* <Design /> */}
       <Navbar />
 
       {Data.filter((item) => item.id == ids).map((elem) =>{

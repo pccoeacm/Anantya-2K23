@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Events from "./pages/Events";
 import Calender from "./pages/Calender";
 import Registration from "./pages/Registration";
+import LogIn from "./components/Login";
 import React from "react";
 
 import Webbit from "./components/registerations/Webbit";
@@ -40,7 +41,6 @@ function App() {
           <Route path="/about10" element={<About ids={10} />} />
           <Route path="/about11" element={<About ids={11} />} />
           <Route path="/about12" element={<About ids={12} />} />
-
           <Route path="/webbit" element={<Webbit />} />
         </Routes>
       </BrowserRouter>
