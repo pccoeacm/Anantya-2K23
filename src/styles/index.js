@@ -5,6 +5,7 @@ import HomeCss from "./Home.css";
 import IndexCss from "./index.css";
 import CalendarCss from "./calendar.css";
 import IssCss from "./ISS.css";
+<<<<<<< HEAD
 import sponsorCss from "./sponsor.css";
 
 export {
@@ -17,3 +18,7 @@ export {
 	IssCss,
 	sponsorCss,
 };
+=======
+
+export { AppCss, CardCss, FooterCss, IndexCss, HomeCss, CalendarCss, IssCss };
+>>>>>>> main
