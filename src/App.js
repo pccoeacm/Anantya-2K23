@@ -5,7 +5,9 @@ import About from "./pages/About";
 import Events from "./pages/Events";
 import Calender from "./pages/Calender";
 import Registration from "./pages/Registration";
+import LogIn from "./components/Login";
 import React from "react";
+
 
 import Webbit from './components/registerations/Webbit'
 import Codigo from './components/registerations/Codigo'
@@ -22,6 +24,7 @@ import MovieTrivia from './components/registerations/MovieTrivia'
 import { Design, Footer, Navbar } from "./components";
 
 function App() {
+
 	return (
 		<>
 			{/* <Design /> */}
@@ -69,6 +72,7 @@ function App() {
 			<Footer />
 		</>
 	);
+
 }
 
 export default App;
