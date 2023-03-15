@@ -1,40 +1,113 @@
 const cardData = [
     {
       id: 1,
+      event_name:"Codigo 3.0",
+      date:"",
+      short_description:"abc",
+      detailed_description:"prq",
       image:"https://tse4.mm.bing.net/th?id=OIP.fjpz0GPcZ53la1oEi_q5IgHaE7&pid=Api&P=0",
-      category: "Event-1"
+      path:"/codigo"
     },
   
     {
       id: 2,
-      image:"https://tse3.explicit.bing.net/th?id=OIP.vFpEpCrFcG5O8Miu0-PL6gHaE7&pid=Api&P=0",
-      category: "Event-2"
+      event_name:"Webbit-2.0",
+      date:"",
+      short_description:"abc",
+      detailed_description:"prq",
+      image:"https://tse4.mm.bing.net/th?id=OIP.fjpz0GPcZ53la1oEi_q5IgHaE7&pid=Api&P=0",
+      path:"/webbit"
     },
     {
       id: 3,
-      image:"https://tse2.mm.bing.net/th?id=OIP.Hubz7bEACP1ZVT2tTlvs1QHaE8&pid=Api&P=0",
-      category: "Event-3"
+      event_name:"Perplexo",
+      date:"",
+      short_description:"abc",
+      detailed_description:"prq",
+      image:"https://tse4.mm.bing.net/th?id=OIP.fjpz0GPcZ53la1oEi_q5IgHaE7&pid=Api&P=0",
+      path:"/Perplexo"
     },
     {
         id: 4,
-        image:"https://tse2.mm.bing.net/th?id=OIP.Kiv9oizwQ8lsDZj9MWq0dQHaE8&pid=Api&P=0",
-        category: "Event-4"
+        event_name:"Hackathon",
+        date:"",
+        short_description:"abc",
+        detailed_description:"prq",
+        image:"https://tse4.mm.bing.net/th?id=OIP.fjpz0GPcZ53la1oEi_q5IgHaE7&pid=Api&P=0",
+        path:"/hackathon"
     },
     {
       id: 5,
-      image:"https://tse2.mm.bing.net/th?id=OIP.ibNeSkSET3NNZV1i9LuCDwHaE8&pid=Api&P=0",
-      category: "Event-5"
+      event_name:"Cosmic Aptitude Test",
+      date:"",
+      short_description:"abc",
+      detailed_description:"prq",
+      image:"https://tse4.mm.bing.net/th?id=OIP.fjpz0GPcZ53la1oEi_q5IgHaE7&pid=Api&P=0",
+      path:"/cosmic_Aptitude_Test"
     },
     {
         id: 6,
-        image:"https://tse1.mm.bing.net/th?id=OIP.mHUvovZxG8HKJKZPF2vUXQHaHa&pid=Api&P=0",
-        category: "Event-6"
+        event_name:"IPL Auction",
+        date:"",
+        short_description:"abc",
+        detailed_description:"prq",
+        image:"https://tse4.mm.bing.net/th?id=OIP.fjpz0GPcZ53la1oEi_q5IgHaE7&pid=Api&P=0",
+        path:"/IPL_Auction"
       },
     {
       id: 7,
-      image:"https://tse3.mm.bing.net/th?id=OIP.VUCC75VDj_8kZgmIvF_8xwHaLG&pid=Api&P=0",
-      category: "Event-7"
-    }
+      event_name:"Startup Mania",
+      date:"",
+      short_description:"abc",
+      detailed_description:"prq",
+      image:"https://tse4.mm.bing.net/th?id=OIP.fjpz0GPcZ53la1oEi_q5IgHaE7&pid=Api&P=0",
+      path:"/Startup_Mania"
+    },
+    {
+      id: 8,
+      event_name:"The Alpha Analyst",
+      date:"",
+      short_description:"abc",
+      detailed_description:"prq",
+      image:"https://tse4.mm.bing.net/th?id=OIP.fjpz0GPcZ53la1oEi_q5IgHaE7&pid=Api&P=0",
+      path:"/The_Alpha_Analyst"
+    },
+    {
+      id: 9,
+      event_name:"G20x Anantya",
+      date:"",
+      short_description:"abc",
+      detailed_description:"prq",
+      image:"https://tse4.mm.bing.net/th?id=OIP.fjpz0GPcZ53la1oEi_q5IgHaE7&pid=Api&P=0",
+      path:"/G20x_Anantya"
+    },
+    {
+        id: 10,
+        event_name:"Movie Trivia",
+        date:"",
+        short_description:"abc",
+        detailed_description:"prq",
+        image:"https://tse4.mm.bing.net/th?id=OIP.fjpz0GPcZ53la1oEi_q5IgHaE7&pid=Api&P=0",
+        path:"/Movie_Trivia"
+    },
+    {
+      id: 11,
+      event_name:"Unleash the Art ",
+      date:"",
+      short_description:"abc",
+      detailed_description:"prq",
+      image:"https://tse4.mm.bing.net/th?id=OIP.fjpz0GPcZ53la1oEi_q5IgHaE7&pid=Api&P=0",
+      path:"/Unleash_the_Art"
+    },
+    {
+        id: 12,
+        event_name:"Sports League ",
+        date:"",
+        short_description:"abc",
+        detailed_description:"prq",
+        image:"https://tse4.mm.bing.net/th?id=OIP.fjpz0GPcZ53la1oEi_q5IgHaE7&pid=Api&P=0",
+        path:"/Sports_League"
+      }
   ];
   
   export default cardData;

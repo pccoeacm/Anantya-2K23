@@ -5,14 +5,16 @@ import About from "./pages/About";
 import Events from "./pages/Events";
 import Calender from "./pages/Calender";
 import Registration from "./pages/Registration";
+import LogIn from "./components/Login";
 import React from "react";
-import Home1 from "./pages/Home1";
+
+import Webbit from "./components/registerations/Webbit";
+
 import { Design, Footer, Navbar } from "./components";
 
 function App() {
 	return (
 		<>
-			<Design />
 			<div className="bg-gradients">
 				<div className="bg-gradient-1">&nbsp;</div>
 				<div className="bg-gradient-2">&nbsp;</div>
@@ -21,7 +23,7 @@ function App() {
 			</div>
 			<BrowserRouter>
 				<Routes>
-					<Route path="/" element={<Home1 />} />
+					<Route path="/" element={<Home />} />
 					<Route path="/events" element={<Events />} />
 					<Route path="/calender" element={<Calender />} />
 					<Route path="/registration" element={<Registration />} />
@@ -33,6 +35,12 @@ function App() {
 					<Route path="/about5" element={<About ids={5} />} />
 					<Route path="/about6" element={<About ids={6} />} />
 					<Route path="/about7" element={<About ids={7} />} />
+					<Route path="/about8" element={<About ids={8} />} />
+					<Route path="/about9" element={<About ids={9} />} />
+					<Route path="/about10" element={<About ids={10} />} />
+					<Route path="/about11" element={<About ids={11} />} />
+					<Route path="/about12" element={<About ids={12} />} />
+					<Route path="/webbit" element={<Webbit />} />
 				</Routes>
 			</BrowserRouter>
 			<Footer />

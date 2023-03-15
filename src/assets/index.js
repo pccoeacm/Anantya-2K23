@@ -7,6 +7,7 @@ import locationPng from "./icons8-place-marker-96.png";
 import twitterPng from "./icons8-twitter-120.png";
 import youtubePng from "./icons8-youtube-120.png";
 import instaPng from "./theme.png";
+import aboutBGM from "./seeing_mobile.jpg";
 
 export {
 	astronaut,
@@ -18,4 +19,5 @@ export {
 	twitterPng,
 	youtubePng,
 	instaPng,
+	aboutBGM,
 };

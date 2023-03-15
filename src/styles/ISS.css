@@ -1,0 +1,22 @@
+canvas {
+  overflow: visible;
+  overflow-clip-margin: initial;
+}
+
+.threeD {
+  height: 10vh;
+  width: 10vw;
+  background: transparent;
+}
+
+@media screen and (max-width: 700px) {
+  .threeD {
+    height: 10vh;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .threeD {
+    height: 10vh;
+  }
+}

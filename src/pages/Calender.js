@@ -130,9 +130,10 @@ const Calender = () => {
 					</div>
 				</div>
 			</div>
-			<Footer />
+			
 		</>
 	);
+
 };
 
 export default Calender;

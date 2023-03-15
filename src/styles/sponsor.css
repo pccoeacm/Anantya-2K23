@@ -1,0 +1,29 @@
+.sponsor-card {
+
+    margin: 20px auto;
+    width: 20vw;
+    height: fit-content;
+    border-radius: 20px;
+
+}
+
+.sponsor-card-img {
+
+    border-radius: 15px;
+    border: #5661ff 2px solid;
+
+}
+
+.sponsor-name {
+
+    font-family: 'Urbanist';
+    text-align: center;
+    font-style: normal;
+    font-size: 2vw;
+    color: white;
+    margin-top: 10px;
+    padding: 2px;
+    border-radius: 20px;
+    border: #5661ff 1px solid;
+
+}

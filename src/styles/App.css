@@ -17,7 +17,7 @@ body{
 
   position: relative;
   width: 100%;
-  height: calc(100vh+30px);
+  /* height: calc(100vh+30px); */
   background: linear-gradient(242.86deg, #9B00FF 0.9%, rgba(5, 25, 55, 0) 100%, #051937 100%);
   filter: blur(50px);
 
@@ -27,7 +27,7 @@ body{
 
   position: relative;
   width: 100%;
-  height: calc(100vh + 30px);
+  height: 100%;
   background: linear-gradient(296.82deg, #9B00FF 0%, rgba(5, 25, 55, 0) 100%, #051937 100%);
   filter: blur(50px);
   margin-top: -30px;
@@ -49,7 +49,7 @@ body{
 
   position: relative;
   width: 100%;
-  height: calc(100vh + 30px);
+  height: 100%;
   background: linear-gradient(296.82deg, #9B00FF 0%, rgba(5, 25, 55, 0) 100%, #051937 100%);
   filter: blur(50px);
   margin-top: -30px;
