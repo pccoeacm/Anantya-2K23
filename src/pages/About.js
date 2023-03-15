@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import "../styles/About.css";
 import Data from "../API/card-data";
 import Design from "../components/Design";
+import { NavLink } from "react-router-dom";
 
 const About = ({ ids }) => {
   return (
@@ -10,11 +11,10 @@ const About = ({ ids }) => {
       <Design />
       <Navbar />
 
-      {Data.filter((item) => item.id == ids).map((filteredPerson) => (
-        <li style={{ color: "red" }}>{filteredPerson.category}</li>
-      ))}
-
-      <div
+      {Data.filter((item) => item.id == ids).map((elem) =>{
+        return(
+          <>
+          <div
         className="row"
         style={{ margin: "5% 3%", display: "flex", justifyContent: "center" }}
       >
@@ -29,7 +29,7 @@ const About = ({ ids }) => {
         </div>
         <div className="col-lg-8 events-details-container">
           <div style={{ textAlign: "center" }}>
-            <h1>EVENT NAME </h1>
+            <h1>{elem.event_name}</h1>
           </div>
 
           <div style={{ margin: "5%" }}>
@@ -63,8 +63,24 @@ const About = ({ ids }) => {
               </div>
             </div>
           </div>
+
+
+          
+          <NavLink to={elem.path} className="nav-link">
+									<span className="navitem"><button>Register</button></span>
+					</NavLink>
+
+
         </div>
       </div>
+          </>
+        );
+      })}
+        
+    
+    
+      
+     
     </>
   );
 };
