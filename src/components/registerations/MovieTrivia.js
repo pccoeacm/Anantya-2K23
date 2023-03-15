@@ -10,7 +10,7 @@ const eventRegister = () => {
     const formDatab = new FormData(formEle);
     e.preventDefault();
     fetch(
-      "https://script.google.com/macros/s/AKfycbxgIwCQjOj8_s4Hg7Dyo3dkprUNmhoTyluh1F3Ikm4HDBtLf8tg-7fCnAMVoL7-TQy5/exec",
+      "https://script.google.com/macros/s/AKfycbwYj1UCs7S9ZnW1sTi-FHuUwdRxM2wjBqJBpC6PcM_-LVdXIjh_1h06PEoCN9gsTC78/exec",
       {
         method: "POST",
         body: formDatab
@@ -42,7 +42,7 @@ const eventRegister = () => {
         
 
         <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
-        <h2 className="font-normal">Webbit-2.0</h2>
+        <h2 className="font-normal">Movie Trivia</h2>
         <div id="personalInfo">
                             <h1 id="personal-info" >Personal Information</h1>
                         </div>
@@ -73,12 +73,6 @@ const eventRegister = () => {
                         
                         <label id="lable-tag" className="" for="academic_year">Academic Year   </label>
                         <input type="tel" className="column" name="academic_year" id="registeration-input" placeholder="Active whatsapp Number" required></input>
-
-                        
-                        <label id="lable-tag" className="" for="Hacker_Rank_Profile" >Hacker Rank Profile</label>
-                        <input type="tel" className="column" name="Hacker_Rank_Profile" id="registeration-input" placeholder="Active whatsapp Number" required></input>
-                       
-
                       
 
                        <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>

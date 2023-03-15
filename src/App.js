@@ -8,45 +8,71 @@ import Registration from "./pages/Registration";
 import LogIn from "./components/Login";
 import React from "react";
 
-import Webbit from "./components/registerations/Webbit";
+
+import Webbit from './components/registerations/Webbit'
+import Codigo from './components/registerations/Codigo'
+import Perplexo from './components/registerations/Perplexo'
+import Hackathon from './components/registerations/Hackathon'
+import  Cosmic from './components/registerations/Cosmic'
+import IplAuction from './components/registerations/IplAuction'
+import StarupMenia from './components/registerations/StartupMenia'
+import AlphaAnalyst from './components/registerations/AlphaAnalyst'
+import G20x from './components/registerations/G20x'
+import MovieTrivia from './components/registerations/MovieTrivia'
+
 
 import { Design, Footer, Navbar } from "./components";
 
 function App() {
-  return (
-    <>
-      <Design />
-      <div className="bg-gradients">
-        <div className="bg-gradient-1">&nbsp;</div>
-        <div className="bg-gradient-2">&nbsp;</div>
-        <div className="bg-gradient-3">&nbsp;</div>
-        <div className="bg-gradient-4">&nbsp;</div>
-      </div>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/events" element={<Events />} />
-          <Route path="/calender" element={<Calender />} />
-          <Route path="/registration" element={<Registration />} />
 
-          <Route path="/about1" element={<About ids={1} />} />
-          <Route path="/about2" element={<About ids={2} />} />
-          <Route path="/about3" element={<About ids={3} />} />
-          <Route path="/about4" element={<About ids={4} />} />
-          <Route path="/about5" element={<About ids={5} />} />
-          <Route path="/about6" element={<About ids={6} />} />
-          <Route path="/about7" element={<About ids={7} />} />
-          <Route path="/about8" element={<About ids={8} />} />
-          <Route path="/about9" element={<About ids={9} />} />
-          <Route path="/about10" element={<About ids={10} />} />
-          <Route path="/about11" element={<About ids={11} />} />
-          <Route path="/about12" element={<About ids={12} />} />
-          <Route path="/webbit" element={<Webbit />} />
-        </Routes>
-      </BrowserRouter>
-      <Footer />
-    </>
-  );
+	return (
+		<>
+			{/* <Design /> */}
+			{/* <div className="bg-gradients">
+				<div className="bg-gradient-1">&nbsp;</div>
+				<div className="bg-gradient-2">&nbsp;</div>
+				<div className="bg-gradient-3">&nbsp;</div>
+				<div className="bg-gradient-4">&nbsp;</div>
+			</div> */}
+			<BrowserRouter>
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="/events" element={<Events />} />
+					<Route path="/calender" element={<Calender />} />
+					<Route path="/registration" element={<Registration />} />
+
+					<Route path="/about1" element={<About ids={1} />} />
+					<Route path="/about2" element={<About ids={2} />} />
+					<Route path="/about3" element={<About ids={3} />} />
+					<Route path="/about4" element={<About ids={4} />} />
+					<Route path="/about5" element={<About ids={5} />} />
+					<Route path="/about6" element={<About ids={6} />} />
+					<Route path="/about7" element={<About ids={7} />} />
+					<Route path="/about8" element={<About ids={8} />} />
+					<Route path="/about9" element={<About ids={9} />} />
+					<Route path="/about10" element={<About ids={10} />} />
+					<Route path="/about11" element={<About ids={11} />} />
+					<Route path="/about12" element={<About ids={12} />} />
+
+
+
+					<Route path="/webbit" element={<Webbit/>} />
+					<Route path="/codigo" element={<Codigo/>} />
+					<Route path="/perplexo" element={<Perplexo/>} />
+					<Route path="/hackathon" element={<Hackathon/>} />
+					<Route path="/cosmic_Aptitude_Test" element={<Cosmic/>} />
+					<Route path="/IPL_Auction" element={<IplAuction/>} />
+					<Route path="/Startup_Mania" element={<StarupMenia/>} />
+					<Route path="/The_Alpha_Analyst" element={<AlphaAnalyst/>} />
+				    <Route path="/G20x_Anantya" element={<G20x/>} />
+					<Route path="/Movie_Trivia" element={<MovieTrivia/>} />
+					
+				</Routes>
+			</BrowserRouter>
+			<Footer />
+		</>
+	);
+
 }
 
 export default App;
