@@ -130,7 +130,7 @@ const Calender = () => {
 					</div>
 				</div>
 			</div>
-			<Footer />
+			
 		</>
 	);
 };
