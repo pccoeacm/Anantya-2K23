@@ -1,21 +1,20 @@
 import React from "react";
 import { HomeCss } from "../styles";
-import { ISS, Navbar } from "../components";
-
+import { Design, Footer, ISS, Navbar } from "../components";
+import { astronaut, aboutBG } from "../assets";
 
 const Home = () => {
-
-  return (
-    <div>
-      <Navbar />
-      <ISS />
-      <div className="bg-gradients">
-        <div className="bg-gradient-1">.</div>
-        <div className="bg-gradient-2">.</div>
-        <div className="bg-gradient-3">.</div>
-        <div className="bg-gradient-4">.</div>
-      </div>
-      {/*<div className="container">
+	return (
+		<div>
+			<Navbar />
+			<ISS />
+			<div className="bg-gradients">
+				<div className="bg-gradient-1">.</div>
+				<div className="bg-gradient-2">.</div>
+				<div className="bg-gradient-3">.</div>
+				<div className="bg-gradient-4">.</div>
+			</div>
+			{/*<div className="container">
 				<img src={astronaut} className="astro-png" />
 				<div className="container-fluid anantya-title-bg">
 					<div className="bg-image">
@@ -38,8 +37,8 @@ const Home = () => {
 					</p>
 				</div>
 			</div> */}
-    </div>
-  );
+		</div>
+	);
 };
 
 export default Home;

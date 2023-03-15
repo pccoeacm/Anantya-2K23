@@ -10,7 +10,7 @@ const eventRegister = () => {
     const formDatab = new FormData(formEle);
     e.preventDefault();
     fetch(
-      "https://script.google.com/macros/s/AKfycbz7BzsVaazkwmzYWAUwZsaglTcm48PktFzycpjJ0ZuuZ71J3qTTWqIgI-xKtJlQWFLq/exec",
+      "https://script.google.com/macros/s/AKfycbyiWWclMcETWUMU9fXFhLnPIvNIMQLYnTpskXcTnI1qSY7xuNznO_vn3tNc64YyhOZD/exec",
       {
         method: "POST",
         body: formDatab
@@ -42,7 +42,7 @@ const eventRegister = () => {
         
 
         <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
-        <h2 className="font-normal">Webbit-2.0</h2>
+        <h2 className="font-normal">Codigo 3.0</h2>
         <div id="personalInfo">
                             <h1 id="personal-info" >Personal Information</h1>
                         </div>
@@ -68,17 +68,22 @@ const eventRegister = () => {
 
                         
                         <label id="lable-tag" className="" for="college_name">College Name  </label>
-                        <input type="tel" className="column" name="college_name" id="registeration-input" placeholder="Active whatsapp Number" required ></input>
+                        <input type="tel" className="column" name="college_name" id="registeration-input" placeholder="Enter Your College Name" required ></input>
 
                         
-                        <label id="lable-tag" className="" for="academic_year">Academic Year   </label>
-                        <input type="tel" className="column" name="academic_year" id="registeration-input" placeholder="Active whatsapp Number" required></input>
+                        <label id="lable-tag" className="" for="academic_year">Academic Year </label>
+                        <input type="tel" className="column" name="academic_year" id="registeration-input" placeholder="Eg. FE/SE/TE/BE" required></input>
 
                         
-                        <label id="lable-tag" className="" for="Hacker_Rank_Profile" >Hacker Rank Profile</label>
-                        <input type="tel" className="column" name="Hacker_Rank_Profile" id="registeration-input" placeholder="Active whatsapp Number" required></input>
+                        <label id="lable-tag" className="" for="Hacker_Rank_Profile" >HackerRank Profile</label>
+                        <input type="tel" className="column" name="Hacker_Rank_Profile" id="registeration-input" placeholder="HackerRank Profile URL" required></input>
                        
 
+                        <label id="lable-tag" className="" for="" >Enter Your PRN</label>
+                        <p className='p-tag'>*Note: If you are from Other College Please Pay registration fee  And Add transaction ID otherwise registration will be rejected.</p>
+                       
+                        <input type="text" className="column" name="PRN" id="registeration-input" placeholder="PRN or Transaction ID" required></input>
+                        <label id="lable-tag" className="" for="UPI ID" >UPI ID:</label>
                       
 
                        <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
