@@ -3,7 +3,7 @@
 .navbar{
     margin: 1% 7%;
     border-radius: 10px;
-    background: #001936;
+    background: rgba(12, 10, 29, 0.9);
     color: white;
     /* box-shadow: 1px 1px 15px 5px #78a7ba; */
 }

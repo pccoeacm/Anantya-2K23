@@ -1,14 +1,40 @@
-.events-details-container{
-    color: white;
-    margin:0 3%;
+.about-main-div {
+
+    border-radius: 20px;
+    border: #FFFFFF 1.5px solid;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding: 1% 5%;
+    background-color: rgba(0, 0, 0, 0.5);
+
 }
 
-.event-details-description{
-    border: 2px solid red;
-    border-radius: 10px;
-    margin: 5%;
+.about-heading {
+
+    color: #FFFFFF;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 7vw;
+    max-width: fit-content;
+
 }
 
-.description-para-tag{
-    margin: 10px;
+.about-desc {
+
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+
+}
+
+@media screen and (max-width: 800px) {
+    
+    .about-desc {
+
+        font-size: 0.8rem;
+
+    }
 }

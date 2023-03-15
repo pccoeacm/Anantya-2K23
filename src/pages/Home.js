@@ -35,52 +35,32 @@ const Home = () => {
 								in section 1.10.32.
 							</p>
 						</div>
-
-  return (
-    <div>
-      <Navbar />
-      <ISS />
-      <div className="bg-gradients">
-        <div className="bg-gradient-1">.</div>
-        <div className="bg-gradient-2">.</div>
-        <div className="bg-gradient-3">.</div>
-        <div className="bg-gradient-4">.</div>
-      </div>
-      {/*<div className="container">
-				<img src={astronaut} className="astro-png" />
-				<div className="container-fluid anantya-title-bg">
-					<div className="bg-image">
-						<img src={aboutBG} className="about-bg" />
-					</div>
-				</div>
-			</div> */}
 			{/* <ISS /> */}
-
 			<About />
 			<div className="container sponsors-main-div">
 				<div className="row">
 					<h1 className="text-center sponsors-heading">OUR SPONSORS</h1>
 				</div>
 				<div className="row d-flex justify-content-center">
-					<div className="col-3 col-md-4 col-sm-6">
+					<div className="col-6 col-md-4 col-sm-6">
 						<Sponsorcard />
 					</div>
-					<div className="col-3 col-md-4 col-sm-6">
+					<div className="col-6 col-md-4 col-sm-6">
 						<Sponsorcard />
 					</div>
-					<div className="col-3 col-md-4 col-sm-6">
+					<div className="col-6 col-md-4 col-sm-6">
 						<Sponsorcard />
 					</div>
-					<div className="col-3 col-md-4 col-sm-6">
+					<div className="col-6 col-md-4 col-sm-6">
 						<Sponsorcard />
 					</div>
-					<div className="col-3 col-md-4 col-sm-6">
+					<div className="col-6 col-md-4 col-sm-6">
 						<Sponsorcard />
 					</div>
-					<div className="col-3 col-md-4 col-sm-6">
+					<div className="col-6 col-md-4 col-sm-6">
 						<Sponsorcard />
 					</div>
-					<div className="col-3 col-md-4 col-sm-6">
+					<div className="col-6 col-md-4 col-sm-6">
 						<Sponsorcard />
 					</div>
 				</div>

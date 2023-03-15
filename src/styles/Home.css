@@ -1,4 +1,13 @@
-.about {
+.sponsors-heading {
+
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5vw;
+    color: #FFFFFF;
+
+}
+/* .about {
 
     padding: 20px;
     justify-content: center;
@@ -74,9 +83,9 @@
     font-size: 20px;
     line-height: 30px;
 
-}
+} */
 
-@media screen and (max-width: 850px) {
+/* @media screen and (max-width: 850px) {
     
     .about {
 
@@ -117,4 +126,4 @@
         flex-direction: row;
 
     }
-}
+} */
