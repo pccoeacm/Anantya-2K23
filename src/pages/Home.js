@@ -2,7 +2,9 @@ import React from "react";
 import { HomeCss } from "../styles";
 import { ISS, Navbar } from "../components";
 
+
 const Home = () => {
+
   return (
     <div>
       <Navbar />
