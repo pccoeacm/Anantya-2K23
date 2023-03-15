@@ -41,10 +41,11 @@ const Card = () => {
                   <h1 className="card-title">Event {elem.id}</h1>
                   <p className="card-subtitle">dd/mm/yyyy</p>
                   <p className="card-info">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  {elem.short_description}
+                    {/* Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Blanditiis, minima recusandae. Similique consequatur
                     excepturi, soluta nam, vero corrupti aut fuga voluptatum ex
-                    ipsam error laborum, eos laboriosam veritatis rerum. Dolore?
+                    ipsam error laborum, eos laboriosam veritatis rerum. Dolore? */}
                   </p>
                   <div className="btn">
                     {/* <NavLink to={"/about" + elem.id} className="nav-link"> */}
@@ -73,18 +74,16 @@ const Card = () => {
         {data.map((elem) => {
           return (
             <div className="card col-lg-4">
-              <img
-                src="https://t4.ftcdn.net/jpg/05/59/08/01/240_F_559080129_4fWvQkVrQQCAJxaLFstZIfmWUW7DEgQ2.jpg"
-                alt="image"
-              />
+              <img src={elem.image} alt="image" />
               <div className="data">
                 <h1 className="card-title">{elem.event_name}</h1>
                 <p className="card-subtitle">dd/mm/yyyy</p>
                 <p className="card-info">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  {elem.short_description}
+                  {/* Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Blanditiis, minima recusandae. Similique consequatur
                   excepturi, soluta nam, vero corrupti aut fuga voluptatum ex
-                  ipsam error laborum, eos laboriosam veritatis rerum. Dolore?
+                  ipsam error laborum, eos laboriosam veritatis rerum. Dolore? */}
                 </p>
                 <div className="btn">
                   <NavLink to={"/about" + elem.id} className="nav-link">
