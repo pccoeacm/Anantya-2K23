@@ -1,6 +1,8 @@
 import React from 'react'
 import './Webbit.css'
 import Navbar from '../Navbar'
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const eventRegister = () => {
 
@@ -18,7 +20,17 @@ const eventRegister = () => {
     )
     .then((res) => {
       // console.log("Response status:", res.status);
-      alert('Successfully submitted');
+      // alert('Successfully submitted');
+      toast.success("Successfully submitted", {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+      });
       document.getElementById("form").reset();
     })
     .catch((error) => {
@@ -93,6 +105,7 @@ const eventRegister = () => {
 
                        <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
                           <input name="Name" type="submit" className='Button-for-submission'/>
+                          <ToastContainer />
                        </div>
 
                       
