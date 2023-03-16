@@ -2,15 +2,26 @@
 
 .navbar{
     margin: 1% 7%;
+    padding: 0;
+    padding-top: 2px;
     border-radius: 10px;
-    background: #001936;
+    background: rgba(12, 10, 29, 0.9);
     color: white;
-    /* box-shadow: 1px 1px 15px 5px #78a7ba; */
+    box-shadow: 1px 1px 10px 5px black;
 }
 
 
 .navbar-nav{
     color: white;
+    display: flex;
+    align-items: center;
+}
+
+.navitem {
+
+    display: flex;
+    align-items: center;
+
 }
 
 .navitem{
@@ -75,4 +86,23 @@
     font-family: 'Play';
     font-weight: bold;
     text-decoration: none;
+}
+
+.logo {
+
+    pointer-events: none;
+    
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    
+    .navbar-brand {
+
+        width: 40%;
+
+    }
 }

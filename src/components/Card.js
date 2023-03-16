@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../styles/Card.css";
+import { CardCss } from "../styles";
 import Data from "../API/card-data";
 import { NavLink } from "react-router-dom";
 
@@ -9,23 +9,23 @@ import { useFirebase, firebaseApp } from "../context/Firebase";
 const auth = getAuth(firebaseApp);
 
 const Card = () => {
-  const firebase = useFirebase();
+	const firebase = useFirebase();
 
-  const [data, setData] = useState(Data);
-  const [user, setUser] = useState(null);
+	const [data, setData] = useState(Data);
+	const [user, setUser] = useState(null);
 
-  useEffect(() => {
-    onAuthStateChanged(auth, (user) => {
-      if (user) {
-        // Yes, user is logged in
-        setUser(user);
-      } else {
-        // User is logged out
-        console.log("You are logged out");
-        setUser(null);
-      }
-    });
-  }, []);
+	useEffect(() => {
+		onAuthStateChanged(auth, (user) => {
+			if (user) {
+				// Yes, user is logged in
+				setUser(user);
+			} else {
+				// User is logged out
+				console.log("You are logged out");
+				setUser(null);
+			}
+		});
+	}, []);
 
   if (user === null) {
     return (
@@ -108,5 +108,6 @@ const Card = () => {
        
   )
 }
+
 
 export default Card;

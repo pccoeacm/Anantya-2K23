@@ -1,46 +1,47 @@
-import React, { useState } from "react";
+import React from "react";
 import Navbar from "../components/Navbar";
 import "../styles/About.css";
 import Data from "../API/card-data";
-import Design from "../components/Design";
 import { NavLink } from "react-router-dom";
 
-
 const About = ({ ids }) => {
-  return (
-    <>
-      {/* <Design /> */}
-      <Navbar />
+	return (
+		<>
+			{/* <Design /> */}
+			<Navbar />
 
-      {Data.filter((item) => item.id == ids).map((elem) =>{
-        return(
-          <>
-          <div
-        className="row about-page"
-        style={{ margin: "5% 3%", display: "flex", justifyContent: "center" }}
-      >
-        <div className="bg-1-gradient"></div>
-        <div className="card col-lg-4">
-          <div style={{ textAlign: "center" }}>
-            <img
-              src="https://t4.ftcdn.net/jpg/05/59/08/01/240_F_559080129_4fWvQkVrQQCAJxaLFstZIfmWUW7DEgQ2.jpg"
-              alt="image"
-            />
-          </div>
-        </div>
-        <div className="col-lg-8 events-details-container">
-          <div style={{ textAlign: "center" }}>
-            <h1>{elem.event_name}</h1>
-          </div>
+			{Data.filter((item) => item.id == ids).map((elem) => {
+				return (
+					<>
+						<div
+							className="row about-page"
+							style={{
+								margin: "5% 3%",
+								display: "flex",
+								justifyContent: "center",
+							}}>
+							<div className="bg-1-gradient"></div>
+							<div className="card col-lg-4">
+								<div style={{ textAlign: "center" }}>
+									<img
+										src="https://t4.ftcdn.net/jpg/05/59/08/01/240_F_559080129_4fWvQkVrQQCAJxaLFstZIfmWUW7DEgQ2.jpg"
+										alt="image"
+									/>
+								</div>
+							</div>
+							<div className="col-lg-8 events-details-container">
+								<div style={{ textAlign: "center" }}>
+									<h1>{elem.event_name}</h1>
+								</div>
 
-          <div style={{ margin: "5%" }}>
-            <h2>Description</h2>
-          </div>
+								<div style={{ margin: "5%" }}>
+									<h2>Description</h2>
+								</div>
 
-          <div className="event-details-description">
-            <p className="description-para-tag">
-              {elem.detailed_description}
-              {/* Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+								<div className="event-details-description">
+									<p className="description-para-tag">
+										{elem.detailed_description}
+										{/* Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam
               libero non laborum repudiandae? Dolorum aspernatur voluptatibus
               accusantium officiis numquam, asperiores consectetur temporibus,
               neque voluptate mollitia voluptates delectus dolores magni magnam. */}
@@ -98,24 +99,18 @@ const About = ({ ids }) => {
           </div>
 
 
-          
-          <NavLink to={elem.path} className="nav-link">
-									<span className="navitem"><button className="offset">Register</button></span>
-					</NavLink>
-
-
-        </div>
-      </div>
-          </>
-        );
-      })}
-        
-    
-    
-      
-     
-    </>
-  );
+								<NavLink to={elem.path} className="nav-link">
+									<span className="navitem">
+										<button className="offset">Register</button>
+									</span>
+								</NavLink>
+							</div>
+						</div>
+					</>
+				);
+			})}
+		</>
+	);
 };
 
 export default About;

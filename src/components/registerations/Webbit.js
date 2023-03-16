@@ -1,6 +1,8 @@
 import React from 'react'
 import './Webbit.css'
 import Navbar from '../Navbar'
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const eventRegister = () => {
 
@@ -18,14 +20,23 @@ const eventRegister = () => {
     )
     .then((res) => {
       // console.log("Response status:", res.status);
-      alert('Successfully submitted');
+      toast.success("Successfully submitted", {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+      });
       document.getElementById("form").reset();
     })
     .catch((error) => {
       console.log(error);
     });
 
-   
+   alert("Please wait your response is getting submitted");
 
   }
 
@@ -33,20 +44,30 @@ const eventRegister = () => {
 
   return (
     <>
+      <Navbar />
 
-        <Navbar/>
-       
-       <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
-        
-       <div className='col-lg-7 col-md-12 col-12 form-step'>
-        
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <div className="col-lg-7 col-md-12 col-12 form-step">
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <h2 className="font-normal">Webbit-2.0</h2>
+            <div id="personalInfo">
+              <h1 id="personal-info">Personal Information</h1>
+            </div>
+          </div>
 
-        <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
-        <h2 className="font-normal">Webbit-2.0</h2>
-        <div id="personalInfo">
-                            <h1 id="personal-info" >Personal Information</h1>
-                        </div>
-        </div>
                    
                        
                        <form action="" className='reg-form' onSubmit={(e) => HandleEventClick(e)} id="form">
@@ -92,6 +113,7 @@ const eventRegister = () => {
                         <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
                          
                          <button name="Name" type="submit" className='pulse'>Submit</button>
+                         <ToastContainer />
                       </div>
 
                       
@@ -99,11 +121,9 @@ const eventRegister = () => {
                        </div>
                    
        </div>
-                    
 
-         
     </>
-  )
+  );
 }
 
 export default eventRegister

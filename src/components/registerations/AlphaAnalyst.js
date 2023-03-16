@@ -1,6 +1,8 @@
 import React from 'react'
 import './Webbit.css'
 import Navbar from '../Navbar'
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const eventRegister = () => {
 
@@ -18,14 +20,24 @@ const eventRegister = () => {
     )
     .then((res) => {
       // console.log("Response status:", res.status);
-      alert('Successfully submitted');
+      // alert('Successfully submitted');
+      toast.success("Successfully submitted", {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+      });
       document.getElementById("form").reset();
     })
     .catch((error) => {
       console.log(error);
     });
 
-   
+   alert("Please wait your response is getting submitted");
 
   }
 
@@ -88,10 +100,13 @@ const eventRegister = () => {
                         <label id="lable-tag" className="" for="UPI ID" >UPI ID:</label>
 
 
+
                         <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
                          
                          <button name="Name" type="submit" className='pulse'>Submit</button>
+                         <ToastContainer />
                       </div>
+
 
                       
                        </form>

@@ -1,3 +1,4 @@
+import { aboutBGM } from "../assets";
 const cardData = [
     {
       id: 1,
@@ -344,3 +345,4 @@ const cardData = [
   
   export default cardData;
   
+
