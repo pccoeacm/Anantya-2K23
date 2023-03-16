@@ -3,18 +3,59 @@ import "../styles/Navbar.css";
 import { NavLink } from "react-router-dom";
 import { firebaseApp, useFirebase } from "../context/Firebase";
 import { getAuth, onAuthStateChanged, signOut } from "firebase/auth";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const auth = getAuth(firebaseApp);
+// const firebase = useFirebase();
 
 const Navbar = () => {
   const firebase = useFirebase();
   const [user, setUser] = useState(null);
+
+  function handleSignInWithGoogle() {
+    firebase
+      .signupWithGoogle()
+      .then((userCredential) => {
+        alert("successfully logged in");
+        const user = userCredential.user;
+        console.log(user.displayName);
+        toast.success(`Welcome ${user.displayName}!`, {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "dark",
+        });
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  }
+
+  const notify = () => {
+    toast.success("You are logged in !", {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+    });
+  };
 
   useEffect(() => {
     onAuthStateChanged(auth, (user) => {
       if (user) {
         // Yes, user is logged in
         setUser(user);
+
+        // notify;
       } else {
         // Use is logged out
         console.log("You are logged out");
@@ -23,7 +64,7 @@ const Navbar = () => {
     });
   }, []);
 
-  if(user === null) {
+  if (user === null) {
     return (
       <>
         <nav className="navbar navbar-expand-lg sticky-top">
@@ -70,16 +111,34 @@ const Navbar = () => {
 
 								</NavLink> */}
                   <a
-                    onClick={() => firebase.signupWithGoogle()}
+                    onClick={() =>
+                      firebase
+                        .signupWithGoogle()
+                        .then((userCredential) => {
+                          // alert("successfully logged in");
+                          const user = userCredential.user;
+                          console.log(user.displayName);
+                          toast.success(`Welcome ${user.displayName}!`, {
+                            position: "top-right",
+                            autoClose: 5000,
+                            hideProgressBar: false,
+                            closeOnClick: true,
+                            pauseOnHover: true,
+                            draggable: true,
+                            progress: undefined,
+                            theme: "dark",
+                          });
+                        })
+                        .catch((error) => {
+                          console.error(error);
+                        })
+                    }
                     href="#"
                     className="login-navitem navitem"
                   >
-                    {/* <span></span>
-									<span></span>
-									<span></span>
-									<span></span> */}
                     Log in
                   </a>
+                  <ToastContainer />
                 </li>
               </ul>
             </div>
@@ -89,10 +148,8 @@ const Navbar = () => {
     );
   }
 
-	
-	return (
+  return (
     <>
-      <div style={{backgroundColor:'#001936'}} className="sticky-top">
       <nav className="navbar navbar-expand-lg sticky-top">
         <div className="container-fluid">
           <NavLink to="/" className="navbar-brand title">
@@ -138,10 +195,7 @@ const Navbar = () => {
                   href="#"
                   className="login-navitem navitem"
                 >
-                  {/* <span></span>
-									<span></span>
-									<span></span>
-									<span></span> */}
+                  
                   Log out
                 </a>
               </li>
@@ -149,7 +203,6 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      </div>
     </>
   );
 };

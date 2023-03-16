@@ -51,7 +51,7 @@ const Card = () => {
                     {/* <NavLink to={"/about" + elem.id} className="nav-link"> */}
                       <button
                         onClick={() => firebase.signupWithGoogle()}
-                       className="raise"
+                        className="card-btn"
                       >
                         LogIn
                       </button>
@@ -76,8 +76,10 @@ const Card = () => {
           return (
 
             <div className="card col-lg-4">
-              <img src={elem.image} alt="image" />
-
+              <img
+                src="https://t4.ftcdn.net/jpg/05/59/08/01/240_F_559080129_4fWvQkVrQQCAJxaLFstZIfmWUW7DEgQ2.jpg"
+                alt="image"
+              />
               <div className="data">
                 <h1 className="card-title">{elem.event_name}</h1>
                 <p className="card-subtitle">dd/mm/yyyy</p>
