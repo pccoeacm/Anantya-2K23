@@ -41,7 +41,7 @@
     border-radius: 15px;
     background: #FFFFFF;
     background: repeating-linear-gradient(
-     to right, #acacac, #fffefe 1px, #acacac 1px, #acacac 10%
+     to right, #2a0055, #1c002e 1px, #1c002e 1px, #2a0055 10%
     );
 
 }
@@ -86,9 +86,11 @@
 
 .Event {
 
+    color: #fff;
+    background: #080808;
     border-radius: 10px;
     margin: 3px 3px;
-    border: #d900ff 1px solid;
+    border: #ffffff 1px solid; /*#d900ff*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,7 +103,6 @@
 
 .Event1 {
     
-    background: #ffdddd;
     grid-row: 2;
     grid-column:1/span 3;
 
@@ -109,7 +110,6 @@
 
 .Event2 {
 
-    background: #d6ffd8; 
     grid-row: 2; 
     grid-column: 4 / span 3;
 
@@ -117,15 +117,13 @@
 
 .Event3 {
 
-    background: #cad0ff; 
     grid-row: 3; 
     grid-column: 5 / span 3;
 
 }
 
 .Event4 {
-
-    background: #ffcaf2; 
+ 
     grid-row: 4; 
     grid-column: 7/ span 3;
 
@@ -133,7 +131,6 @@
 
 .Event5 {
 
-    background: #fffbca;
     grid-row: 3; 
     grid-column: 2/ span 1;
 
@@ -141,7 +138,6 @@
 
 .Event6 {
 
-    background: #fffbca; 
     grid-row: 2; 
     grid-column: 8/ span 3;
 
@@ -149,7 +145,6 @@
 
 .Event7 {
     
-    background: #ffdddd;
     grid-row: 2;
     grid-column:1/span 2;
 
@@ -157,7 +152,6 @@
 
 .Event8 {
 
-    background: #d6ffd8; 
     grid-row: 2; 
     grid-column: 3 / span 3;
 
@@ -165,7 +159,6 @@
 
 .Event9 {
 
-    background: #cad0ff; 
     grid-row: 3; 
     grid-column: 4 / span 3;
 
@@ -173,7 +166,6 @@
 
 .Event10 {
 
-    background: #ffcaf2; 
     grid-row: 4; 
     grid-column: 7/ span 3;
 
@@ -181,15 +173,13 @@
 
 .Event11 {
 
-    background: #fffbca;
     grid-row: 4; 
     grid-column: 2/ span 2;
 
 }
 
 .Event12 {
-
-    background: #fffbca; 
+ 
     grid-row: 2; 
     grid-column: 8/ span 3;
 

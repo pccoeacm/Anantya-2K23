@@ -64,7 +64,7 @@ const Calender = () => {
 								<p className="hour-para">usigned int</p>
 							</div>
 							<div className="Event Event5">
-								<p className="hour-para">short event</p>
+								<p className="hour-para">short</p>
 							</div>
 							<div className="Event Event6">
 								<p className="hour-para">felicitation done here</p>
@@ -121,7 +121,7 @@ const Calender = () => {
 								<p className="hour-para">usigned int</p>
 							</div>
 							<div className="Event Event11">
-								<p className="hour-para">short event</p>
+								<p className="hour-para">short</p>
 							</div>
 							<div className="Event Event12">
 								<p className="hour-para">felicitation done here</p>
@@ -130,10 +130,8 @@ const Calender = () => {
 					</div>
 				</div>
 			</div>
-			
 		</>
 	);
-
 };
 
 export default Calender;
