@@ -3,14 +3,13 @@
     font-family: 'Play';
     font-style: normal;
     font-weight: 700;
-    font-size: 7vw;
+    font-size: 6rem;
     line-height: 116px;
     margin-bottom: 5%;
-    color: #FFFFFF;
-    background: #1626FF;
-    background: radial-gradient(circle farthest-side at top right, #1626FF 0%, #CF00AC 100%);
+    background: -webkit-linear-gradient(-86deg, #6d99f7 5%, #8c8dc4 53%, #0044ff 91%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 4px transparent;
+    color: #111111;
 
 }
 
@@ -247,8 +246,9 @@
 @media screen and (max-width: 830px) {
     .calendar-heading {
 
-        font-size: 15vw;
-        -webkit-text-stroke: 1px #FF2D00;
+        font-size: 3rem;
+        -webkit-text-stroke: 3px transparent;
+        /* -webkit-text-stroke: 1px #FF2D00; */
 
     }
 

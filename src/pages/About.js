@@ -1,20 +1,20 @@
-import React, { useState } from "react";
+import React from "react";
 import Navbar from "../components/Navbar";
 import "../styles/About.css";
 import Data from "../API/card-data";
-import Design from "../components/Design";
 import { NavLink } from "react-router-dom";
 
 const About = ({ ids }) => {
 	return (
 		<>
+			{/* <Design /> */}
 			<Navbar />
 
 			{Data.filter((item) => item.id == ids).map((elem) => {
 				return (
 					<>
 						<div
-							className="row"
+							className="row about-page"
 							style={{
 								margin: "5% 3%",
 								display: "flex",
@@ -40,11 +40,11 @@ const About = ({ ids }) => {
 
 								<div className="event-details-description">
 									<p className="description-para-tag">
-										Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-										Aliquam libero non laborum repudiandae? Dolorum aspernatur
-										voluptatibus accusantium officiis numquam, asperiores
-										consectetur temporibus, neque voluptate mollitia voluptates
-										delectus dolores magni magnam.
+										{elem.detailed_description}
+										{/* Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+              libero non laborum repudiandae? Dolorum aspernatur voluptatibus
+              accusantium officiis numquam, asperiores consectetur temporibus,
+              neque voluptate mollitia voluptates delectus dolores magni magnam. */}
 									</p>
 								</div>
 
@@ -52,24 +52,56 @@ const About = ({ ids }) => {
 									<div className="row description-para-tag">
 										<div className="col-lg-4">
 											<h2>Type</h2>
-											<p>Team / Solo</p>
+											<p>{elem.Type}</p>
 										</div>
 										<div className="col-lg-4">
 											<h2>Prizes</h2>
-											<p>Rank 1: 1000</p>
-											<p>Rank 2: 500</p>
-											<p>Rank 3: 300</p>
+											<p>First Prize: {elem.prize1}</p>
+											<p>Second Prize: {elem.prize2}</p>
+											<p>Third Price: {elem.prize3}</p>
 										</div>
 										<div className="col-lg-4">
+											<h2>Faculty Head</h2>
+											<p> {elem.faculty} </p>
+											<h3>Student Cordinator</h3>
+											<p>
+												{" "}
+												{elem.studn1}: {elem.scontact1}{" "}
+											</p>
+											<p>
+												{elem.studn2}: {elem.scontact2}
+											</p>
+										</div>
+									</div>
+
+									<div className="row description-para-tag">
+										<div className="col-lg-8">
+											<h2>Rules:</h2>
+											<ul>
+												<li>
+													Detailed rules can be viewed here:{" "}
+													<a href="#">Rules </a>
+												</li>
+												<li>{elem.rule1}</li>
+												<li> {elem.rule2} </li>
+												<li> {elem.rule3} </li>
+												<li> {elem.rule4} </li>
+												<li> {elem.rule5} </li>
+												<li> {elem.rule6} </li>
+											</ul>
+										</div>
+
+										<div className="col-lg-4">
 											<h2>Fees</h2>
-											<p>Free</p>
+											<p>*Free for PCCOE Students</p>
+											<h4>Registration FEE {elem.fee}</h4>
 										</div>
 									</div>
 								</div>
 
 								<NavLink to={elem.path} className="nav-link">
 									<span className="navitem">
-										<button>Register</button>
+										<button className="offset">Register</button>
 									</span>
 								</NavLink>
 							</div>

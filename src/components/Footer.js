@@ -24,6 +24,7 @@ const Footer = () => {
 							<a href="#" className="footer-links">
 								Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 							</a>
+		
 						</div>
 						<div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
 							<a href="#" className="footer-links">
@@ -135,7 +136,7 @@ const Footer = () => {
 			</div>
 			<div className="row design-with-love">
 				<p className="design-with-love-text">
-					© Designed and developed with ❤️ by Web Team CESA | Copyright ©2023
+					© Designed and developed with ❤️ by PCCOE students | Copyright ©2023
 					All rights reserved
 				</p>
 			</div>

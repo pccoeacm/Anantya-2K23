@@ -1,3 +1,26 @@
+.main-logo {
+
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo-img-m {
+
+    display: none;
+
+}
+
+.logo-img {
+
+    max-width: 100%;
+    max-height: 50%;
+    pointer-events: none;
+
+}
+
 .sponsors-heading {
 
     font-family: 'Play';
@@ -6,4 +29,26 @@
     font-size: 5vw;
     color: #FFFFFF;
 
+}
+
+@media screen and (max-width: 800px) {
+    
+    .main-logo {
+
+        height: 80vh;
+
+    }
+
+    .logo-img {
+
+        display: none;
+
+    }
+
+    .logo-img-m {
+
+        display: block;
+        width: 70%;
+
+    }
 }

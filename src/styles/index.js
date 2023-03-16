@@ -7,6 +7,7 @@ import CalendarCss from "./calendar.css";
 import IssCss from "./ISS.css";
 import sponsorCss from "./sponsor.css";
 import eventCss from "./Events.css";
+import HomeAbCSS from "./Homeabout.css";
 
 export {
 	AppCss,
@@ -18,4 +19,5 @@ export {
 	IssCss,
 	sponsorCss,
 	eventCss,
+	HomeAbCSS,
 };

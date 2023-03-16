@@ -8,6 +8,9 @@ import twitterPng from "./icons8-twitter-120.png";
 import youtubePng from "./icons8-youtube-120.png";
 import instaPng from "./theme.png";
 import aboutBGM from "./seeing_mobile.jpg";
+import Logo from "./logo.png";
+import mainLogo from "./main_logo.png";
+import mainLogoM from "./main_logo_m.png";
 
 export {
 	astronaut,
@@ -20,4 +23,7 @@ export {
 	youtubePng,
 	instaPng,
 	aboutBGM,
+	Logo,
+	mainLogo,
+	mainLogoM,
 };

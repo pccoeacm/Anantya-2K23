@@ -12,7 +12,7 @@ const eventRegister = () => {
     const formDatab = new FormData(formEle);
     e.preventDefault();
     fetch(
-      "https://script.google.com/macros/s/AKfycbzhXVjPzOsjOcfYqwr5B_NjIVZG4MtAingFk9Gfo9I1KKMIHtZoX1zR1Dn_QRSpwPW7/exec",
+      "https://script.google.com/macros/s/AKfycbyMCPSDTveyYo-lhTwKh5ljwoPulxX1JcQwNkey-4hAVHM-ibkRcncrlna4ztTJ86WW/exec",
       {
         method: "POST",
         body: formDatab
@@ -36,7 +36,8 @@ const eventRegister = () => {
       console.log(error);
     });
 
-   alert("Please wait your response is getting submitted");
+    alert("Please wait your response is getting submitted");
+   
 
   }
 
@@ -62,7 +63,7 @@ const eventRegister = () => {
               alignItems: "center",
             }}
           >
-            <h2 className="font-normal">Webbit-2.0</h2>
+            <h2 className="font-normal">Startup Mania</h2>
             <div id="personalInfo">
               <h1 id="personal-info">Personal Information</h1>
             </div>
@@ -131,18 +132,6 @@ const eventRegister = () => {
               name="academic_year"
               id="registeration-input"
               placeholder="Eg. FE/SE/TE/BE"
-              required
-            ></input>
-
-            <label id="lable-tag" className="" for="Hacker_Rank_Profile">
-              Hacker Rank Profile
-            </label>
-            <input
-              type="tel"
-              className="column"
-              name="Hacker_Rank_Profile"
-              id="registeration-input"
-              placeholder="HackerRank Profile URL"
               required
             ></input>
 
