@@ -26,12 +26,6 @@ function App() {
 	return (
 		<>
 			<Design />
-			{/* <div className="bg-gradients">
-				<div className="bg-gradient-1">&nbsp;</div>
-				<div className="bg-gradient-2">&nbsp;</div>
-				<div className="bg-gradient-3">&nbsp;</div>
-				<div className="bg-gradient-4">&nbsp;</div>
-			</div> */}
 			<BrowserRouter>
 				<ScrollToTop />
 				<Routes>

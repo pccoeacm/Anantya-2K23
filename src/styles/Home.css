@@ -1,9 +1,30 @@
+.main-logo-bg {
+
+    height: 100vh;
+    margin-top: 0;
+}
 .main-logo {
 
     height: 80vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+
+}
+
+.explore-button-a {
+
+    position: relative;
+    top: 20%;
+    color: #9c9c9c;
+    font-family: "Play";
+    border-radius: 15px;
+}
+
+.explore-btn {
+
+    border-radius: 15px;
 
 }
 
