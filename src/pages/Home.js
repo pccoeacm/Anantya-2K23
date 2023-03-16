@@ -1,6 +1,6 @@
 import React from "react";
 import { HomeCss } from "../styles";
-import { Navbar, Sponsorcard, About } from "../components";
+import { Navbar, Sponsorcard, About, ISS } from "../components";
 
 const Home = () => {
 	return (

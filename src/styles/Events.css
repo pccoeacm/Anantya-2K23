@@ -1,0 +1,14 @@
+.event-heading {
+
+    color: #FFFFFF;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 7vw;
+    max-width: fit-content;
+    background: -webkit-linear-gradient(-86deg, #6d99f7 5%, #8c8dc4 53%, #0044ff 91%);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 4px transparent;
+    color: #111111;
+
+}

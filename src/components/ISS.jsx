@@ -17,7 +17,7 @@ function Model() {
 		window.innerWidth || 0
 	);
 
-	const { scene } = useGLTF("jwst_james_webb_space_telescope.glb");
+	const { scene } = useGLTF("need_some_space.glb");
 	return (
 		<primitive
 			object={scene}

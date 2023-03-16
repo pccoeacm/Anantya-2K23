@@ -15,14 +15,11 @@
 
 .event-card{
   background-color: red;
-  /* height: 300px;
-  width: 200px; */
   margin: 10px;
 }
 
 .card-main-container{
-  margin: 5% 5%;
-  /* display: flex; */
+  margin: 0 5%;
   justify-content: space-around;
 }
 
