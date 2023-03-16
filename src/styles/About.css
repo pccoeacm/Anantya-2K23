@@ -1,12 +1,15 @@
 .events-details-container{
     color: white;
     margin:0 3%;
+    font-family: "Play";
+    
 }
 
 .event-details-description{
     border: 2px solid red;
     border-radius: 10px;
     margin: 5%;
+    font-family: "Poppins";
 }
 
 .description-para-tag{
