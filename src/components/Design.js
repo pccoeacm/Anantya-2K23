@@ -30,7 +30,7 @@ const Design = () => {
 				interactivity: {
 					events: {
 						onClick: {
-							enable: true,
+							enable: false,
 							mode: "push",
 						},
 						onHover: {
@@ -44,32 +44,32 @@ const Design = () => {
 							quantity: 0,
 						},
 						repulse: {
-							distance: 200,
+							distance: 150,
 							duration: 0.4,
 						},
 					},
 				},
 				particles: {
 					color: {
-						value: "#ffffff",
+						value: "#FFD700",
 					},
 					links: {
-						color: "#ffffff",
-						distance: 150,
+						color: "#808080",
+						distance: 120,
 						enable: true,
-						opacity: 0.5,
+						opacity: 0.6,
 						width: 1,
 					},
 					collisions: {
 						enable: false,
 					},
 					move: {
-						directions: "none",
+						directions: "down",
 						enable: true,
 						outModes: {
 							default: "bounce",
 						},
-						random: false,
+						random: true,
 						speed: 6,
 						straight: false,
 					},
@@ -78,16 +78,23 @@ const Design = () => {
 							enable: true,
 							area: 800,
 						},
-						value: 80,
+						value: 75,
 					},
 					opacity: {
-						value: 0.5,
+						value: 0.7,
+						animation: {
+							enable: true,
+							minimumValue: 0,
+							speed: 2,
+							startValue: "max",
+							repulse: "min",
+						},
 					},
 					shape: {
-						type: "circle",
+						type: "star",
 					},
 					size: {
-						value: { min: 1, max: 5 },
+						value: { min: 3, max: 4.5 },
 					},
 				},
 				detectRetina: true,
