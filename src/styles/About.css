@@ -6,48 +6,26 @@
 .event-details-description{
     border: 2px solid red;
     border-radius: 10px;
-    margin: 5%;
+    margin: 5% 5% 3%;
 }
 
 .description-para-tag{
     margin: 10px;
 }
-.pulse {
-    --color: #ef6eae;
-    --hover: #ef8f6e;
-}
-.pulse:hover, .pulse:focus {
-    animation: pulse 1s;
-    box-shadow: 0 0 0 2em transparent;
-}
-@keyframes pulse {
-    0% {
-        box-shadow: 0 0 0 0 var(--hover);
-   }
-}
-button {
-    color: var(--color);
-    transition: 0.25s;
-}
-button:hover, button:focus {
-    border-color: var(--hover);
+
+.raise {
+    --color: #ffa260;
+    --hover: #e5ff60;
+    padding: 10px 2rem;
+    border-radius: 5px;
+    /* background-color: #DF2E38; */
+    background-color: transparent;
     color: #fff;
+    border: 2px solid #e5ff60;
 }
-button {
-    background: none;
-    border: 2px solid;
-    font: inherit;
-    line-height: 1;
-    margin: 0.5em;
-    padding: 1em 2em;
+
+.raise:hover, .raise:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
 }
-.offset {
-    box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
-}
-.offset:hover, .offset:focus {
-    box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
-}
-.offset {
-    --color: #19bc8b;
-    --hover: #1973bc;
-}
+

@@ -7,6 +7,7 @@ import Calender from "./pages/Calender";
 import Registration from "./pages/Registration";
 import LogIn from "./components/Login";
 import React from "react";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 import Webbit from './components/registerations/Webbit'
@@ -27,7 +28,7 @@ function App() {
 
 	return (
 		<>
-			{/* <Design /> */}
+			<Design />
 			{/* <div className="bg-gradients">
 				<div className="bg-gradient-1">&nbsp;</div>
 				<div className="bg-gradient-2">&nbsp;</div>
@@ -35,6 +36,7 @@ function App() {
 				<div className="bg-gradient-4">&nbsp;</div>
 			</div> */}
 			<BrowserRouter>
+			   <ScrollToTop/>
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/events" element={<Events />} />

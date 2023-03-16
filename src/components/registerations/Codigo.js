@@ -25,7 +25,7 @@ const eventRegister = () => {
       console.log(error);
     });
 
-   
+   alert("Please wait your response is getting submitted")
 
   }
 
@@ -43,6 +43,7 @@ const eventRegister = () => {
 
         <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
         <h2 className="font-normal">Codigo 3.0</h2>
+        <h2 className="font-normal">Codigo</h2>
         <div id="personalInfo">
                             <h1 id="personal-info" >Personal Information</h1>
                         </div>
@@ -84,6 +85,10 @@ const eventRegister = () => {
                        
                         <input type="text" className="column" name="PRN" id="registeration-input" placeholder="PRN or Transaction ID" required></input>
                         <label id="lable-tag" className="" for="UPI ID" >UPI ID:</label>
+                        
+                        <label id="lable-tag" className="" for="PRN" >Enter Your PRN / Transaction ID</label>
+                        <p style={{color:'red'}}>If you are from other college please pay registeration fees and add Transaction ID otherwise submission will be rejected</p>
+                        <input type="tel" className="column" name="PRN" id="registeration-input" placeholder="Active whatsapp Number" required></input>
                       
 
                        <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>

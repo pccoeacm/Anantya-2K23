@@ -2,19 +2,16 @@ import React from "react";
 import { HomeCss } from "../styles";
 import { Design, Footer, ISS, Navbar } from "../components";
 import { astronaut, aboutBG } from "../assets";
+import Sponsor from "../components/Sponsor";
 
 const Home = () => {
-	return (
-		<div>
-			<Navbar />
-			<ISS />
-			<div className="bg-gradients">
-				<div className="bg-gradient-1">.</div>
-				<div className="bg-gradient-2">.</div>
-				<div className="bg-gradient-3">.</div>
-				<div className="bg-gradient-4">.</div>
-			</div>
-			{/*<div className="container">
+
+  return (
+    <div>
+      <Navbar />
+      <ISS />
+      
+      {/*<div className="container">
 				<img src={astronaut} className="astro-png" />
 				<div className="container-fluid anantya-title-bg">
 					<div className="bg-image">
@@ -37,6 +34,8 @@ const Home = () => {
 					</p>
 				</div>
 			</div> */}
+
+			<Sponsor/>
 		</div>
 	);
 };

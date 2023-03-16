@@ -17,7 +17,7 @@ const About = ({ ids }) => {
           <>
           <div
         className="row about-page"
-        style={{ margin: "5% 3%", display: "flex", justifyContent: "center" }}
+        style={{ margin: "2% 3%", display: "flex", justifyContent: "center" }}
       >
         <div className="bg-1-gradient"></div>
         <div className="card col-lg-4">
@@ -33,9 +33,9 @@ const About = ({ ids }) => {
             <h1>{elem.event_name}</h1>
           </div>
 
-          <div style={{ margin: "5%" }}>
+          {/* <div style={{ margin: "3% 5% 2%" }}>
             <h2>Description</h2>
-          </div>
+          </div> */}
 
           <div className="event-details-description">
             <p className="description-para-tag">
@@ -99,9 +99,13 @@ const About = ({ ids }) => {
 
 
           
-          <NavLink to={elem.path} className="nav-link">
-									<span className="navitem"><button className="offset">Register</button></span>
+
+         <div style={{textAlign:'center'}}>
+         <NavLink to={elem.path} className="nav-link">
+									<span className="navitem"><button className="raise">Register</button></span>
+
 					</NavLink>
+         </div>
 
 
         </div>
