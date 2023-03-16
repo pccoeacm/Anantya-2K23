@@ -1,0 +1,32 @@
+.sponsors-heading{
+font-family: 'Play';
+font-style: normal;
+font-weight: 700;
+/* font-size: 85px; */
+line-height: 98px;
+color: #fff;
+}
+
+.sponsor-card {
+
+    margin: 4%;
+    width: 18rem;
+    height: fit-content;
+    border-radius: 20px;
+
+}
+
+.sponsor-card-img {
+
+    border-radius: 15px;
+    border: #5661ff 2px solid;
+
+}
+
+.sponsors-container-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+

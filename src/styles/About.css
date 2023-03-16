@@ -6,10 +6,25 @@
 .event-details-description{
     border: 2px solid red;
     border-radius: 10px;
-    margin: 5%;
+    margin: 5% 5% 3%;
 }
 
 .description-para-tag{
     margin: 10px;
 }
 
+.raise {
+    --color: #ffa260;
+    --hover: #e5ff60;
+    padding: 10px 2rem;
+    border-radius: 5px;
+    /* background-color: #DF2E38; */
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #e5ff60;
+}
+
+.raise:hover, .raise:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}

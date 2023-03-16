@@ -38,7 +38,7 @@ const Card = () => {
               <div className="card col-lg-4">
                 <img src={elem.image} alt="image" />
                 <div className="data">
-                  <h1 className="card-title">Event {elem.id}</h1>
+                  <h1 className="card-title">{elem.event_name}</h1>
                   <p className="card-subtitle">dd/mm/yyyy</p>
                   <p className="card-info">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -50,7 +50,7 @@ const Card = () => {
                     {/* <NavLink to={"/about" + elem.id} className="nav-link"> */}
                       <button
                         onClick={() => firebase.signupWithGoogle()}
-                        className="card-btn"
+                       className="raise"
                       >
                         LogIn
                       </button>
@@ -67,16 +67,14 @@ const Card = () => {
 
   return (
     <>
-      <div className="bg-1-gradient"></div>
-      <div className="card-main-container row">
-        <div className="bg-2-gradient">.</div>
+      
+      <div className="card-main-container row  ">
+      
+        
         {data.map((elem) => {
           return (
-            <div className="card col-lg-4">
-              <img
-                src="https://t4.ftcdn.net/jpg/05/59/08/01/240_F_559080129_4fWvQkVrQQCAJxaLFstZIfmWUW7DEgQ2.jpg"
-                alt="image"
-              />
+            <div className="card col-lg-4  ">
+			<img src={elem.image} alt="image" />
               <div className="data">
                 <h1 className="card-title">{elem.event_name}</h1>
                 <p className="card-subtitle">dd/mm/yyyy</p>
@@ -86,9 +84,9 @@ const Card = () => {
                   excepturi, soluta nam, vero corrupti aut fuga voluptatum ex
                   ipsam error laborum, eos laboriosam veritatis rerum. Dolore?
                 </p>
-                <div className="btn">
+                <div style={{textAlign:'center'}}>
                   <NavLink to={"/about" + elem.id} className="nav-link">
-                    <button className="card-btn">Register</button>
+                    <button className="raise">Register</button>
                   </NavLink>
                 </div>
               </div>

@@ -92,6 +92,7 @@ const Navbar = () => {
 	
 	return (
     <>
+      <div style={{backgroundColor:'#001936'}} className="sticky-top">
       <nav className="navbar navbar-expand-lg sticky-top">
         <div className="container-fluid">
           <NavLink to="/" className="navbar-brand title">
@@ -148,6 +149,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
+      </div>
     </>
   );
 };
