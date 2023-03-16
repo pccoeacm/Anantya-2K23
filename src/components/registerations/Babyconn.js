@@ -10,7 +10,7 @@ const eventRegister = () => {
     const formDatab = new FormData(formEle);
     e.preventDefault();
     fetch(
-      "https://script.google.com/macros/s/AKfycbzHAwUnA7B1m5IvJaIRaR3GE-WzlXig0J5KgiY_mlN_8fxpvL7-BOwSvcWJmdJhpuI5/exec",
+      "https://script.google.com/macros/s/AKfycbwB8Chnrvv4YWELc4l-hsEMmQQS8uJG2K6BmlfjgHn7NOis_r3_riQpvSke-L2WR2sh/exec",
       {
         method: "POST",
         body: formDatab
@@ -42,7 +42,7 @@ const eventRegister = () => {
         
 
         <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
-        <h2 className="font-normal">Startup Mania</h2>
+        <h2 className="font-normal">BABYCONN</h2>
         <div id="personalInfo">
                             <h1 id="personal-info" >Personal Information</h1>
                         </div>
@@ -73,6 +73,7 @@ const eventRegister = () => {
                         <label id="lable-tag" className="" for="college_name">Department  </label>
                         <input type="tel" className="column" name="dept" id="registeration-input" placeholder="Enter Your Department" required ></input>
 
+
                         <label id="lable-tag" className="" for="college_name">Roll Number  </label>
                         <input type="tel" className="column" name="roll_no" id="registeration-input" placeholder="Ex: TYCOC233" required ></input>
 
@@ -87,10 +88,12 @@ const eventRegister = () => {
                         <input type="text" className="column" name="PRN" id="registeration-input" placeholder="PRN or Transaction ID" required></input>
                         <label id="lable-tag" className="" for="UPI ID" >UPI ID:</label>
 
+
                         <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
                          
                          <button name="Name" type="submit" className='pulse'>Submit</button>
                       </div>
+
                       
                        </form>
                        </div>
@@ -104,4 +107,3 @@ const eventRegister = () => {
 }
 
 export default eventRegister
-

@@ -55,9 +55,9 @@ const About = ({ ids }) => {
               </div>
               <div className="col-lg-4">
                 <h2>Prizes</h2>
-                <p>First Prize: {elem.prize1}</p>
-                <p>Second Prize: {elem.prize2}</p>
-                <p>Third Price: {elem.prize3}</p>
+                <p>{elem.prize1}</p>
+                <p>{elem.prize2}</p>
+                <p>{elem.prize3}</p>
               </div>
               <div className="col-lg-4">
                 <h2>Faculty Head</h2>
@@ -73,7 +73,7 @@ const About = ({ ids }) => {
                 <h2>Rules:</h2>
                   <ul>
                     <li>
-                     Detailed rules can be viewed here: <a href="#">Rules </a>
+                     Detailed rules can be viewed here: <a href={elem.rulelink}>Rules </a>
                     </li>
                     <li>
                       {elem.rule1}

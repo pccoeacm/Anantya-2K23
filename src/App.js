@@ -19,7 +19,7 @@ import StarupMenia from './components/registerations/StartupMenia'
 import AlphaAnalyst from './components/registerations/AlphaAnalyst'
 import G20x from './components/registerations/G20x'
 import MovieTrivia from './components/registerations/MovieTrivia'
-
+import Babyconn from './components/registerations/Babyconn'
 
 import { Design, Footer, Navbar } from "./components";
 
@@ -53,6 +53,8 @@ function App() {
 					<Route path="/about10" element={<About ids={10} />} />
 					<Route path="/about11" element={<About ids={11} />} />
 					<Route path="/about12" element={<About ids={12} />} />
+					<Route path="/about13" element={<About ids={13} />} />
+					<Route path="/about14" element={<About ids={14} />} />
 
 
 
@@ -66,6 +68,7 @@ function App() {
 					<Route path="/The_Alpha_Analyst" element={<AlphaAnalyst/>} />
 				    <Route path="/G20x_Anantya" element={<G20x/>} />
 					<Route path="/Movie_Trivia" element={<MovieTrivia/>} />
+					<Route path="/Babyconn" element={<Babyconn />} />
 					
 				</Routes>
 			</BrowserRouter>

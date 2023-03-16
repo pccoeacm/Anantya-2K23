@@ -38,7 +38,7 @@ const Card = () => {
               <div className="card col-lg-4">
                 <img src={elem.image} alt="image" />
                 <div className="data">
-                  <h1 className="card-title">Event {elem.id}</h1>
+                  <h1 className="card-title">{elem.event_name}</h1>
                   <p className="card-subtitle">dd/mm/yyyy</p>
                   <p className="card-info">
                   {elem.short_description}
@@ -87,7 +87,7 @@ const Card = () => {
                 </p>
                 <div className="btn">
                   <NavLink to={"/about" + elem.id} className="nav-link">
-                    <button className="card-btn">Register</button>
+                    <button className="raise">Register</button>
                   </NavLink>
                 </div>
               </div>

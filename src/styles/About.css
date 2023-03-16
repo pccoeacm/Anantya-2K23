@@ -51,3 +51,6 @@ button {
     --color: #19bc8b;
     --hover: #1973bc;
 }
+ul{
+    list-style-type: none;
+}

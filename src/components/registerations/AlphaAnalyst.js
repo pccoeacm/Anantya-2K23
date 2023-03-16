@@ -10,7 +10,7 @@ const eventRegister = () => {
     const formDatab = new FormData(formEle);
     e.preventDefault();
     fetch(
-      "https://script.google.com/macros/s/AKfycbyAZkrH4lf5E-3NSa7Sm1aOBMxm5wdAbmppXBhvW4zy5olOOn2iOFg3xUSEFp6Clo12/exec",
+      "https://script.google.com/macros/s/AKfycbymko-NH2CpF5FcZQQiRWD_m7kVgkH24thHcvQeufh8cGz7esPZDj7kyPGCQ0ZlDtw/exec",
       {
         method: "POST",
         body: formDatab
@@ -70,6 +70,12 @@ const eventRegister = () => {
                         <label id="lable-tag" className="" for="college_name">College Name  </label>
                         <input type="tel" className="column" name="college_name" id="registeration-input" placeholder="Enter Your College Name" required ></input>
 
+                        <label id="lable-tag" className="" for="college_name">Department  </label>
+                        <input type="tel" className="column" name="dept" id="registeration-input" placeholder="Enter Your Department" required ></input>
+
+                        <label id="lable-tag" className="" for="college_name">Roll Number  </label>
+                        <input type="tel" className="column" name="roll_no" id="registeration-input" placeholder="Ex: TYCOC233" required ></input>
+
                         
                         <label id="lable-tag" className="" for="academic_year">Academic Year   </label>
                         <input type="tel" className="column" name="academic_year" id="registeration-input" placeholder="Eg. FE/SE/TE/BE" required></input>
@@ -82,9 +88,10 @@ const eventRegister = () => {
                         <label id="lable-tag" className="" for="UPI ID" >UPI ID:</label>
 
 
-                       <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
-                          <input name="Name" type="submit" className='Button-for-submission'/>
-                       </div>
+                        <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
+                         
+                         <button name="Name" type="submit" className='pulse'>Submit</button>
+                      </div>
 
                       
                        </form>
