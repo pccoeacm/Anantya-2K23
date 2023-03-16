@@ -12,7 +12,7 @@ const eventRegister = () => {
     const formDatab = new FormData(formEle);
     e.preventDefault();
     fetch(
-      "https://script.google.com/macros/s/AKfycbzhXVjPzOsjOcfYqwr5B_NjIVZG4MtAingFk9Gfo9I1KKMIHtZoX1zR1Dn_QRSpwPW7/exec",
+      "https://script.google.com/macros/s/AKfycbzwn3LyWFdjBalhf8oJgmymNeoGr254eZQJ3wD1jdm_6z5AMT3J2HLCWzuZghtxLKFp/exec",
       {
         method: "POST",
         body: formDatab
@@ -68,122 +68,60 @@ const eventRegister = () => {
             </div>
           </div>
 
-          <form
-            action=""
-            className="reg-form"
-            onSubmit={(e) => HandleEventClick(e)}
-            id="form"
-          >
-            <label id="lable-tag" for="name">
-              Name{" "}
-            </label>
-            <input
-              className="column"
-              type="text"
-              name="name"
-              id="registeration-input"
-              placeholder="Same as to be printed on Certificates"
-              required
-            />
+                   
+                       
+                       <form action="" className='reg-form' onSubmit={(e) => HandleEventClick(e)} id="form">
 
-            <label id="lable-tag" className="" for="email">
-              Email{" "}
-            </label>
-            <input
-              type="email"
-              className="column"
-              name="email"
-              id="registeration-input"
-              placeholder="Preferred official email address"
-              required
-            ></input>
+                       
 
-            <label id="lable-tag" className="" for="contact">
-              Contact{" "}
-            </label>
-            <input
-              type="tel"
-              className="column"
-              name="contact"
-              id="registeration-input"
-              placeholder="Active whatsapp Number"
-              required
-            ></input>
+                    
+                       
+                       <label id='lable-tag' for="name">Name </label>
+                       <input className="column" type="text" name="name" id="registeration-input" placeholder="Same as to be printed on Certificates" required/>
+                     
+                        
+                        <label id="lable-tag" className="" for="email" >Email   </label>
+                        <input type="email" className="column" name="email" id="registeration-input" placeholder="Preferred official email address" required></input>
+                   
+                
+                        <label id="lable-tag" className="" for="contact">Contact   </label>
+                        <input type="tel" className="column" name="contact" id="registeration-input" placeholder="Active whatsapp Number" required></input>
 
-            <label id="lable-tag" className="" for="college_name">
-              College Name{" "}
-            </label>
-            <input
-              type="tel"
-              className="column"
-              name="college_name"
-              id="registeration-input"
-              placeholder="Enter Your College Name"
-              required
-            ></input>
+                        
+                        <label id="lable-tag" className="" for="college_name">College Name  </label>
+                        <input type="tel" className="column" name="college_name" id="registeration-input" placeholder="Enter Your College Name" required ></input>
 
-            <label id="lable-tag" className="" for="academic_year">
-              Academic Year{" "}
-            </label>
-            <input
-              type="tel"
-              className="column"
-              name="academic_year"
-              id="registeration-input"
-              placeholder="Eg. FE/SE/TE/BE"
-              required
-            ></input>
+                        <label id="lable-tag" className="" for="college_name">Department  </label>
+                        <input type="tel" className="column" name="dept" id="registeration-input" placeholder="Enter Your Department" required ></input>
 
-            <label id="lable-tag" className="" for="Hacker_Rank_Profile">
-              Hacker Rank Profile
-            </label>
-            <input
-              type="tel"
-              className="column"
-              name="Hacker_Rank_Profile"
-              id="registeration-input"
-              placeholder="HackerRank Profile URL"
-              required
-            ></input>
+                        <label id="lable-tag" className="" for="college_name">Roll Number  </label>
+                        <input type="tel" className="column" name="roll_no" id="registeration-input" placeholder="Ex: TYCOC233" required ></input>
 
-            <label id="lable-tag" className="" for="">
-              Enter Your PRN
-            </label>
-            <p className="p-tag">
-              *Note: If you are from Other College Please Pay registration fee
-              And Add transaction ID otherwise registration will be rejected.
-            </p>
+                        
+                        <label id="lable-tag" className="" for="academic_year">Academic Year </label>
+                        <input type="tel" className="column" name="academic_year" id="registeration-input" placeholder="Eg. FE/SE/TE/BE" required></input>
 
-            <input
-              type="text"
-              className="column"
-              name="PRN"
-              id="registeration-input"
-              placeholder="PRN or Transaction ID"
-              required
-            ></input>
-            <label id="lable-tag" className="" for="UPI ID">
-              UPI ID:
-            </label>
+                        
+                        
+  
+                        <label id="lable-tag" className="" for="" >Enter Your PRN</label>
+                        <p className='p-tag'>*Note: If you are from Other College Please Pay registration fee  And Add transaction ID otherwise registration will be rejected.</p>
 
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-              }}
-            >
-              <input
-                name="Name"
-                type="submit"
-                className="Button-for-submission"
-              />
-              <ToastContainer />
-            </div>
-          </form>
-        </div>
-      </div>
+                        <input type="text" className="column" name="PRN" id="registeration-input" placeholder="PRN or Transaction ID" required></input>
+                        <label id="lable-tag" className="" for="UPI ID" >UPI ID:</label>
+
+                        <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
+                         
+                         <button name="Name" type="submit" className='pulse'>Submit</button>
+                         <ToastContainer />
+                      </div>
+
+                      
+                       </form>
+                       </div>
+                   
+       </div>
+
     </>
   );
 }

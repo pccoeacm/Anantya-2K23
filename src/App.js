@@ -9,16 +9,20 @@ import LogIn from "./components/Login";
 import React from "react";
 import ScrollToTop from "./components/ScrollToTop";
 
-import Webbit from "./components/registerations/Webbit";
-import Codigo from "./components/registerations/Codigo";
-import Perplexo from "./components/registerations/Perplexo";
-import Hackathon from "./components/registerations/Hackathon";
-import Cosmic from "./components/registerations/Cosmic";
-import IplAuction from "./components/registerations/IplAuction";
-import StarupMenia from "./components/registerations/StartupMenia";
-import AlphaAnalyst from "./components/registerations/AlphaAnalyst";
-import G20x from "./components/registerations/G20x";
-import MovieTrivia from "./components/registerations/MovieTrivia";
+
+
+import Webbit from './components/registerations/Webbit'
+import Codigo from './components/registerations/Codigo'
+import Perplexo from './components/registerations/Perplexo'
+import Hackathon from './components/registerations/Hackathon'
+import  Cosmic from './components/registerations/Cosmic'
+import IplAuction from './components/registerations/IplAuction'
+import StarupMenia from './components/registerations/StartupMenia'
+import AlphaAnalyst from './components/registerations/AlphaAnalyst'
+import G20x from './components/registerations/G20x'
+import MovieTrivia from './components/registerations/MovieTrivia'
+import Babyconn from './components/registerations/Babyconn'
+
 
 import { Design, Footer, Navbar } from "./components";
 
@@ -46,17 +50,25 @@ function App() {
 					<Route path="/about10" element={<About ids={10} />} />
 					<Route path="/about11" element={<About ids={11} />} />
 					<Route path="/about12" element={<About ids={12} />} />
+					<Route path="/about13" element={<About ids={13} />} />
+					<Route path="/about14" element={<About ids={14} />} />
 
-					<Route path="/webbit" element={<Webbit />} />
-					<Route path="/codigo" element={<Codigo />} />
-					<Route path="/perplexo" element={<Perplexo />} />
-					<Route path="/hackathon" element={<Hackathon />} />
-					<Route path="/cosmic_Aptitude_Test" element={<Cosmic />} />
-					<Route path="/IPL_Auction" element={<IplAuction />} />
-					<Route path="/Startup_Mania" element={<StarupMenia />} />
-					<Route path="/The_Alpha_Analyst" element={<AlphaAnalyst />} />
-					<Route path="/G20x_Anantya" element={<G20x />} />
-					<Route path="/Movie_Trivia" element={<MovieTrivia />} />
+
+
+
+					<Route path="/webbit" element={<Webbit/>} />
+					<Route path="/codigo" element={<Codigo/>} />
+					<Route path="/perplexo" element={<Perplexo/>} />
+					<Route path="/hackathon" element={<Hackathon/>} />
+					<Route path="/cosmic_Aptitude_Test" element={<Cosmic/>} />
+					<Route path="/IPL_Auction" element={<IplAuction/>} />
+					<Route path="/Startup_Mania" element={<StarupMenia/>} />
+					<Route path="/The_Alpha_Analyst" element={<AlphaAnalyst/>} />
+				    <Route path="/G20x_Anantya" element={<G20x/>} />
+					<Route path="/Movie_Trivia" element={<MovieTrivia/>} />
+					<Route path="/Babyconn" element={<Babyconn />} />
+					
+
 				</Routes>
 			</BrowserRouter>
 			<Footer />
