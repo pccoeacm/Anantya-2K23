@@ -51,6 +51,7 @@ const eventRegister = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
+          marginTop:'20px'
         }}
       >
         <div className="col-lg-7 col-md-12 col-12 form-step">
@@ -64,7 +65,7 @@ const eventRegister = () => {
           >
             <h2 className="font-normal">Perplexo</h2>
             <div id="personalInfo">
-              <h1 id="personal-info">Personal Information</h1>
+              <h1 id="personal-info">Team Lead Information</h1>
             </div>
           </div>
 
@@ -104,10 +105,10 @@ const eventRegister = () => {
                         <input type="tel" className="column" name="academic_year" id="registeration-input" placeholder="Eg. FE/SE/TE/BE" required></input>
 
                         <label id="lable-tag" className="" for="" >Enter Your PRN</label>
-                        <p className='p-tag'>*Note: If you are from Other College Please Pay registration fee  And Add transaction ID otherwise registration will be rejected.</p>
+                        <p className='p-tag'>*Note: If you are from other college please pay registeration fees and add Transaction ID otherwise submission will be rejected.</p>
 
                         <input type="text" className="column" name="PRN" id="registeration-input" placeholder="PRN or Transaction ID" required></input>
-                        <label id="lable-tag" className="" for="UPI ID" >UPI ID:</label>
+                        
 
                         <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
                          
