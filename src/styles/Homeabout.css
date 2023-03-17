@@ -1,124 +1,131 @@
+.threeD {
+    background: transparent;
+    height: 20vh;
+    width: 30vw;
+}
+
 .about-main-div {
-	border-radius: 20px;
-	border: #ffffff 1.5px solid;
-	margin-top: 6%;
-	margin-bottom: 5%;
-	padding: 1% 5%;
-	background-color: rgba(0, 0, 0, 0.5);
-	z-index: 20;
+    border-radius: 20px;
+    border: #5a6bac 1.5px solid;
+    margin-top: 6%;
+    margin-bottom: 5%;
+    padding: 1% 5%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 20;
 }
 
 .about-heading {
-	color: #ffffff;
-	font-family: "Play";
-	font-style: normal;
-	font-weight: 700;
-	font-size: 7vw;
-	max-width: fit-content;
-	background: -webkit-linear-gradient(
-		-86deg,
-		#6d99f7 5%,
-		#8c8dc4 53%,
-		#0044ff 91%
-	);
-	-webkit-background-clip: text;
-	-webkit-text-stroke: 4px transparent;
-	color: #111111;
-	z-index: 20;
+    color: #ffffff;
+    font-family: "Play";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 7vw;
+    max-width: fit-content;
+    margin-bottom: 20px;
+    background: -webkit-linear-gradient(
+        -86deg,
+        #6d99f7 5%,
+        #8c8dc4 53%,
+        #0044ff 91%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 4px transparent;
+    color: #111111;
+    z-index: 20;
 }
 
 .about-desc {
-	color: #ffffff;
-	font-family: "Poppins";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 1.3rem;
-	z-index: 20;
+    color: #ffffff;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+    z-index: 20;
 }
 
 .button-64 {
-	font-family: "Play";
-	box-sizing: border-box;
-	text-transform: uppercase;
-	align-items: center;
-	background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
-	border: 0;
-	border-radius: 8px;
-	box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
-	color: #ffffff;
-	display: flex;
-	font-size: 20px;
-	justify-content: center;
-	align-items: center;
-	align-self: center;
-	line-height: 1em;
-	max-width: 70%;
-	min-width: 140px;
-	padding: 3px;
-	margin-top: 30px;
-	text-decoration: none;
-	user-select: none;
-	-webkit-user-select: none;
-	touch-action: manipulation;
-	white-space: nowrap;
-	cursor: pointer;
-	z-index: 20;
+    font-family: "Play";
+    box-sizing: border-box;
+    text-transform: uppercase;
+    align-items: center;
+    background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    color: #ffffff;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    line-height: 1em;
+    max-width: 70%;
+    min-width: 140px;
+    padding: 3px;
+    margin-top: 30px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    z-index: 20;
 }
 
 .text {
-	display: flex;
-	justify-content: center;
-	z-index: 20;
+    display: flex;
+    justify-content: center;
+    z-index: 20;
 }
 
 .button-64:active,
 .button-64:hover {
-	outline: 0;
+    outline: 0;
 }
 
 .button-64 span {
-	background-color: rgb(5, 6, 45);
-	padding: 16px 24px;
-	border-radius: 6px;
-	width: 100%;
-	height: 100%;
-	transition: 300ms;
-	z-index: 20;
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+    z-index: 20;
 }
 
 .button-64:hover span {
-	background: none;
+    background: none;
 }
 
 @media screen and (max-width: 800px) {
-	.about-heading {
-		color: #ffffff;
-		font-family: "Play";
-		font-style: normal;
-		font-weight: 700;
-		font-size: 7vw;
-		max-width: fit-content;
-		background: -webkit-linear-gradient(
-			-86deg,
-			#6d99f7 5%,
-			#8c8dc4 53%,
-			#0044ff 91%
-		);
-		-webkit-background-clip: text;
-		-webkit-text-stroke: 1px transparent;
-		color: #111111;
-	}
+    .about-heading {
+        color: #ffffff;
+        font-family: "Play";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 4rem;
+        max-width: fit-content;
+        background: -webkit-linear-gradient(
+            -86deg,
+            #6d99f7 5%,
+            #8c8dc4 53%,
+            #0044ff 91%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-stroke: 1px transparent;
+        color: #111111;
+    }
 
-	.about-desc {
-		font-size: 0.8rem;
-	}
+    .about-desc {
+        font-size: 0.8rem;
+    }
 
-	.button-64 {
-		font-size: 20px;
-		min-width: 196px;
-	}
+    .button-64 {
+        font-size: 20px;
+        min-width: 196px;
+    }
 
-	.text {
-		font-size: 1rem;
-	}
+    .text {
+        font-size: 1rem;
+    }
 }
