@@ -3,6 +3,7 @@ import './Webbit.css'
 import Navbar from '../Navbar'
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { codigo } from '../../assets/QR_codes/qr';
 
 const eventRegister = () => {
 
@@ -61,6 +62,7 @@ const eventRegister = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
+          marginTop: "20px",
         }}
       >
         <div className="col-lg-7 col-md-12 col-12 form-step">
@@ -73,9 +75,9 @@ const eventRegister = () => {
             }}
           >
             <h2 className="font-normal">Codigo 3.0</h2>
-            <h2 className="font-normal">Codigo</h2>
+
             <div id="personalInfo">
-              <h1 id="personal-info">Personal Information</h1>
+              <h1 id="personal-info">Team Lead Information</h1>
             </div>
           </div>
 
@@ -184,21 +186,18 @@ const eventRegister = () => {
             <label id="lable-tag" className="" for="PRN">
               Enter Your PRN / Transaction ID
             </label>
-            <p style={{ color: "red" }}>
-              If you are from other college please pay registeration fees and
-              add Transaction ID otherwise submission will be rejected
+            <p className="p-tag">
+              Note: If you are from other college please pay registeration fees
+              and add Transaction ID otherwise submission will be rejected.
             </p>
             <input
-              type="text"
+              type="tel"
               className="column"
               name="PRN"
               id="registeration-input"
-              placeholder="Active whatsapp Number"
+              placeholder="PRN or Transaction ID"
               required
             ></input>
-            {/* <label id="lable-tag" className="" for="UPI ID">
-              UPI ID:
-            </label> */}
 
             <div
               style={{
@@ -208,8 +207,8 @@ const eventRegister = () => {
                 alignItems: "center",
               }}
             >
-              {/* <img width="200" height="200" src=""></img>
-              <p className="p-tag2">Scan QR to pay</p> */}
+              <img width="200" height="200" src={codigo}></img>
+              <p className="p-tag2">Scan QR to pay</p>
               <button name="Name" type="submit" className="pulse">
                 Submit
               </button>

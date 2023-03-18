@@ -2,7 +2,7 @@ import { aboutBGM } from "../assets";
 const cardData = [
     {
       id: 1,
-      event_name:"Codigo 4.0",
+      event_name:"Codigo 3.0",
       date:"27/03/2023",
       short_description:" Codigo comprises of two rounds with time limits of 1.5 and 2 hours respectively, testing participants' logic, data structures, and competitiveness. Teams are ranked by their code's score, and in case of a tie, the submission time for the final solution is considered.",
       detailed_description:"Codigo will put your sense of logic, competitiveness, and data structure to the test. It is a unique event with two rounds. The first round will have a 1.5-hour time limit, while the second round will have a 2-hour time limit. Your aptitude for logic and fundamental data structures will be tested in the first round, and your competitiveness and complex data structure skills will be tested in the second round. Each issue will have a fixed score, and the number of test cases that a team's submitted code passes will determine their performance. Teams will be ranked based on their score, and in case of ties, the time it took to submit the final solution that resulted in a higher score will be used to break the tie.",
@@ -17,13 +17,13 @@ const cardData = [
       faculty:"Mr. Rahul Pitale",
       rule1:"⦿ Team size: 3 individuals only.",
       rule2:"⦿ Number of teams -150 max.",
-      rule3:"⦿ Rs. 150 Registration fee for non-PCCOEian.",
+      rule3:"⦿ Rs. 90 Registration fee for non-PCCOEian.",
       rule4:"⦿ All departments are eligible to participate in the coding competition (FY to BE).",
       rule5:"⦿ All participants will get an e-certificate (participation certificate).",
       rule6:"⦿ At the end of the contest, the top 3 teams with the highest scores will be selected as winners.",
-      fee:"Rs.150",
+      fee:"Rs.90",
       rulelink:"https://drive.google.com/file/d/1U8ljtqw3dPJ0VdZBb2w4O2r2nwqgVJBK/view?usp=share_link",
-      image:"./posters/5.png",
+      image:"./posters/codigo.jpg",
       path:"/codigo"
     },
   
@@ -50,7 +50,7 @@ const cardData = [
       rule6:"⦿ Participants can carry their personal laptops.",
       fee:"Rs. 50",
       rulelink:"https://drive.google.com/file/d/1d1aGQYlWvUir6ZRVhyy-3nbJC2VLx8rr/view?usp=share_link",
-      image:"https://t4.ftcdn.net/jpg/05/59/08/01/240_F_559080129_4fWvQkVrQQCAJxaLFstZIfmWUW7DEgQ2.jpg",
+      image:"./posters/Webbit.jpg",
       path:"/webbit"
     },
     {
@@ -64,13 +64,13 @@ const cardData = [
       prize2:"",
       studn1:"Shreyash Khandagale. ",
       scontact1:"9172048792",
-      studn2:"Yash Waghmare",
-      scontact2:"7972988063",
+      studn2:"Kunal Patil.",
+      scontact2:"9028870976",
       faculty:"Mr. Ganesh Deshmukh",
       rule1:"N/A",
-      fee:"Rs.100",
+      fee:"Rs.60",
       rulelink:"#",
-      image:"https://t4.ftcdn.net/jpg/05/59/08/01/240_F_559080129_4fWvQkVrQQCAJxaLFstZIfmWUW7DEgQ2.jpg",
+      image:"./posters/Perplexo.jpg",
       path:"/Perplexo"
     },
     {
@@ -96,7 +96,7 @@ const cardData = [
         rule6:"⦿ Next Day i.e. 24th March, the final evaluation will be conducted and participants will be evaluated on their project (and on the changes).",
         fee:"Free to All Participants",
         rulelink:"https://drive.google.com/file/d/1Ah0JPJsbqxvnuWdZ1ljF_2kb_WpYhqo0/view?usp=sharing",
-        image:"https://t4.ftcdn.net/jpg/05/59/08/01/240_F_559080129_4fWvQkVrQQCAJxaLFstZIfmWUW7DEgQ2.jpg",
+        image:"./posters/Hackathon.jpg",
         path:"/hackathon"
     },
     {
@@ -120,9 +120,9 @@ const cardData = [
         rule4:"⦿ROUND 1 – Level 1 Aptitude quiz- involves 30 questions(MCQ)",
         rule5:"⦿ROUND 2 – Level 2 Aptitude quiz- involves 20 questions (MCQS – 5 verbal, 5 analytical and 10 quantitative).",
         rule6:"⦿ROUND 3- 2 sections: Reading involves Reading comprehension. The sheet will be given that will include RCs and participants need to solve those. Writing- Volunteers' laptops will be given. On word you'll need to write essays on given topics, options will be there. And it will be evaluated using scoremyessay.com",
-        fee:"Free to All Participants",
+        fee:"Rs. 50",
         rulelink:"https://drive.google.com/file/d/1M2MGxcRZCuDQwPTdarEqMLYwWyc-bdC-/view?usp=share_link",
-        image:"https://t4.ftcdn.net/jpg/05/59/08/01/240_F_559080129_4fWvQkVrQQCAJxaLFstZIfmWUW7DEgQ2.jpg",
+        image:"./posters/cat.jpg",
       path:"/cosmic_Aptitude_Test"
     },
     {
@@ -146,9 +146,9 @@ const cardData = [
         rule4:"⦿ Maximum 4 can participate in the auction.",
         rule5:"⦿ Auction will be conducted for 1 extra RTM if required (Base Price 20 lakh)",
         rule6:"⦿ Only top 10 teams will be selected for Final Auction.",
-        fee:"Rs.200",
+        fee:"Rs.120",
         rulelink:"https://drive.google.com/file/d/1r4NO0EBQq1Ga8S0BWw3IyTnNgpyjjACW/view?usp=share_link",
-        image:"https://t4.ftcdn.net/jpg/05/59/08/01/240_F_559080129_4fWvQkVrQQCAJxaLFstZIfmWUW7DEgQ2.jpg",
+        image:"./posters/IPL.jpg",
         path:"/IPL_Auction"
       },
     {
@@ -163,8 +163,8 @@ const cardData = [
         prize3:"",
         studn1:"Pranjali Deshpande",
         scontact1:"7888081312",
-        studn2:"Aditi Dhabade ",
-        scontact2:"919623953345",
+        studn2:"Om Bidve ",
+        scontact2:"9767716716",
         faculty:"Mrs. Geetanjali Sharma",
         rule1:"⦿ Every group should have 1-4 members.",
         rule2:"⦿ The event would be carried out in two rounds.",
@@ -172,9 +172,9 @@ const cardData = [
         rule4:"⦿ ROUND2: The groups qualified in round 1 will be eligible in round 2. In this  round the teams have to present their ideas using PPTs in front of the panel members.",
         rule5:"⦿ An individual can be a member of just one team.",
         rule6:"⦿ You can present your idea in any language: English, Hindi, Marathi",
-        fee:"Rs.??",
+        fee:"Rs.70",
         rulelink:"https://drive.google.com/file/d/1kGK5yNeBZ14nmup15gS3PCQX3uWZqSih/view?usp=share_link",
-      image:"https://t4.ftcdn.net/jpg/05/59/08/01/240_F_559080129_4fWvQkVrQQCAJxaLFstZIfmWUW7DEgQ2.jpg",
+      image:"./posters/startupmania.jpg",
       path:"/Startup_Mania"
     },
     {
@@ -191,16 +191,14 @@ const cardData = [
         scontact1:"9823632630",
         studn2:"Saijeet Chitte",
         scontact2:"7083926241",
-        faculty:"N/A",
-        rule1:"⦿ Each team consists of 3 players only! Not more nor less.",
-        rule2:"⦿ For Round 1 only one member from each team will apply..",
-        rule3:"⦿ For Round 2 only 10 teams will be selected.",
-        rule4:"⦿ Round 2 will a Buzzer round in offline mode.",
-        rule5:"⦿ 1st Round- Online quiz(30 questions 15 min)",
-        rule6:"⦿ 2nd Round-Buzzer Round(2 hours)",
-        fee:"Rs.??",
-        rulelink:"#",
-      image:"https://t4.ftcdn.net/jpg/05/59/08/01/240_F_559080129_4fWvQkVrQQCAJxaLFstZIfmWUW7DEgQ2.jpg",
+        faculty:"Mr. Amit Khedkar.",
+        rule1:"Registration rules:",
+        rule2:"1)All departments are eligible to participate in this event.",
+        rule3:"2)Rs.100/- participation for non-PCCOEian.",
+        rule4:"3)Team size-3 Individuals only.",
+        fee:"Rs.100",
+        rulelink:"https://drive.google.com/file/d/15GMDQIX5YBqocNSK0YbOozkUVDSEZt_t/view?usp=share_link",
+      image:"./posters/AlphaAnaylst.jpg",
       path:"/The_Alpha_Analyst"
     },
     {
@@ -217,16 +215,16 @@ const cardData = [
         scontact1:"8638945764",
         studn2:"Siddheshwar Rede",
         scontact2:"",
-        faculty:"N/A",
+        faculty:"Mrs. Kavita Kolpe",
         rule1:"⦿ Round 1: Questions regarding Geopolitics.",
         rule2:"⦿ For Round 2, 25 students will be selected.",
         rule3:"⦿ 20 students will be participating and the rest 5 will be in standby.",
         rule4:"⦿ ALLOCATION OF COUNTRY:Collection of the preferences from the selected students and allot them country according to their score in round 1.",
         rule5:"⦿ Round 2: Each representative will be given 3 mins to present his/her views regarding the topic.",
         rule6:"⦿ After completion of the representation of all the 20 delegates a 5-10 min open discussion will be conducted.",
-        fee:"Rs.??",
+        fee:"Rs.30",
         rulelink:"https://drive.google.com/file/d/16nQgNzxUUEtBXD3gQ2DxJOvL5jWl_FwL/view?usp=share_link",
-      image:"https://t4.ftcdn.net/jpg/05/59/08/01/240_F_559080129_4fWvQkVrQQCAJxaLFstZIfmWUW7DEgQ2.jpg",
+      image:"./posters/G20.jpg",
       path:"/G20x_Anantya"
     },
     {
@@ -242,9 +240,9 @@ const cardData = [
         prize3:"",
         studn1:"Ankita Nandy",
         scontact1:"8420574336",
-        studn2:"Sanjay Chilveri",
-        scontact2:"7718063047",
-        faculty:"N/A",
+        studn2:"Auyash Sarode",
+        scontact2:"7756019583",
+        faculty:"Mrs. Madhuri Suryavanshi",
         rule1:"⦿ Round 1: “Lagge rahoo  munna bhaii”. ➨ This is a Quiz round group of two member have to participate, kahoot quiz based on trivial movie questions. Top winning teams will be proceed to next round depending on the participation count.",
         rule2:"⦿ Round 2: “Nach baliye” ➨ The qualified teams of round 1 will be grouped in a group of four members and they will have to perform the hook step of the song played within 30 sec.",
         rule3:"⦿ Round 3: “Shamitabh” ➨ The qualified teams from round 2 will now showcase their acting skills by enacting movies based on hard and easy categories under limited time.",
@@ -253,7 +251,7 @@ const cardData = [
         rule6:"⦿ If the participants and volunteer is found misbehaving or involved in any malpractice strict action will be taken against them and the team will be disqualified.",
         fee:"Free to All Paticipants",
         rulelink:"https://drive.google.com/file/d/12RReGj611y4fWZ8dy2OIzd95TGMZ-3b5/view?usp=share_link",
-        image:"https://t4.ftcdn.net/jpg/05/59/08/01/240_F_559080129_4fWvQkVrQQCAJxaLFstZIfmWUW7DEgQ2.jpg",
+        image:"./posters/movieTrivia.jpg",
         path:"/Movie_Trivia"
     },
     {
@@ -269,8 +267,8 @@ const cardData = [
         prize3:"",
         studn1:"Sanjay Chilveri",
         scontact1:"7718063047",
-        studn2:"Shyam Tiwari",
-        scontact2:"8303250543",
+        studn2:"Tanmay Jain",
+        scontact2:"9767537133",
         faculty:"Mrs. Madhuri Suryavanshi",
         rule1:"⦿ For Photography: ➨ Required Photo should be based on a theme Reflections.",
         rule2:"⦿ Editing is allowed. Theme-based editing can also be done.",
@@ -279,8 +277,8 @@ const cardData = [
         rule5:"⦿ In this reel-making competition you have to showcase your talent like dance, singing, transition photo reel, playing instruments, etc",
         rule6:"⦿ The reel should be made during the time of Anantya.",
         fee:"Free to All Participants",
-        rulelink:"",
-      image:"https://t4.ftcdn.net/jpg/05/59/08/01/240_F_559080129_4fWvQkVrQQCAJxaLFstZIfmWUW7DEgQ2.jpg",
+        rulelink:"https://drive.google.com/file/d/1_eAkYeCCeAD2UcAfVMcoNKyV73wOVi25/view?usp=share_link",
+      image:"./posters/Unleash.jpg",
       path:"https://forms.gle/HmnSMCRqookrN3xm6"
     },
     {
@@ -289,9 +287,9 @@ const cardData = [
         date:"",
         short_description:"Comming Soon !",
         detailed_description:"Comming Soon !",
-        image:"https://t4.ftcdn.net/jpg/05/59/08/01/240_F_559080129_4fWvQkVrQQCAJxaLFstZIfmWUW7DEgQ2.jpg",
-        rulelink:"",
-        path:"/Sports_League"
+        image:"./posters/sports.jpg",
+        rulelink:"https://drive.google.com/file/d/1EfoCIy940q_N0sJS0nLLc-5JnEkEmH0w/view?usp=share_link",
+        path:"#"
       },
       {
         id: 13,
@@ -314,13 +312,12 @@ const cardData = [
         rule6:"⦿ Make sure you download a QR scanner before the round begins.",
         fee:"Rs.100",
         rulelink:"https://drive.google.com/file/d/1u7_EqPmYVcfCl3VLU2UCo15CijZmnwJV/view?usp=share_link",
-        image:"https://t4.ftcdn.net/jpg/05/59/08/01/240_F_559080129_4fWvQkVrQQCAJxaLFstZIfmWUW7DEgQ2.jpg",
-        path:"/Sports_League"
-       
+        image:"./posters/sherlock.jpg",
+        path:"https://aryak-31.github.io/sherlock/"
       },
       {
         id: 14,
-        event_name:"BABYCONN",
+        event_name:"BABYCON",
         date:"27/03/2023",
         short_description:"Brace yourself for an event unlike any other! For the first time ever in PCCOE history, we're thrilled to announce the launch of our ground-breaking event “Babycon” where you'll gain access to exclusive insights, powerful tools, and unparalleled networking opportunities.",
         detailed_description:"We are happy to introduce you to a unique opportunity to connect, learn, and grow with industry leaders. Our goal is to create a memorable experience that will inspire, educate, and empower you to achieve your professional and personal goals. With a diverse line-up of keynote speakers, interactive workshops, and networking opportunities, this conference is the perfect platform to share ideas, build new relationships, and discover innovative solutions. We can't wait to see you there! .",
@@ -329,11 +326,11 @@ const cardData = [
         scontact1:"9145350146",
         studn2:"Arya Kaslikar",
         scontact2:"9503380951",
-        faculty:"Mr. Ganesh DeshMukh",
+        faculty:"Mr. Ganesh Deshmukh",
         rule1:"N/A",
         fee:"N/A",
         rulelink:"#",
-        image:"https://t4.ftcdn.net/jpg/05/59/08/01/240_F_559080129_4fWvQkVrQQCAJxaLFstZIfmWUW7DEgQ2.jpg",
+        image:"./posters/babyconn.jpg",
         path:"/Babyconn"
        
       }
