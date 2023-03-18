@@ -25,7 +25,7 @@ const HAbout = () => {
 					create, hack, innovate, and show off your talents!
 				</p>
 				<button className="button-64">
-					<span className="text">DOWNLOAD BORCHURE</span>
+					<span className="text"><a className="anchor-tag" href="https://drive.google.com/file/d/12wPSHfuQCuXXsakdbw-V0DPXO5Du5in0/view?usp=share_link">DOWNLOAD BORCHURE </a></span>
 				</button>
 			</div>
 		</div>
