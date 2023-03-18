@@ -90,9 +90,9 @@ const cardData = [
 	{
 		id: 4,
 		event_name: "Hackathon",
-		date: "",
+		date: "27 & 28 March",
 		short_description:
-			"Hackathon is a technical event for developing innovative projects based on relevant computer science technologies. Participants present their implementation to a jury in two rounds, with 20 teams qualifying for the final round. Teams must implement changes suggested by reviewers before the final presentation.",
+			"Hackathon is a tech event where teams create innovative projects using computer science tech. They present their work to judges in 2 rounds, with 20 teams advancing to the finals. Teams must make changes recommended by reviewers before the final presentation.",
 		detailed_description:
 			"A hackathon is a technical event where participants have to implement their innovative ideas and develop their projects within a stipulated time. The project must be based on any computer science relevant technologies, such as web apps, Android apps, IoT, ML models, networks, security, and automation. The event will consist of two rounds. In the first round, participants will present their problem statements and implementations to the internal jury using a presentation within a given amount of time (Review 1). After the evaluation of the first round, 20 teams will qualify for the next round. The qualified teams will need to incorporate the suggestions/changes given by the reviewers within a specific time frame and prepare for the final presentation, which will be evaluated by the jury.",
 		Type: "Team of 4 Members",
@@ -124,10 +124,9 @@ const cardData = [
 		id: 5,
 		event_name: "Cosmic Aptitude Test",
 		date: "27/03/2023",
-		short_description:
-			"The Cosmic Aptitude Test has 3 rounds. Round 1 has 120 participants taking a Level 1 quiz. Round 2 has 40 participants taking a Level 2 quiz and Round 3 has 10 participants taking Reading and Writing tests.",
+		short_description:"CAT is an event consisting of 2 rounds designed to showcase participants' aptitude skills. Round 1 is a MCQ test, and Round 2 consists of a writing and speaking section. ",
 		detailed_description:
-			"Cosmic Aptitude Test consisting of 3 rounds. Round 1 has 120 participants taking a Level 1 Aptitude quiz with 30 MCQs. Round 2 has 40 participants taking a Level 2 Aptitude quiz with 20 MCQs covering verbal, analytical, and quantitative skills. Round 3 has 10 participants taking two rounds, Reading comprehension and Writing, where they will be given an RC sheet to solve and write essays on assigned topics, respectively, evaluated using scoremyessay.com.",
+			"CAT (Cosmic Aptitude Test) is an event designed to showcase participants' aptitude skills and help them overcome the fear associated with cracking the first assessment for an interview, which is the aptitude test. The event will have two rounds. In Round 1, participants will have 45 minutes to answer 30 MCQs covering all types of aptitude questions. The top 20 participants will be shortlisted for Round 2. Round 2 is a challenging round that involves two sections. The Writing section will require participants to type an essay on a given topic, which will be evaluated by a website. Participants will be provided with computers, and 30 minutes will be given to complete and submit the essay. In the Speaking section, participants will be given a topic on which they have to speak for 5 minutes. Judges will be appointed for this section, and participants will be given sufficient time to think and present their viewpoints in a clear and concise manner. The top 3 participants of Round 2 will be declared as winners and will be awarded cash prizes and rewards, while all participants will receive participation certificates.",
 		Type: "Solo",
 		prize1: "Prizes Worth Rs. 3500",
 		prize2: "",
@@ -138,18 +137,18 @@ const cardData = [
 		scontact2: "8275403810",
 		faculty: "Mr. Kapil Tajane",
 		rule1:
-			"⦿Participants are not allowed calculators for 1 Round but they can bring scientific calculators for round 2.",
+			"Event will include 2 rounds.",
 		rule2:
-			"⦿Participants must bring pen and paper for rough work for rounds 1 and 2.",
-		rule3: "⦿If caught copying he/she will be strictly eliminated",
-		rule4: "⦿ROUND 1 – Level 1 Aptitude quiz- involves 30 questions(MCQ)",
+			"No calculators are allowed for this event",
+		rule3: "Participants must bring a pen and paper for rough work for rounds 1.",
+		rule4: "Top 3 participants of Round 2 will be the Winners.",
 		rule5:
-			"⦿ROUND 2 – Level 2 Aptitude quiz- involves 20 questions (MCQS – 5 verbal, 5 analytical and 10 quantitative).",
+			"Winners will be awarded with Cash Prize and rewards",
 		rule6:
-			"⦿ROUND 3- 2 sections: Reading involves Reading comprehension. The sheet will be given that will include RCs and participants need to solve those. Writing- Volunteers' laptops will be given. On word you'll need to write essays on given topics, options will be there. And it will be evaluated using scoremyessay.com",
+			"All participants will get the participation certificates.",
 		fee: "Rs. 50",
 		rulelink:
-			"https://drive.google.com/file/d/1M2MGxcRZCuDQwPTdarEqMLYwWyc-bdC-/view?usp=share_link",
+			"https://drive.google.com/file/d/11CbXHOANM5pJ6sLxWnTeUpxgbV9-xSah/view?usp=share_link",
 		image: "./posters/cat.jpg",
 		path: "/cosmic_Aptitude_Test",
 	},
