@@ -2,9 +2,9 @@ import React from "react";
 import ISS from "./ISS";
 
 const HAbout = () => {
-
 	return (
 		<div className="container about-main-div">
+			<div className="iss-bg">{/* <ISS /> */}</div>
 			<div className="row rounded-4 d-flex justify-content-between">
 				<h1 className="about-heading rounded-4">ANANTYA</h1>
 			</div>
@@ -27,12 +27,17 @@ const HAbout = () => {
 					create, hack, innovate, and show off your talents!
 				</p>
 				<button className="button-64">
-					<span className="text"><a className="anchor-tag" href="https://drive.google.com/file/d/12wPSHfuQCuXXsakdbw-V0DPXO5Du5in0/view?usp=share_link">DOWNLOAD BORCHURE </a></span>
+					<span className="text">
+						<a
+							className="anchor-tag"
+							href="https://drive.google.com/file/d/12wPSHfuQCuXXsakdbw-V0DPXO5Du5in0/view?usp=share_link">
+							DOWNLOAD BORCHURE{" "}
+						</a>
+					</span>
 				</button>
 			</div>
 		</div>
 	);
-
 };
 
 export default HAbout;
