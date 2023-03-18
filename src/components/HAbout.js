@@ -4,9 +4,7 @@ import ISS from "./ISS";
 const HAbout = () => {
 	return (
 		<div className="container about-main-div">
-			<div className="iss-bg">
-				<ISS />
-			</div>
+			<div className="iss-bg">{/* <ISS /> */}</div>
 			<div className="row rounded-4 d-flex justify-content-between">
 				<h1 className="about-heading rounded-4">ANANTYA</h1>
 			</div>
