@@ -9,6 +9,7 @@ import {
     instaPng,
     facebookPng,
     youtubePng,
+    astroOnA,
 } from "../assets";
 
 const Footer = () => {
@@ -17,7 +18,7 @@ const Footer = () => {
             <div className="row d-flex flex-sm-column flex-lg-row justfity-content-center align-items-center footer-main-row">
                 <div className="col d-flex justify-content-center align-items-center">
                     <img
-                        src={astronaut}
+                        src={astroOnA}
                         className="img-fluid footer-anantya-logo"
                     />
                 </div>
@@ -157,7 +158,7 @@ const Footer = () => {
             <div className="row design-with-love">
                 <p className="design-with-love-text">
                     © Designed and developed with ❤️ by PCCOE students |
-                    Copyright ©2023 All rights reserved
+                    Copyright ©2023 All rights reserved.
                 </p>
             </div>
         </div>
