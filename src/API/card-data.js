@@ -342,17 +342,17 @@ const cardData = [
 		image: "./posters/Unleash.jpg",
 		path: "https://forms.gle/HmnSMCRqookrN3xm6",
 	},
-	{
-		id: 12,
-		event_name: "Sports League ",
-		date: "",
-		short_description: "Comming Soon !",
-		detailed_description: "Comming Soon !",
-		image: "./posters/sports.jpg",
-		rulelink:
-			"https://drive.google.com/file/d/1EfoCIy940q_N0sJS0nLLc-5JnEkEmH0w/view?usp=share_link",
-		path: "#",
-	},
+	// {
+	// 	id: 12,
+	// 	event_name: "Sports League ",
+	// 	date: "",
+	// 	short_description: "Comming Soon !",
+	// 	detailed_description: "Comming Soon !",
+	// 	image: "./posters/sports.jpg",
+	// 	rulelink:
+	// 		"https://drive.google.com/file/d/1EfoCIy940q_N0sJS0nLLc-5JnEkEmH0w/view?usp=share_link",
+	// 	path: "#",
+	// },
 	{
 		id: 13,
 		event_name: "SHER-[LOCK] ",

@@ -36,7 +36,7 @@ const Card = () => {
           {data.map((elem) => {
             return (
               <div className="card col-lg-4">
-                <img src={elem.image} alt="image" />
+                <img src={elem.image} alt="image" style={{ width: "100%" }} />
                 <div className="data">
                   <h1 className="card-title">{elem.event_name}</h1>
                   <p className="card-subtitle">{elem.date}</p>
@@ -74,7 +74,7 @@ const Card = () => {
         {data.map((elem) => {
           return (
             <div className="card col-lg-4">
-              <img src={elem.image} alt="image" />
+              <img src={elem.image} alt="image" style={{ width: "100%" }} />
               <div className="data">
                 <h1 className="card-title">{elem.event_name}</h1>
                 <p className="card-subtitle">dd/mm/yyyy</p>
