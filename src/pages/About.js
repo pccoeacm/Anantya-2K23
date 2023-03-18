@@ -22,12 +22,10 @@ const About = ({ ids }) => {
 							}}>
 							<div className="bg-1-gradient"></div>
 							<div className="card col-lg-4">
-								<div style={{ textAlign: "center" }}>
-									<img
-										src="https://t4.ftcdn.net/jpg/05/59/08/01/240_F_559080129_4fWvQkVrQQCAJxaLFstZIfmWUW7DEgQ2.jpg"
+              <img className="postercard"
+										src={elem.image}
 										alt="image"
 									/>
-								</div>
 							</div>
 							<div className="col-lg-8 events-details-container">
 								<div style={{ textAlign: "center" }}>
@@ -63,9 +61,9 @@ const About = ({ ids }) => {
               <div className="col-lg-4">
                 <h2>Faculty Head</h2>
                 <p> {elem.faculty} </p>
-                <h3>Student Cordinator</h3>
-                <p> {elem.studn1}: {elem.scontact1}  </p>
-                <p>{elem.studn2}: {elem.scontact2}</p>
+                <h4>Student Cordinator</h4>
+                <p> {elem.studn1}: {elem.scontact1}<br/> {elem.studn2}: {elem.scontact2} </p>
+                <p></p>
               </div>
             </div>
 
@@ -74,7 +72,7 @@ const About = ({ ids }) => {
                 <h2>Rules:</h2>
                   <ul>
                     <li>
-                     Detailed rules can be viewed here: <a href={elem.rulelink}>Rules </a>
+                     Detailed rules can be viewed here: <a  href={elem.rulelink}>Rules </a>
                     </li>
                     <li>
                       {elem.rule1}
@@ -90,7 +88,8 @@ const About = ({ ids }) => {
               <div className="col-lg-4">
                 <h2>Fees</h2>
                 <p>*Free for PCCOE Students</p>
-                <h4>Registration FEE {elem.fee}</h4>
+                <h4> For Other Colleges </h4>
+                <h5>{elem.fee}</h5>
               </div>
             </div>
 

@@ -1,9 +1,11 @@
 .form-step {
 	border: 1px solid rgba(104, 59, 188, 0.1);
 	border-radius: 20px;
-	background: linear-gradient(180deg, #4102b8 0%, #0f1a4c 100%);
+	background: linear-gradient(90deg, #04395d 20%, #210000 100%);
+	box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 	/* padding: 3vw 3vw; */
 	margin: 5% 3%;
+	z-index: 10;
 	/* height: 800px; */
 }
 
@@ -15,15 +17,16 @@
 }
 
 .p-tag {
-	color: #ff2e00;
+	color: red;
+	font-family: "Play";
 }
 #personalInfo {
 	margin-top: 20px;
 	width: max-content;
 	background: linear-gradient(
 		180deg,
-		#ff2e00 0%,
-		rgba(201, 102, 80, 0) 134.17%
+		#090636 0%,
+		rgba(180, 48, 18, 0.571) 134.17%
 	);
 	border-radius: 15px;
 	/* padding:.7vw; */
@@ -60,6 +63,11 @@
 	margin: 2%;
 }
 
+input[type] {
+	padding-left: 10px;
+	font-size: large;
+}
+
 /* buttons animation */
 
 /* .Button-for-submission{
@@ -74,6 +82,8 @@
 	font-family: "Play";
 	font-style: normal;
 	color: #ffffff;
+	padding-top: 8px;
+	text-transform: uppercase;
 }
 .UPI-ID {
 	color: #ffffff;
@@ -91,7 +101,7 @@
 	}
 }
 .pulse {
-	--color: #ef6eae;
+	--color: #00ccf5;
 	--hover: #ef8f6e;
 }
 button {
@@ -111,4 +121,12 @@ button {
 	line-height: 1;
 	margin: 0.5em;
 	padding: 1em 2em;
+	text-transform: uppercase;
+	font-family: "Play";
+}
+@media screen and(max-width:650px) {
+	.form-step {
+		margin-top: 5%;
+		margin: 10px 10px;
+	}
 }
