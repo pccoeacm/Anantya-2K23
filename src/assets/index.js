@@ -12,6 +12,7 @@ import Logo from "./logo.png";
 import mainLogo from "./main_logo.png";
 import mainLogoM from "./main_logo_m.png";
 
+
 export {
 	astronaut,
 	aboutBG,

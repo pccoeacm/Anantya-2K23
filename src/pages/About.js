@@ -23,8 +23,8 @@ const About = ({ ids }) => {
 							<div className="bg-1-gradient"></div>
 							<div className="card col-lg-4">
 								<div style={{ textAlign: "center" }}>
-									<img
-										src="https://t4.ftcdn.net/jpg/05/59/08/01/240_F_559080129_4fWvQkVrQQCAJxaLFstZIfmWUW7DEgQ2.jpg"
+									<img className="carddetails"
+										src={elem.image}
 										alt="image"
 									/>
 								</div>

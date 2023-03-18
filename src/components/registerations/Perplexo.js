@@ -3,7 +3,7 @@ import './Webbit.css'
 import Navbar from '../Navbar'
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
+import { perplexo } from '../../assets/QR_codes/qr';
 const eventRegister = () => {
 
 
@@ -36,7 +36,16 @@ const eventRegister = () => {
       console.log(error);
     });
 
-   alert("Please wait your response is getting submitted");
+   toast.info("Wait while submission gets over!", {
+     position: "top-right",
+     autoClose: 5000,
+     hideProgressBar: false,
+     closeOnClick: true,
+     pauseOnHover: true,
+     draggable: true,
+     progress: undefined,
+     theme: "light",
+   });
 
   }
 
@@ -107,10 +116,11 @@ const eventRegister = () => {
                         <p className='p-tag'>*Note: If you are from Other College Please Pay registration fee  And Add transaction ID otherwise registration will be rejected.</p>
 
                         <input type="text" className="column" name="PRN" id="registeration-input" placeholder="PRN or Transaction ID" required></input>
-                        <label id="lable-tag" className="" for="UPI ID" >UPI ID:</label>
+                        
 
-                        <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
-                         
+                        <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center',padding:'20px'}}>
+                         <img width="200" height="200" src={perplexo}></img>
+                         <p className='p-tag2'>Scan QR to pay</p>
                          <button name="Name" type="submit" className='pulse'>Submit</button>
                          <ToastContainer />
                       </div>

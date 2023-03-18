@@ -43,9 +43,9 @@
   }
   
   .card img {
-    width: 350px;
+    width: 330px;
     height: 500px;
-  object-fit: cover;
+  object-fit:fill;
   border-radius: 10px;
   position: absolute;
   left: 0;
