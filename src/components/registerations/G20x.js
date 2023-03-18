@@ -62,6 +62,7 @@ const eventRegister = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
+          marginTop:'20px'
         }}
       >
         <div className="col-lg-7 col-md-12 col-12 form-step">

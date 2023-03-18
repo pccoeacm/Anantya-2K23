@@ -2,9 +2,11 @@
 .form-step {
     border: 1px solid rgba(104, 59, 188, 0.1);
     border-radius: 20px;
-    background: linear-gradient(180deg, #4102B8 0%, #0F1A4C 100%);
+    background: linear-gradient(90deg, #04395d 20%, #210000 100%);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     /* padding: 3vw 3vw; */
     margin: 5% 3%;
+    z-index: 10;
     /* height: 800px; */
 }
 
@@ -18,12 +20,14 @@ display: block;
 
 .p-tag
 {
-    color: #FF2E00;
+    color: red;
+    font-family:'Play';
+
 }
 #personalInfo
 {   margin-top:20px;
     width: max-content;
-    background: linear-gradient(180deg, #FF2E00 0%, rgba(201, 102, 80, 0) 134.17%);
+    background: linear-gradient(180deg, #090636 0%, rgba(180, 48, 18, 0.571) 134.17%);
     border-radius: 15px;
     /* padding:.7vw; */
     font-family: 'Play';
@@ -62,7 +66,11 @@ display: block;
     margin: 2%;
 }
 
-
+input[type]
+{
+    padding-left: 10px;
+    font-size: large;
+}
 
 /* buttons animation */
 
@@ -79,6 +87,8 @@ display: block;
     font-family: 'Play';
     font-style: normal;
     color: #FFFFFF;
+    padding-top: 8px;
+    text-transform: uppercase;
 }
 .UPI-ID
 {
@@ -119,9 +129,15 @@ button {
     line-height: 1;
     margin: 0.5em;
     padding: 1em 2em;
-}
-.p-tag2
-{
-    color:#D9D9D9;
+    text-transform: uppercase;
     font-family: 'Play';
+}
+@media screen and(max-width:650px) {
+    .form-step
+    {
+        margin-top:5%;
+        margin:10px 10px;
+    }
+    
+    
 }

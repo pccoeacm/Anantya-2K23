@@ -1,22 +1,10 @@
 canvas {
-  overflow: visible;
-  overflow-clip-margin: initial;
+    overflow: visible;
+    overflow-clip-margin: initial;
 }
 
 .threeD {
-  height: 100%;
-  width: 100%;
-  background: transparent;
-}
-
-@media screen and (max-width: 700px) {
-  .threeD {
     height: 100%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .threeD {
-    height: 100%;
-  }
+    width: 100%;
+    background: transparent;
 }

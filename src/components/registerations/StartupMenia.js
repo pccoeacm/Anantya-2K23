@@ -62,6 +62,7 @@ const eventRegister = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
+          marginTop:'20px'
         }}
       >
         <div className="col-lg-7 col-md-12 col-12 form-step">
@@ -75,7 +76,7 @@ const eventRegister = () => {
           >
             <h2 className="font-normal">Startup Mania</h2>
             <div id="personalInfo">
-              <h1 id="personal-info">Personal Information</h1>
+              <h1 id="personal-info">Team Lead Information</h1>
             </div>
           </div>
 
