@@ -17,7 +17,7 @@ function Model() {
 		window.innerWidth || 0
 	);
 
-	const { scene } = useGLTF("need_some_space.glb");
+	const { scene } = useGLTF("ISS_compressed.glb");
 	return (
 		<primitive
 			object={scene}
@@ -50,7 +50,7 @@ export default function ShowDonut(props) {
 				<Suspense fallback={null}>
 					<Model />
 				</Suspense>
-				<OrbitControls />
+				{/* <OrbitControls /> */}
 			</Canvas>
 		</div>
 	);
