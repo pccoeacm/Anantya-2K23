@@ -54,7 +54,7 @@ const eventRegister = () => {
         
 
         <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
-        <h2 className="font-normal">Codigo 4.0</h2>
+        <h2 className="font-normal">Codigo 3.0</h2>
        
         <div id="personalInfo">
                             <h1 id="personal-info" >Team Lead Information</h1>
