@@ -1,6 +1,7 @@
 {
   "name": "anantya-2k23",
   "version": "0.1.0",
+  "homepage": "https://anantya2023.pccoe.hosting.acm.org/",
   "private": true,
   "dependencies": {
     "@react-three/drei": "^9.57.2",

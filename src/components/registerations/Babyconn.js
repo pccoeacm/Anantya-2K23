@@ -1,6 +1,8 @@
 import React from 'react'
 import './Webbit.css'
 import Navbar from '../Navbar'
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const eventRegister = () => {
 
@@ -18,13 +20,33 @@ const eventRegister = () => {
     )
     .then((res) => {
       // console.log("Response status:", res.status);
-      alert('Successfully submitted');
+      // alert('Successfully submitted');
+      toast.success("Successfully submitted", {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+      });
       document.getElementById("form").reset();
     })
     .catch((error) => {
       console.log(error);
     });
 
+    toast.info("Wait while submission gets over!", {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+    });
    
 
   }
@@ -103,7 +125,7 @@ const eventRegister = () => {
 
          
     </>
-  )
+  );
 }
 
 export default eventRegister

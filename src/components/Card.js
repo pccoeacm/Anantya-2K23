@@ -9,23 +9,23 @@ import { useFirebase, firebaseApp } from "../context/Firebase";
 const auth = getAuth(firebaseApp);
 
 const Card = () => {
-	const firebase = useFirebase();
+  const firebase = useFirebase();
 
-	const [data, setData] = useState(Data);
-	const [user, setUser] = useState(null);
+  const [data, setData] = useState(Data);
+  const [user, setUser] = useState(null);
 
-	useEffect(() => {
-		onAuthStateChanged(auth, (user) => {
-			if (user) {
-				// Yes, user is logged in
-				setUser(user);
-			} else {
-				// User is logged out
-				console.log("You are logged out");
-				setUser(null);
-			}
-		});
-	}, []);
+  useEffect(() => {
+    onAuthStateChanged(auth, (user) => {
+      if (user) {
+        // Yes, user is logged in
+        setUser(user);
+      } else {
+        // User is logged out
+        console.log("You are logged out");
+        setUser(null);
+      }
+    });
+  }, []);
 
   if (user === null) {
     return (
@@ -41,7 +41,7 @@ const Card = () => {
                   <h1 className="card-title">{elem.event_name}</h1>
                   <p className="card-subtitle">{elem.date}</p>
                   <p className="card-info">
-                  {elem.short_description}
+                    {elem.short_description}
                     {/* Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Blanditiis, minima recusandae. Similique consequatur
                     excepturi, soluta nam, vero corrupti aut fuga voluptatum ex
@@ -49,12 +49,12 @@ const Card = () => {
                   </p>
                   <div className="btn">
                     {/* <NavLink to={"/about" + elem.id} className="nav-link"> */}
-                      <button
-                        onClick={() => firebase.signupWithGoogle()}
-                        className="card-btn"
-                      >
-                        LogIn
-                      </button>
+                    <button
+                      onClick={() => firebase.signupWithGoogle()}
+                      className="card-btn"
+                    >
+                      LogIn
+                    </button>
                     {/* </NavLink> */}
                   </div>
                 </div>
@@ -94,20 +94,9 @@ const Card = () => {
             </div>
           );
         })}
-
-        </div>
-
-
-
-
-
-
-           
-       </>
-      
-       
-  )
-}
-
+      </div>
+    </>
+  );
+};
 
 export default Card;

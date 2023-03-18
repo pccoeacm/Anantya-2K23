@@ -14,7 +14,7 @@ const Home = () => {
                 <div className="container sponsors-main-div">
                     <div className="row">
                         <h1 className="text-center sponsors-heading">
-                            OUR SPONSORS
+                            OUR SPONSOR
                         </h1>
                     </div>
                     <Sponsorcard />
