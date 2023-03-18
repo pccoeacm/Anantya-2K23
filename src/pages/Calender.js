@@ -4,18 +4,13 @@ import { Design, Footer, Navbar } from "../components";
 
 const Calender = () => {
     const d = new Date();
-    const currHour = d.getHours();
-    const currMin = d.getMinutes();
-    const currTime = currHour * 100 + currMin;
+    // "March 26, 2023 12:08"
+    const currTime = d.getHours() * 100 + d.getMinutes();
     var day1 = false;
     var day2 = false;
 
     if (d.getDate() == 26) day1 = true;
     else if (d.getDate() == 27) day2 = true;
-
-    console.log(currTime);
-    console.log(day1);
-    console.log(day2);
 
     return (
         <>
