@@ -1,5 +1,7 @@
 import React from "react";
 import { FooterCss } from "../styles";
+import { NavLink } from "react-router-dom";
+
 import {
     astronaut,
     locationPng,
@@ -28,6 +30,7 @@ const Footer = () => {
                             <a href="#" className="footer-links">
                                 Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             </a>
+                            
                         </div>
                         <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                             <a href="#about" className="footer-links">
@@ -41,7 +44,7 @@ const Footer = () => {
                         </div>
                         <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                             <a href="#calendar-page" className="footer-links">
-                                Calendar
+                                Calendar    
                             </a>
                         </div>
                     </div>

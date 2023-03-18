@@ -77,7 +77,7 @@ const Card = () => {
               <img src={elem.image} alt="image" />
               <div className="data">
                 <h1 className="card-title">{elem.event_name}</h1>
-                <p className="card-subtitle">dd/mm/yyyy</p>
+                <p className="card-subtitle">{elem.date}</p>
                 <p className="card-info">
                   {elem.short_description}
                   {/* Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -87,7 +87,7 @@ const Card = () => {
                 </p>
                 <div className="btn">
                   <NavLink to={"/about" + elem.id} className="nav-link">
-                    <button className="raise">Register</button>
+                    <button className="card-btn">Register</button>
                   </NavLink>
                 </div>
               </div>
