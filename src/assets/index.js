@@ -11,19 +11,21 @@ import aboutBGM from "./seeing_mobile.jpg";
 import Logo from "./logo.png";
 import mainLogo from "./main_logo.png";
 import mainLogoM from "./main_logo_m.png";
+import astroOnA from "./astrooOnA.png";
 
 export {
-	astronaut,
-	aboutBG,
-	facebookPng,
-	gmailPng,
-	linkedinPng,
-	locationPng,
-	twitterPng,
-	youtubePng,
-	instaPng,
-	aboutBGM,
-	Logo,
-	mainLogo,
-	mainLogoM,
+    astronaut,
+    aboutBG,
+    facebookPng,
+    gmailPng,
+    linkedinPng,
+    locationPng,
+    twitterPng,
+    youtubePng,
+    instaPng,
+    aboutBGM,
+    Logo,
+    mainLogo,
+    mainLogoM,
+    astroOnA,
 };

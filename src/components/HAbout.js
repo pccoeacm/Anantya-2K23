@@ -1,5 +1,5 @@
 import React from "react";
-import { ISS } from ".";
+import ISS from "./ISS";
 
 const HAbout = () => {
 	return (
