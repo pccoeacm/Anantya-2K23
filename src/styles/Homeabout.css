@@ -43,6 +43,12 @@
     z-index: 20;
 }
 
+.anchor-tag {
+    text-decoration: none;
+    color: #ffffff;
+    justify-self: center;
+}
+
 .button-64 {
     font-family: "Play";
     box-sizing: border-box;
@@ -59,7 +65,7 @@
     align-items: center;
     align-self: center;
     line-height: 1em;
-    max-width: 70%;
+    max-width: 100%;
     min-width: 140px;
     padding: 3px;
     margin-top: 30px;
@@ -130,8 +136,3 @@
     }
 }
 
-.anchor-tag
-{
-	text-decoration: none;
-	color:#ffffff;
-}
