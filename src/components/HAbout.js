@@ -2,7 +2,6 @@ import React from "react";
 import ISS from "./ISS";
 
 const HAbout = () => {
-
 	return (
     <div className="container about-main-div">
       <div className="row rounded-4 d-flex justify-content-between">
@@ -39,7 +38,6 @@ const HAbout = () => {
       </div>
     </div>
   );
-
 };
 
 export default HAbout;

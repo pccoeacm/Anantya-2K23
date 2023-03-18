@@ -63,13 +63,12 @@ display: block;
     justify-content: center;
     align-items: center;
     position: relative; */
-    margin: 2%;
+	margin: 2%;
 }
 
-input[type]
-{
-    padding-left: 10px;
-    font-size: large;
+input[type] {
+	padding-left: 10px;
+	font-size: large;
 }
 
 /* buttons animation */
@@ -82,22 +81,17 @@ input[type]
     box-shadow: 1px 1px 5px 1px grey;
     margin-bottom: 20px;
 } */
-.font-normal
-{
-    font-family: 'Play';
-    font-style: normal;
-    color: #FFFFFF;
-    padding-top: 8px;
-    text-transform: uppercase;
+.font-normal {
+	font-family: "Play";
+	font-style: normal;
+	color: #ffffff;
+	padding-top: 8px;
+	text-transform: uppercase;
 }
-.UPI-ID
-{
-
-    color: #FFFFFF;
-    text-align: center;
-
+.UPI-ID {
+	color: #ffffff;
+	text-align: center;
 }
-
 .p-tag2 {
     color: #FFFFFF;
 }
@@ -107,13 +101,13 @@ input[type]
     box-shadow: 0 0 0 2em transparent;
 }
 @keyframes pulse {
-    0% {
-        box-shadow: 0 0 0 0 var(--hover);
-   }
+	0% {
+		box-shadow: 0 0 0 0 var(--hover);
+	}
 }
 .pulse {
-    --color: #00ccf5;
-    --hover: #ef8f6e;
+	--color: #00ccf5;
+	--hover: #ef8f6e;
 }
 button {
     color: var(--color);
@@ -121,27 +115,25 @@ button {
     text-transform: uppercase;
     font-family: 'Play';
 }
-button:hover, button:focus {
-    border-color: var(--hover);
-    color: #fff;
+button:hover,
+button:focus {
+	border-color: var(--hover);
+	color: #fff;
 }
 
 button {
-    background: none;
-    border: 2px solid;
-    font: inherit;
-    line-height: 1;
-    margin: 0.5em;
-    padding: 1em 2em;
-    text-transform: uppercase;
-    font-family: 'Play';
+	background: none;
+	border: 2px solid;
+	font: inherit;
+	line-height: 1;
+	margin: 0.5em;
+	padding: 1em 2em;
+	text-transform: uppercase;
+	font-family: "Play";
 }
 @media screen and(max-width:650px) {
-    .form-step
-    {
-        margin-top:5%;
-        margin:10px 10px;
-    }
-    
-    
+	.form-step {
+		margin-top: 5%;
+		margin: 10px 10px;
+	}
 }
