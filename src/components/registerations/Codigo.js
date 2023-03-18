@@ -196,9 +196,9 @@ const eventRegister = () => {
               placeholder="Active whatsapp Number"
               required
             ></input>
-            <label id="lable-tag" className="" for="UPI ID">
+            {/* <label id="lable-tag" className="" for="UPI ID">
               UPI ID:
-            </label>
+            </label> */}
 
             <div
               style={{
@@ -208,8 +208,8 @@ const eventRegister = () => {
                 alignItems: "center",
               }}
             >
-              <img width="200" height="200" src=""></img>
-              <p className="p-tag2">Scan QR to pay</p>
+              {/* <img width="200" height="200" src=""></img>
+              <p className="p-tag2">Scan QR to pay</p> */}
               <button name="Name" type="submit" className="pulse">
                 Submit
               </button>

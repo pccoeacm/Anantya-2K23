@@ -2,7 +2,7 @@
 .form-step {
     border: 1px solid rgba(104, 59, 188, 0.1);
     border-radius: 20px;
-    background: linear-gradient(90deg, #04395d 20%, #210000 100%);
+    background: linear-gradient(90deg, #04395d 20%, #310066 100%);
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     /* padding: 3vw 3vw; */
     margin: 5% 3%;
@@ -11,7 +11,7 @@
 }
 
 #lable-tag{
-    font-style: normal;
+font-style: normal;
 color: #FFFFFF;
 font-size:2rem;
 display: block;
@@ -27,7 +27,7 @@ display: block;
 #personalInfo
 {   margin-top:20px;
     width: max-content;
-    background: linear-gradient(180deg, #090636 0%, rgba(180, 48, 18, 0.571) 134.17%);
+    background: linear-gradient(180deg, #5246f7 0%, rgba(3, 200, 206, 0.571) 134.17%);
     border-radius: 15px;
     /* padding:.7vw; */
     font-family: 'Play';
@@ -39,7 +39,7 @@ display: block;
 
 #personal-info
 {   
-    padding: 4px;
+    padding: 10px;
     font-family: 'Play';
     font-style: normal;
     font-size: 1.5rem;
