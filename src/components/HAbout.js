@@ -13,7 +13,7 @@ const HAbout = () => {
           Department of Computer Engineering, PCCoE.
           <br />
           <br />
-          With 13 different technical and non-technical events, participants can
+          With 14 different technical and non-technical events, participants can
           showcase their skills and knowledge in a competitive yet friendly
           environment. Anantya is designed to test participants' technical
           expertise, creativity, and critical thinking skills, pushing them to
@@ -29,7 +29,7 @@ const HAbout = () => {
       <div className="container d-flex justify-content-center">
         <a
           className="anchor-tag"
-          href="https://drive.google.com/file/d/12wPSHfuQCuXXsakdbw-V0DPXO5Du5in0/view?usp=share_link"
+          href="https://drive.google.com/file/d/14uQaj3E1Vd0j6m2EMGN7u_-EmLA7b2vz/view?usp=share_link"
         >
           <button className="button-64">
             <span className="text">DOWNLOAD BORCHURE </span>

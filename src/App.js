@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Events from "./pages/Events";
-import SportsEvent from "./pages/SportsEvent"
+// import SportsEvent from "./pages/SportsEvent"
 import Calender from "./pages/Calender";
 import Registration from "./pages/Registration";
 import React from "react";
@@ -35,7 +35,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/events" element={<Events />} />
-          <Route path="/sportsevents" element={<SportsEvent />} />
+          {/* <Route path="/sportsevents" element={<SportsEvent />} /> */}
           <Route path="/calender" element={<Calender />} />
           <Route path="/registration" element={<Registration />} />
 
@@ -50,7 +50,7 @@ function App() {
           <Route path="/about9" element={<About ids={9} />} />
           <Route path="/about10" element={<About ids={10} />} />
           <Route path="/about11" element={<About ids={11} />} />
-          <Route path="/about12" element={<SportsEvent />} />
+          {/* <Route path="/about12" element={<SportsEvent />} /> */}
           <Route path="/about13" element={<About ids={13} />} />
           <Route path="/about14" element={<About ids={14} />} />
 

@@ -187,8 +187,8 @@ const eventRegister = () => {
               Enter Your PRN / Transaction ID
             </label>
             <p className="p-tag">
-              Note: If you are from other college please pay registeration fees
-              and add Transaction ID otherwise submission will be rejected.
+              Note: If you are from other college please pay registeration fees <b> Rs. 90 </b>
+              and add Transaction ID otherwise submission will be rejected. 
             </p>
             <input
               type="tel"

@@ -4,9 +4,14 @@ import Navbar from '../Navbar'
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { alphaAnalyst } from '../../assets/QR_codes/qr';
+import { firebaseAuth, useFirebase } from '../../context/Firebase';
 
 const eventRegister = () => {
 
+  // const firebase = useFirebase();
+  
+  // const userId = firebase.auth().currentUser.uid;
+  // console.log(userId);
 
   function HandleEventClick(e) {
     const formEle = document.getElementById("form");
@@ -32,6 +37,9 @@ const eventRegister = () => {
         progress: undefined,
         theme: "dark",
       });
+
+
+
       document.getElementById("form").reset();
     })
     .catch((error) => {
@@ -174,7 +182,7 @@ const eventRegister = () => {
               Enter Your PRN
             </label>
             <p className="p-tag">
-              *Note: If you are from Other College Please Pay registration fee
+              *Note: If you are from Other College Please Pay registration fees <b> Rs. 100 </b>
               And Add transaction ID otherwise registration will be rejected.
             </p>
 
