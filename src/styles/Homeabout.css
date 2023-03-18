@@ -122,3 +122,9 @@
 		font-size: 1rem;
 	}
 }
+
+.anchor-tag
+{
+	text-decoration: none;
+	color:#ffffff;
+}
