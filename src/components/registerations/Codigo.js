@@ -48,16 +48,16 @@ const eventRegister = () => {
 
         <Navbar/>
        
-       <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
+       <div style={{display:'flex',justifyContent:'center',alignItems:'center',marginTop:'20px'}}>
         
        <div className='col-lg-7 col-md-12 col-12 form-step'>
         
 
         <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
-        <h2 className="font-normal">Codigo 3.0</h2>
-        <h2 className="font-normal">Codigo</h2>
+        <h2 className="font-normal">Codigo 4.0</h2>
+       
         <div id="personalInfo">
-                            <h1 id="personal-info" >Personal Information</h1>
+                            <h1 id="personal-info" >Team Lead Information</h1>
                         </div>
         </div>
                    
@@ -99,15 +99,9 @@ const eventRegister = () => {
                         <input type="tel" className="column" name="Hacker_Rank_Profile" id="registeration-input" placeholder="HackerRank Profile URL" required></input>
                        
 
-                        <label id="lable-tag" className="" for="" >Enter Your PRN</label>
-                        <p className='p-tag'>*Note: If you are from Other College Please Pay registration fee  And Add transaction ID otherwise registration will be rejected.</p>
-                       
-                        <input type="text" className="column" name="PRN" id="registeration-input" placeholder="PRN or Transaction ID" required></input>
-                        <label id="lable-tag" className="" for="UPI ID" >UPI ID:</label>
-                        
                         <label id="lable-tag" className="" for="PRN" >Enter Your PRN / Transaction ID</label>
-                        <p style={{color:'red'}}>If you are from other college please pay registeration fees and add Transaction ID otherwise submission will be rejected</p>
-                        <input type="tel" className="column" name="PRN" id="registeration-input" placeholder="Active whatsapp Number" required></input>
+                        <p  className='p-tag'>Note: If you are from other college please pay registeration fees and add Transaction ID otherwise submission will be rejected.</p>
+                        <input type="tel" className="column" name="PRN" id="registeration-input" placeholder="PRN or Transaction ID" required></input>
                       
 
 
