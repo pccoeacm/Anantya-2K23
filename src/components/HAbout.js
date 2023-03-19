@@ -32,7 +32,7 @@ const HAbout = () => {
           href="https://drive.google.com/file/d/14uQaj3E1Vd0j6m2EMGN7u_-EmLA7b2vz/view?usp=share_link"
         >
           <button className="button-64">
-            <span className="text">DOWNLOAD BORCHURE </span>
+            <span className="text">DOWNLOAD BROCHURE </span>
           </button>
         </a>
       </div>
