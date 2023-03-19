@@ -1,56 +1,50 @@
-import React from 'react'
-import './Webbit.css'
-import Navbar from '../Navbar'
+import React from "react";
+import "./Webbit.css";
+import Navbar from "../Navbar";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { ipl } from '../../assets/QR_codes/qr';
 
 const eventRegister = () => {
-
-
   function HandleEventClick(e) {
     const formEle = document.getElementById("form");
     const formDatab = new FormData(formEle);
     e.preventDefault();
     fetch(
-      "https://script.google.com/macros/s/AKfycbzk-yRDlOoOuDPp50zFsuVTE8w_Supx7pxt8Qof_XWtT0Rswca2LuA8f59xhDArpdcU/exec",
+      "https://script.google.com/macros/s/AKfycbz3ZZoDLSDX2jyDcIHU8WhN524q1ROzHTNH27iSPVY3pWkLK-dt7KEb63RdE85afsTp/exec",
       {
         method: "POST",
-        body: formDatab
+        body: formDatab,
       }
     )
-    .then((res) => {
-      // console.log("Response status:", res.status);
-      toast.success("Successfully submitted", {
-        position: "top-center",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "dark",
+      .then((res) => {
+        // console.log("Response status:", res.status);
+        toast.success("Successfully submitted", {
+          position: "top-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "dark",
+        });
+        document.getElementById("form").reset();
+      })
+      .catch((error) => {
+        console.log(error);
       });
-      document.getElementById("form").reset();
-    })
-    .catch((error) => {
-      console.log(error);
+
+    toast.info("Wait while submission gets over!", {
+      position: "top-right",
+      autoClose: 2000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
     });
-
-   toast.info("Wait while submission gets over!", {
-     position: "top-right",
-     autoClose: 2000,
-     hideProgressBar: false,
-     closeOnClick: true,
-     pauseOnHover: true,
-     draggable: true,
-     progress: undefined,
-     theme: "light",
-   });
-
   }
-
-
 
   return (
     <>
@@ -61,7 +55,7 @@ const eventRegister = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          marginTop:'20px'
+          marginTop: "20px",
         }}
       >
         <div className="col-lg-7 col-md-12 col-12 form-step">
@@ -73,9 +67,9 @@ const eventRegister = () => {
               alignItems: "center",
             }}
           >
-            <h2 className="font-normal">IPL AUCTION</h2>
+            <h2 className="font-normal">Movie Trivia</h2>
             <div id="personalInfo">
-              <h1 id="personal-info">Team Lead  Information</h1>
+              <h1 id="personal-info">Team Lead Information</h1>
             </div>
           </div>
 
@@ -125,7 +119,7 @@ const eventRegister = () => {
               College Name{" "}
             </label>
             <input
-              type="tel"
+              type="text"
               className="column"
               name="college_name"
               id="registeration-input"
@@ -137,7 +131,7 @@ const eventRegister = () => {
               Department{" "}
             </label>
             <input
-              type="tel"
+              type="text"
               className="column"
               name="dept"
               id="registeration-input"
@@ -149,7 +143,7 @@ const eventRegister = () => {
               Roll Number{" "}
             </label>
             <input
-              type="tel"
+              type="text"
               className="column"
               name="roll_no"
               id="registeration-input"
@@ -161,7 +155,7 @@ const eventRegister = () => {
               Academic Year{" "}
             </label>
             <input
-              type="tel"
+              type="text"
               className="column"
               name="academic_year"
               id="registeration-input"
@@ -172,10 +166,6 @@ const eventRegister = () => {
             <label id="lable-tag" className="" for="">
               Enter Your PRN
             </label>
-            <p className="p-tag">
-              *Note: If you are from Other College Please Pay registration fees <b> Rs. 120 </b>
-              And Add transaction ID otherwise registration will be rejected.
-            </p>
 
             <input
               type="text"
@@ -185,7 +175,7 @@ const eventRegister = () => {
               placeholder="PRN or Transaction ID"
               required
             ></input>
-            
+
             <div
               style={{
                 display: "flex",
@@ -194,8 +184,6 @@ const eventRegister = () => {
                 alignItems: "center",
               }}
             >
-              <img width="200" height="200" src={ipl}></img>
-              <p className="p-tag2">Scan QR to pay</p>
               <button name="Name" type="submit" className="pulse">
                 Submit
               </button>
@@ -206,7 +194,6 @@ const eventRegister = () => {
       </div>
     </>
   );
-}
+};
 
-export default eventRegister
-
+export default eventRegister;

@@ -1,15 +1,14 @@
-import React from 'react'
-import './Webbit.css'
-import Navbar from '../Navbar'
+import React from "react";
+import "./Webbit.css";
+import Navbar from "../Navbar";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { alphaAnalyst } from '../../assets/QR_codes/qr';
-import { firebaseAuth, useFirebase } from '../../context/Firebase';
+import { alphaAnalyst } from "../../assets/QR_codes/qr";
+import { firebaseAuth, useFirebase } from "../../context/Firebase";
 
 const eventRegister = () => {
-
   // const firebase = useFirebase();
-  
+
   // const userId = firebase.auth().currentUser.uid;
   // console.log(userId);
 
@@ -21,45 +20,40 @@ const eventRegister = () => {
       "https://script.google.com/macros/s/AKfycbymko-NH2CpF5FcZQQiRWD_m7kVgkH24thHcvQeufh8cGz7esPZDj7kyPGCQ0ZlDtw/exec",
       {
         method: "POST",
-        body: formDatab
+        body: formDatab,
       }
     )
-    .then((res) => {
-      // console.log("Response status:", res.status);
-      // alert('Successfully submitted');
-      toast.success("Successfully submitted", {
-        position: "top-center",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "dark",
+      .then((res) => {
+        // console.log("Response status:", res.status);
+        // alert('Successfully submitted');
+        toast.success("Successfully submitted", {
+          position: "top-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "dark",
+        });
+
+        document.getElementById("form").reset();
+      })
+      .catch((error) => {
+        console.log(error);
       });
 
-
-
-      document.getElementById("form").reset();
-    })
-    .catch((error) => {
-      console.log(error);
+    toast.info("Wait while submission gets over!", {
+      position: "top-right",
+      autoClose: 2000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
     });
-
-   toast.info("Wait while submission gets over!", {
-     position: "top-right",
-     autoClose: 2000,
-     hideProgressBar: false,
-     closeOnClick: true,
-     pauseOnHover: true,
-     draggable: true,
-     progress: undefined,
-     theme: "light",
-   });
-
   }
-
-
 
   return (
     <>
@@ -134,7 +128,7 @@ const eventRegister = () => {
               College Name{" "}
             </label>
             <input
-              type="tel"
+              type="text"
               className="column"
               name="college_name"
               id="registeration-input"
@@ -146,7 +140,7 @@ const eventRegister = () => {
               Department{" "}
             </label>
             <input
-              type="tel"
+              type="text"
               className="column"
               name="dept"
               id="registeration-input"
@@ -158,7 +152,7 @@ const eventRegister = () => {
               Roll Number{" "}
             </label>
             <input
-              type="tel"
+              type="text"
               className="column"
               name="roll_no"
               id="registeration-input"
@@ -170,7 +164,7 @@ const eventRegister = () => {
               Academic Year{" "}
             </label>
             <input
-              type="tel"
+              type="text"
               className="column"
               name="academic_year"
               id="registeration-input"
@@ -182,7 +176,8 @@ const eventRegister = () => {
               Enter Your PRN
             </label>
             <p className="p-tag">
-              *Note: If you are from Other College Please Pay registration fees <b> Rs. 100 </b>
+              *Note: If you are from Other College Please Pay registration fees{" "}
+              <b> Rs. 100 </b>
               And Add transaction ID otherwise registration will be rejected.
             </p>
 
@@ -215,7 +210,6 @@ const eventRegister = () => {
       </div>
     </>
   );
-}
+};
 
-export default eventRegister
-
+export default eventRegister;

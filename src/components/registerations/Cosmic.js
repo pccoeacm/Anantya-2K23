@@ -1,13 +1,11 @@
-import React from 'react'
-import './Webbit.css'
-import Navbar from '../Navbar'
+import React from "react";
+import "./Webbit.css";
+import Navbar from "../Navbar";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { cat } from '../../assets/QR_codes/qr';
+import { cat } from "../../assets/QR_codes/qr";
 
 const eventRegister = () => {
-
-
   function HandleEventClick(e) {
     const formEle = document.getElementById("form");
     const formDatab = new FormData(formEle);
@@ -16,42 +14,39 @@ const eventRegister = () => {
       "https://script.google.com/macros/s/AKfycbzrlM79g2ImaOqXd9_DGEu3iLiehw0902YwStEMl1fF9i5jtdMbL0i6fyNU6PPHAgus/exec",
       {
         method: "POST",
-        body: formDatab
+        body: formDatab,
       }
     )
-    .then((res) => {
-      // console.log("Response status:", res.status);
-      // alert('Successfully submitted');
-      toast.success("Successfully submitted", {
-        position: "top-center",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "dark",
+      .then((res) => {
+        // console.log("Response status:", res.status);
+        // alert('Successfully submitted');
+        toast.success("Successfully submitted", {
+          position: "top-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "dark",
+        });
+        document.getElementById("form").reset();
+      })
+      .catch((error) => {
+        console.log(error);
       });
-      document.getElementById("form").reset();
-    })
-    .catch((error) => {
-      console.log(error);
+
+    toast.info("Wait while submission gets over!", {
+      position: "top-right",
+      autoClose: 2000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
     });
-
-   toast.info("Wait while submission gets over!", {
-     position: "top-right",
-     autoClose: 2000,
-     hideProgressBar: false,
-     closeOnClick: true,
-     pauseOnHover: true,
-     draggable: true,
-     progress: undefined,
-     theme: "light",
-   });
-
   }
-
-
 
   return (
     <>
@@ -126,7 +121,7 @@ const eventRegister = () => {
               College Name{" "}
             </label>
             <input
-              type="tel"
+              type="text"
               className="column"
               name="college_name"
               id="registeration-input"
@@ -138,7 +133,7 @@ const eventRegister = () => {
               Department{" "}
             </label>
             <input
-              type="tel"
+              type="text"
               className="column"
               name="dept"
               id="registeration-input"
@@ -150,7 +145,7 @@ const eventRegister = () => {
               Roll Number{" "}
             </label>
             <input
-              type="tel"
+              type="text"
               className="column"
               name="roll_no"
               id="registeration-input"
@@ -162,7 +157,7 @@ const eventRegister = () => {
               Academic Year{" "}
             </label>
             <input
-              type="tel"
+              type="text"
               className="column"
               name="academic_year"
               id="registeration-input"
@@ -174,7 +169,8 @@ const eventRegister = () => {
               Enter Your PRN
             </label>
             <p className="p-tag">
-              *Note: If you are from Other College Please Pay registration fees <b> Rs. 50 </b>
+              *Note: If you are from Other College Please Pay registration fees{" "}
+              <b> Rs. 50 </b>
               And Add transaction ID otherwise registration will be rejected.
             </p>
 
@@ -200,13 +196,13 @@ const eventRegister = () => {
               <button name="Name" type="submit" className="pulse">
                 Submit
               </button>
+              <ToastContainer />
             </div>
           </form>
         </div>
       </div>
     </>
   );
-}
+};
 
-export default eventRegister
-
+export default eventRegister;
