@@ -51,7 +51,7 @@ const Card = () => {
                     {/* <NavLink to={"/about" + elem.id} className="nav-link"> */}
                     <button
                       onClick={() => firebase.signupWithGoogle()}
-                      className="card-btn"
+                      className="raise"
                     >
                       LogIn
                     </button>
@@ -87,7 +87,7 @@ const Card = () => {
                 </p>
                 <div className="btn">
                   <NavLink to={"/about" + elem.id} className="nav-link">
-                    <button className="card-btn">Register</button>
+                    <button className="raise">Register</button>
                   </NavLink>
                 </div>
               </div>

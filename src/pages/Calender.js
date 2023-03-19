@@ -85,7 +85,7 @@ const Calender = () => {
                                     "Event-3-d1-active"
                                 }`}
                             >
-                                <p className="hour-para">INAGURATION</p>
+                                <p className="hour-para">INAUGURATION</p>
                             </div>
                             <div
                                 className={`Event Event-4-d1 ${
@@ -217,7 +217,7 @@ const Calender = () => {
                                     "Event-1-d2-active"
                                 }`}
                             >
-                                <p className="hour-para">WEBIT</p>
+                                <p className="hour-para">WEBBIT</p>
                             </div>
                             <div
                                 className={`Event Event-2-d2 ${
@@ -257,7 +257,7 @@ const Calender = () => {
                                     "Event-5-d2-active"
                                 }`}
                             >
-                                <p className="hour-para">SHARLOCK</p>
+                                <p className="hour-para">SHERLOCK</p>
                             </div>
                             <div
                                 className={`Event Event-6-d2 ${

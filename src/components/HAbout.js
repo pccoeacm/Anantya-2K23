@@ -28,7 +28,8 @@ const HAbout = () => {
       </div>
       <div className="container d-flex justify-content-center">
         <a
-          className="anchor-tag"
+          target={'_blank'}
+          className="anchor-tag "
           href="https://drive.google.com/file/d/14uQaj3E1Vd0j6m2EMGN7u_-EmLA7b2vz/view?usp=share_link"
         >
           <button className="button-64">

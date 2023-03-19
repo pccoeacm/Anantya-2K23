@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../styles/Navbar.css";
-import { NavLink } from "react-router-dom";
+import { NavLink,Link } from "react-router-dom";
 import { firebaseApp, useFirebase } from "../context/Firebase";
 import { getAuth, onAuthStateChanged, signOut } from "firebase/auth";
 import { ToastContainer, toast } from "react-toastify";
@@ -57,9 +57,9 @@ const Navbar = () => {
       <>
         <nav className="navbar navbar-expand-lg sticky-top">
           <div className="container-fluid">
-            <NavLink to="/" className="navbar-brand title">
+            <Link to="/" className="navbar-brand title" style={{textDecoration:'none',border:'none'}}>
               <img src={Logo} className="img-fluid logo" />
-            </NavLink>
+            </Link>
             <button
               className="navbar-toggler"
               type="button"
@@ -79,17 +79,24 @@ const Navbar = () => {
               <ul className="navbar-nav  ms-auto">
                 <li className="nav-item">
                   <NavLink to="/" className="nav-link">
-                    <span className="navitem">Home</span>
+                    <span className="navitem" >
+                      Home
+                    </span>
                   </NavLink>
                 </li>
                 <li className="nav-item">
                   <NavLink to="/events" className="nav-link">
-                    <span className="navitem">Events</span>
+                    <span className="navitem" activeClassName="active">
+                      Events
+                    </span>
                   </NavLink>
                 </li>
                 <li className="nav-item">
                   <NavLink to="/calender" className="nav-link">
-                    <span className="navitem">Calendar</span>
+                    <span className="navitem" activeClassName="active">
+                      Calendar
+                    </span>
+
                   </NavLink>
                   {/* <a className="nav-link" href="#"></a> */}
                 </li>
@@ -169,7 +176,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <NavLink to="/calender" className="nav-link">
-                  <span className="navitem">Calender</span>
+                  <span className="navitem">Calendar</span>
                 </NavLink>
                 {/* <a className="nav-link" href="#"></a> */}
               </li>
