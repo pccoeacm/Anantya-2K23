@@ -35,7 +35,7 @@ const cardData = [
 
 	{
 		id: 2,
-		event_name: "Webbit-3.0",
+		event_name: "WebBit",
 		date: "28/03/2023",
 		short_description:
 			"WebBit is all about web development. There will be two rounds. Technologies allowed are HTML, CSS, and JavaScript (the use of frameworks is allowed). From the second round, a winner and a runner-up will be declared based on unique and innovative designs",
@@ -124,7 +124,7 @@ const cardData = [
 		id: 5,
 		event_name: "Cosmic Aptitude Test",
 		date: "27/03/2023",
-		short_description:"CAT is an event consisting of 2 rounds designed to showcase participants' aptitude skills. Round 1 is a MCQ test, and Round 2 consists of a writing and speaking section. ",
+		short_description:"CAT is an offline Aptitude event showcasing participant's Aptitude skills.  It has 2 offline rounds. Round 1 is offline MCQ test. Round 2 is an challenging Round that involves 2 sections writing and speaking. ",
 		detailed_description:
 			"CAT (Cosmic Aptitude Test) is an event designed to showcase participants' aptitude skills and help them overcome the fear associated with cracking the first assessment for an interview, which is the aptitude test. The event will have two rounds. In Round 1, participants will have 45 minutes to answer 30 MCQs covering all types of aptitude questions. The top 20 participants will be shortlisted for Round 2. Round 2 is a challenging round that involves two sections. The Writing section will require participants to type an essay on a given topic, which will be evaluated by a website. Participants will be provided with computers, and 30 minutes will be given to complete and submit the essay. In the Speaking section, participants will be given a topic on which they have to speak for 5 minutes. Judges will be appointed for this section, and participants will be given sufficient time to think and present their viewpoints in a clear and concise manner. The top 3 participants of Round 2 will be declared as winners and will be awarded cash prizes and rewards, while all participants will receive participation certificates.",
 		Type: "Solo",
@@ -137,15 +137,15 @@ const cardData = [
 		scontact2: "8275403810",
 		faculty: "Mr. Kapil Tajane",
 		rule1:
-			"Event will include 2 rounds.",
+			"⦿ Event will include 2 rounds.",
 		rule2:
-			"No calculators are allowed for this event",
-		rule3: "Participants must bring a pen and paper for rough work for rounds 1.",
-		rule4: "Top 3 participants of Round 2 will be the Winners.",
+			"⦿ No calculators are allowed for this event",
+		rule3: "⦿ Participants must bring a pen and paper for rough work for rounds 1.",
+		rule4: " ⦿ Top 3 participants of Round 2 will be the Winners.",
 		rule5:
-			"Winners will be awarded with Cash Prize and rewards",
+			"⦿ Winners will be awarded with Cash Prize and rewards",
 		rule6:
-			"All participants will get the participation certificates.",
+			"⦿ All participants will get the participation certificates.",
 		fee: "Rs. 50",
 		rulelink:
 			"https://drive.google.com/file/d/11CbXHOANM5pJ6sLxWnTeUpxgbV9-xSah/view?usp=share_link",
