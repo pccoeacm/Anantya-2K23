@@ -3,6 +3,7 @@ const cardData = [
   {
     id: 1,
     event_name: "CODIGO 3.0",
+    event_name: "CODIGO 3.0",
     date: "27/03/2023",
     short_description:
       " Codigo has 2 rounds, each with a time limit of 1.5 and 2 hours respectively, testing participants' logic, data structures, and competitiveness. Teams are ranked by code score, with submission time considered in case of a tie.",
@@ -20,12 +21,14 @@ const cardData = [
     rule1: "⦿ Team size: 3 individuals only.",
     rule2: "⦿ Number of teams -150 max.",
     rule3: "⦿ Rs. 100 Registration fee for non-PCCOEian.",
+    rule3: "⦿ Rs. 100 Registration fee for non-PCCOEian.",
     rule4:
       "⦿ All departments are eligible to participate in the coding competition (FY to BE).",
     rule5:
       "⦿ All participants will get an e-certificate (participation certificate).",
     rule6:
       "⦿ At the end of the contest, the top 3 teams with the highest scores will be selected as winners.",
+    fee: "Rs.100",
     fee: "Rs.100",
     rulelink:
       "https://drive.google.com/file/d/1bgSE10H5ndN1ZH9n9QYY5N7c755RFg6s/view?usp=share_link",
@@ -36,12 +39,12 @@ const cardData = [
 
   {
     id: 2,
-    event_name: "Webbit-3.0",
+    event_name: "WEBBIT",
     date: "28/03/2023",
     short_description:
       "WebBit is all about web development. There will be two rounds. Technologies allowed are HTML, CSS, and JavaScript (the use of frameworks is allowed). From the second round, a winner and a runner-up will be declared based on unique and innovative designs",
     detailed_description:
-      "This web development contest consists of two rounds, with participants allowed to use HTML, CSS, and JavaScript (including frameworks) to create innovative designs. The first round will be online and participants must create a static website. The second round will determine a winner and a runner-up based on unique and innovative designs. This event provides participants with the opportunity to showcase their web development skills and creativity, while gaining valuable experience and insights.",
+      "This contest is about web development. There will be two rounds. Technologies allowed are HTML, CSS, and JavaScript (the use of frameworks is allowed). From the second round, a winner and a runner-up will be declared based on unique and innovative designs",
     Type: "Solo",
     prize1: "Prizes worth Rs. 4500",
     prize2: "",
@@ -68,7 +71,7 @@ const cardData = [
   },
   {
     id: 3,
-    event_name: "Perplexo",
+    event_name: "PERPLEXO",
     date: "27/03/2023",
     short_description:
       "Perplexo is an event testing knowledge in Internet and Technology. It includes tricky questions, hints, and a live leaderboard. Last year, one reached level 6, but none completed the challenge. We are PerPlexo We Choose the Best.",
@@ -90,10 +93,10 @@ const cardData = [
   },
   {
     id: 4,
-    event_name: "Hackathon",
-    date: "27th & 28th March",
+    event_name: "HACKATHON",
+    date: "27 & 28 March",
     short_description:
-      "Hackathon is a tech event where teams use computer science tech to create innovative projects, present their work in 2 rounds, with 20 teams advancing to the finals after implementing reviewer suggestions.",
+      "Hackathon is a tech event where teams create innovative projects using computer science tech. They present their work to judges in 2 rounds, with 20 teams advancing to the finals. Teams must make changes recommended by reviewers before the final presentation.",
     detailed_description:
       "A hackathon is a technical event where participants have to implement their innovative ideas and develop their projects within a stipulated time. The project must be based on any computer science relevant technologies, such as web apps, Android apps, IoT, ML models, networks, security, and automation. The event will consist of two rounds. In the first round, participants will present their problem statements and implementations to the internal jury using a presentation within a given amount of time (Review 1). After the evaluation of the first round, 20 teams will qualify for the next round. The qualified teams will need to incorporate the suggestions/changes given by the reviewers within a specific time frame and prepare for the final presentation, which will be evaluated by the jury.",
     Type: "Team of 4 Members",
@@ -123,24 +126,28 @@ const cardData = [
   },
   {
     id: 5,
-    event_name: "Cosmic Aptitude Test",
+    event_name: "COSMIC APTITUDE TEST",
     date: "27/03/2023",
     short_description:
-      "CAT is a 2-round event showcasing participants' aptitude skills. Round 1 is an MCQ test, and Round 2 includes a writing and speaking section.",
+      "CAT is an offline Aptitude event showcasing participant's Aptitude skills. Round 1 is offline MCQ test. Round 2 is an challenging Round that involves 2 sections writing and speaking. ",
     detailed_description:
       "CAT (Cosmic Aptitude Test) is an event designed to showcase participants' aptitude skills and help them overcome the fear associated with cracking the first assessment for an interview, which is the aptitude test. The event will have two rounds. In Round 1, participants will have 45 minutes to answer 30 MCQs covering all types of aptitude questions. The top 20 participants will be shortlisted for Round 2. Round 2 is a challenging round that involves two sections. The Writing section will require participants to type an essay on a given topic, which will be evaluated by a website. Participants will be provided with computers, and 30 minutes will be given to complete and submit the essay. In the Speaking section, participants will be given a topic on which they have to speak for 5 minutes. Judges will be appointed for this section, and participants will be given sufficient time to think and present their viewpoints in a clear and concise manner. The top 3 participants of Round 2 will be declared as winners and will be awarded cash prizes and rewards, while all participants will receive participation certificates.",
     Type: "Solo",
     prize1: "Prizes Worth Rs. 3500",
     prize2: "",
+    prize3: "",
+    studn1: "Mugdha Kshirsagar",
+    scontact1: "8605679011",
+    studn2: "Shrushti Khirwadkar",
     scontact2: "8275403810",
     faculty: "Mr. Kapil Tajane",
-    rule1: "Event will include 2 rounds.",
-    rule2: "No calculators are allowed for this event",
+    rule1: "⦿ Event will include 2 rounds.",
+    rule2: "⦿ No calculators are allowed for this event",
     rule3:
-      "Participants must bring a pen and paper for rough work for rounds 1.",
-    rule4: "Top 3 participants of Round 2 will be the Winners.",
-    rule5: "Winners will be awarded with Cash Prize and rewards",
-    rule6: "All participants will get the participation certificates.",
+      "⦿ Participants must bring a pen and paper for rough work for rounds 1.",
+    rule4: "⦿ Top 3 participants of Round 2 will be the Winners.",
+    rule5: "⦿ Winners will be awarded with Cash Prize and rewards",
+    rule6: "⦿ All participants will get the participation certificates.",
     fee: "Rs. 50",
     rulelink:
       "https://drive.google.com/file/d/11CbXHOANM5pJ6sLxWnTeUpxgbV9-xSah/view?usp=share_link",
@@ -149,7 +156,7 @@ const cardData = [
   },
   {
     id: 6,
-    event_name: "IPL Auction",
+    event_name: "IPL AUCTION",
     date: "27/03/2023",
     short_description:
       "Experience a real-time IPL Auction with 210+ players and 10 teams bidding for their desired players. Each player is rated and teams submit their playing 11 for a final team rating. The team with the highest rating wins. Enjoy the excitement of the IPL Auction!",
@@ -171,7 +178,7 @@ const cardData = [
     rule5:
       "⦿ Auction will be conducted for 1 extra RTM if required (Base Price 20 lakh)",
     rule6: "⦿ Only top 10 teams will be selected for Final Auction.",
-    fee: "Rs.120",
+    fee: "Rs.160",
     rulelink:
       "https://drive.google.com/file/d/1r4NO0EBQq1Ga8S0BWw3IyTnNgpyjjACW/view?usp=share_link",
     image: "./posters/IPL.jpg",
@@ -179,7 +186,7 @@ const cardData = [
   },
   {
     id: 7,
-    event_name: "Startup Mania",
+    event_name: "STARTUP MANIA",
     date: "27/03/2023",
     short_description:
       "Innovation and entrepreneurship drive the world forward. Startups foster new ideas, from recognition to scrutiny, leading to success",
@@ -211,12 +218,12 @@ const cardData = [
   },
   {
     id: 8,
-    event_name: "The Alpha Analyst",
+    event_name: "THE ALPHA ANALYST",
     date: "28/03/2023",
     short_description:
       "The Alpha Analyst event to test your trading skills based on real market based situation without the risk of loosing real money.",
     detailed_description:
-      "The Alpha Analyst event is designed to test participants' trading skills based on real market situations, without the risk of losing real money. This event provides participants with a safe and risk-free environment to hone their trading strategies and tactics, as they analyze market trends and make decisions based on real-time data. Participants will have the opportunity to showcase their expertise and compete against other traders, all while gaining valuable experience and insights.",
+      "The Alpha Analyst event to test your trading skills based on real market based situation without the risk of loosing real money.",
     Type: "Team of 3",
     prize1: "Prizes Worth Rs. 2500",
     prize2: "",
@@ -238,7 +245,7 @@ const cardData = [
   },
   {
     id: 9,
-    event_name: "G20x Anantya",
+    event_name: "G20x ANANTYA",
     date: "28/03/2023",
     short_description:
       "This event will provide you  a stage to showcase your  leadership skills and geopolitics knowledge",
@@ -263,7 +270,7 @@ const cardData = [
       "⦿ Round 2: Each representative will be given 3 mins to present his/her views regarding the topic.",
     rule6:
       "⦿ After completion of the representation of all the 20 delegates a 5-10 min open discussion will be conducted.",
-    fee: "Rs.30",
+    fee: "Rs.50",
     rulelink:
       "https://drive.google.com/file/d/16nQgNzxUUEtBXD3gQ2DxJOvL5jWl_FwL/view?usp=share_link",
     image: "./posters/G20.jpg",
@@ -271,7 +278,7 @@ const cardData = [
   },
   {
     id: 10,
-    event_name: "Movie Trivia",
+    event_name: "MOVIE TRIVIA",
     date: "27/03/2023",
     short_description:
       " Movie Trivia College is a popular activity  in college campuses and often attract enthusiastic participants who love movies and want to show off their knowledge.",
@@ -281,6 +288,7 @@ const cardData = [
 
 
     Type: "Team",
+    prize1: "Prizes Worth Rs. 1200",
     prize1: "Prizes Worth Rs. 1200",
     prize2: "",
     prize3: "",
@@ -321,8 +329,8 @@ const cardData = [
     prize3: "",
     studn1: "Sanjay Chilveri",
     scontact1: "7718063047",
-    studn2: "Shyam Tiwari",
-    scontact2: "8303250543",
+    studn2: "Tanmay Jain",
+    scontact2: "9767537133",
     faculty: "Mrs. Madhuri Suryavanshi",
     rule1:
       "⦿ For Photography: ➨ Required Photo should be based on a 'theme Reflections'.",
@@ -364,17 +372,14 @@ const cardData = [
     studn2: "Saie Mukane",
     scontact2: "7249615728",
     faculty: "Mr. Ganesh Deshmukh",
-    rule1:
-      "⦿ ROUND - 1 (Death-or-Glory) ➨ Round 1 includes a quiz consisting of 20 questions based of situational trivia.",
-    rule2:
-      "⦿ Every team will be ranked on the maximum score of the submission. If two teams have the same score, the team that finished earlier will be ranked higher.",
-    rule3:
-      "⦿ ROUND - 2 (You can’t catch me) ➨ Only 30 teams will qualify for round 2.",
-    rule4:
-      "⦿ There will be questions based on the places inside the campus and the teams which answer the questions correctly and faster will move on to the next round.",
-    rule5:
-      "⦿ ROUND - 3 (Let me iiiinnnnn) ➨ Only top 15 teams will qualify for round 3. ",
-    rule6: "⦿ Make sure you download a QR scanner before the round begins.",
+    rule1: "",
+    rule2: "",
+    rule3: "",
+    rule4: "",
+    rule5: "",
+    rule6: "HACKED",
+
+    hyper: "https://pccoeowasp.github.io/sherlock/",
     fee: "Rs.100",
     rulelink:
       "https://drive.google.com/file/d/1u7_EqPmYVcfCl3VLU2UCo15CijZmnwJV/view?usp=share_link",
@@ -396,6 +401,7 @@ const cardData = [
     scontact2: "9503380951",
     faculty: "Mr. Ganesh Deshmukh",
     rule1: "N/A",
+    fee: "No fees",
     fee: "No fees",
     rulelink: "#",
     image: "./posters/babyconn.jpg",

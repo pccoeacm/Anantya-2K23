@@ -1,8 +1,9 @@
 .mainlogo-h1{
-/* background: -webkit-linear-gradient(144deg, #af40ff, pink 50%, #00ddeb);
+background: -webkit-linear-gradient(144deg, #af40ff, pink 50%, #00ddeb);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
+    -webkit-text-fill-color: transparent;
     color:#fff;
+    font-weight: 300;
 }
 
 

@@ -19,6 +19,7 @@ const Calender = () => {
                 <h1 className="text-fluid text-center calendar-heading">
                     CALENDAR
                 </h1>
+                <p className="timeline-heading">This is just tentative Timeline</p>
                 <div className="d-flex flex-column day1">
                     <h2 className="text-fluid text-center day">DAY 1</h2>
                     <div className="timeline-main">

@@ -4,7 +4,7 @@ import Navbar from "../Navbar";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { perplexo } from "../../assets/QR_codes/qr";
-const eventRegister = () => {
+const EventRegister = () => {
   function HandleEventClick(e) {
     const formEle = document.getElementById("form");
     const formDatab = new FormData(formEle);
@@ -115,28 +115,60 @@ const eventRegister = () => {
               required
             ></input>
 
+            <label id="lable-tag" className="" for="college_name">
+              College Name{" "}
+            </label>
+            <input
+              type="text"
+              className="column"
+              name="college_name"
+              id="registeration-input"
+              placeholder="Enter Your College Name"
+              required
+            ></input>
 
-                        
-                        <label id="lable-tag" className="" for="college_name">College Name  </label>
-                        <input type="text" className="column" name="college_name" id="registeration-input" placeholder="Enter Your College Name" required ></input>
+            <label id="lable-tag" className="" for="college_name">
+              Department{" "}
+            </label>
+            <input
+              type="text"
+              className="column"
+              name="dept"
+              id="registeration-input"
+              placeholder="Enter Your Department"
+              required
+            ></input>
 
-                        <label id="lable-tag" className="" for="college_name">Department  </label>
-                        <input type="text" className="column" name="dept" id="registeration-input" placeholder="Enter Your Department" required ></input>
+            <label id="lable-tag" className="" for="college_name">
+              Roll Number{" "}
+            </label>
+            <input
+              type="text"
+              className="column"
+              name="roll_no"
+              id="registeration-input"
+              placeholder="Ex: TYCOC233"
+              required
+            ></input>
 
-                        <label id="lable-tag" className="" for="college_name">Roll Number  </label>
-                        <input type="text" className="column" name="roll_no" id="registeration-input" placeholder="Ex: TYCOC233" required ></input>
-
-
-
-
-                        <label id="lable-tag" className="" for="academic_year">Academic Year   </label>
-                        <input type="text" className="column" name="academic_year" id="registeration-input" placeholder="Eg. FE/SE/TE/BE" required></input>
+            <label id="lable-tag" className="" for="academic_year">
+              Academic Year{" "}
+            </label>
+            <input
+              type="text"
+              className="column"
+              name="academic_year"
+              id="registeration-input"
+              placeholder="Eg. FE/SE/TE/BE"
+              required
+            ></input>
 
             <label id="lable-tag" className="" for="">
               Enter Your PRN
             </label>
             <p className="p-tag">
-              *Note: If you are from other college please pay registeration fees <b> Rs. 60 </b>
+              *Note: If you are from other college please pay registeration fees{" "}
+              <b> Rs. 60 </b>
               and add Transaction ID otherwise submission will be rejected.
             </p>
 
@@ -172,4 +204,4 @@ const eventRegister = () => {
   );
 };
 
-export default eventRegister;
+export default EventRegister;

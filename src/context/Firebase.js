@@ -40,6 +40,8 @@ export const FirebaseProvider = (props) => {
         }
     });
 
+    const putData = (key, data) => set(ref(database, key), data);
+
 
 
     return (
@@ -47,6 +49,7 @@ export const FirebaseProvider = (props) => {
             value={{
                 signupWithGoogle,
                 LoggedInUser,
+                putData
             }}
         >
             {props.children}

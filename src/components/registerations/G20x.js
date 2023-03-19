@@ -1,13 +1,11 @@
-import React from 'react'
-import './Webbit.css'
-import Navbar from '../Navbar'
+import React from "react";
+import "./Webbit.css";
+import Navbar from "../Navbar";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { g20 } from '../../assets/QR_codes/qr';
+import { g20 } from "../../assets/QR_codes/qr";
 
-const eventRegister = () => {
-
-
+const EventRegister = () => {
   function HandleEventClick(e) {
     const formEle = document.getElementById("form");
     const formDatab = new FormData(formEle);
@@ -16,42 +14,39 @@ const eventRegister = () => {
       "https://script.google.com/macros/s/AKfycbylnLEpumr9vod6LEcTahqR6zHZ89iBJ84fAwOITet-tlnBp2mHwjkdFbS_sXPVeHw/exec",
       {
         method: "POST",
-        body: formDatab
+        body: formDatab,
       }
     )
-    .then((res) => {
-      // console.log("Response status:", res.status);
-      // alert('Successfully submitted');
-      toast.success("Successfully submitted", {
-        position: "top-center",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "dark",
+      .then((res) => {
+        // console.log("Response status:", res.status);
+        // alert('Successfully submitted');
+        toast.success("Successfully submitted", {
+          position: "top-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "dark",
+        });
+        document.getElementById("form").reset();
+      })
+      .catch((error) => {
+        console.log(error);
       });
-      document.getElementById("form").reset();
-    })
-    .catch((error) => {
-      console.log(error);
+
+    toast.info("Wait while submission gets over!", {
+      position: "top-right",
+      autoClose: 2000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
     });
-
-   toast.info("Wait while submission gets over!", {
-     position: "top-right",
-     autoClose: 2000,
-     hideProgressBar: false,
-     closeOnClick: true,
-     pauseOnHover: true,
-     draggable: true,
-     progress: undefined,
-     theme: "light",
-   });
-
   }
-
-
 
   return (
     <>
@@ -62,7 +57,7 @@ const eventRegister = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          marginTop:'20px'
+          marginTop: "20px",
         }}
       >
         <div className="col-lg-7 col-md-12 col-12 form-step">
@@ -127,6 +122,7 @@ const eventRegister = () => {
             </label>
             <input
               type="text"
+              type="text"
               className="column"
               name="college_name"
               id="registeration-input"
@@ -138,6 +134,7 @@ const eventRegister = () => {
               Department{" "}
             </label>
             <input
+              type="text"
               type="text"
               className="column"
               name="dept"
@@ -151,6 +148,7 @@ const eventRegister = () => {
             </label>
             <input
               type="text"
+              type="text"
               className="column"
               name="roll_no"
               id="registeration-input"
@@ -163,6 +161,7 @@ const eventRegister = () => {
             </label>
             <input
               type="text"
+              type="text"
               className="column"
               name="academic_year"
               id="registeration-input"
@@ -174,7 +173,8 @@ const eventRegister = () => {
               Enter Your PRN
             </label>
             <p className="p-tag">
-              *Note: If you are from Other College Please Pay registration fees <b> Rs. 50 </b>
+              *Note: If you are from Other College Please Pay registration fees{" "}
+              <b> Rs. 50 </b>
               And Add transaction ID otherwise registration will be rejected.
             </p>
 
@@ -206,7 +206,6 @@ const eventRegister = () => {
       </div>
     </>
   );
-}
+};
 
-export default eventRegister
-
+export default EventRegister;

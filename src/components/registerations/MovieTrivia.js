@@ -4,7 +4,7 @@ import Navbar from '../Navbar'
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const eventRegister = () => {
+const EventRegister = () => {
 
 
   function HandleEventClick(e) {
@@ -132,5 +132,5 @@ const eventRegister = () => {
   );
 }
 
-export default eventRegister
+export default EventRegister
 

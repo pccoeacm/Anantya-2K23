@@ -12,6 +12,7 @@ const auth = getAuth(firebaseApp);
 
 const Navbar = () => {
 	const firebase = useFirebase();
+  // console.log(firebase);
 	const [user, setUser] = useState(null);
 
 	function handleSignInWithGoogle() {
@@ -20,7 +21,9 @@ const Navbar = () => {
 			.then((userCredential) => {
 				alert("successfully logged in");
 				const user = userCredential.user;
+        // console.log(user);
 				console.log(user.displayName);
+        // console.log(user.email);
 				toast.success(`Welcome ${user.displayName}!`, {
 					position: "top-right",
 					autoClose: 5000,
@@ -113,8 +116,9 @@ const Navbar = () => {
                           // alert("successfully logged in");
                           const user = userCredential.user;
                           console.log(user.displayName);
+                          console.log(user);
                           toast.success(`Welcome ${user.displayName}!`, {
-                            position: "top-right",
+                            position: "top-center",
                             autoClose: 5000,
                             hideProgressBar: false,
                             closeOnClick: true,
