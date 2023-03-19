@@ -126,7 +126,7 @@ const eventRegister = () => {
               College Name{" "}
             </label>
             <input
-              type="tel"
+              type="text"
               className="column"
               name="college_name"
               id="registeration-input"
@@ -138,7 +138,7 @@ const eventRegister = () => {
               Department{" "}
             </label>
             <input
-              type="tel"
+              type="text"
               className="column"
               name="dept"
               id="registeration-input"
@@ -150,7 +150,7 @@ const eventRegister = () => {
               Roll Number{" "}
             </label>
             <input
-              type="tel"
+              type="text"
               className="column"
               name="roll_no"
               id="registeration-input"
@@ -162,7 +162,7 @@ const eventRegister = () => {
               Academic Year{" "}
             </label>
             <input
-              type="tel"
+              type="text"
               className="column"
               name="academic_year"
               id="registeration-input"
@@ -174,8 +174,7 @@ const eventRegister = () => {
               Enter Your PRN
             </label>
             <p className="p-tag">
-              *Note: If you are from Other College Please Pay registration fee
-              And Add transaction ID otherwise registration will be rejected.
+              *Note: If you are from Other College Please Pay registration fee <b> Rs.70</b> And Add transaction ID otherwise registration will be rejected.
             </p>
 
             <input

@@ -61,7 +61,7 @@ const About = ({ ids }) => {
               <div className="col-lg-4">
                 <h2>Faculty Head</h2>
                 <p> {elem.faculty} </p>
-                <h4>Student Cordinator</h4>
+                <h4>Student Coordinator</h4>
                 <p> {elem.studn1}: {elem.scontact1}<br/> {elem.studn2}: {elem.scontact2} </p>
                 <p></p>
               </div>
