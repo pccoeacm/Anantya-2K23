@@ -3,6 +3,7 @@ const cardData = [
   {
     id: 1,
     event_name: "CODIGO 3.0",
+    event_name: "CODIGO 3.0",
     date: "27/03/2023",
     short_description:
       " Codigo has 2 rounds, each with a time limit of 1.5 and 2 hours respectively, testing participants' logic, data structures, and competitiveness. Teams are ranked by code score, with submission time considered in case of a tie.",
@@ -20,6 +21,7 @@ const cardData = [
     rule1: "⦿ Team size: 3 individuals only.",
     rule2: "⦿ Number of teams -150 max.",
     rule3: "⦿ Rs. 100 Registration fee for non-PCCOEian.",
+    rule3: "⦿ Rs. 100 Registration fee for non-PCCOEian.",
     rule4:
       "⦿ All departments are eligible to participate in the coding competition (FY to BE).",
     rule5:
@@ -27,11 +29,13 @@ const cardData = [
     rule6:
       "⦿ At the end of the contest, the top 3 teams with the highest scores will be selected as winners.",
     fee: "Rs.100",
+    fee: "Rs.100",
     rulelink:
       "https://drive.google.com/file/d/1bgSE10H5ndN1ZH9n9QYY5N7c755RFg6s/view?usp=share_link",
     image: "./posters/codigo.jpg",
     path: "/codigo",
   },
+
 
   {
     id: 2,
@@ -281,7 +285,10 @@ const cardData = [
     detailed_description:
       "The Movie Trivia College Event is a competition that tests participants' knowledge of films from various genres and eras, Acting & Music skills too . Typically, the event is organized for college students and is conducted in a team format where teams of participants compete against each other. In this competition there are 4 rounds: Round 1: “Lagge rahoo  munna bhaii” This is a Quiz round group of two member have to participate, kahoot quiz based on trivial movie questions. Top winning teams will be proceed to next round depending on the participation count.        Round 2: “Nach baliye” The qualified teams of round 1 will be grouped in a group of four members and they will have to perform the hook step of the song played within 30 sec. Round 3: “Shamitabh” About: The qualified teams from round 2 will now showcase their acting skills by enacting movies based on hard and easy categories under limited time. Round 4: “Brahmastra” About: This is the finale round of the event where there will be blended faces of movie stars which will be showcased and in end of round we will get our WINNER. ",
 
+
+
     Type: "Team",
+    prize1: "Prizes Worth Rs. 1200",
     prize1: "Prizes Worth Rs. 1200",
     prize2: "",
     prize3: "",
@@ -394,6 +401,7 @@ const cardData = [
     scontact2: "9503380951",
     faculty: "Mr. Ganesh Deshmukh",
     rule1: "N/A",
+    fee: "No fees",
     fee: "No fees",
     rulelink: "#",
     image: "./posters/babyconn.jpg",

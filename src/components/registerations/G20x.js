@@ -122,6 +122,7 @@ const EventRegister = () => {
             </label>
             <input
               type="text"
+              type="text"
               className="column"
               name="college_name"
               id="registeration-input"
@@ -133,6 +134,7 @@ const EventRegister = () => {
               Department{" "}
             </label>
             <input
+              type="text"
               type="text"
               className="column"
               name="dept"
@@ -146,6 +148,7 @@ const EventRegister = () => {
             </label>
             <input
               type="text"
+              type="text"
               className="column"
               name="roll_no"
               id="registeration-input"
@@ -157,6 +160,7 @@ const EventRegister = () => {
               Academic Year{" "}
             </label>
             <input
+              type="text"
               type="text"
               className="column"
               name="academic_year"

@@ -10,7 +10,6 @@ import { firebaseAuth, useFirebase } from "../../context/Firebase";
 
 const EventRegister = () => {
   const firebase = useFirebase();
-
   const userId = firebase.auth().currentUser.uid;
   const userEmail = firebase.auth().currentUser.email;
   console.log(userEmail);

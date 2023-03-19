@@ -68,7 +68,9 @@ const EventRegister = () => {
               alignItems: "center",
             }}
           >
-            <h2 className="font-normal">WebBit</h2>
+
+            <h2 className="font-normal">Webbit-3.0</h2>
+
             <div id="personalInfo">
               <h1 id="personal-info">Personal Information</h1>
             </div>

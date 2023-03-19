@@ -123,6 +123,7 @@ const EventRegister = () => {
             </label>
             <input
               type="text"
+              
               className="column"
               name="college_name"
               id="registeration-input"
@@ -135,6 +136,7 @@ const EventRegister = () => {
             </label>
             <input
               type="text"
+            
               className="column"
               name="dept"
               id="registeration-input"
@@ -147,6 +149,7 @@ const EventRegister = () => {
             </label>
             <input
               type="text"
+              
               className="column"
               name="roll_no"
               id="registeration-input"
@@ -158,6 +161,7 @@ const EventRegister = () => {
               Academic Year{" "}
             </label>
             <input
+            
               type="text"
               className="column"
               name="academic_year"
@@ -171,6 +175,7 @@ const EventRegister = () => {
             </label>
             <input
               type="text"
+             
               className="column"
               name="Hacker_Rank_Profile"
               id="registeration-input"
@@ -188,6 +193,7 @@ const EventRegister = () => {
             </p>
             <input
               type="text"
+             
               className="column"
               name="PRN"
               id="registeration-input"
