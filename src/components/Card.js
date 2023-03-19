@@ -87,7 +87,7 @@ const Card = () => {
                 </p>
                 <div className="btn">
                   <NavLink to={"/about" + elem.id} className="nav-link">
-                    <button className="raise">Register</button>
+                    <button className="card-btn">Register</button>
                   </NavLink>
                 </div>
               </div>
