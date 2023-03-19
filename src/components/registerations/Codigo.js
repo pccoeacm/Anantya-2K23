@@ -127,7 +127,7 @@ const eventRegister = () => {
               College Name{" "}
             </label>
             <input
-              type="tel"
+              type="text"
               className="column"
               name="college_name"
               id="registeration-input"
@@ -139,7 +139,7 @@ const eventRegister = () => {
               Department{" "}
             </label>
             <input
-              type="tel"
+              type="text"
               className="column"
               name="dept"
               id="registeration-input"
@@ -151,7 +151,7 @@ const eventRegister = () => {
               Roll Number{" "}
             </label>
             <input
-              type="tel"
+              type="text"
               className="column"
               name="roll_no"
               id="registeration-input"
@@ -163,7 +163,7 @@ const eventRegister = () => {
               Academic Year{" "}
             </label>
             <input
-              type="tel"
+              type="text"
               className="column"
               name="academic_year"
               id="registeration-input"
@@ -175,7 +175,7 @@ const eventRegister = () => {
               HackerRank Profile
             </label>
             <input
-              type="tel"
+              type="text"
               className="column"
               name="Hacker_Rank_Profile"
               id="registeration-input"
@@ -191,7 +191,7 @@ const eventRegister = () => {
               and add Transaction ID otherwise submission will be rejected.
             </p>
             <input
-              type="tel"
+              type="text"
               className="column"
               name="PRN"
               id="registeration-input"
