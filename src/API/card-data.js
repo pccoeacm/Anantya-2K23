@@ -2,7 +2,7 @@ import { aboutBGM } from "../assets";
 const cardData = [
   {
     id: 1,
-    event_name: "Codigo 3.0",
+    event_name: "CODIGO 3.0",
     date: "27/03/2023",
     short_description:
       " Codigo has 2 rounds, each with a time limit of 1.5 and 2 hours respectively, testing participants' logic, data structures, and competitiveness. Teams are ranked by code score, with submission time considered in case of a tie.",
@@ -19,19 +19,20 @@ const cardData = [
     faculty: "Mr. Rahul Pitale",
     rule1: "⦿ Team size: 3 individuals only.",
     rule2: "⦿ Number of teams -150 max.",
-    rule3: "⦿ Rs. 90 Registration fee for non-PCCOEian.",
+    rule3: "⦿ Rs. 100 Registration fee for non-PCCOEian.",
     rule4:
       "⦿ All departments are eligible to participate in the coding competition (FY to BE).",
     rule5:
       "⦿ All participants will get an e-certificate (participation certificate).",
     rule6:
       "⦿ At the end of the contest, the top 3 teams with the highest scores will be selected as winners.",
-    fee: "Rs.90",
+    fee: "Rs.100",
     rulelink:
-      "https://drive.google.com/file/d/1U8ljtqw3dPJ0VdZBb2w4O2r2nwqgVJBK/view?usp=share_link",
+      "https://drive.google.com/file/d/1bgSE10H5ndN1ZH9n9QYY5N7c755RFg6s/view?usp=share_link",
     image: "./posters/codigo.jpg",
     path: "/codigo",
   },
+
 
   {
     id: 2,
@@ -277,8 +278,10 @@ const cardData = [
     detailed_description:
       "The Movie Trivia College Event is a competition that tests participants' knowledge of films from various genres and eras, Acting & Music skills too . Typically, the event is organized for college students and is conducted in a team format where teams of participants compete against each other. In this competition there are 4 rounds: Round 1: “Lagge rahoo  munna bhaii” This is a Quiz round group of two member have to participate, kahoot quiz based on trivial movie questions. Top winning teams will be proceed to next round depending on the participation count.        Round 2: “Nach baliye” The qualified teams of round 1 will be grouped in a group of four members and they will have to perform the hook step of the song played within 30 sec. Round 3: “Shamitabh” About: The qualified teams from round 2 will now showcase their acting skills by enacting movies based on hard and easy categories under limited time. Round 4: “Brahmastra” About: This is the finale round of the event where there will be blended faces of movie stars which will be showcased and in end of round we will get our WINNER. ",
 
+
+
     Type: "Team",
-    prize1: "Prizes Worth Rs. 2500",
+    prize1: "Prizes Worth Rs. 1200",
     prize2: "",
     prize3: "",
     studn1: "Ankita Nandy",
@@ -305,7 +308,7 @@ const cardData = [
   },
   {
     id: 11,
-    event_name: "Unleash the Art ",
+    event_name: "UNLEASH THE ART ",
     date: "",
     short_description:
       " Unleash the Art is an immersive event that celebrates creativity and self-expression through various art forms such as painting, sculpture, photography, and performance art.",
@@ -313,7 +316,7 @@ const cardData = [
       "The event will take place in a large, open space with various installations and exhibits scattered throughout. Attendees will be free to wander and explore at their own pace, interacting with the art and the artists themselves. In addition to the exhibits, there will be live performances and interactive workshops where attendees can learn new techniques and try their hand at different art forms. In this event we arranging two sub-events for the attendees: Reel-making: ➨ In this event, participants will be able to showcase their creativity, talent, and editing skills such as dancing, singing, playing instruments, photography, transition videos, etc. the participants have to perform or exhibit their art or talents via a reel of a maximum of 1 minute. Photography: ➨ In this event, participants have to submit an original clicked photograph displaying the theme reflection. In this event, the participants are allowed to perform open editing revolving around the theme.",
 
     Type: "N/A",
-    prize1: "Prizes Worth Rs. 2400",
+    prize1: "Prizes Worth Rs. 1200",
     prize2: "",
     prize3: "",
     studn1: "Sanjay Chilveri",
@@ -322,7 +325,7 @@ const cardData = [
     scontact2: "8303250543",
     faculty: "Mrs. Madhuri Suryavanshi",
     rule1:
-      "⦿ For Photography: ➨ Required Photo should be based on a theme Reflections.",
+      "⦿ For Photography: ➨ Required Photo should be based on a 'theme Reflections'.",
     rule2: "⦿ Editing is allowed. Theme-based editing can also be done.",
     rule3: "⦿ The Photo clicked should be during the Time of Anantya.",
     rule4: "⦿ For Reel Making: ➨  The reel must be of max 1 Minute.",
@@ -360,7 +363,7 @@ const cardData = [
     scontact1: "9503380951",
     studn2: "Saie Mukane",
     scontact2: "7249615728",
-    faculty: "Mr. Ganesh DeshMukh",
+    faculty: "Mr. Ganesh Deshmukh",
     rule1:
       "⦿ ROUND - 1 (Death-or-Glory) ➨ Round 1 includes a quiz consisting of 20 questions based of situational trivia.",
     rule2:
@@ -393,7 +396,7 @@ const cardData = [
     scontact2: "9503380951",
     faculty: "Mr. Ganesh Deshmukh",
     rule1: "N/A",
-    fee: "N/A",
+    fee: "No fees",
     rulelink: "#",
     image: "./posters/babyconn.jpg",
     path: "/Babyconn",

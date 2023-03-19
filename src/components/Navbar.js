@@ -96,6 +96,7 @@ const Navbar = () => {
                     <span className="navitem" activeClassName="active">
                       Calendar
                     </span>
+
                   </NavLink>
                   {/* <a className="nav-link" href="#"></a> */}
                 </li>
