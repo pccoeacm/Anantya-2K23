@@ -89,7 +89,7 @@ const Navbar = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink to="/calender" className="nav-link">
-                    <span className="navitem">Calender</span>
+                    <span className="navitem">Calendar</span>
                   </NavLink>
                   {/* <a className="nav-link" href="#"></a> */}
                 </li>
