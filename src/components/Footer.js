@@ -16,6 +16,7 @@ import {
 
 const Footer = () => {
     return (
+
       <div className="container-fluid footer-main">
         <div className="row d-flex flex-sm-column flex-lg-row justfity-content-center align-items-center footer-main-row">
           <div className="col d-flex justify-content-center align-items-center">
@@ -75,6 +76,7 @@ const Footer = () => {
                   </p>
                 </a>
               </div>
+
             </div>
             <div className="row">
               <div className="col-sm-2 d-flex justify-content-lg-end justify-content-sm-start">

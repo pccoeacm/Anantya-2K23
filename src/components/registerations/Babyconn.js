@@ -193,6 +193,7 @@ const eventRegister = () => {
           </form>
         </div>
       </div>
+
     </>
   );
 };
