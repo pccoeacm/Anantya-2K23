@@ -173,7 +173,7 @@ const eventRegister = () => {
               Enter Your PRN
             </label>
             <p className="p-tag">
-              *Note: If you are from Other College Please Pay registration fees <b> Rs. 120 </b>
+              *Note: If you are from Other College Please Pay registration fees <b> Rs. 160 </b>
               And Add transaction ID otherwise registration will be rejected.
             </p>
 

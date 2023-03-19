@@ -2,7 +2,7 @@ import { aboutBGM } from "../assets";
 const cardData = [
   {
     id: 1,
-    event_name: "Codigo 3.0",
+    event_name: "CODIGO 3.0",
     date: "27/03/2023",
     short_description:
       " Codigo has 2 rounds, each with a time limit of 1.5 and 2 hours respectively, testing participants' logic, data structures, and competitiveness. Teams are ranked by code score, with submission time considered in case of a tie.",
@@ -19,16 +19,16 @@ const cardData = [
     faculty: "Mr. Rahul Pitale",
     rule1: "⦿ Team size: 3 individuals only.",
     rule2: "⦿ Number of teams -150 max.",
-    rule3: "⦿ Rs. 90 Registration fee for non-PCCOEian.",
+    rule3: "⦿ Rs. 100 Registration fee for non-PCCOEian.",
     rule4:
       "⦿ All departments are eligible to participate in the coding competition (FY to BE).",
     rule5:
       "⦿ All participants will get an e-certificate (participation certificate).",
     rule6:
       "⦿ At the end of the contest, the top 3 teams with the highest scores will be selected as winners.",
-    fee: "Rs.90",
+    fee: "Rs.100",
     rulelink:
-      "https://drive.google.com/file/d/1U8ljtqw3dPJ0VdZBb2w4O2r2nwqgVJBK/view?usp=share_link",
+      "https://drive.google.com/file/d/1bgSE10H5ndN1ZH9n9QYY5N7c755RFg6s/view?usp=share_link",
     image: "./posters/codigo.jpg",
     path: "/codigo",
   },
@@ -36,7 +36,7 @@ const cardData = [
 
 	{
 		id: 2,
-		event_name: "WebBit",
+		event_name: "WEBBIT",
 		date: "28/03/2023",
 		short_description:
 			"WebBit is all about web development. There will be two rounds. Technologies allowed are HTML, CSS, and JavaScript (the use of frameworks is allowed). From the second round, a winner and a runner-up will be declared based on unique and innovative designs",
@@ -68,7 +68,7 @@ const cardData = [
 	},
 	{
 		id: 3,
-		event_name: "Perplexo",
+		event_name: "PERPLEXO",
 		date: "27/03/2023",
 		short_description:
 			"Perplexo is an event testing knowledge in Internet and Technology. It includes tricky questions, hints, and a live leaderboard. Last year, one reached level 6, but none completed the challenge. We are PerPlexo We Choose the Best.",
@@ -90,7 +90,7 @@ const cardData = [
 	},
 	{
 		id: 4,
-		event_name: "Hackathon",
+		event_name: "HACKATHON",
 		date: "27 & 28 March",
 		short_description:
 			"Hackathon is a tech event where teams create innovative projects using computer science tech. They present their work to judges in 2 rounds, with 20 teams advancing to the finals. Teams must make changes recommended by reviewers before the final presentation.",
@@ -123,9 +123,9 @@ const cardData = [
 	},
 	{
 		id: 5,
-		event_name: "Cosmic Aptitude Test",
+		event_name: "COSMIC APTITUDE TEST",
 		date: "27/03/2023",
-		short_description:"CAT is an offline Aptitude event showcasing participant's Aptitude skills.  It has 2 offline rounds. Round 1 is offline MCQ test. Round 2 is an challenging Round that involves 2 sections writing and speaking. ",
+		short_description:"CAT is an offline Aptitude event showcasing participant's Aptitude skills. Round 1 is offline MCQ test. Round 2 is an challenging Round that involves 2 sections writing and speaking. ",
 		detailed_description:
 			"CAT (Cosmic Aptitude Test) is an event designed to showcase participants' aptitude skills and help them overcome the fear associated with cracking the first assessment for an interview, which is the aptitude test. The event will have two rounds. In Round 1, participants will have 45 minutes to answer 30 MCQs covering all types of aptitude questions. The top 20 participants will be shortlisted for Round 2. Round 2 is a challenging round that involves two sections. The Writing section will require participants to type an essay on a given topic, which will be evaluated by a website. Participants will be provided with computers, and 30 minutes will be given to complete and submit the essay. In the Speaking section, participants will be given a topic on which they have to speak for 5 minutes. Judges will be appointed for this section, and participants will be given sufficient time to think and present their viewpoints in a clear and concise manner. The top 3 participants of Round 2 will be declared as winners and will be awarded cash prizes and rewards, while all participants will receive participation certificates.",
 		Type: "Solo",
@@ -155,7 +155,7 @@ const cardData = [
 	},
 	{
 		id: 6,
-		event_name: "IPL Auction",
+		event_name: "IPL AUCTION",
 		date: "27/03/2023",
 		short_description:
 			"Experience a real-time IPL Auction with 210+ players and 10 teams bidding for their desired players. Each player is rated and teams submit their playing 11 for a final team rating. The team with the highest rating wins. Enjoy the excitement of the IPL Auction!",
@@ -177,7 +177,7 @@ const cardData = [
 		rule5:
 			"⦿ Auction will be conducted for 1 extra RTM if required (Base Price 20 lakh)",
 		rule6: "⦿ Only top 10 teams will be selected for Final Auction.",
-		fee: "Rs.120",
+		fee: "Rs.160",
 		rulelink:
 			"https://drive.google.com/file/d/1r4NO0EBQq1Ga8S0BWw3IyTnNgpyjjACW/view?usp=share_link",
 		image: "./posters/IPL.jpg",
@@ -185,7 +185,7 @@ const cardData = [
 	},
 	{
 		id: 7,
-		event_name: "Startup Mania",
+		event_name: "STARTUP MANIA",
 		date: "27/03/2023",
 		short_description:
 			"Innovation and entrepreneurship drive the world forward. Startups foster new ideas, from recognition to scrutiny, leading to success",
@@ -217,7 +217,7 @@ const cardData = [
 	},
 	{
 		id: 8,
-		event_name: "The Alpha Analyst",
+		event_name: "THE ALPHA ANALYST",
 		date: "28/03/2023",
 		short_description:
 			"The Alpha Analyst event to test your trading skills based on real market based situation without the risk of loosing real money.",
@@ -244,7 +244,7 @@ const cardData = [
 	},
 	{
 		id: 9,
-		event_name: "G20x Anantya",
+		event_name: "G20x ANANTYA",
 		date: "28/03/2023",
 		short_description:
 			"This event will provide you  a stage to showcase your  leadership skills and geopolitics knowledge",
@@ -269,7 +269,7 @@ const cardData = [
 			"⦿ Round 2: Each representative will be given 3 mins to present his/her views regarding the topic.",
 		rule6:
 			"⦿ After completion of the representation of all the 20 delegates a 5-10 min open discussion will be conducted.",
-		fee: "Rs.30",
+		fee: "Rs.50",
 		rulelink:
 			"https://drive.google.com/file/d/16nQgNzxUUEtBXD3gQ2DxJOvL5jWl_FwL/view?usp=share_link",
 		image: "./posters/G20.jpg",
@@ -277,7 +277,7 @@ const cardData = [
 	},
 	{
 		id: 10,
-		event_name: "Movie Trivia",
+		event_name: "MOVIE TRIVIA",
 		date: "27/03/2023",
 		short_description:
 			" Movie Trivia College is a popular activity  in college campuses and often attract enthusiastic participants who love movies and want to show off their knowledge.",
@@ -285,7 +285,7 @@ const cardData = [
 			"The Movie Trivia College Event is a competition that tests participants' knowledge of films from various genres and eras, Acting & Music skills too . Typically, the event is organized for college students and is conducted in a team format where teams of participants compete against each other. In this competition there are 4 rounds: Round 1: “Lagge rahoo  munna bhaii” This is a Quiz round group of two member have to participate, kahoot quiz based on trivial movie questions. Top winning teams will be proceed to next round depending on the participation count.        Round 2: “Nach baliye” The qualified teams of round 1 will be grouped in a group of four members and they will have to perform the hook step of the song played within 30 sec. Round 3: “Shamitabh” About: The qualified teams from round 2 will now showcase their acting skills by enacting movies based on hard and easy categories under limited time. Round 4: “Brahmastra” About: This is the finale round of the event where there will be blended faces of movie stars which will be showcased and in end of round we will get our WINNER. ",
 
     Type: "Team",
-    prize1: "Prizes Worth Rs. 2500",
+    prize1: "Prizes Worth Rs. 1200",
     prize2: "",
     prize3: "",
     studn1: "Ankita Nandy",
@@ -312,7 +312,7 @@ const cardData = [
   },
   {
     id: 11,
-    event_name: "Unleash the Art ",
+    event_name: "UNLEASH THE ART ",
     date: "",
     short_description:
       " Unleash the Art is an immersive event that celebrates creativity and self-expression through various art forms such as painting, sculpture, photography, and performance art.",
@@ -320,7 +320,7 @@ const cardData = [
       "The event will take place in a large, open space with various installations and exhibits scattered throughout. Attendees will be free to wander and explore at their own pace, interacting with the art and the artists themselves. In addition to the exhibits, there will be live performances and interactive workshops where attendees can learn new techniques and try their hand at different art forms. In this event we arranging two sub-events for the attendees: Reel-making: ➨ In this event, participants will be able to showcase their creativity, talent, and editing skills such as dancing, singing, playing instruments, photography, transition videos, etc. the participants have to perform or exhibit their art or talents via a reel of a maximum of 1 minute. Photography: ➨ In this event, participants have to submit an original clicked photograph displaying the theme reflection. In this event, the participants are allowed to perform open editing revolving around the theme.",
 
     Type: "N/A",
-    prize1: "Prizes Worth Rs. 2400",
+    prize1: "Prizes Worth Rs. 1200",
     prize2: "",
     prize3: "",
     studn1: "Sanjay Chilveri",
@@ -329,7 +329,7 @@ const cardData = [
     scontact2: "9767537133",
     faculty: "Mrs. Madhuri Suryavanshi",
     rule1:
-      "⦿ For Photography: ➨ Required Photo should be based on a theme Reflections.",
+      "⦿ For Photography: ➨ Required Photo should be based on a 'theme Reflections'.",
     rule2: "⦿ Editing is allowed. Theme-based editing can also be done.",
     rule3: "⦿ The Photo clicked should be during the Time of Anantya.",
     rule4: "⦿ For Reel Making: ➨  The reel must be of max 1 Minute.",
@@ -367,7 +367,7 @@ const cardData = [
     scontact1: "9503380951",
     studn2: "Saie Mukane",
     scontact2: "7249615728",
-    faculty: "Mr. Ganesh DeshMukh",
+    faculty: "Mr. Ganesh Deshmukh",
     rule1:
       "⦿ ROUND - 1 (Death-or-Glory) ➨ Round 1 includes a quiz consisting of 20 questions based of situational trivia.",
     rule2:
@@ -400,7 +400,7 @@ const cardData = [
     scontact2: "9503380951",
     faculty: "Mr. Ganesh Deshmukh",
     rule1: "N/A",
-    fee: "N/A",
+    fee: "No fees",
     rulelink: "#",
     image: "./posters/babyconn.jpg",
     path: "/Babyconn",
