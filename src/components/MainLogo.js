@@ -3,6 +3,7 @@ import BIRDS from "vanta/dist/vanta.fog.min";
 import { mainLogo, mainLogoM } from "../assets";
 import Design from "./Design";
 import Navbar from "./Navbar";
+import { MainLogo } from "../styles";
 // Make sure window.THREE is defined, e.g. by including three.min.js in the document head using a <script> tag
 
 const MyComponent = (props) => {
@@ -37,6 +38,7 @@ const MyComponent = (props) => {
 			<div className="container main-logo z-20">
 				<img src={mainLogo} className="img-fluid logo-img" />
 				<img src={mainLogoM} className="img-fluid logo-img-m" />
+				{/* <h1 className="mainlogo-h1">2023</h1> */}
 				<a href="#about" className="explore-button-a">
 					<button className="explore-btn">EXPLORE</button>
 				</a>

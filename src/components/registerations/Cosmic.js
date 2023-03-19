@@ -40,7 +40,7 @@ const eventRegister = () => {
 
    toast.info("Wait while submission gets over!", {
      position: "top-right",
-     autoClose: 5000,
+     autoClose: 2000,
      hideProgressBar: false,
      closeOnClick: true,
      pauseOnHover: true,
@@ -174,7 +174,7 @@ const eventRegister = () => {
               Enter Your PRN
             </label>
             <p className="p-tag">
-              *Note: If you are from Other College Please Pay registration fee
+              *Note: If you are from Other College Please Pay registration fees <b> Rs. 50 </b>
               And Add transaction ID otherwise registration will be rejected.
             </p>
 
