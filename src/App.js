@@ -64,6 +64,7 @@ function App() {
           <Route path="/The_Alpha_Analyst" element={<AlphaAnalyst />} />
           <Route path="/G20x_Anantya" element={<G20x />} />
           <Route path="/Movie_Trivia" element={<MovieTrivia />} />
+          <Route path="/Babyconn" element={<Babyconn />} />
         </Routes>
       </BrowserRouter>
       <Footer />
