@@ -29,7 +29,6 @@ const cardData = [
     rule6:
       "⦿ At the end of the contest, the top 3 teams with the highest scores will be selected as winners.",
     fee: "Rs.100",
-    fee: "Rs.100",
     rulelink:
       "https://drive.google.com/file/d/1bgSE10H5ndN1ZH9n9QYY5N7c755RFg6s/view?usp=share_link",
     image: "./posters/codigo.jpg",
@@ -162,7 +161,7 @@ const cardData = [
       "Experience a real-time IPL Auction with 210+ players and 10 teams bidding for their desired players. Each player is rated and teams submit their playing 11 for a final team rating. The team with the highest rating wins. Enjoy the excitement of the IPL Auction!",
     detailed_description:
       "Welcome to the real-time IPL Auction featuring 210+ players. Ten teams will participate in the auction, with each team bidding on the 210+ players and selecting their desired team. All players in the list have been assigned ratings. Each team must submit their playing 11, and the final team rating will be calculated based on the submitted playing 11. The team with the highest points based on their rating will be declared the winner. Join us and experience the thrill of the IPL Auction in real-time.",
-    Type: "Team of 4",
+    Type: "4 members per group",
     prize1: "Prizes Worth Rs. 6500",
     prize2: "",
     prize3: "",
@@ -171,16 +170,16 @@ const cardData = [
     studn2: "Saish Kothawade",
     scontact2: "8469300010",
     faculty: "Mr. Ganesh Kadam",
-    rule1: "⦿ Each Team given a Budget: 100 CR.",
-    rule2: "⦿ Judging criteria - Average of Rating of Players the Team owns.",
-    rule3: "⦿ Minimum 11 and maximum 15 player.",
-    rule4: "⦿ Maximum 4 can participate in the auction.",
+    rule1: "⦿ Only top 10 teams will be selected for Final Auction.",
+    rule2: "⦿ Each Team will be given a Budget: 100 Cr.",
+    rule3: "Judging criteria - Total rating of players the team owns Minimum 11 and max 15 players.",
+    rule4: "⦿  Capt. Rating will be x2, Vice Capt. ×1.5.",
     rule5:
       "⦿ Auction will be conducted for 1 extra RTM if required (Base Price 20 lakh)",
-    rule6: "⦿ Only top 10 teams will be selected for Final Auction.",
+    rule6: "⦿ Base price for team name bidding - 50 Lakhs.",
     fee: "Rs.160",
     rulelink:
-      "https://drive.google.com/file/d/1r4NO0EBQq1Ga8S0BWw3IyTnNgpyjjACW/view?usp=share_link",
+      "https://drive.google.com/file/d/16-GlvRCTn_gmLYxizpC28LZyeTRQA0L9/view?usp=share_link",
     image: "./posters/IPL.jpg",
     path: "/IPL_Auction",
   },
@@ -285,8 +284,6 @@ const cardData = [
     detailed_description:
       "The Movie Trivia College Event is a competition that tests participants' knowledge of films from various genres and eras, Acting & Music skills too . Typically, the event is organized for college students and is conducted in a team format where teams of participants compete against each other. In this competition there are 4 rounds: Round 1: “Lagge rahoo  munna bhaii” This is a Quiz round group of two member have to participate, kahoot quiz based on trivial movie questions. Top winning teams will be proceed to next round depending on the participation count.        Round 2: “Nach baliye” The qualified teams of round 1 will be grouped in a group of four members and they will have to perform the hook step of the song played within 30 sec. Round 3: “Shamitabh” About: The qualified teams from round 2 will now showcase their acting skills by enacting movies based on hard and easy categories under limited time. Round 4: “Brahmastra” About: This is the finale round of the event where there will be blended faces of movie stars which will be showcased and in end of round we will get our WINNER. ",
 
-
-
     Type: "Team",
     prize1: "Prizes Worth Rs. 1200",
     prize1: "Prizes Worth Rs. 1200",
@@ -388,7 +385,7 @@ const cardData = [
   },
   {
     id: 14,
-    event_name: "BABYCON",
+    event_name: "BABYCON'23",
     date: "27/03/2023",
     short_description:
       "Brace yourself for an event unlike any other! For the first time ever in PCCOE history, we're thrilled to announce the launch of our ground-breaking event “Babycon” where you'll gain access to exclusive insights, powerful tools, and unparalleled networking opportunities.",
@@ -401,7 +398,6 @@ const cardData = [
     scontact2: "9503380951",
     faculty: "Mr. Ganesh Deshmukh",
     rule1: "N/A",
-    fee: "No fees",
     fee: "No fees",
     rulelink: "#",
     image: "./posters/babyconn.jpg",
