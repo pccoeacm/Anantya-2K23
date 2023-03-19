@@ -1,12 +1,10 @@
-import React from 'react'
-import './Webbit.css'
-import Navbar from '../Navbar'
+import React from "react";
+import "./Webbit.css";
+import Navbar from "../Navbar";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const eventRegister = () => {
-
-
   function HandleEventClick(e) {
     const formEle = document.getElementById("form");
     const formDatab = new FormData(formEle);
@@ -15,31 +13,31 @@ const eventRegister = () => {
       "https://script.google.com/macros/s/AKfycbwB8Chnrvv4YWELc4l-hsEMmQQS8uJG2K6BmlfjgHn7NOis_r3_riQpvSke-L2WR2sh/exec",
       {
         method: "POST",
-        body: formDatab
+        body: formDatab,
       }
     )
-    .then((res) => {
-      // console.log("Response status:", res.status);
-      // alert('Successfully submitted');
-      toast.success("Successfully submitted", {
-        position: "top-center",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "dark",
+      .then((res) => {
+        // console.log("Response status:", res.status);
+        // alert('Successfully submitted');
+        toast.success("Successfully submitted", {
+          position: "top-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "dark",
+        });
+        document.getElementById("form").reset();
+      })
+      .catch((error) => {
+        console.log(error);
       });
-      document.getElementById("form").reset();
-    })
-    .catch((error) => {
-      console.log(error);
-    });
 
     toast.info("Wait while submission gets over!", {
       position: "top-right",
-      autoClose: 5000,
+      autoClose: 2000,
       hideProgressBar: false,
       closeOnClick: true,
       pauseOnHover: true,
@@ -47,11 +45,7 @@ const eventRegister = () => {
       progress: undefined,
       theme: "light",
     });
-   
-
   }
-
-
 
   return (
     <>
@@ -64,7 +58,7 @@ const eventRegister = () => {
         
 
         <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
-        <h2 className="font-normal">BABYCONN</h2>
+        <h2 className="font-normal">BABYCON</h2>
         <div id="personalInfo">
                             <h1 id="personal-info" >Personal Information</h1>
                         </div>
@@ -125,6 +119,6 @@ const eventRegister = () => {
          
     </>
   );
-}
+};
 
-export default eventRegister
+export default eventRegister;

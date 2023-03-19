@@ -38,7 +38,7 @@ const eventRegister = () => {
 
    toast.info("Wait while submission gets over!", {
      position: "top-right",
-     autoClose: 5000,
+     autoClose: 2000,
      hideProgressBar: false,
      closeOnClick: true,
      pauseOnHover: true,
@@ -113,7 +113,7 @@ const eventRegister = () => {
                         <input type="text" className="column" name="academic_year" id="registeration-input" placeholder="Eg. FE/SE/TE/BE" required></input>
                       
                         <label id="lable-tag" className="" for="" >Enter Your PRN</label>
-                        
+
                         <input type="text" className="column" name="PRN" id="registeration-input" placeholder="PRN or Transaction ID" required></input>
 
                         <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>

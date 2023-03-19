@@ -1,37 +1,38 @@
 import { aboutBGM } from "../assets";
 const cardData = [
-	{
-		id: 1,
-		event_name: "Codigo 3.0",
-		date: "27/03/2023",
-		short_description:
-			" Codigo comprises of two rounds with time limits of 1.5 and 2 hours respectively, testing participants' logic, data structures, and competitiveness. Teams are ranked by their code's score, and in case of a tie, the submission time for the final solution is considered.",
-		detailed_description:
-			"Codigo will put your sense of logic, competitiveness, and data structure to the test. It is a unique event with two rounds. The first round will have a 1.5-hour time limit, while the second round will have a 2-hour time limit. Your aptitude for logic and fundamental data structures will be tested in the first round, and your competitiveness and complex data structure skills will be tested in the second round. Each issue will have a fixed score, and the number of test cases that a team's submitted code passes will determine their performance. Teams will be ranked based on their score, and in case of ties, the time it took to submit the final solution that resulted in a higher score will be used to break the tie.",
-		Type: "Team of 3 ",
-		prize1: "Prizes Worth Rs. 6500",
-		prize2: "",
-		prize3: "",
-		studn1: "Om Gupta",
-		scontact1: "7020635160",
-		studn2: "Bhushan Patil",
-		scontact2: "9028239735",
-		faculty: "Mr. Rahul Pitale",
-		rule1: "⦿ Team size: 3 individuals only.",
-		rule2: "⦿ Number of teams -150 max.",
-		rule3: "⦿ Rs. 90 Registration fee for non-PCCOEian.",
-		rule4:
-			"⦿ All departments are eligible to participate in the coding competition (FY to BE).",
-		rule5:
-			"⦿ All participants will get an e-certificate (participation certificate).",
-		rule6:
-			"⦿ At the end of the contest, the top 3 teams with the highest scores will be selected as winners.",
-		fee: "Rs.90",
-		rulelink:
-			"https://drive.google.com/file/d/1U8ljtqw3dPJ0VdZBb2w4O2r2nwqgVJBK/view?usp=share_link",
-		image: "./posters/codigo.jpg",
-		path: "/codigo",
-	},
+  {
+    id: 1,
+    event_name: "Codigo 3.0",
+    date: "27/03/2023",
+    short_description:
+      " Codigo has 2 rounds, each with a time limit of 1.5 and 2 hours respectively, testing participants' logic, data structures, and competitiveness. Teams are ranked by code score, with submission time considered in case of a tie.",
+    detailed_description:
+      "Codigo will put your sense of logic, competitiveness, and data structure to the test. It is a unique event with two rounds. The first round will have a 1.5-hour time limit, while the second round will have a 2-hour time limit. Your aptitude for logic and fundamental data structures will be tested in the first round, and your competitiveness and complex data structure skills will be tested in the second round. Each issue will have a fixed score, and the number of test cases that a team's submitted code passes will determine their performance. Teams will be ranked based on their score, and in case of ties, the time it took to submit the final solution that resulted in a higher score will be used to break the tie.",
+    Type: "Team of 3 ",
+    prize1: "Prizes Worth Rs. 6500",
+    prize2: "",
+    prize3: "",
+    studn1: "Om Gupta",
+    scontact1: "7020635160",
+    studn2: "Bhushan Patil",
+    scontact2: "9028239735",
+    faculty: "Mr. Rahul Pitale",
+    rule1: "⦿ Team size: 3 individuals only.",
+    rule2: "⦿ Number of teams -150 max.",
+    rule3: "⦿ Rs. 90 Registration fee for non-PCCOEian.",
+    rule4:
+      "⦿ All departments are eligible to participate in the coding competition (FY to BE).",
+    rule5:
+      "⦿ All participants will get an e-certificate (participation certificate).",
+    rule6:
+      "⦿ At the end of the contest, the top 3 teams with the highest scores will be selected as winners.",
+    fee: "Rs.90",
+    rulelink:
+      "https://drive.google.com/file/d/1U8ljtqw3dPJ0VdZBb2w4O2r2nwqgVJBK/view?usp=share_link",
+    image: "./posters/codigo.jpg",
+    path: "/codigo",
+  },
+
 
 	{
 		id: 2,
@@ -141,7 +142,7 @@ const cardData = [
 		rule2:
 			"⦿ No calculators are allowed for this event",
 		rule3: "⦿ Participants must bring a pen and paper for rough work for rounds 1.",
-		rule4: " ⦿ Top 3 participants of Round 2 will be the Winners.",
+		rule4: "⦿ Top 3 participants of Round 2 will be the Winners.",
 		rule5:
 			"⦿ Winners will be awarded with Cash Prize and rewards",
 		rule6:
@@ -283,127 +284,127 @@ const cardData = [
 		detailed_description:
 			"The Movie Trivia College Event is a competition that tests participants' knowledge of films from various genres and eras, Acting & Music skills too . Typically, the event is organized for college students and is conducted in a team format where teams of participants compete against each other. In this competition there are 4 rounds: Round 1: “Lagge rahoo  munna bhaii” This is a Quiz round group of two member have to participate, kahoot quiz based on trivial movie questions. Top winning teams will be proceed to next round depending on the participation count.        Round 2: “Nach baliye” The qualified teams of round 1 will be grouped in a group of four members and they will have to perform the hook step of the song played within 30 sec. Round 3: “Shamitabh” About: The qualified teams from round 2 will now showcase their acting skills by enacting movies based on hard and easy categories under limited time. Round 4: “Brahmastra” About: This is the finale round of the event where there will be blended faces of movie stars which will be showcased and in end of round we will get our WINNER. ",
 
-		Type: "Team",
-		prize1: "Prizes Worth Rs. 2500",
-		prize2: "",
-		prize3: "",
-		studn1: "Ankita Nandy",
-		scontact1: "8420574336",
-		studn2: "Auyash Sarode",
-		scontact2: "7756019583",
-		faculty: "Mrs. Madhuri Suryavanshi",
-		rule1:
-			"⦿ Round 1: “Lagge rahoo  munna bhaii”. ➨ This is a Quiz round group of two member have to participate, kahoot quiz based on trivial movie questions. Top winning teams will be proceed to next round depending on the participation count.",
-		rule2:
-			"⦿ Round 2: “Nach baliye” ➨ The qualified teams of round 1 will be grouped in a group of four members and they will have to perform the hook step of the song played within 30 sec.",
-		rule3:
-			"⦿ Round 3: “Shamitabh” ➨ The qualified teams from round 2 will now showcase their acting skills by enacting movies based on hard and easy categories under limited time.",
-		rule4: "⦿ Round 4: “Brahmastra” ",
-		rule5:
-			"⦿ In case of a tie in any round the organizers will be taking the final decision",
-		rule6:
-			"⦿ If the participants and volunteer is found misbehaving or involved in any malpractice strict action will be taken against them and the team will be disqualified.",
-		fee: "Free to All Paticipants",
-		rulelink:
-			"https://drive.google.com/file/d/12RReGj611y4fWZ8dy2OIzd95TGMZ-3b5/view?usp=share_link",
-		image: "./posters/movieTrivia.jpg",
-		path: "/Movie_Trivia",
-	},
-	{
-		id: 11,
-		event_name: "Unleash the Art ",
-		date: "",
-		short_description:
-			" Unleash the Art is an immersive event that celebrates creativity and self-expression through various art forms such as painting, sculpture, photography, and performance art.",
-		detailed_description:
-			"The event will take place in a large, open space with various installations and exhibits scattered throughout. Attendees will be free to wander and explore at their own pace, interacting with the art and the artists themselves. In addition to the exhibits, there will be live performances and interactive workshops where attendees can learn new techniques and try their hand at different art forms. In this event we arranging two sub-events for the attendees: Reel-making: ➨ In this event, participants will be able to showcase their creativity, talent, and editing skills such as dancing, singing, playing instruments, photography, transition videos, etc. the participants have to perform or exhibit their art or talents via a reel of a maximum of 1 minute. Photography: ➨ In this event, participants have to submit an original clicked photograph displaying the theme reflection. In this event, the participants are allowed to perform open editing revolving around the theme.",
+    Type: "Team",
+    prize1: "Prizes Worth Rs. 2500",
+    prize2: "",
+    prize3: "",
+    studn1: "Ankita Nandy",
+    scontact1: "8420574336",
+    studn2: "Auyash Sarode",
+    scontact2: "7756019583",
+    faculty: "Mrs. Madhuri Suryavanshi",
+    rule1:
+      "⦿ Round 1: “Lagge rahoo  munna bhaii”. ➨ This is a Quiz round group of two member have to participate, kahoot quiz based on trivial movie questions. Top winning teams will be proceed to next round depending on the participation count.",
+    rule2:
+      "⦿ Round 2: “Nach baliye” ➨ The qualified teams of round 1 will be grouped in a group of four members and they will have to perform the hook step of the song played within 30 sec.",
+    rule3:
+      "⦿ Round 3: “Shamitabh” ➨ The qualified teams from round 2 will now showcase their acting skills by enacting movies based on hard and easy categories under limited time.",
+    rule4: "⦿ Round 4: “Brahmastra” ",
+    rule5:
+      "⦿ In case of a tie in any round the organizers will be taking the final decision",
+    rule6:
+      "⦿ If the participants and volunteer is found misbehaving or involved in any malpractice strict action will be taken against them and the team will be disqualified.",
+    fee: "Free to All Paticipants",
+    rulelink:
+      "https://drive.google.com/file/d/12RReGj611y4fWZ8dy2OIzd95TGMZ-3b5/view?usp=share_link",
+    image: "./posters/movieTrivia.jpg",
+    path: "/Movie_Trivia",
+  },
+  {
+    id: 11,
+    event_name: "Unleash the Art ",
+    date: "",
+    short_description:
+      " Unleash the Art is an immersive event that celebrates creativity and self-expression through various art forms such as painting, sculpture, photography, and performance art.",
+    detailed_description:
+      "The event will take place in a large, open space with various installations and exhibits scattered throughout. Attendees will be free to wander and explore at their own pace, interacting with the art and the artists themselves. In addition to the exhibits, there will be live performances and interactive workshops where attendees can learn new techniques and try their hand at different art forms. In this event we arranging two sub-events for the attendees: Reel-making: ➨ In this event, participants will be able to showcase their creativity, talent, and editing skills such as dancing, singing, playing instruments, photography, transition videos, etc. the participants have to perform or exhibit their art or talents via a reel of a maximum of 1 minute. Photography: ➨ In this event, participants have to submit an original clicked photograph displaying the theme reflection. In this event, the participants are allowed to perform open editing revolving around the theme.",
 
-		Type: "N/A",
-		prize1: "Prizes Worth Rs. 2400",
-		prize2: "",
-		prize3: "",
-		studn1: "Sanjay Chilveri",
-		scontact1: "7718063047",
-		studn2: "Tanmay Jain",
-		scontact2: "9767537133",
-		faculty: "Mrs. Madhuri Suryavanshi",
-		rule1:
-			"⦿ For Photography: ➨ Required Photo should be based on a theme Reflections.",
-		rule2: "⦿ Editing is allowed. Theme-based editing can also be done.",
-		rule3: "⦿ The Photo clicked should be during the Time of Anantya.",
-		rule4: "⦿ For Reel Making: ➨  The reel must be of max 1 Minute.",
-		rule5:
-			"⦿ In this reel-making competition you have to showcase your talent like dance, singing, transition photo reel, playing instruments, etc",
-		rule6: "⦿ The reel should be made during the time of Anantya.",
-		fee: "Free to All Participants",
-		rulelink:
-			"https://drive.google.com/file/d/1_eAkYeCCeAD2UcAfVMcoNKyV73wOVi25/view?usp=share_link",
-		image: "./posters/Unleash.jpg",
-		path: "https://forms.gle/HmnSMCRqookrN3xm6",
-	},
-	{
-		id: 12,
-		event_name: "Sports League ",
-		date: "",
-		short_description: "Comming Soon !",
-		detailed_description: "Comming Soon !",
-		image: "./posters/sports.jpg",
-		rulelink:
-			"https://drive.google.com/file/d/1EfoCIy940q_N0sJS0nLLc-5JnEkEmH0w/view?usp=share_link",
-		path: "#",
-	},
-	{
-		id: 13,
-		event_name: "SHER-[LOCK] ",
-		date: "28/03/2023",
-		short_description:
-			"You and a friend were engaged in a game when suddenly your device was hacked. Let's seek assistance from Team OWASP to track down this cybercriminal. We can identify the hacker if  we apply some basic level IQ & fun logic to find the treasure.",
-		detailed_description:
-			"You and a friend were engaged in a game when suddenly your device was hacked. Let's seek assistance from Team OWASP to track down this cybercriminal. We can identify the hacker if  we apply some basic level IQ & fun logic to find the treasure. There will be three levels, and as you pass each one, the hacker will appear closer to you. Somewhere in your vicinity is a hidden chest containing the clues you need to identify the hacker. Let's go on a treasure hunt together.",
-		Type: "Duo",
-		prize1: "Prize: Rs.3000",
-		studn1: "Arya Kaslikar",
-		scontact1: "9503380951",
-		studn2: "Saie Mukane",
-		scontact2: "7249615728",
-		faculty: "Mr. Ganesh DeshMukh",
-		rule1:
-			"⦿ ROUND - 1 (Death-or-Glory) ➨ Round 1 includes a quiz consisting of 20 questions based of situational trivia.",
-		rule2:
-			"⦿ Every team will be ranked on the maximum score of the submission. If two teams have the same score, the team that finished earlier will be ranked higher.",
-		rule3:
-			"⦿ ROUND - 2 (You can’t catch me) ➨ Only 30 teams will qualify for round 2.",
-		rule4:
-			"⦿ There will be questions based on the places inside the campus and the teams which answer the questions correctly and faster will move on to the next round.",
-		rule5:
-			"⦿ ROUND - 3 (Let me iiiinnnnn) ➨ Only top 15 teams will qualify for round 3. ",
-		rule6: "⦿ Make sure you download a QR scanner before the round begins.",
-		fee: "Rs.100",
-		rulelink:
-			"https://drive.google.com/file/d/1u7_EqPmYVcfCl3VLU2UCo15CijZmnwJV/view?usp=share_link",
-		image: "./posters/sherlock.jpg",
-		path: "https://aryak-31.github.io/sherlock/",
-	},
-	{
-		id: 14,
-		event_name: "BABYCON",
-		date: "27/03/2023",
-		short_description:
-			"Brace yourself for an event unlike any other! For the first time ever in PCCOE history, we're thrilled to announce the launch of our ground-breaking event “Babycon” where you'll gain access to exclusive insights, powerful tools, and unparalleled networking opportunities.",
-		detailed_description:
-			"We are happy to introduce you to a unique opportunity to connect, learn, and grow with industry leaders. Our goal is to create a memorable experience that will inspire, educate, and empower you to achieve your professional and personal goals. With a diverse line-up of keynote speakers, interactive workshops, and networking opportunities, this conference is the perfect platform to share ideas, build new relationships, and discover innovative solutions. We can't wait to see you there! .",
-		Type: "Register as Attendee",
-		studn1: "Khush Kothari",
-		scontact1: "9145350146",
-		studn2: "Arya Kaslikar",
-		scontact2: "9503380951",
-		faculty: "Mr. Ganesh Deshmukh",
-		rule1: "N/A",
-		fee: "N/A",
-		rulelink: "#",
-		image: "./posters/babyconn.jpg",
-		path: "/Babyconn",
-	},
+    Type: "N/A",
+    prize1: "Prizes Worth Rs. 2400",
+    prize2: "",
+    prize3: "",
+    studn1: "Sanjay Chilveri",
+    scontact1: "7718063047",
+    studn2: "Tanmay Jain",
+    scontact2: "9767537133",
+    faculty: "Mrs. Madhuri Suryavanshi",
+    rule1:
+      "⦿ For Photography: ➨ Required Photo should be based on a theme Reflections.",
+    rule2: "⦿ Editing is allowed. Theme-based editing can also be done.",
+    rule3: "⦿ The Photo clicked should be during the Time of Anantya.",
+    rule4: "⦿ For Reel Making: ➨  The reel must be of max 1 Minute.",
+    rule5:
+      "⦿ In this reel-making competition you have to showcase your talent like dance, singing, transition photo reel, playing instruments, etc",
+    rule6: "⦿ The reel should be made during the time of Anantya.",
+    fee: "Free to All Participants",
+    rulelink:
+      "https://drive.google.com/file/d/1_eAkYeCCeAD2UcAfVMcoNKyV73wOVi25/view?usp=share_link",
+    image: "./posters/Unleash.jpg",
+    path: "https://forms.gle/HmnSMCRqookrN3xm6",
+  },
+  // {
+  // 	id: 12,
+  // 	event_name: "Sports League ",
+  // 	date: "",
+  // 	short_description: "Comming Soon !",
+  // 	detailed_description: "Comming Soon !",
+  // 	image: "./posters/sports.jpg",
+  // 	rulelink:
+  // 		"https://drive.google.com/file/d/1EfoCIy940q_N0sJS0nLLc-5JnEkEmH0w/view?usp=share_link",
+  // 	path: "#",
+  // },
+  {
+    id: 13,
+    event_name: "SHER-[LOCK] ",
+    date: "28/03/2023",
+    short_description:
+      "You and a friend were engaged in a game when suddenly your device was hacked. Let's seek assistance from Team OWASP to track down this cybercriminal. We can identify the hacker if  we apply some basic level IQ & fun logic to find the treasure.",
+    detailed_description:
+      "You and a friend were engaged in a game when suddenly your device was hacked. Let's seek assistance from Team OWASP to track down this cybercriminal. We can identify the hacker if  we apply some basic level IQ & fun logic to find the treasure. There will be three levels, and as you pass each one, the hacker will appear closer to you. Somewhere in your vicinity is a hidden chest containing the clues you need to identify the hacker. Let's go on a treasure hunt together.",
+    Type: "Duo",
+    prize1: "Prize: Rs.3000",
+    studn1: "Arya Kaslikar",
+    scontact1: "9503380951",
+    studn2: "Saie Mukane",
+    scontact2: "7249615728",
+    faculty: "Mr. Ganesh DeshMukh",
+    rule1:
+      "⦿ ROUND - 1 (Death-or-Glory) ➨ Round 1 includes a quiz consisting of 20 questions based of situational trivia.",
+    rule2:
+      "⦿ Every team will be ranked on the maximum score of the submission. If two teams have the same score, the team that finished earlier will be ranked higher.",
+    rule3:
+      "⦿ ROUND - 2 (You can’t catch me) ➨ Only 30 teams will qualify for round 2.",
+    rule4:
+      "⦿ There will be questions based on the places inside the campus and the teams which answer the questions correctly and faster will move on to the next round.",
+    rule5:
+      "⦿ ROUND - 3 (Let me iiiinnnnn) ➨ Only top 15 teams will qualify for round 3. ",
+    rule6: "⦿ Make sure you download a QR scanner before the round begins.",
+    fee: "Rs.100",
+    rulelink:
+      "https://drive.google.com/file/d/1u7_EqPmYVcfCl3VLU2UCo15CijZmnwJV/view?usp=share_link",
+    image: "./posters/sherlock.jpg",
+    path: "https://aryak-31.github.io/sherlock/",
+  },
+  {
+    id: 14,
+    event_name: "BABYCON",
+    date: "27/03/2023",
+    short_description:
+      "Brace yourself for an event unlike any other! For the first time ever in PCCOE history, we're thrilled to announce the launch of our ground-breaking event “Babycon” where you'll gain access to exclusive insights, powerful tools, and unparalleled networking opportunities.",
+    detailed_description:
+      "We are happy to introduce you to a unique opportunity to connect, learn, and grow with industry leaders. Our goal is to create a memorable experience that will inspire, educate, and empower you to achieve your professional and personal goals. With a diverse line-up of keynote speakers, interactive workshops, and networking opportunities, this conference is the perfect platform to share ideas, build new relationships, and discover innovative solutions. We can't wait to see you there! .",
+    Type: "Register as Attendee",
+    studn1: "Khush Kothari",
+    scontact1: "9145350146",
+    studn2: "Arya Kaslikar",
+    scontact2: "9503380951",
+    faculty: "Mr. Ganesh Deshmukh",
+    rule1: "N/A",
+    fee: "N/A",
+    rulelink: "#",
+    image: "./posters/babyconn.jpg",
+    path: "/Babyconn",
+  },
 ];
 
 export default cardData;
