@@ -23,29 +23,14 @@ const Footer = () => {
         </div>
         <div className="col text-center footer-links-main">
           <div className="row d-flex row-gap-4">
-            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-              <a href="#" className="footer-links">
-                Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              </a>
-              {/* <NavLink to="/" className="nav-link">
-                  <span className="navitem">Home</span>
-                </NavLink> */}
-            </div>
-            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-              <a href="#about" className="footer-links">
-                About&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              </a>
-            </div>
-            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-              <a href="#" className="footer-links">
-                Events&nbsp;&nbsp;&nbsp;&nbsp;
-              </a>
-            </div>
-            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-              <a href="#calendar-page" className="footer-links">
-                Calendar
-              </a>
-            </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.273282807927!2d73.75944575028471!3d18.651728787270535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9e76c8fa205%3A0x1b210131915734fd!2sPCCOE%20-%20Pimpri%20Chinchwad%20College%20Of%20Engineering%20%7C%20Autonomous%20Engineering%20College%20in%20Pune!5e0!3m2!1sen!2sin!4v1679231613250!5m2!1sen!2sin"
+              width="150"
+              height="150"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
         <div className="col-5 row-gap-3 footer-contact-us-div-col">
