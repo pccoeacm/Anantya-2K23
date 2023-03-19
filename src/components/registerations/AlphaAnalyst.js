@@ -6,11 +6,14 @@ import "react-toastify/dist/ReactToastify.css";
 import { alphaAnalyst } from "../../assets/QR_codes/qr";
 import { firebaseAuth, useFirebase } from "../../context/Firebase";
 
-const eventRegister = () => {
-  // const firebase = useFirebase();
 
-  // const userId = firebase.auth().currentUser.uid;
-  // console.log(userId);
+
+const EventRegister = () => {
+  const firebase = useFirebase();
+
+  const userId = firebase.auth().currentUser.uid;
+  const userEmail = firebase.auth().currentUser.email;
+  console.log(userEmail);
 
   function HandleEventClick(e) {
     const formEle = document.getElementById("form");
@@ -212,4 +215,4 @@ const eventRegister = () => {
   );
 };
 
-export default eventRegister;
+export default EventRegister;

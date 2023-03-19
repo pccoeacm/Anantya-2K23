@@ -3,6 +3,7 @@ import "./Webbit.css";
 import Navbar from "../Navbar";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { ipl } from "../../assets/QR_codes/qr";
 
 const eventRegister = () => {
   function HandleEventClick(e) {
@@ -10,7 +11,7 @@ const eventRegister = () => {
     const formDatab = new FormData(formEle);
     e.preventDefault();
     fetch(
-      "https://script.google.com/macros/s/AKfycbz3ZZoDLSDX2jyDcIHU8WhN524q1ROzHTNH27iSPVY3pWkLK-dt7KEb63RdE85afsTp/exec",
+      "https://script.google.com/macros/s/AKfycbzk-yRDlOoOuDPp50zFsuVTE8w_Supx7pxt8Qof_XWtT0Rswca2LuA8f59xhDArpdcU/exec",
       {
         method: "POST",
         body: formDatab,
@@ -67,7 +68,7 @@ const eventRegister = () => {
               alignItems: "center",
             }}
           >
-            <h2 className="font-normal">Movie Trivia</h2>
+            <h2 className="font-normal">IPL AUCTION</h2>
             <div id="personalInfo">
               <h1 id="personal-info">Team Lead Information</h1>
             </div>
@@ -166,6 +167,11 @@ const eventRegister = () => {
             <label id="lable-tag" className="" for="">
               Enter Your PRN
             </label>
+            <p className="p-tag">
+              *Note: If you are from Other College Please Pay registration fees{" "}
+              <b> Rs. 160 </b>
+              And Add transaction ID otherwise registration will be rejected.
+            </p>
 
             <input
               type="text"
@@ -184,6 +190,8 @@ const eventRegister = () => {
                 alignItems: "center",
               }}
             >
+              <img width="200" height="200" src={ipl}></img>
+              <p className="p-tag2">Scan QR to pay</p>
               <button name="Name" type="submit" className="pulse">
                 Submit
               </button>

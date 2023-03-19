@@ -4,7 +4,7 @@ import Navbar from "../Navbar";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { perplexo } from "../../assets/QR_codes/qr";
-const eventRegister = () => {
+const EventRegister = () => {
   function HandleEventClick(e) {
     const formEle = document.getElementById("form");
     const formDatab = new FormData(formEle);
@@ -204,4 +204,4 @@ const eventRegister = () => {
   );
 };
 
-export default eventRegister;
+export default EventRegister;
