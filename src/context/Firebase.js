@@ -6,6 +6,7 @@ import {
     signInWithPopup,
     onAuthStateChanged,
 } from "firebase/auth";
+import { getDatabase, set, ref } from "firebase/database";
 
 const firebaseConfig = {
     apiKey: "AIzaSyA4qQTGQFwJgdpdeV4EWy48O8ayEeAY48w",
@@ -18,9 +19,10 @@ const firebaseConfig = {
 };
 
 export const firebaseApp = initializeApp(firebaseConfig);
-const firebaseAuth = getAuth(firebaseApp);
+export const firebaseAuth = getAuth(firebaseApp);
 const googleProvider = new GoogleAuthProvider();
 const FirebaseContext = createContext(null);
+const database = getDatabase(firebaseApp);
 
 export const useFirebase = () => useContext(FirebaseContext);
 
@@ -38,11 +40,16 @@ export const FirebaseProvider = (props) => {
         }
     });
 
+    const putData = (key, data) => set(ref(database, key), data);
+
+
+
     return (
         <FirebaseContext.Provider
             value={{
                 signupWithGoogle,
                 LoggedInUser,
+                putData
             }}
         >
             {props.children}

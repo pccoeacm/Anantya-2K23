@@ -26,6 +26,11 @@
     color: #ffffff;
 }
 
+.timeline-heading {
+    color: red;
+    align-self: center;
+}
+
 .day1 {
     z-index: 10;
 }
@@ -120,6 +125,7 @@
 .hour-para {
     margin: 5px;
     font-size: 12px;
+    padding: 5px;
 }
 
 .Event {
