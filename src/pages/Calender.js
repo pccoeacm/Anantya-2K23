@@ -19,7 +19,9 @@ const Calender = () => {
                 <h1 className="text-fluid text-center calendar-heading">
                     CALENDAR
                 </h1>
-                <p className="timeline-heading">This is just tentative Timeline</p>
+                <p className="timeline-heading">
+                    This is just tentative Timeline
+                </p>
                 <div className="d-flex flex-column day1">
                     <h2 className="text-fluid text-center day">DAY 1</h2>
                     <div className="timeline-main">
@@ -102,7 +104,7 @@ const Calender = () => {
                                 className={`Event Event-5-d1 ${
                                     day1 &&
                                     currTime >= 1100 &&
-                                    currTime <= 1330 &&
+                                    currTime <= 1430 &&
                                     "Event-5-d1-active"
                                 }`}
                             >
@@ -131,8 +133,8 @@ const Calender = () => {
                             <div
                                 className={`Event Event-8-d1 ${
                                     day1 &&
-                                    currTime >= 1400 &&
-                                    currTime <= 1800 &&
+                                    currTime >= 1030 &&
+                                    currTime <= 1430 &&
                                     "Event-8-d1-active"
                                 }`}
                             >
@@ -141,8 +143,8 @@ const Calender = () => {
                             <div
                                 className={`Event Event-9-d1 ${
                                     day1 &&
-                                    currTime >= 1200 &&
-                                    currTime <= 1700 &&
+                                    currTime >= 1400 &&
+                                    currTime <= 1800 &&
                                     "Event-8-d1-active"
                                 }`}
                             >
@@ -161,12 +163,22 @@ const Calender = () => {
                             <div
                                 className={`Event Event-11-d1 ${
                                     day1 &&
+                                    currTime >= 1000 &&
+                                    currTime <= 1100 &&
+                                    "Event-11-d1-active"
+                                }`}
+                            >
+                                <p className="hour-para">CAT R1</p>
+                            </div>
+                            <div
+                                className={`Event Event-12-d1 ${
+                                    day1 &&
                                     currTime >= 1400 &&
                                     currTime <= 1700 &&
                                     "Event-11-d1-active"
                                 }`}
                             >
-                                <p className="hour-para">CAT</p>
+                                <p className="hour-para">CAT R2</p>
                             </div>
                         </div>
                     </div>
