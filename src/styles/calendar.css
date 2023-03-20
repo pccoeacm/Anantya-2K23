@@ -144,10 +144,13 @@
 }
 
 /* cricket */
+/* cricket */
 .Event-1-d1 {
     grid-row: 2;
     grid-column: 1 / span 3;
 }
+
+/* codigo r1 */
 
 /* Codigo r1 */
 .Event-2-d1 {
@@ -167,6 +170,8 @@
     grid-column: 7 / span 10;
 }
 
+/* hackathon r1 */
+
 /* Hackathon r1 */
 .Event-5-d1 {
     grid-row: 4;
@@ -184,6 +189,8 @@
     grid-row: 5;
     grid-column: 6 / span 8;
 }
+
+/* ipl auction */
 
 /* IPL Auction */
 .Event-8-d1 {
