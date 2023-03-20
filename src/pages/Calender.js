@@ -123,8 +123,8 @@ const Calender = () => {
                             <div
                                 className={`Event Event-7-d1 ${
                                     day1 &&
-                                    currTime >= 1100 &&
-                                    currTime <= 1330 &&
+                                    currTime >= 1030 &&
+                                    currTime <= 1430 &&
                                     "Event-7-d1-active"
                                 }`}
                             >
@@ -133,8 +133,8 @@ const Calender = () => {
                             <div
                                 className={`Event Event-8-d1 ${
                                     day1 &&
-                                    currTime >= 1030 &&
-                                    currTime <= 1430 &&
+                                    currTime >= 1400 &&
+                                    currTime <= 1800 &&
                                     "Event-8-d1-active"
                                 }`}
                             >
@@ -143,8 +143,8 @@ const Calender = () => {
                             <div
                                 className={`Event Event-9-d1 ${
                                     day1 &&
-                                    currTime >= 1400 &&
-                                    currTime <= 1800 &&
+                                    currTime >= 1200 &&
+                                    currTime <= 1700 &&
                                     "Event-8-d1-active"
                                 }`}
                             >
@@ -153,8 +153,8 @@ const Calender = () => {
                             <div
                                 className={`Event Event-10-d1 ${
                                     day1 &&
-                                    currTime >= 1130 &&
-                                    currTime <= 1230 &&
+                                    currTime >= 1000 &&
+                                    currTime <= 1100 &&
                                     "Event-10-d1-active"
                                 }`}
                             >
@@ -174,7 +174,7 @@ const Calender = () => {
                                 className={`Event Event-12-d1 ${
                                     day1 &&
                                     currTime >= 1400 &&
-                                    currTime <= 1700 &&
+                                    currTime <= 1600 &&
                                     "Event-11-d1-active"
                                 }`}
                             >
