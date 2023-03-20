@@ -3,11 +3,10 @@ import "./Webbit.css";
 import Navbar from "../Navbar";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { codigo } from "../../assets/QR_codes/qr";
+import { alphaAnalyst } from "../../assets/QR_codes/qr";
 import { firebaseAuth, useFirebase } from "../../context/Firebase";
 
 const EventRegister = () => {
-
   const firebase = useFirebase();
   const [userEmail, setUserEmail] = useState("");
 
@@ -28,7 +27,7 @@ const EventRegister = () => {
     const formDatab = new FormData(formEle);
     e.preventDefault();
     fetch(
-      "https://script.google.com/macros/s/AKfycbz1REOrZTvdfDlgIIUVNrPJ97tLpscTSCbsTPVNBgeyiHMX-EAHlBP1dd29iBLGdY4T/exec",
+      "https://script.google.com/macros/s/AKfycbyUaUSsQHoupMEP5dWSCN-8_FMXwC28WQGlhdcyCmmJqthMheH05SKwsK_A-zPV4hZaaQ/exec",
       {
         method: "POST",
         body: formDatab,
@@ -47,6 +46,7 @@ const EventRegister = () => {
           progress: undefined,
           theme: "dark",
         });
+
         document.getElementById("form").reset();
       })
       .catch((error) => {
@@ -88,8 +88,7 @@ const EventRegister = () => {
               alignItems: "center",
             }}
           >
-            <h2 className="font-normal">Codigo 3.0</h2>
-
+            <h2 className="font-normal">Sher-[lock]</h2>
             <div id="personalInfo">
               <h1 id="personal-info">Team Lead Information</h1>
             </div>
@@ -124,7 +123,7 @@ const EventRegister = () => {
               placeholder="Preferred official email address"
               required
               value={userEmail}
-              disabled
+              disabled // Disable the input field so that the user cannot change it
             ></input>
 
             <label id="lable-tag" className="" for="contact">
@@ -187,18 +186,6 @@ const EventRegister = () => {
               required
             ></input>
 
-            <label id="lable-tag" className="" for="Hacker_Rank_Profile">
-              HackerRank Profile
-            </label>
-            <input
-              type="text"
-              className="column"
-              name="Hacker_Rank_Profile"
-              id="registeration-input"
-              placeholder="HackerRank Profile URL"
-              required
-            ></input>
-
             {isPccoeEmail && (
               <div>
                 <label id="lable-tag" className="" for="">
@@ -217,20 +204,22 @@ const EventRegister = () => {
 
             {!isPccoeEmail && (
               <div>
-                <label id="lable-tag" className="" for="PRN">
+                <label id="lable-tag" className="" for="">
                   Enter Transaction ID
                 </label>
                 <p className="p-tag">
-                  Note: Please pay registeration
+                  *Note: If you are from Other College Please Pay registration
                   fees <b> Rs. 100 </b>
-                  and add Transaction ID otherwise submission will be rejected.
+                  And Add transaction ID otherwise registration will be
+                  rejected.
                 </p>
+
                 <input
                   type="text"
                   className="column"
                   name="PRN"
                   id="registeration-input"
-                  placeholder="PRN or Transaction ID"
+                  placeholder="Transaction ID"
                   required
                 ></input>
                 <div
@@ -241,7 +230,7 @@ const EventRegister = () => {
                     alignItems: "center",
                   }}
                 >
-                  <img width="200" height="200" src={codigo}></img>
+                  <img width="200" height="200" src={alphaAnalyst}></img>
                   <p className="p-tag2">Scan QR to pay</p>
                 </div>
               </div>
@@ -255,7 +244,6 @@ const EventRegister = () => {
                 alignItems: "center",
               }}
             >
-        
               <button name="Name" type="submit" className="pulse">
                 Submit
               </button>

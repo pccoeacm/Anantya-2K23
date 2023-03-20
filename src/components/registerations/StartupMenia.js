@@ -1,11 +1,28 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Webbit.css";
 import Navbar from "../Navbar";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { startup } from "../../assets/QR_codes/qr";
+import { firebaseAuth, useFirebase } from "../../context/Firebase";
 
 const EventRegister = () => {
+
+  const firebase = useFirebase();
+  const [userEmail, setUserEmail] = useState("");
+
+  useEffect(() => {
+    // Get the email of the current user
+    const currentUser = firebaseAuth.currentUser;
+    if (currentUser) {
+      setUserEmail(currentUser.email);
+    }
+  }, []);
+
+  function HandleEventClick(e) {
+    // ...
+  }
+
   function HandleEventClick(e) {
     const formEle = document.getElementById("form");
     const formDatab = new FormData(formEle);
@@ -46,6 +63,8 @@ const EventRegister = () => {
       theme: "light",
     });
   }
+
+  const isPccoeEmail = userEmail.endsWith("@pccoepune.org");
 
   return (
     <>
@@ -102,6 +121,8 @@ const EventRegister = () => {
               id="registeration-input"
               placeholder="Preferred official email address"
               required
+              value={userEmail}
+              disabled
             ></input>
 
             <label id="lable-tag" className="" for="contact">
@@ -121,7 +142,6 @@ const EventRegister = () => {
             </label>
             <input
               type="text"
-              type="text"
               className="column"
               name="college_name"
               id="registeration-input"
@@ -133,7 +153,6 @@ const EventRegister = () => {
               Department{" "}
             </label>
             <input
-              type="text"
               type="text"
               className="column"
               name="dept"
@@ -147,7 +166,6 @@ const EventRegister = () => {
             </label>
             <input
               type="text"
-              type="text"
               className="column"
               name="roll_no"
               id="registeration-input"
@@ -160,7 +178,6 @@ const EventRegister = () => {
             </label>
             <input
               type="text"
-              type="text"
               className="column"
               name="academic_year"
               id="registeration-input"
@@ -168,23 +185,52 @@ const EventRegister = () => {
               required
             ></input>
 
-            <label id="lable-tag" className="" for="">
-              Enter Your PRN
-            </label>
-            <p className="p-tag">
-              *Note: If you are from Other College Please Pay registration fee{" "}
-              <b> Rs.70</b> And Add transaction ID otherwise registration will
-              be rejected.
-            </p>
+            {isPccoeEmail && (
+              <div>
+                <label id="lable-tag" className="" for="">
+                  Enter Your PRN
+                </label>
+                <input
+                  type="text"
+                  className="column"
+                  name="PRN"
+                  id="registeration-input"
+                  placeholder="PRN"
+                  required
+                ></input>
+              </div>
+            )}
 
-            <input
-              type="text"
-              className="column"
-              name="PRN"
-              id="registeration-input"
-              placeholder="PRN or Transaction ID"
-              required
-            ></input>
+            {!isPccoeEmail && (
+              <div>
+                <label id="lable-tag" className="" for="PRN">
+                  Enter Transaction ID
+                </label>
+                <p className="p-tag">
+                  Note: Please pay registeration fees <b> Rs. 70 </b>
+                  and add Transaction ID otherwise submission will be rejected.
+                </p>
+                <input
+                  type="text"
+                  className="column"
+                  name="PRN"
+                  id="registeration-input"
+                  placeholder="Transaction ID"
+                  required
+                ></input>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  <img width="200" height="200" src={startup}></img>
+                  <p className="p-tag2">Scan QR to pay</p>
+                </div>
+              </div>
+            )}
 
             <div
               style={{
@@ -194,8 +240,6 @@ const EventRegister = () => {
                 alignItems: "center",
               }}
             >
-              <img width="200" height="200" src={startup}></img>
-              <p className="p-tag2">Scan QR to pay</p>
               <button name="Name" type="submit" className="pulse">
                 Submit
               </button>

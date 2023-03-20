@@ -22,6 +22,7 @@ import AlphaAnalyst from './components/registerations/AlphaAnalyst'
 import G20x from './components/registerations/G20x'
 import MovieTrivia from './components/registerations/MovieTrivia'
 import Babyconn from './components/registerations/Babyconn'
+import Sherlock from './components/registerations/Sherlock'
 
 
 import { Design, Footer, Navbar } from "./components";
@@ -65,6 +66,7 @@ function App() {
           <Route path="/G20x_Anantya" element={<G20x />} />
           <Route path="/Movie_Trivia" element={<MovieTrivia />} />
           <Route path="/Babyconn" element={<Babyconn />} />
+          <Route path="/Sherlock" element={<Sherlock />} />
         </Routes>
       </BrowserRouter>
       <Footer />
