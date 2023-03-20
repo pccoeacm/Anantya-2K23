@@ -1,10 +1,25 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Webbit.css";
 import Navbar from "../Navbar";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { firebaseAuth, useFirebase } from "../../context/Firebase";
 
 const EventRegister = () => {
+
+  const firebase = useFirebase();
+  const [userEmail, setUserEmail] = useState("");
+  const [userName, setUserName] = useState("");
+
+  useEffect(() => {
+    // Get the email of the current user
+    const currentUser = firebaseAuth.currentUser;
+    if (currentUser) {
+      setUserEmail(currentUser.email);
+      setUserName(currentUser.displayName);
+    }
+  }, []);
+
   function HandleEventClick(e) {
     const formEle = document.getElementById("form");
     const formDatab = new FormData(formEle);
@@ -89,6 +104,7 @@ const EventRegister = () => {
               id="registeration-input"
               placeholder="Same as to be printed on Certificates"
               required
+              value={userName}
             />
 
             <label id="lable-tag" className="" for="email">
@@ -101,6 +117,7 @@ const EventRegister = () => {
               id="registeration-input"
               placeholder="Preferred official email address"
               required
+              value={userEmail}
             ></input>
 
             <label id="lable-tag" className="" for="contact">

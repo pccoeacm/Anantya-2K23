@@ -3,18 +3,20 @@ import "./Webbit.css";
 import Navbar from "../Navbar";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { alphaAnalyst } from "../../assets/QR_codes/qr";
+import { alphaAnalyst, sherlock } from "../../assets/QR_codes/qr";
 import { firebaseAuth, useFirebase } from "../../context/Firebase";
 
 const EventRegister = () => {
   const firebase = useFirebase();
   const [userEmail, setUserEmail] = useState("");
+  const [userName, setUserName] = useState("");
 
   useEffect(() => {
     // Get the email of the current user
     const currentUser = firebaseAuth.currentUser;
     if (currentUser) {
       setUserEmail(currentUser.email);
+      setUserName(currentUser.displayName);
     }
   }, []);
 
@@ -110,6 +112,7 @@ const EventRegister = () => {
               id="registeration-input"
               placeholder="Same as to be printed on Certificates"
               required
+              value={userName}
             />
 
             <label id="lable-tag" className="" for="email">
@@ -123,7 +126,7 @@ const EventRegister = () => {
               placeholder="Preferred official email address"
               required
               value={userEmail}
-              disabled // Disable the input field so that the user cannot change it
+               // Disable the input field so that the user cannot change it
             ></input>
 
             <label id="lable-tag" className="" for="contact">
@@ -230,7 +233,7 @@ const EventRegister = () => {
                     alignItems: "center",
                   }}
                 >
-                  <img width="200" height="200" src={alphaAnalyst}></img>
+                  <img width="200" height="200" src={sherlock}></img>
                   <p className="p-tag2">Scan QR to pay</p>
                 </div>
               </div>

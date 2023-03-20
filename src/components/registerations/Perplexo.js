@@ -11,12 +11,14 @@ const EventRegister = () => {
 
   const firebase = useFirebase();
   const [userEmail, setUserEmail] = useState("");
+  const [userName, setUserName] = useState("");
 
   useEffect(() => {
     // Get the email of the current user
     const currentUser = firebaseAuth.currentUser;
     if (currentUser) {
       setUserEmail(currentUser.email);
+      setUserName(currentUser.displayName);
     }
   }, []);
 
@@ -110,6 +112,7 @@ const EventRegister = () => {
               id="registeration-input"
               placeholder="Same as to be printed on Certificates"
               required
+              value={userName}
             />
 
             <label id="lable-tag" className="" for="email">
@@ -123,7 +126,7 @@ const EventRegister = () => {
               placeholder="Preferred official email address"
               required
               value={userEmail}
-              disabled
+              
             ></input>
 
             <label id="lable-tag" className="" for="contact">
