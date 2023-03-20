@@ -6,6 +6,7 @@ import startup from "./StartupMania.jpg"
 import alphaAnalyst from "./AlphaAnalyst.jpg"
 import cat from "./CAT.jpg";
 import codigo from "./Codigo.jpg"
+import sherlock from "./sherlock1.jpeg"
 
 export {
     perplexo,
@@ -15,5 +16,6 @@ export {
     startup,
     alphaAnalyst,
     cat,
-    codigo
+    codigo,
+    sherlock
 };

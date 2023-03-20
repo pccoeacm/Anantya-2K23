@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Webbit.css";
 import Navbar from "../Navbar";
 import { ToastContainer, toast } from "react-toastify";
@@ -6,13 +6,23 @@ import "react-toastify/dist/ReactToastify.css";
 import { alphaAnalyst } from "../../assets/QR_codes/qr";
 import { firebaseAuth, useFirebase } from "../../context/Firebase";
 
-
-
 const EventRegister = () => {
   const firebase = useFirebase();
-  const userId = firebase.auth().currentUser.uid;
-  const userEmail = firebase.auth().currentUser.email;
-  console.log(userEmail);
+  const [userEmail, setUserEmail] = useState("");
+  const [userName, setUserName] = useState("");
+
+  useEffect(() => {
+    // Get the email of the current user
+    const currentUser = firebaseAuth.currentUser;
+    if (currentUser) {
+      setUserEmail(currentUser.email);
+      setUserName(currentUser.displayName);
+    }
+  }, []);
+
+  function HandleEventClick(e) {
+    // ...
+  }
 
   function HandleEventClick(e) {
     const formEle = document.getElementById("form");
@@ -57,6 +67,8 @@ const EventRegister = () => {
     });
   }
 
+  const isPccoeEmail = userEmail.endsWith("@pccoepune.org");
+
   return (
     <>
       <Navbar />
@@ -100,6 +112,7 @@ const EventRegister = () => {
               id="registeration-input"
               placeholder="Same as to be printed on Certificates"
               required
+              value={userName}
             />
 
             <label id="lable-tag" className="" for="email">
@@ -112,6 +125,8 @@ const EventRegister = () => {
               id="registeration-input"
               placeholder="Preferred official email address"
               required
+              value={userEmail}
+             // Disable the input field so that the user cannot change it
             ></input>
 
             <label id="lable-tag" className="" for="contact">
@@ -124,6 +139,7 @@ const EventRegister = () => {
               id="registeration-input"
               placeholder="Active whatsapp Number"
               required
+              value={userName}
             ></input>
 
             <label id="lable-tag" className="" for="college_name">
@@ -174,23 +190,55 @@ const EventRegister = () => {
               required
             ></input>
 
-            <label id="lable-tag" className="" for="">
-              Enter Your PRN
-            </label>
-            <p className="p-tag">
-              *Note: If you are from Other College Please Pay registration fees{" "}
-              <b> Rs. 100 </b>
-              And Add transaction ID otherwise registration will be rejected.
-            </p>
+            {isPccoeEmail && (
+              <div>
+                <label id="lable-tag" className="" for="">
+                  Enter Your PRN
+                </label>
+                <input
+                  type="text"
+                  className="column"
+                  name="PRN"
+                  id="registeration-input"
+                  placeholder="PRN"
+                  required
+                ></input>
+              </div>
+            )}
 
-            <input
-              type="text"
-              className="column"
-              name="PRN"
-              id="registeration-input"
-              placeholder="PRN or Transaction ID"
-              required
-            ></input>
+            {!isPccoeEmail && (
+              <div>
+                <label id="lable-tag" className="" for="">
+                  Enter Transaction ID
+                </label>
+                <p className="p-tag">
+                  *Note: If you are from Other College Please Pay registration
+                  fees <b> Rs. 100 </b>
+                  And Add transaction ID otherwise registration will be
+                  rejected.
+                </p>
+
+                <input
+                  type="text"
+                  className="column"
+                  name="PRN"
+                  id="registeration-input"
+                  placeholder="Transaction ID"
+                  required
+                ></input>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  <img width="200" height="200" src={alphaAnalyst}></img>
+                  <p className="p-tag2">Scan QR to pay</p>
+                </div>
+              </div>
+            )}
 
             <div
               style={{
@@ -200,8 +248,6 @@ const EventRegister = () => {
                 alignItems: "center",
               }}
             >
-              <img width="200" height="200" src={alphaAnalyst}></img>
-              <p className="p-tag2">Scan QR to pay</p>
               <button name="Name" type="submit" className="pulse">
                 Submit
               </button>

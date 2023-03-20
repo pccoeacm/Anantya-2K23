@@ -35,7 +35,6 @@ const cardData = [
     path: "/codigo",
   },
 
-
   {
     id: 2,
     event_name: "WEBBIT",
@@ -166,7 +165,7 @@ const cardData = [
     prize2: "",
     prize3: "",
     studn1: "Sarthak Zambre",
-    scontact1: "9028870976",
+    scontact1: "9130185099",
     studn2: "Saish Kothawade",
     scontact2: "8469300010",
     faculty: "Mr. Ganesh Kadam",
@@ -326,8 +325,8 @@ const cardData = [
     prize3: "",
     studn1: "Sanjay Chilveri",
     scontact1: "7718063047",
-    studn2: "Tanmay Jain",
-    scontact2: "9767537133",
+    studn2: "Shyam Tiwari",
+    scontact2: "8303250543",
     faculty: "Mrs. Madhuri Suryavanshi",
     rule1:
       "⦿ For Photography: ➨ Required Photo should be based on a 'theme Reflections'.",
@@ -369,19 +368,22 @@ const cardData = [
     studn2: "Saie Mukane",
     scontact2: "7249615728",
     faculty: "Mr. Ganesh Deshmukh",
-    rule1: "",
-    rule2: "",
-    rule3: "",
-    rule4: "",
-    rule5: "",
-    rule6: "HACKED",
+    rule1:
+      "⦿ ROUND - 1 (Death-or-Glory) ➨ Round 1 includes a quiz consisting of 20 questions based of situational trivia.",
+    rule2:
+      "⦿ Every team will be ranked on the maximum score of the submission. If two teams have the same score, the team that finished earlier will be ranked higher.",
+    rule3:
+      "⦿ ROUND - 2 (You can’t catch me) ➨ Only 30 teams will qualify for round 2.",
+    rule4:
+      "⦿ There will be questions based on the places inside the campus and the teams which answer the questions correctly and faster will move on to the next round.",
+    rule5:
+      "⦿ ROUND - 3 (Let me iiiinnnnn) ➨ Only top 15 teams will qualify for round 3. ",
+    rule6: "⦿ Make sure you download a QR scanner before the round begins.",
 
-    hyper: "https://pccoeowasp.github.io/sherlock/",
     fee: "Rs.100",
-    rulelink:
-      "https://drive.google.com/file/d/1u7_EqPmYVcfCl3VLU2UCo15CijZmnwJV/view?usp=share_link",
+    rulelink: "https://pccoeowasp.github.io/sherlock/",
     image: "./posters/sherlock.jpg",
-    path: "https://aryak-31.github.io/sherlock/",
+    path: "/Sherlock",
   },
   {
     id: 14,

@@ -8,37 +8,14 @@ import "react-toastify/dist/ReactToastify.css";
 import { Logo } from "../assets";
 
 const auth = getAuth(firebaseApp);
-// const firebase = useFirebase();
 
 const Navbar = () => {
 	const firebase = useFirebase();
+
   // console.log(firebase);
 	const [user, setUser] = useState(null);
 
-	function handleSignInWithGoogle() {
-		firebase
-			.signupWithGoogle()
-			.then((userCredential) => {
-				alert("successfully logged in");
-				const user = userCredential.user;
-        // console.log(user);
-				console.log(user.displayName);
-        // console.log(user.email);
-				toast.success(`Welcome ${user.displayName}!`, {
-					position: "top-right",
-					autoClose: 5000,
-					hideProgressBar: false,
-					closeOnClick: true,
-					pauseOnHover: true,
-					draggable: true,
-					progress: undefined,
-					theme: "dark",
-				});
-			})
-			.catch((error) => {
-				console.error(error);
-			});
-	}
+
 
 	useEffect(() => {
 		onAuthStateChanged(auth, (user) => {
@@ -115,8 +92,9 @@ const Navbar = () => {
                         .then((userCredential) => {
                           // alert("successfully logged in");
                           const user = userCredential.user;
-                          console.log(user.displayName);
-                          console.log(user);
+                          // console.log(user.displayName);
+                          // console.log(user);
+                          console.log(user.email);
                           toast.success(`Welcome ${user.displayName}!`, {
                             position: "top-center",
                             autoClose: 5000,

@@ -3,12 +3,10 @@ import "./Webbit.css";
 import Navbar from "../Navbar";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { perplexo } from "../../assets/QR_codes/qr";
+import { alphaAnalyst, sherlock } from "../../assets/QR_codes/qr";
 import { firebaseAuth, useFirebase } from "../../context/Firebase";
 
-
 const EventRegister = () => {
-
   const firebase = useFirebase();
   const [userEmail, setUserEmail] = useState("");
   const [userName, setUserName] = useState("");
@@ -31,7 +29,7 @@ const EventRegister = () => {
     const formDatab = new FormData(formEle);
     e.preventDefault();
     fetch(
-      "https://script.google.com/macros/s/AKfycbzQZ2Y2t4-bD0wuhdqlrOVhMRv8cE8bO_u48XDDkJQYyoJU68Sz5bVeMPpmCcBbp1ak/exec",
+      "https://script.google.com/macros/s/AKfycbyUaUSsQHoupMEP5dWSCN-8_FMXwC28WQGlhdcyCmmJqthMheH05SKwsK_A-zPV4hZaaQ/exec",
       {
         method: "POST",
         body: formDatab,
@@ -39,6 +37,7 @@ const EventRegister = () => {
     )
       .then((res) => {
         // console.log("Response status:", res.status);
+        // alert('Successfully submitted');
         toast.success("Successfully submitted", {
           position: "top-center",
           autoClose: 5000,
@@ -49,6 +48,7 @@ const EventRegister = () => {
           progress: undefined,
           theme: "dark",
         });
+
         document.getElementById("form").reset();
       })
       .catch((error) => {
@@ -90,7 +90,7 @@ const EventRegister = () => {
               alignItems: "center",
             }}
           >
-            <h2 className="font-normal">Perplexo</h2>
+            <h2 className="font-normal">Sher-[lock]</h2>
             <div id="personalInfo">
               <h1 id="personal-info">Team Lead Information</h1>
             </div>
@@ -126,7 +126,7 @@ const EventRegister = () => {
               placeholder="Preferred official email address"
               required
               value={userEmail}
-              
+               // Disable the input field so that the user cannot change it
             ></input>
 
             <label id="lable-tag" className="" for="contact">
@@ -207,13 +207,16 @@ const EventRegister = () => {
 
             {!isPccoeEmail && (
               <div>
-                <label id="lable-tag" className="" for="PRN">
+                <label id="lable-tag" className="" for="">
                   Enter Transaction ID
                 </label>
                 <p className="p-tag">
-                  Note: Please pay registeration fees <b> Rs. 60 </b>
-                  and add Transaction ID otherwise submission will be rejected.
+                  *Note: If you are from Other College Please Pay registration
+                  fees <b> Rs. 100 </b>
+                  And Add transaction ID otherwise registration will be
+                  rejected.
                 </p>
+
                 <input
                   type="text"
                   className="column"
@@ -230,7 +233,7 @@ const EventRegister = () => {
                     alignItems: "center",
                   }}
                 >
-                  <img width="200" height="200" src={perplexo}></img>
+                  <img width="200" height="200" src={sherlock}></img>
                   <p className="p-tag2">Scan QR to pay</p>
                 </div>
               </div>
@@ -242,7 +245,6 @@ const EventRegister = () => {
                 flexDirection: "column",
                 justifyContent: "center",
                 alignItems: "center",
-                padding: "20px",
               }}
             >
               <button name="Name" type="submit" className="pulse">

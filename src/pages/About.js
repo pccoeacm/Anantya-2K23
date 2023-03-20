@@ -75,7 +75,9 @@ const About = ({ ids }) => {
                       <ul>
                         <li>
                           Detailed rules can be viewed here:{" "}
-                          <a href={elem.rulelink}>Rules </a>
+                          <a target={"_blank"} href={elem.rulelink}>
+                            Rules{" "}
+                          </a>
                         </li>
                         <li>{elem.rule1}</li>
                         <li> {elem.rule2} </li>
@@ -83,9 +85,6 @@ const About = ({ ids }) => {
                         <li> {elem.rule4} </li>
                         <li> {elem.rule5} </li>
                         <li> {elem.rule6} </li>
-                        <li>
-                          <a href={elem.hyper}>Sher-[lock]</a>
-                        </li>
                       </ul>
                     </div>
 
