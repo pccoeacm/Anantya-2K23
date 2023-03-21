@@ -85,6 +85,14 @@ body {
   position: relative;
 }
 
+img {
+  transition: all 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(0.9);
+}
+
 
 
 .avatar img {
