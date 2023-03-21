@@ -1,6 +1,8 @@
 import React from "react";
 import { FooterCss } from "../styles";
 import { NavLink } from "react-router-dom";
+import Team from "../pages/Team";
+
 
 import {
   astronaut,
@@ -20,6 +22,7 @@ const Footer = () => {
       <div className="row d-flex flex-sm-column flex-lg-row justfity-content-center align-items-center footer-main-row">
         <div className="col d-flex justify-content-center align-items-center">
           <img src={astroOnA} className="img-fluid footer-anantya-logo" />
+          
         </div>
         <div className="col text-center footer-links-main">
           <div className="row d-flex row-gap-4">

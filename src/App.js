@@ -8,6 +8,7 @@ import Calender from "./pages/Calender";
 import Registration from "./pages/Registration";
 import React from "react";
 import ScrollToTop from "./components/ScrollToTop";
+import Team from "./pages/Team";
 
 
 
@@ -39,6 +40,7 @@ function App() {
           {/* <Route path="/sportsevents" element={<SportsEvent />} /> */}
           <Route path="/calender" element={<Calender />} />
           <Route path="/registration" element={<Registration />} />
+          <Route path="/Team" element={<Team />} />
 
           <Route path="/about1" element={<About ids={1} />} />
           <Route path="/about2" element={<About ids={2} />} />
