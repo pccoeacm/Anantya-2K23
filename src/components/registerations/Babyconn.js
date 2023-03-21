@@ -207,7 +207,13 @@ const EventRegister = () => {
               </button>
               <p className="p-tag">
                 Once you have successfully submitted your registration, you can
-                expect to receive a confirmation email by the end of the day.
+                expect to receive a confirmation email by the end of the day.{" "}
+                <br />
+                <br />
+                <b>
+                  Make sure to check spam mails in case you haven't receive the
+                  mail.
+                </b>
               </p>
               <p className="p-tag">
                 If you have any queries, please feel free to contact the{" "}

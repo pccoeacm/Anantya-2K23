@@ -95,7 +95,7 @@ const EventRegister = () => {
             <div id="personalInfo">
               <h1 id="personal-info">Team Lead Information</h1>
             </div>
-            <p className="p-tag">
+            <p id="registration-info">
               The team leader is expected to provide their information only,
               other members of the group do not need to register.{" "}
             </p>
@@ -265,7 +265,13 @@ const EventRegister = () => {
               </button>
               <p className="p-tag">
                 Once you have successfully submitted your registration, you can
-                expect to receive a confirmation email by the end of the day.
+                expect to receive a confirmation email by the end of the day.{" "}
+                <br />
+                <br />
+                <b>
+                  Make sure to check spam mails in case you haven't receive the
+                  mail.
+                </b>
               </p>
               <p className="p-tag">
                 If you have any queries, please feel free to contact the{" "}

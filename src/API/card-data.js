@@ -111,11 +111,11 @@ const cardData = [
       "⦿ All the intermediate evaluation processes during Offline Hackathon should be followed.",
     rule3: "⦿ All the group members should be present during the presentation.",
     rule4:
-      "⦿ Participants have to begin with their work on 22nd March and First round will be conducted by the Faculty allotted on 23th March.",
+      "⦿ Participants have to begin with their work on 26th March and First round will be conducted by the Faculty allotted on 28th March.",
     rule5:
       "⦿ Those Teams which get selected, certain changes will be communicated to the respective teams which they will be expected to do overnight.",
     rule6:
-      "⦿ Next Day i.e. 24th March, the final evaluation will be conducted and participants will be evaluated on their project (and on the changes).",
+      "⦿ Next Day i.e. 28th March, the final evaluation will be conducted and participants will be evaluated on their project (and on the changes).",
     fee: "Free to All Participants",
     rulelink:
       "https://drive.google.com/file/d/1Ah0JPJsbqxvnuWdZ1ljF_2kb_WpYhqo0/view?usp=sharing",
@@ -369,12 +369,12 @@ const cardData = [
     studn2: "Saie Mukane",
     scontact2: "7249615728",
     faculty: "Mr. Ganesh Deshmukh",
-    rule1: "⦿ NA",
-    rule2: "⦿ NA",
-    rule3: "⦿ NA",
-    rule4: "⦿ NA",
-    rule5: "⦿ HACKED!! ",
-    rule6: "⦿ MAY BE YOU SHOULD CHECK THE RULES",
+    rule1: "H",
+    rule2: "A",
+    rule3: "C",
+    rule4: "K",
+    rule5: "E",
+    rule6: "D",
 
     fee: "Rs.100",
     rulelink: "https://pccoeowasp.github.io/sherlock/",

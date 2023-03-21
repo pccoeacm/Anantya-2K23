@@ -213,7 +213,13 @@ const EventRegister = () => {
                 </label>
                 <p className="p-tag">
                   Note: Please pay registeration fees <b> Rs. 50 </b>
-                  and add Transaction ID otherwise submission will be rejected.
+                  and add Transaction ID otherwise submission will be rejected.{" "}
+                  <br />
+                  <br />
+                  <b>
+                    Make sure to check spam mails in case you haven't receive
+                    the mail.
+                  </b>
                 </p>
                 <input
                   type="text"
