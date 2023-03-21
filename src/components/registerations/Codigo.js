@@ -95,6 +95,10 @@ const EventRegister = () => {
             <div id="personalInfo">
               <h1 id="personal-info">Team Lead Information</h1>
             </div>
+            <p className="p-tag">
+              The team leader is expected to provide their information only,
+              other members of the group do not need to register.{" "}
+            </p>
           </div>
 
           <form
@@ -113,7 +117,7 @@ const EventRegister = () => {
               id="registeration-input"
               placeholder="Same as to be printed on Certificates"
               required
-              value={userName}
+              // value={userName}
             />
 
             <label id="lable-tag" className="" for="email">
@@ -127,7 +131,6 @@ const EventRegister = () => {
               placeholder="Preferred official email address"
               required
               value={userEmail}
-            
             ></input>
 
             <label id="lable-tag" className="" for="contact">
@@ -224,8 +227,7 @@ const EventRegister = () => {
                   Enter Transaction ID
                 </label>
                 <p className="p-tag">
-                  Note: Please pay registeration
-                  fees <b> Rs. 100 </b>
+                  Note: Please pay registeration fees <b> Rs. 100 </b>
                   and add Transaction ID otherwise submission will be rejected.
                 </p>
                 <input
@@ -258,10 +260,17 @@ const EventRegister = () => {
                 alignItems: "center",
               }}
             >
-        
               <button name="Name" type="submit" className="pulse">
                 Submit
               </button>
+              <p className="p-tag">
+                Once you have successfully submitted your registration, you can
+                expect to receive a confirmation email by the end of the day.
+              </p>
+              <p className="p-tag">
+                If you have any queries, please feel free to contact the{" "}
+                <b>EVENT INCHARGE.</b>
+              </p>
               <ToastContainer />
             </div>
           </form>

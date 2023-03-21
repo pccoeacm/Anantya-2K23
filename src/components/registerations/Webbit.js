@@ -5,6 +5,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { webbit } from "../../assets/QR_codes/qr";
 import { firebaseAuth, useFirebase } from "../../context/Firebase";
+import { redirect } from 'react-router-dom';
 
 const EventRegister = () => {
 
@@ -49,6 +50,7 @@ const EventRegister = () => {
           theme: "dark",
         });
         document.getElementById("form").reset();
+        return redirect("/events");
       })
       .catch((error) => {
         console.log(error);
@@ -112,8 +114,7 @@ const EventRegister = () => {
               id="registeration-input"
               placeholder="Same as to be printed on Certificates"
               required
-              value={userName}
-              
+              // value={userName}
             />
 
             <label id="lable-tag" className="" for="email">
@@ -127,7 +128,6 @@ const EventRegister = () => {
               placeholder="Preferred official email address"
               required
               value={userEmail}
-              
             ></input>
 
             <label id="lable-tag" className="" for="contact">
@@ -248,6 +248,14 @@ const EventRegister = () => {
               <button name="Name" type="submit" className="pulse">
                 Submit
               </button>
+              <p className="p-tag">
+                Once you have successfully submitted your registration, you can
+                expect to receive a confirmation email by the end of the day.
+              </p>
+              <p className="p-tag">
+                If you have any queries, please feel free to contact the{" "}
+                <b>EVENT INCHARGE.</b>
+              </p>
               <ToastContainer />
             </div>
           </form>

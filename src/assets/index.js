@@ -14,6 +14,7 @@ import mainLogoM from "./main_logo_m.png";
 import astroOnA from "./astrooOnA.png";
 import mfive from "./mfive.jpg"
 import budhani from "./budhani_sponsor.jpg"
+import scriptAnalytica from "./scriptAnalytica.jpg";
 
 
 export {
@@ -32,5 +33,6 @@ export {
     mainLogoM,
     astroOnA,
     mfive,
-    budhani
+    budhani,
+    scriptAnalytica
 };

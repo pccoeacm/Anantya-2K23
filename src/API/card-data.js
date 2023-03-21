@@ -171,7 +171,8 @@ const cardData = [
     faculty: "Mr. Ganesh Kadam",
     rule1: "⦿ Only top 10 teams will be selected for Final Auction.",
     rule2: "⦿ Each Team will be given a Budget: 100 Cr.",
-    rule3: "Judging criteria - Total rating of players the team owns Minimum 11 and max 15 players.",
+    rule3:
+      "Judging criteria - Total rating of players the team owns Minimum 11 and max 15 players.",
     rule4: "⦿  Capt. Rating will be x2, Vice Capt. ×1.5.",
     rule5:
       "⦿ Auction will be conducted for 1 extra RTM if required (Base Price 20 lakh)",
@@ -191,7 +192,7 @@ const cardData = [
     detailed_description:
       "Innovation and entrepreneurship are the wheels that steer the world into a brighter future. Startup mania will help in innovating new ideas right from acknowledging the potential of your idea, steering your ideas in the right direction and scrutinizing your views which will pave the way for glaring success. In the idea presentation round, every team has to present their ideas using the template provided.The institute will provide guidance and funding to all innovative startup ideas.",
     Type: "Team of 1 to 4",
-    prize1: "Prizes Worth Rs. 3500",
+    prize1: "Prizes Worth Rs. 3250",
     prize2: "",
     prize3: "",
     studn1: "Pranjali Deshpande",
@@ -200,17 +201,17 @@ const cardData = [
     scontact2: "9767716716",
     faculty: "Mrs. Geetanjali Sharma",
     rule1: "⦿ Every group should have 1-4 members.",
-    rule2: "⦿ The event would be carried out in two rounds.",
-    rule3:
-      "⦿ ROUND1: You can make a video or reel to introduce your product in the form of an advertisement. The top teams will be decided via poll by panel members.",
+    rule2:
+      "⦿ The participants will be selected for the final onspot round based on their descriptive presentation of the idea in the registration form.",
+    rule3: "",
     rule4:
-      "⦿ ROUND2: The groups qualified in round 1 will be eligible in round 2. In this  round the teams have to present their ideas using PPTs in front of the panel members.",
+      "⦿ The Selected teams have to present their ideas using PPTs in front of the panel members.",
     rule5: "⦿ An individual can be a member of just one team.",
     rule6:
       "⦿ You can present your idea in any language: English, Hindi, Marathi",
     fee: "Rs.70",
     rulelink:
-      "https://drive.google.com/file/d/1kGK5yNeBZ14nmup15gS3PCQX3uWZqSih/view?usp=share_link",
+      "https://drive.google.com/file/d/13F7wws8mhnhmXjb03BW0H1rNP9kIsay0/view?usp=share_link",
     image: "./posters/startupmania.jpg",
     path: "/Startup_Mania",
   },

@@ -94,6 +94,10 @@ const EventRegister = () => {
             <div id="personalInfo">
               <h1 id="personal-info">Team Lead Information</h1>
             </div>
+            <p id="registration-info">
+              The team leader is expected to provide their information only,
+              other members of the group do not need to register.{" "}
+            </p>
           </div>
 
           <form
@@ -112,7 +116,7 @@ const EventRegister = () => {
               id="registeration-input"
               placeholder="Same as to be printed on Certificates"
               required
-              value={userName}
+              // value={userName}
             />
 
             <label id="lable-tag" className="" for="email">
@@ -126,7 +130,7 @@ const EventRegister = () => {
               placeholder="Preferred official email address"
               required
               value={userEmail}
-               // Disable the input field so that the user cannot change it
+              // Disable the input field so that the user cannot change it
             ></input>
 
             <label id="lable-tag" className="" for="contact">
@@ -250,6 +254,17 @@ const EventRegister = () => {
               <button name="Name" type="submit" className="pulse">
                 Submit
               </button>
+              <p className="p-tag">
+                Once you have successfully submitted your registration, you can
+                expect to receive a confirmation email by the end of the day.
+              </p>
+              <p className="p-tag">
+                If you have any queries, please feel free to contact the{" "}
+                <b>EVENT INCHARGE.</b>
+              </p>
+              <a href="https://pccoeowasp.github.io/sherlock/" target={'_blank'}>
+                Visit the Website for more information.
+              </a>
               <ToastContainer />
             </div>
           </form>

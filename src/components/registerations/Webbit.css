@@ -18,6 +18,12 @@ display: block;
 
 }
 
+#registration-info {
+    color: red;
+    font-family: "Play";
+    font-weight: 300;
+}
+
 .p-tag
 {
     color: red;

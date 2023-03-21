@@ -88,6 +88,13 @@ const EventRegister = () => {
             <div id="personalInfo">
               <h1 id="personal-info">Team Lead Information</h1>
             </div>
+            <p id="registration-info">
+              <b>ONLY FOR PCCoE BE STUDENTS</b>
+            </p>
+            <p id="registration-info">
+              The team leader is expected to provide their information only,
+              other members of the group do not need to register.{" "}
+            </p>
           </div>
 
           <form
@@ -106,7 +113,7 @@ const EventRegister = () => {
               id="registeration-input"
               placeholder="Same as to be printed on Certificates"
               required
-              value={userName}
+              // value={userName}
             />
 
             <label id="lable-tag" className="" for="email">
@@ -206,6 +213,14 @@ const EventRegister = () => {
               <button name="Name" type="submit" className="pulse">
                 Submit
               </button>
+              <p className="p-tag">
+                Once you have successfully submitted your registration, you can
+                expect to receive a confirmation email by the end of the day.
+              </p>
+              <p className="p-tag">
+                If you have any queries, please feel free to contact the{" "}
+                <b>EVENT INCHARGE.</b>
+              </p>
               <ToastContainer />
             </div>
           </form>
