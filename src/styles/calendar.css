@@ -29,6 +29,8 @@
 .timeline-heading {
     color: red;
     align-self: center;
+    font-family: "Play";
+    font-weight: 200;
 }
 
 .day1 {

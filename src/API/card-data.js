@@ -293,6 +293,7 @@ const cardData = [
 		detailed_description:
 			"The Movie Trivia College Event is a competition that tests participants' knowledge of films from various genres and eras, Acting & Music skills too . Typically, the event is organized for college students and is conducted in a team format where teams of participants compete against each other. In this competition there are 4 rounds: Round 1: “Lagge rahoo  munna bhaii” This is a Quiz round group of two member have to participate, kahoot quiz based on trivial movie questions. Top winning teams will be proceed to next round depending on the participation count.        Round 2: “Nach baliye” The qualified teams of round 1 will be grouped in a group of four members and they will have to perform the hook step of the song played within 30 sec. Round 3: “Shamitabh” About: The qualified teams from round 2 will now showcase their acting skills by enacting movies based on hard and easy categories under limited time. Round 4: “Brahmastra” About: This is the finale round of the event where there will be blended faces of movie stars which will be showcased and in end of round we will get our WINNER. ",
 
+
 		Type: "Team",
 		prize1: "Prizes Worth Rs. 1200",
 		prize1: "Prizes Worth Rs. 1200",
@@ -391,6 +392,7 @@ const cardData = [
 		rule5:
 			"⦿ ROUND - 3 (Let me iiiinnnnn) ➨ Only top 15 teams will qualify for round 3. ",
 		rule6: "⦿ Make sure you download a QR scanner before the round begins.",
+
 
 		fee: "Rs.100",
 		rulelink: "https://pccoeowasp.github.io/sherlock/",

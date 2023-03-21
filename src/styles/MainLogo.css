@@ -10,6 +10,10 @@
 	font-size: 2rem;
 }
 
+.main-logo{
+	margin-top: 60px;
+}
+
 /* button animations */
 .explore-button-a {
 	text-decoration: none;

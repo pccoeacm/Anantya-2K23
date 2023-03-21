@@ -86,6 +86,7 @@ const EventRegister = () => {
             <div id="personalInfo">
               <h1 id="personal-info">Personal Information</h1>
             </div>
+            <h4 id="registration-info">Register as Attendee</h4>
           </div>
 
           <form
@@ -94,7 +95,6 @@ const EventRegister = () => {
             onSubmit={(e) => HandleEventClick(e)}
             id="form"
           >
-            <h4 className="p-tag">Register as Attendee</h4>
             <label id="lable-tag" for="name">
               Name{" "}
             </label>
@@ -105,7 +105,7 @@ const EventRegister = () => {
               id="registeration-input"
               placeholder="Same as to be printed on Certificates"
               required
-              value={userName}
+              // value={userName}
             />
 
             <label id="lable-tag" className="" for="email">
@@ -205,6 +205,20 @@ const EventRegister = () => {
               <button name="Name" type="submit" className="pulse">
                 Submit
               </button>
+              <p className="p-tag">
+                Once you have successfully submitted your registration, you can
+                expect to receive a confirmation email by the end of the day.{" "}
+                <br />
+                <br />
+                <b>
+                  Make sure to check spam mails in case you haven't receive the
+                  mail.
+                </b>
+              </p>
+              <p className="p-tag">
+                If you have any queries, please feel free to contact the{" "}
+                <b>EVENT INCHARGE.</b>
+              </p>
             </div>
           </form>
         </div>

@@ -56,7 +56,7 @@ const Design = () => {
 					links: {
 						color: "#808080",
 						distance: 150,
-						enable: true,
+						enable: false,
 						opacity: 0.6,
 						width: 1,
 					},
