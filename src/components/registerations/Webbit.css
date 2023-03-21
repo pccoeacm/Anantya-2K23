@@ -18,10 +18,18 @@ display: block;
 
 }
 
+#registration-info {
+    color: red;
+    font-family: "Play";
+    font-weight: 300;
+    align-self: center;
+}
+
 .p-tag
 {
     color: red;
     font-family:'Play';
+    /* text-align: center; */
 
 }
 #personalInfo

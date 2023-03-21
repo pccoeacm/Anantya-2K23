@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../styles/Navbar.css";
-import { NavLink,Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { firebaseApp, useFirebase } from "../context/Firebase";
 import { getAuth, onAuthStateChanged, signOut } from "firebase/auth";
 import { ToastContainer, toast } from "react-toastify";
@@ -12,18 +12,17 @@ import Team from "../pages/Team";
 const auth = getAuth(firebaseApp);
 
 const Navbar = () => {
-	const firebase = useFirebase();
+    const firebase = useFirebase();
 
-  // console.log(firebase);
-	const [user, setUser] = useState(null);
+    // console.log(firebase);
+    const [user, setUser] = useState(null);
+    var clicked = false;
 
-
-
-	useEffect(() => {
-		onAuthStateChanged(auth, (user) => {
-			if (user) {
-				// Yes, user is logged in
-				setUser(user);
+    useEffect(() => {
+        onAuthStateChanged(auth, (user) => {
+            if (user) {
+                // Yes, user is logged in
+                setUser(user);
 
 				// notify;
 			} else {
@@ -95,45 +94,50 @@ const Navbar = () => {
 									<span className="navitem">LogIn</span>
 
 								</NavLink> */}
-                  <a
-                    onClick={() =>
-                      firebase
-                        .signupWithGoogle()
-                        .then((userCredential) => {
-                          // alert("successfully logged in");
-                          const user = userCredential.user;
-                          // console.log(user.displayName);
-                          // console.log(user);
-                          console.log(user.email);
-                          toast.success(`Welcome ${user.displayName}!`, {
-                            position: "top-center",
-                            autoClose: 5000,
-                            hideProgressBar: false,
-                            closeOnClick: true,
-                            pauseOnHover: true,
-                            draggable: true,
-                            progress: undefined,
-                            theme: "dark",
-                          });
-                        })
-                        .catch((error) => {
-                          console.error(error);
-                        })
-                    }
-                    href="#"
-                    className="login-navitem navitem"
-                  >
-                    Log in
-                  </a>
-                  <ToastContainer />
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </>
-    );
-	}
+                                    <a
+                                        onClick={() =>
+                                            firebase
+                                                .signupWithGoogle()
+                                                .then((userCredential) => {
+                                                    // alert("successfully logged in");
+                                                    const user =
+                                                        userCredential.user;
+                                                    // console.log(user.displayName);
+                                                    // console.log(user);
+                                                    console.log(user.email);
+                                                    toast.success(
+                                                        `Welcome ${user.displayName}!`,
+                                                        {
+                                                            position:
+                                                                "top-center",
+                                                            autoClose: 5000,
+                                                            hideProgressBar: false,
+                                                            closeOnClick: true,
+                                                            pauseOnHover: true,
+                                                            draggable: true,
+                                                            progress: undefined,
+                                                            theme: "dark",
+                                                        }
+                                                    );
+                                                })
+                                                .catch((error) => {
+                                                    console.error(error);
+                                                })
+                                        }
+                                        href="#"
+                                        className="login-navitem navitem"
+                                    >
+                                        Log in
+                                    </a>
+                                    <ToastContainer />
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </>
+        );
+    }
 
 	return (
     <>

@@ -33,6 +33,8 @@ const cardData = [
       "https://drive.google.com/file/d/1bgSE10H5ndN1ZH9n9QYY5N7c755RFg6s/view?usp=share_link",
     image: "./posters/codigo.jpg",
     path: "/codigo",
+	isOpen: true,
+
   },
 
   {
@@ -66,6 +68,7 @@ const cardData = [
       "https://drive.google.com/file/d/1d1aGQYlWvUir6ZRVhyy-3nbJC2VLx8rr/view?usp=share_link",
     image: "./posters/Webbit.jpg",
     path: "/webbit",
+	isOpen: true,
   },
   {
     id: 3,
@@ -88,6 +91,7 @@ const cardData = [
     rulelink: "#",
     image: "./posters/perplexo.jpg",
     path: "/Perplexo",
+	isOpen: true,
   },
   {
     id: 4,
@@ -111,16 +115,17 @@ const cardData = [
       "⦿ All the intermediate evaluation processes during Offline Hackathon should be followed.",
     rule3: "⦿ All the group members should be present during the presentation.",
     rule4:
-      "⦿ Participants have to begin with their work on 22nd March and First round will be conducted by the Faculty allotted on 23th March.",
+      "⦿ Participants have to begin with their work on 26th March and First round will be conducted by the Faculty allotted on 28th March.",
     rule5:
       "⦿ Those Teams which get selected, certain changes will be communicated to the respective teams which they will be expected to do overnight.",
     rule6:
-      "⦿ Next Day i.e. 24th March, the final evaluation will be conducted and participants will be evaluated on their project (and on the changes).",
+      "⦿ Next Day i.e. 28th March, the final evaluation will be conducted and participants will be evaluated on their project (and on the changes).",
     fee: "Free to All Participants",
     rulelink:
       "https://drive.google.com/file/d/1Ah0JPJsbqxvnuWdZ1ljF_2kb_WpYhqo0/view?usp=sharing",
     image: "./posters/Hackathon.jpg",
     path: "/hackathon",
+	isOpen: true,
   },
   {
     id: 5,
@@ -151,6 +156,7 @@ const cardData = [
       "https://drive.google.com/file/d/11CbXHOANM5pJ6sLxWnTeUpxgbV9-xSah/view?usp=share_link",
     image: "./posters/cat.jpg",
     path: "/cosmic_Aptitude_Test",
+	isOpen: true,
   },
   {
     id: 6,
@@ -171,7 +177,8 @@ const cardData = [
     faculty: "Mr. Ganesh Kadam",
     rule1: "⦿ Only top 10 teams will be selected for Final Auction.",
     rule2: "⦿ Each Team will be given a Budget: 100 Cr.",
-    rule3: "Judging criteria - Total rating of players the team owns Minimum 11 and max 15 players.",
+    rule3:
+      "Judging criteria - Total rating of players the team owns Minimum 11 and max 15 players.",
     rule4: "⦿  Capt. Rating will be x2, Vice Capt. ×1.5.",
     rule5:
       "⦿ Auction will be conducted for 1 extra RTM if required (Base Price 20 lakh)",
@@ -181,6 +188,7 @@ const cardData = [
       "https://drive.google.com/file/d/16-GlvRCTn_gmLYxizpC28LZyeTRQA0L9/view?usp=share_link",
     image: "./posters/IPL.jpg",
     path: "/IPL_Auction",
+	isOpen: false,
   },
   {
     id: 7,
@@ -191,7 +199,7 @@ const cardData = [
     detailed_description:
       "Innovation and entrepreneurship are the wheels that steer the world into a brighter future. Startup mania will help in innovating new ideas right from acknowledging the potential of your idea, steering your ideas in the right direction and scrutinizing your views which will pave the way for glaring success. In the idea presentation round, every team has to present their ideas using the template provided.The institute will provide guidance and funding to all innovative startup ideas.",
     Type: "Team of 1 to 4",
-    prize1: "Prizes Worth Rs. 3500",
+    prize1: "Prizes Worth Rs. 3250",
     prize2: "",
     prize3: "",
     studn1: "Pranjali Deshpande",
@@ -200,19 +208,20 @@ const cardData = [
     scontact2: "9767716716",
     faculty: "Mrs. Geetanjali Sharma",
     rule1: "⦿ Every group should have 1-4 members.",
-    rule2: "⦿ The event would be carried out in two rounds.",
-    rule3:
-      "⦿ ROUND1: You can make a video or reel to introduce your product in the form of an advertisement. The top teams will be decided via poll by panel members.",
+    rule2:
+      "⦿ The participants will be selected for the final onspot round based on their descriptive presentation of the idea in the registration form.",
+    rule3: "",
     rule4:
-      "⦿ ROUND2: The groups qualified in round 1 will be eligible in round 2. In this  round the teams have to present their ideas using PPTs in front of the panel members.",
+      "⦿ The Selected teams have to present their ideas using PPTs in front of the panel members.",
     rule5: "⦿ An individual can be a member of just one team.",
     rule6:
       "⦿ You can present your idea in any language: English, Hindi, Marathi",
     fee: "Rs.70",
     rulelink:
-      "https://drive.google.com/file/d/1kGK5yNeBZ14nmup15gS3PCQX3uWZqSih/view?usp=share_link",
+      "https://drive.google.com/file/d/13F7wws8mhnhmXjb03BW0H1rNP9kIsay0/view?usp=share_link",
     image: "./posters/startupmania.jpg",
     path: "/Startup_Mania",
+	isOpen: true,
   },
   {
     id: 8,
@@ -240,6 +249,7 @@ const cardData = [
       "https://drive.google.com/file/d/15GMDQIX5YBqocNSK0YbOozkUVDSEZt_t/view?usp=share_link",
     image: "./posters/AlphaAnaylst.jpg",
     path: "/The_Alpha_Analyst",
+	isOpen: true,
   },
   {
     id: 9,
@@ -273,6 +283,7 @@ const cardData = [
       "https://drive.google.com/file/d/16nQgNzxUUEtBXD3gQ2DxJOvL5jWl_FwL/view?usp=share_link",
     image: "./posters/G20.jpg",
     path: "/G20x_Anantya",
+	isOpen: true,
   },
   {
     id: 10,
@@ -309,6 +320,7 @@ const cardData = [
       "https://drive.google.com/file/d/12RReGj611y4fWZ8dy2OIzd95TGMZ-3b5/view?usp=share_link",
     image: "./posters/movieTrivia.jpg",
     path: "/Movie_Trivia",
+	isOpen: true,
   },
   {
     id: 11,
@@ -341,6 +353,7 @@ const cardData = [
       "https://drive.google.com/file/d/1_eAkYeCCeAD2UcAfVMcoNKyV73wOVi25/view?usp=share_link",
     image: "./posters/Unleash.jpg",
     path: "https://forms.gle/HmnSMCRqookrN3xm6",
+	isOpen: true,
   },
   // {
   // 	id: 12,
@@ -368,22 +381,18 @@ const cardData = [
     studn2: "Saie Mukane",
     scontact2: "7249615728",
     faculty: "Mr. Ganesh Deshmukh",
-    rule1:
-      "⦿ ROUND - 1 (Death-or-Glory) ➨ Round 1 includes a quiz consisting of 20 questions based of situational trivia.",
-    rule2:
-      "⦿ Every team will be ranked on the maximum score of the submission. If two teams have the same score, the team that finished earlier will be ranked higher.",
-    rule3:
-      "⦿ ROUND - 2 (You can’t catch me) ➨ Only 30 teams will qualify for round 2.",
-    rule4:
-      "⦿ There will be questions based on the places inside the campus and the teams which answer the questions correctly and faster will move on to the next round.",
-    rule5:
-      "⦿ ROUND - 3 (Let me iiiinnnnn) ➨ Only top 15 teams will qualify for round 3. ",
-    rule6: "⦿ Make sure you download a QR scanner before the round begins.",
+    rule1: "H",
+    rule2: "A",
+    rule3: "C",
+    rule4: "K",
+    rule5: "E",
+    rule6: "D",
 
     fee: "Rs.100",
     rulelink: "https://pccoeowasp.github.io/sherlock/",
     image: "./posters/sherlock.jpg",
     path: "/Sherlock",
+	isOpen: true,
   },
   {
     id: 14,
@@ -404,6 +413,7 @@ const cardData = [
     rulelink: "#",
     image: "./posters/babyconn.jpg",
     path: "/Babyconn",
+	isOpen: true,
   },
 ];
 
