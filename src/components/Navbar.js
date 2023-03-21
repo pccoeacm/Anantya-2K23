@@ -7,6 +7,8 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Logo } from "../assets";
 
+import Team from "../pages/Team";
+
 const auth = getAuth(firebaseApp);
 
 const Navbar = () => {
