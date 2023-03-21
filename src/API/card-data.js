@@ -396,7 +396,7 @@ const cardData = [
 		rulelink: "https://pccoeowasp.github.io/sherlock/",
 		image: "./posters/sherlock.jpg",
 		path: "/Sherlock",
-		isOpen: false,
+		isOpen: true,
 	},
 	{
 		id: 14,
