@@ -1,11 +1,11 @@
 const TeamData = [
   {
-    img: "",
+    img: "/Developers/shreyash.jpg",
     name: "Shreyash Khandagle",
     Profession: "WebMaster",
-    git: "https://github.com/Girish345",
-    linkdin: "https://github.com/Girish345",
-    instagram: "https://github.com/Girish345",
+    git: "https://github.com/Shreyashk-07",
+    linkdin: "https://www.linkedin.com/in/shreyash-khandagale-5824a5227/",
+    instagram: "https://www.instagram.com/shreyash_sk_07",
   },
   {
     img: "/Developers/Yash.jpg",
@@ -36,8 +36,8 @@ const TeamData = [
     name: "Girish Bhosale",
     Profession: "Developer",
     git: "https://github.com/Girish345",
-    linkdin: "https://github.com/Girish345",
-    instagram: "https://github.com/Girish345",
+    linkdin: "https://www.linkedin.com/in/girish-bhosale-876b2121b/",
+    instagram: "https://www.instagram.com/__girish__39/",
   },
   {
     img: "/Developers/Atharva.jpg",
