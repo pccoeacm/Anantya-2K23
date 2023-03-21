@@ -59,3 +59,13 @@ ul{
     list-style-type: none;
 
 }
+
+.reg-closed {
+    position: relative;
+    left: 35%;
+    font-family: "Play";
+    font-size: 1.5rem;
+    color: #ff0000;
+    border: #2f5367 2px solid;
+    padding: 1%;
+}

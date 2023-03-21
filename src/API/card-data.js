@@ -33,6 +33,8 @@ const cardData = [
       "https://drive.google.com/file/d/1bgSE10H5ndN1ZH9n9QYY5N7c755RFg6s/view?usp=share_link",
     image: "./posters/codigo.jpg",
     path: "/codigo",
+	isOpen: true,
+
   },
 
   {
@@ -66,6 +68,7 @@ const cardData = [
       "https://drive.google.com/file/d/1d1aGQYlWvUir6ZRVhyy-3nbJC2VLx8rr/view?usp=share_link",
     image: "./posters/Webbit.jpg",
     path: "/webbit",
+	isOpen: true,
   },
   {
     id: 3,
@@ -88,6 +91,7 @@ const cardData = [
     rulelink: "#",
     image: "./posters/perplexo.jpg",
     path: "/Perplexo",
+	isOpen: true,
   },
   {
     id: 4,
@@ -121,6 +125,7 @@ const cardData = [
       "https://drive.google.com/file/d/1Ah0JPJsbqxvnuWdZ1ljF_2kb_WpYhqo0/view?usp=sharing",
     image: "./posters/Hackathon.jpg",
     path: "/hackathon",
+	isOpen: true,
   },
   {
     id: 5,
@@ -151,6 +156,7 @@ const cardData = [
       "https://drive.google.com/file/d/11CbXHOANM5pJ6sLxWnTeUpxgbV9-xSah/view?usp=share_link",
     image: "./posters/cat.jpg",
     path: "/cosmic_Aptitude_Test",
+	isOpen: true,
   },
   {
     id: 6,
@@ -182,6 +188,7 @@ const cardData = [
       "https://drive.google.com/file/d/16-GlvRCTn_gmLYxizpC28LZyeTRQA0L9/view?usp=share_link",
     image: "./posters/IPL.jpg",
     path: "/IPL_Auction",
+	isOpen: false,
   },
   {
     id: 7,
@@ -214,6 +221,7 @@ const cardData = [
       "https://drive.google.com/file/d/13F7wws8mhnhmXjb03BW0H1rNP9kIsay0/view?usp=share_link",
     image: "./posters/startupmania.jpg",
     path: "/Startup_Mania",
+	isOpen: true,
   },
   {
     id: 8,
@@ -241,6 +249,7 @@ const cardData = [
       "https://drive.google.com/file/d/15GMDQIX5YBqocNSK0YbOozkUVDSEZt_t/view?usp=share_link",
     image: "./posters/AlphaAnaylst.jpg",
     path: "/The_Alpha_Analyst",
+	isOpen: true,
   },
   {
     id: 9,
@@ -274,6 +283,7 @@ const cardData = [
       "https://drive.google.com/file/d/16nQgNzxUUEtBXD3gQ2DxJOvL5jWl_FwL/view?usp=share_link",
     image: "./posters/G20.jpg",
     path: "/G20x_Anantya",
+	isOpen: true,
   },
   {
     id: 10,
@@ -310,6 +320,7 @@ const cardData = [
       "https://drive.google.com/file/d/12RReGj611y4fWZ8dy2OIzd95TGMZ-3b5/view?usp=share_link",
     image: "./posters/movieTrivia.jpg",
     path: "/Movie_Trivia",
+	isOpen: true,
   },
   {
     id: 11,
@@ -342,6 +353,7 @@ const cardData = [
       "https://drive.google.com/file/d/1_eAkYeCCeAD2UcAfVMcoNKyV73wOVi25/view?usp=share_link",
     image: "./posters/Unleash.jpg",
     path: "https://forms.gle/HmnSMCRqookrN3xm6",
+	isOpen: true,
   },
   // {
   // 	id: 12,
@@ -380,6 +392,7 @@ const cardData = [
     rulelink: "https://pccoeowasp.github.io/sherlock/",
     image: "./posters/sherlock.jpg",
     path: "/Sherlock",
+	isOpen: true,
   },
   {
     id: 14,
@@ -400,6 +413,7 @@ const cardData = [
     rulelink: "#",
     image: "./posters/babyconn.jpg",
     path: "/Babyconn",
+	isOpen: true,
   },
 ];
 

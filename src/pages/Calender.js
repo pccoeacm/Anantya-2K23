@@ -18,8 +18,7 @@ const Calender = () => {
         <div className="d-flex flex-column" id="calendar-page">
           <h1 className="text-fluid text-center calendar-heading">CALENDAR</h1>
           <h2 className="timeline-heading">
-            {" "}
-            We have set a tentative timeline that may be adjusted as needed.
+            These are tentative timelines, they are subjected to change.
           </h2>
 
           <div className="d-flex flex-column day1">

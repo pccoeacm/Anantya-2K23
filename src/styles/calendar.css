@@ -312,6 +312,14 @@
         0 0 20px rgba(120, 37, 254, 0.832), 0 0 40px rgba(120, 37, 254, 0.832);
 }
 
+.Event-12-d1-active,
+.Event-12-d1:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 5px rgba(120, 37, 254, 0.832),
+        0 0 5px rgba(120, 37, 254, 0.832), 0 0 10px rgba(120, 37, 254, 0.832),
+        0 0 20px rgba(120, 37, 254, 0.832), 0 0 40px rgba(120, 37, 254, 0.832);
+}
+
 /* Webbit */
 .Event-1-d2 {
     grid-row: 2;
