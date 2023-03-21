@@ -46,12 +46,12 @@ export default function ShowDonut(props) {
     return (
         <div className="threeD">
             <Canvas camera={{ position: [10, 18, 23], fov: 0.5 }}>
-                <pointLight position={[220, 0, 0]} intensity={0.566} />
-                <pointLight position={[-220, 0, 0]} intensity={0.566} />
-                <pointLight position={[0, 220, 0]} intensity={0.566} />
-                <pointLight position={[0, -220, 0]} intensity={0.566} />
-                <pointLight position={[0, 0, 220]} intensity={0.566} />
-                <pointLight position={[0, 0, -220]} intensity={0.566} />
+                <pointLight position={[200, 200, 200]} intensity={1} />
+                {/* <pointLight position={[-220, 0, 0]} intensity={1.5} /> */}
+                {/* <pointLight position={[0, 220, 0]} intensity={1.5} /> */}
+                {/* <pointLight position={[0, -220, 0]} intensity={1.5} /> */}
+                {/* <pointLight position={[0, 0, 220]} intensity={1.5} /> */}
+                {/* <pointLight position={[-200, -200, -200]} intensity={3} /> */}
                 <Suspense fallback={null}>
                     <Model />
                 </Suspense>
