@@ -90,7 +90,7 @@ img {
 }
 
 img:hover {
-  transform: scale(0.9);
+  transform: scale(0.89);
 }
 
 
@@ -119,11 +119,15 @@ img:hover {
   margin-top:15px;
   font-weight: bold;
   text-align: center;
-  text-transform: uppercase;  /* capitalize the text  */
-  letter-spacing: 1.5px; /* increase the letter spacing */
-  font-size: 16px; /* adjust the font size */
+  text-transform: uppercase;  
+  letter-spacing: 1.5px; 
+  font-size: 16px; 
+  background: linear-gradient(to right, #63b8ff, #5bc0de, #5cb85c, #f0ad4e, #d9534f, #ff6a6a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
  
 }
+
 
 .card-footer {
   width: 90%;
