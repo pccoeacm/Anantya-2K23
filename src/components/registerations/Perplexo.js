@@ -129,7 +129,7 @@ const EventRegister = () => {
               id="registeration-input"
               placeholder="Preferred official email address"
               required
-              // value={userEmail}
+              value={userEmail}
             ></input>
 
             <label id="lable-tag" className="" for="contact">
