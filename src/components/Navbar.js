@@ -7,6 +7,8 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Logo } from "../assets";
 
+import Team from "../pages/Team";
+
 const auth = getAuth(firebaseApp);
 
 const Navbar = () => {
@@ -158,7 +160,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <NavLink to="/calender" className="nav-link">
-                  <span className="navitem">Calendar</span>
+                  <span className="navitem">Calender</span>
                 </NavLink>
                 {/* <a className="nav-link" href="#"></a> */}
               </li>

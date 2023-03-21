@@ -1,6 +1,7 @@
 import React from "react";
 import { budhani, mfive } from "../assets";
 import "./Sponsor.css";
+import { NavLink,Link } from "react-router-dom";
 
 const Sponsor = () => {
     return (
@@ -48,7 +49,15 @@ const Sponsor = () => {
 						className="img-fluid sponsor-card-img"
 					/>
 				</div> */}
+
+             
             </div>
+
+            {/* <NavLink to="/Team" className="nav-link " style={{margin:'10px'}}>
+            <button className="button-64" >
+              <span className="text"> Web Team</span>
+            </button>
+          </NavLink> */}
         </>
     );
 };

@@ -8,6 +8,7 @@ import IssCss from "./ISS.css";
 import sponsorCss from "./sponsor.css";
 import eventCss from "./Events.css";
 import HomeAbCSS from "./Homeabout.css";
+import teamcss from "./team.css";
 import MainLogo from "./MainLogo.css";
 
 export {
@@ -21,5 +22,6 @@ export {
 	sponsorCss,
 	eventCss,
 	HomeAbCSS,
+	teamcss,
 	MainLogo
 };
