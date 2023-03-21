@@ -96,19 +96,19 @@ const About = ({ ids }) => {
 									</div>
 								</div>
 
-								<NavLink to={elem.path} className="nav-link">
-									{elem.isOpen ? (
-										<span className="navitem">
-											<button className="offset">Register</button>
-										</span>
-									) : (
-										<span className="reg-closed">Registrations closed</span>
-									)}
-								</NavLink>
-							</div>
-						</div>
-					</>
-				);
+                {elem.isOpen ? (
+                  <NavLink to={elem.path} className="nav-link">
+                    <span className="navitem">
+                      <button className="offset">Register</button>
+                    </span>
+                  </NavLink>
+                ) : (
+                  <span className="reg-closed">Registrations closed</span>
+                )}
+              </div>
+            </div>
+          </>
+        );
 			})}
 		</>
 	);
