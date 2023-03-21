@@ -24,6 +24,13 @@ const Footer = () => {
           <img src={astroOnA} className="img-fluid footer-anantya-logo" />
           
         </div>
+
+         {/* <NavLink to="/events" className="nav-link ">
+            <button className="button-64">
+              <span className="text">Explore Events </span>
+            </button>
+          </NavLink> */}
+        
         <div className="col text-center footer-links-main">
           <div className="row d-flex row-gap-4">
             <iframe

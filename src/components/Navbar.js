@@ -24,91 +24,73 @@ const Navbar = () => {
                 // Yes, user is logged in
                 setUser(user);
 
-                // notify;
-            } else {
-                // Use is logged out
-                console.log("You are logged out");
-                setUser(null);
-            }
-        });
-    }, []);
+				// notify;
+			} else {
+				// Use is logged out
+				console.log("You are logged out");
+				setUser(null);
+			}
+		});
+	}, []);
 
-    function navClicked() {
-        if (clicked) {
-            clicked = false;
-        } else {
-            clicked = true;
-        }
-    }
+	if (user === null) {
+		return (
+      <>
+        <nav className="navbar navbar-expand-lg sticky-top">
+          <div className="container-fluid">
+            <Link to="/" className="navbar-brand title" style={{textDecoration:'none',border:'none'}}>
+              <img src={Logo} className="img-fluid logo" />
+            </Link>
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              {/* <span className="navbar-toggler-icon"></span> */}
+              <img src="menu.png" alt="" className="menu-img" />
+            </button>
+            <div
+              className="collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <ul className="navbar-nav  ms-auto">
+                <li className="nav-item">
+                  <NavLink to="/" className="nav-link">
+                    <span className="navitem" >
+                      Home
+                    </span>
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink to="/events" className="nav-link">
+                    <span className="navitem" activeClassName="active">
+                      Events
+                    </span>
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink to="/calender" className="nav-link">
+                    <span className="navitem" activeClassName="active">
+                      Calendar
+                    </span>
 
-    window.addEventListener("scroll", () => {
-        if (clicked) {
-            document.getElementById("nav-btn").click();
-        }
-    });
+                  </NavLink>
+                  {/* <a className="nav-link" href="#"></a> */}
+                </li>
 
-    if (user === null) {
-        return (
-            <>
-                <nav className="navbar navbar-expand-lg sticky-top">
-                    <div className="container-fluid">
-                        <Link
-                            to="/"
-                            className="navbar-brand title"
-                            style={{ textDecoration: "none", border: "none" }}
-                        >
-                            <img src={Logo} className="img-fluid logo" />
-                        </Link>
-                        <button
-                            onClick={() => navClicked()}
-                            id="nav-btn"
-                            className="navbar-toggler"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent"
-                            aria-controls="navbarSupportedContent"
-                            aria-expanded="false"
-                            aria-label="Toggle navigation"
-                        >
-                            {/* <span className="navbar-toggler-icon"></span> */}
-                            <img src="menu.png" alt="" className="menu-img" />
-                        </button>
-                        <div
-                            className="collapse navbar-collapse"
-                            id="navbarSupportedContent"
-                        >
-                            <ul className="navbar-nav  ms-auto">
-                                <li className="nav-item">
-                                    <NavLink to="/" className="nav-link">
-                                        <span className="navitem">Home</span>
-                                    </NavLink>
-                                </li>
-                                <li className="nav-item">
-                                    <NavLink to="/events" className="nav-link">
-                                        <span
-                                            className="navitem"
-                                            activeClassName="active"
-                                        >
-                                            Events
-                                        </span>
-                                    </NavLink>
-                                </li>
-                                <li className="nav-item">
-                                    <NavLink
-                                        to="/calender"
-                                        className="nav-link"
-                                    >
-                                        <span
-                                            className="navitem"
-                                            activeClassName="active"
-                                        >
-                                            Calendar
-                                        </span>
-                                    </NavLink>
-                                    {/* <a className="nav-link" href="#"></a> */}
-                                </li>
-                                <li className="nav-item">
-                                    {/* <NavLink to="/Login" className="nav-link">
+                <li className="nav-item">
+                  <NavLink to="/Team" className="nav-link">
+                    <span className="navitem" activeClassName="active">
+                      Team
+                    </span>
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  {/* <NavLink to="/Login" className="nav-link">
 									<span className="navitem">LogIn</span>
 
 								</NavLink> */}
@@ -157,61 +139,65 @@ const Navbar = () => {
         );
     }
 
-    return (
-        <>
-            <nav className="navbar navbar-expand-lg sticky-top">
-                <div className="container-fluid">
-                    <NavLink to="/" className="navbar-brand title">
-                        <img src={Logo} className="img-fluid logo" />
-                    </NavLink>
-                    <button
-                        className="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        {/* <span className="navbar-toggler-icon"></span> */}
-                        <img src="menu.png" alt="" className="menu-img" />
-                    </button>
-                    <div
-                        className="collapse navbar-collapse"
-                        id="navbarSupportedContent"
-                    >
-                        <ul className="navbar-nav  ms-auto">
-                            <li className="nav-item">
-                                <NavLink to="/" className="nav-link">
-                                    <span className="navitem">Home</span>
-                                </NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink to="/events" className="nav-link">
-                                    <span className="navitem">Events</span>
-                                </NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink to="/calender" className="nav-link">
-                                    <span className="navitem">Calendar</span>
-                                </NavLink>
-                                {/* <a className="nav-link" href="#"></a> */}
-                            </li>
-                            <li className="nav-item">
-                                <a
-                                    onClick={() => signOut(auth)}
-                                    href="#"
-                                    className="login-navitem navitem"
-                                >
-                                    Log out
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </>
-    );
+	return (
+    <>
+      <nav className="navbar navbar-expand-lg sticky-top">
+        <div className="container-fluid">
+          <NavLink to="/" className="navbar-brand title">
+            <img src={Logo} className="img-fluid logo" />
+          </NavLink>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            {/* <span className="navbar-toggler-icon"></span> */}
+            <img src="menu.png" alt="" className="menu-img" />
+          </button>
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav  ms-auto">
+              <li className="nav-item">
+                <NavLink to="/" className="nav-link">
+                  <span className="navitem">Home</span>
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink to="/events" className="nav-link">
+                  <span className="navitem">Events</span>
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink to="/calender" className="nav-link">
+                  <span className="navitem">Calendar</span>
+                </NavLink>
+                {/* <a className="nav-link" href="#"></a> */}
+              </li>
+              <li className="nav-item">
+                  <NavLink to="/Team" className="nav-link">
+                    <span className="navitem" activeClassName="active">
+                      Team
+                    </span>
+                  </NavLink>
+                </li>
+              <li className="nav-item">
+                <a
+                  onClick={() => signOut(auth)}
+                  href="#"
+                  className="login-navitem navitem"
+                >
+                  Log out
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </>
+  );
 };
 
 export default Navbar;
