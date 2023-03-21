@@ -1,8 +1,10 @@
 import React from "react";
 import { budhani, mfive, scriptAnalytica } from "../assets";
 import "./Sponsor.css";
+import { NavLink, Link } from "react-router-dom";
 
 const Sponsor = () => {
+
     return (
       <>
         <div style={{ textAlign: "Center" }}>
@@ -33,14 +35,12 @@ const Sponsor = () => {
 					/>
 				</div>
 
-				<div className="container sponsor-card col-lg-3 col-md-6 ">
-					<img
-						src="https://m.media-amazon.com/images/M/MV5BZDA1YWY5ZjUtMWUyYi00MmY2LWFmMGYtMWVkZDRiMDcyNmNiXkEyXkFqcGdeQXVyOTM3NjIzNzk@._V1_FMjpg_UY720_.jpg"
-						className="img-fluid sponsor-card-img"
-					/>
-				</div>
 
 				<div className="container sponsor-card col-lg-3 col-md-6 ">
+					<img src={budhani} className="img-fluid sponsor-card-img" />
+				</div>
+				<div className="container sponsor-card col-lg-3 col-md-6 ">
+
 					<img
 						src="https://m.media-amazon.com/images/M/MV5BZDA1YWY5ZjUtMWUyYi00MmY2LWFmMGYtMWVkZDRiMDcyNmNiXkEyXkFqcGdeQXVyOTM3NjIzNzk@._V1_FMjpg_UY720_.jpg"
 						className="img-fluid sponsor-card-img"
