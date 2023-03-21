@@ -82,6 +82,14 @@ const Navbar = () => {
                   </NavLink>
                   {/* <a className="nav-link" href="#"></a> */}
                 </li>
+
+                <li className="nav-item">
+                  <NavLink to="/Team" className="nav-link">
+                    <span className="navitem" activeClassName="active">
+                      Team
+                    </span>
+                  </NavLink>
+                </li>
                 <li className="nav-item">
                   {/* <NavLink to="/Login" className="nav-link">
 									<span className="navitem">LogIn</span>
@@ -164,6 +172,13 @@ const Navbar = () => {
                 </NavLink>
                 {/* <a className="nav-link" href="#"></a> */}
               </li>
+              <li className="nav-item">
+                  <NavLink to="/Team" className="nav-link">
+                    <span className="navitem" activeClassName="active">
+                      Team
+                    </span>
+                  </NavLink>
+                </li>
               <li className="nav-item">
                 <a
                   onClick={() => signOut(auth)}
