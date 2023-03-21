@@ -369,17 +369,12 @@ const cardData = [
     studn2: "Saie Mukane",
     scontact2: "7249615728",
     faculty: "Mr. Ganesh Deshmukh",
-    rule1:
-      "⦿ ROUND - 1 (Death-or-Glory) ➨ Round 1 includes a quiz consisting of 20 questions based of situational trivia.",
-    rule2:
-      "⦿ Every team will be ranked on the maximum score of the submission. If two teams have the same score, the team that finished earlier will be ranked higher.",
-    rule3:
-      "⦿ ROUND - 2 (You can’t catch me) ➨ Only 30 teams will qualify for round 2.",
-    rule4:
-      "⦿ There will be questions based on the places inside the campus and the teams which answer the questions correctly and faster will move on to the next round.",
-    rule5:
-      "⦿ ROUND - 3 (Let me iiiinnnnn) ➨ Only top 15 teams will qualify for round 3. ",
-    rule6: "⦿ Make sure you download a QR scanner before the round begins.",
+    rule1: "⦿ NA",
+    rule2: "⦿ NA",
+    rule3: "⦿ NA",
+    rule4: "⦿ NA",
+    rule5: "⦿ HACKED!! ",
+    rule6: "⦿ MAY BE YOU SHOULD CHECK THE RULES",
 
     fee: "Rs.100",
     rulelink: "https://pccoeowasp.github.io/sherlock/",

@@ -86,6 +86,7 @@ const EventRegister = () => {
             <div id="personalInfo">
               <h1 id="personal-info">Personal Information</h1>
             </div>
+            <h4 id="registration-info">Register as Attendee</h4>
           </div>
 
           <form
@@ -94,7 +95,6 @@ const EventRegister = () => {
             onSubmit={(e) => HandleEventClick(e)}
             id="form"
           >
-            <h4 className="p-tag">Register as Attendee</h4>
             <label id="lable-tag" for="name">
               Name{" "}
             </label>
