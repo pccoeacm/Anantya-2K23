@@ -42,7 +42,7 @@ const TeamData = [
   {
     img: "/Developers/Atharva.jpg",
     name: "Atharva Pande",
-    Profession: "Developer",
+    Profession: "GDSC Web dev lead",
     git: "https://github.com/atharvapande45",
     linkdin: "https://www.linkedin.com/in/atharva-pande-855341244",
     instagram: "https://instagram.com/atharvapande45?igshid=ZDdkNTZiNTM=",
