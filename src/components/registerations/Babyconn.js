@@ -31,8 +31,7 @@ const EventRegister = () => {
       }
     )
       .then((res) => {
-        // console.log("Response status:", res.status);
-        // alert('Successfully submitted');
+        
         toast.success("Successfully submitted", {
           position: "top-center",
           autoClose: 5000,
@@ -219,6 +218,7 @@ const EventRegister = () => {
                 If you have any queries, please feel free to contact the{" "}
                 <b>EVENT INCHARGE.</b>
               </p>
+              <ToastContainer />
             </div>
           </form>
         </div>
