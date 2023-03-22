@@ -91,7 +91,7 @@ const TeamData = [
     img: "/Developers/shraddha.jpg",
     name:"Shradha Yeole",
     Profession: "Jr. WebMaster",
-    git: "https://github.com/MrudulAhirrao",
+    git: "https://github.com/Shraddha16092002",
     linkdin: "https://www.linkedin.com/in/shraddha-yeole-8519161b4/",
     instagram: "https://instagram.com/shradha_1602?igshid=ZDdkNTZiNTM=",
   },
@@ -201,7 +201,7 @@ const TeamData = [
   {
     img: "/Developers/mahima.jpg",
     name: "Mahima Nair",
-    Profession: "Management Head",
+    Profession: "SY Management Head",
     git: "https://github.com/mahima-nair",
     linkdin: "https://www.linkedin.com/in/mahima-nair-8995b823b/",
     instagram: "",
@@ -211,7 +211,7 @@ const TeamData = [
     name: "Ankita Nandy",
     Profession: "Social Media",
     git: "https://github.com/ankitanandy2608",
-    linkdin: "https://www.linkedin.com/in/mahima-nair-8995b823b/",
+    linkdin: "https://www.linkedin.com/in/ankita-nandy-a3b79b236/",
     instagram: "https://www.instagram.com/ankita_nandy/",
   },
   {
