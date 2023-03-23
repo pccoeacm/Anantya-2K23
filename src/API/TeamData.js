@@ -262,22 +262,14 @@ const TeamData = [
     linkdin: "https://www.linkedin.com/in/radhika-gaikwad-0372a5202",
     instagram: "https://instagram.com/radhikaaa_g?igshid=YmMyMTA2M2Y=",
   },
-  // {
-  //   img: "/Developers/aditya_agre.jpeg",
-  //   name: "Aditya Agre",
-  //   Profession: "Management head GDSC",
-  //   git: "https://github.com/adityaagre",
-  //   linkdin: "https://www.linkedin.com/in/aditya-agre-816558220/",
-  //   instagram: "https://www.instagram.com/_adityaagre_/",
-  // },
-  // {
-  //   img: "/Developers/tanmay.jpg",
-  //   name: "Tanmay Jain ",
-  //   Profession: "Photography Cell Head",
-  //   git: "",
-  //   linkdin: "https://www.linkedin.com/in/tanmay-jain-3a8243223",
-  //   instagram: "https://instagram.com/skywalker_.15?igshid=ZDdkNTZiNTM=",
-  // },
+  {
+    img: "/Developers/Prajakta Maratkar.jpg",
+    name: "Prajakta Maratkar",
+    Profession: "Social media",
+    git: "https://github.com/Prajakta293",
+    linkdin: "https://www.linkedin.com/in/prajakta-maratkar-3682a4231",
+    instagram: "https://instagram.com/praj_akta293?igshid=ZDdkNTZiNTM=",
+  },
   {
     img: "/Developers/prathamesh.jpeg",
     name: "Prathamesh Bachhav",
@@ -294,6 +286,121 @@ const TeamData = [
     linkdin: "https://www.linkedin.com/in/saie-mukane-242562229",
     instagram: "https://instagram.com/_saieee?igshid=MGNiNDI5ZTU=",
   },
+   {
+    img: "/Developers/Prajwal More.jpg",
+    name: "Prajwal More",
+    Profession: "Designer ",
+    git: "https://github.com/PrajwalMore26",
+    linkdin: "https://www.linkedin.com/in/prajwal-more-a097211a3",
+    instagram: "https://instagram.com/prajwal._.more_?igshid=ZDdkNTZiNTM=",
+  },
+  {
+    img: "/Developers/Sejal Kotkar.jpg",
+    name: "Sejal Kotkar ",
+    Profession: "Art Circle ",
+    git: "https://github.com/",
+    linkdin: "https://www.linkedin.com/in/sejal-kotkar-6ab916231",
+    instagram: "https://instagram.com/sejal_kotkar?igshid=ZDdkNTZiNTM=",
+  },
+  {
+    img: "/Developers/Mahesh Dargad.jpeg",
+    name: "Mahesh Dargad",
+    Profession: "Marketing and Sponsorship",
+    git: "https://github.com/MrDargad",
+    linkdin: "https://linkedin.com/in/maheshdargad/",
+    instagram: "https://instagram.com/mahesh_dargad/",
+  },
+  {
+    img: "/Developers/Sahil Shinde.jpg",
+    name: "Sahil Shinde",
+    Profession: "Vice-President",
+    git: "",
+    linkdin: "https://www.linkedin.com/in/thesahilshinde",
+    instagram: "https://www.instagram.com/thesahilshinde/",
+  },
+  {
+    img: "/Developers/Jayati Wajire.png",
+    name: "Jayati Wajire",
+    Profession: "Design Team",
+    git: "https://github.com/Jayati-Wajire",
+    linkdin: "https://www.linkedin.com/in/jayati-wajire-27056423a/",
+    instagram: "https://www.instagram.com/jayatiwajire/",
+  },
+  {
+    img: "/Developers/Maithili Sude.jpg",
+    name: "Maithili Sude",
+    Profession: "Treasurer ",
+    git: "https://github.com/Maithiligithub19",
+    linkdin: "https://www.linkedin.com/in/maithili-sude-92b60023a",
+    instagram: "https://instagram.com/mahi19_07?igshid=MGU3ZTQzNzY=",
+  },
+  {
+    img: "/Developers/Kedar Kulkarni.jpg",
+    name: "Kedar Kulkarni ",
+    Profession: "Higher Studies Cell ",
+    git: "https://github.com/KedarK17",
+    linkdin: "https://www.linkedin.com/in/kedar-kulkarni-237a42217",
+    instagram: "https://instagram.com/kedar_715?igshid=OTJhZDVkZWE=",
+  },
+  {
+    img: "/Developers/Ayush Sarode.jpg",
+    name: "Ayush Vijayrao Sarode",
+    Profession: "Design Head",
+    git: "",
+    linkdin: "https://www.linkedin.com/in/ayush-sarode-b4993a215",
+    instagram: "https://instagram.com/ayush_sarode_183?igshid=ZDdkNTZiNTM=",
+  },
+  {
+    img: "/Developers/Ruchi Thakkar (1) - Ruchi Thakkar.png",
+    name: "Ruchi Thakkar",
+    Profession: "Marketing & Sponsorship Head",
+    git: "https://github.com/ruchiee27",
+    linkdin: "https://www.linkedin.com/in/ruchi-thakkar-a43799209/",
+    instagram: "https://instagram.com/_ruchi27?igshid=YmMyMTA2M2Y=",
+  },
+   {
+    img: "/Developers/Vaibhavi Pawar.jpg",
+    name: "Vaibhavi Laxman Pawar ",
+    Profession: "Higher Studies Cell coordinator ",
+    git: "https://github.com/vaibhaviP12",
+    linkdin: "https://www.linkedin.com/in/vaibhavi-pawar-404906259",
+    instagram: "https://www.instagram.com/invites/contact/?i=92zwdwrkh375&utm_content=pqzt0q0",
+  },
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   // {
+  //   img: "/Developers/aditya_agre.jpeg",
+  //   name: "Aditya Agre",
+  //   Profession: "Management head GDSC",
+  //   git: "https://github.com/adityaagre",
+  //   linkdin: "https://www.linkedin.com/in/aditya-agre-816558220/",
+  //   instagram: "https://www.instagram.com/_adityaagre_/",
+  // },
+  // {
+  //   img: "/Developers/tanmay.jpg",
+  //   name: "Tanmay Jain ",
+  //   Profession: "Photography Cell Head",
+  //   git: "",
+  //   linkdin: "https://www.linkedin.com/in/tanmay-jain-3a8243223",
+  //   instagram: "https://instagram.com/skywalker_.15?igshid=ZDdkNTZiNTM=",
+  // },
   // {
   //   img: "/Developers/",
   //   name: "",
