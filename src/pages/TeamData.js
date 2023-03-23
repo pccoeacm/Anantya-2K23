@@ -42,7 +42,7 @@ const TeamData = [
   {
     img: "/Developers/Atharva.jpg",
     name: "Atharva Pande",
-    Profession: "GDSC Web dev lead",
+    Profession: "Developer",
     git: "https://github.com/atharvapande45",
     linkdin: "https://www.linkedin.com/in/atharva-pande-855341244",
     instagram: "https://instagram.com/atharvapande45?igshid=ZDdkNTZiNTM=",
@@ -89,7 +89,7 @@ const TeamData = [
   },
   {
     img: "/Developers/shraddha.jpg",
-    name: "Shradha Yeole",
+    name:"Shradha Yeole",
     Profession: "Jr. WebMaster",
     git: "https://github.com/Shraddha16092002",
     linkdin: "https://www.linkedin.com/in/shraddha-yeole-8519161b4/",
@@ -105,7 +105,7 @@ const TeamData = [
   },
   {
     img: "/Developers/Kanak.jpg",
-    name: "Kanak Agarwal",
+    name: "Kanak Agrawal",
     Profession: "Jr. WebMaster",
     git: "https://github.com/kanak8403",
     linkdin: "https://www.linkedin.com/in/kanak-agrawal-78791a259/",
@@ -117,7 +117,7 @@ const TeamData = [
     Profession: "Marketing OWASP",
     git: "",
     linkdin: "https://www.linkedin.com/in/vaishnavi-jadhav-3b6abb250/",
-    instagram: "",
+    instagram: "https://instagram.com/vaishnavi_jadhav._?igshid=YmMyMTA2M2Y=",
   },
   {
     img: "/Developers/Bhumika.jpg",
@@ -126,8 +126,7 @@ const TeamData = [
     git: "http://github.com/Bhumi9403",
     linkdin: "http://linkedin.com/in/bhumika-patil-77a8a5220/",
     instagram: "http://instagram.com/_bhumikapatil_2003/",
-  },
-  {
+  },{
     img: "/Developers/Yash_patel.jpg",
     name: "Yash Patel",
     Profession: "Marketing OWASP",
@@ -144,7 +143,7 @@ const TeamData = [
     instagram: "https://instagram.com/sarthakz_9?igshid=YmMyMTA2M2Y=",
   },
   {
-    img: "/Developers/Kartik_chaudhari.jpg",
+    img: "/Developers/Kartik_chaudhari-min.JPG",
     name: "Kartik Chaudhari",
     Profession: "Secretary",
     git: "https://github.com/Kartik1646",
@@ -189,16 +188,15 @@ const TeamData = [
     Profession: "OWASP Lead",
     git: "https://github.com/AryaK-31",
     linkdin: "https://www.linkedin.com/in/arya-kaslikar-bb6957268/",
-    instagram: "http://instagram.com/tiirthesh",
+    instagram: "https://instagram.com/monsieur_ak31?igshid=ZDdkNTZiNTM=",
   },
   {
-    img: "/Developers/khush.jpg",
+    img: "/Developers/khush1.jpg",
     name: "Khush Kothari",
-    Profession: "Marketting Head",
+    Profession: "Marketing Head",
     git: "https://www.linkedin.com/in/khush-kothari-6991b7213",
     linkdin: "https://www.linkedin.com/in/khush-kothari-6991b7213",
-    instagram:
-      "https://drive.google.com/open?id=1izVryZSdBWp2x7d1ImjhNxyp9BdDHj6j",
+    instagram: "https://drive.google.com/open?id=1izVryZSdBWp2x7d1ImjhNxyp9BdDHj6j",
   },
   {
     img: "/Developers/mahima.jpg",
@@ -225,7 +223,7 @@ const TeamData = [
     instagram: "https://instagram.com/kshrushti_?igshid=ZDdkNTZiNTM=",
   },
   {
-    img: "/Developers/Sahil_bomble.JPG",
+    img: "/Developers/Sahil_bomble-min.JPG",
     name: "Sahil Bomble",
     Profession: "Security Team",
     git: "https://github.com/Justsah1l",
@@ -249,7 +247,7 @@ const TeamData = [
     instagram: "https://instagram.com/vishhaakhaa?igshid=ZDdkNTZiNTM=",
   },
   {
-    img: "/Developers/mahesh.jPG",
+    img: "/Developers/mahesh-min.jPG",
     name: "Mahesh Yarra",
     Profession: "Marketing Head",
     git: "https://github.com/Mahesh-Yarra",
@@ -296,30 +294,30 @@ const TeamData = [
     linkdin: "https://www.linkedin.com/in/saie-mukane-242562229",
     instagram: "https://instagram.com/_saieee?igshid=MGNiNDI5ZTU=",
   },
-  {
-    img: "/Developers/Om Bidve.jpeg",
-    name: "Om Bidve",
-    Profession: "GDSC LEAD, CESA Vice President",
-    git: "https://github.com/ombidve",
-    linkdin: "https://www.linkedin.com/in/om-bidve-aa436a1ba/",
-    instagram: "https://www.instagram.com/om__bidve/",
-  },
-  {
-    img: "/Developers/Vidyesh.jpg",
-    name: "Vidyesh Gajanan Dhande",
-    Profession: "NSS Cell",
-    git: "http://github.com/viddhande",
-    linkdin: "https://www.linkedin.com/in/vidyesh-dhande-181613229",
-    instagram: "https://instagram.com/vid_2772?igshid=YmMyMTA2M2Y=",
-  },
-  {
-    img: "/Developers/Shyam.jpg",
-    name: "Shyam Tiwari",
-    Profession: "Photography Cell Head",
-    git: "https://github.com/shyam-1024",
-    linkdin: "https://www.linkedin.com/in/shyam-sundar-tiwari-780869208/",
-    instagram: "https://www.instagram.com/everythingshyam/",
-  },
+  // {
+  //   img: "/Developers/",
+  //   name: "",
+  //   Profession: "",
+  //   git: "",
+  //   linkdin: "",
+  //   instagram: "",
+  // },
+  // {
+  //   img: "/Developers/",
+  //   name: "",
+  //   Profession: "",
+  //   git: "",
+  //   linkdin: "",
+  //   instagram: "",
+  // },
+  // {
+  //   img: "/Developers/",
+  //   name: "",
+  //   Profession: "",
+  //   git: "",
+  //   linkdin: "",
+  //   instagram: "",
+  // },
 ];
 
 export default TeamData;
