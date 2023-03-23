@@ -33,7 +33,7 @@ const cardData = [
       "https://drive.google.com/file/d/1bgSE10H5ndN1ZH9n9QYY5N7c755RFg6s/view?usp=share_link",
     image: "./posters/codigo.jpg",
     path: "/codigo",
-    isOpen: true,
+    isOpen: false,
   },
 
   {
@@ -320,7 +320,7 @@ const cardData = [
       "https://drive.google.com/file/d/12RReGj611y4fWZ8dy2OIzd95TGMZ-3b5/view?usp=share_link",
     image: "./posters/movieTrivia.jpg",
     path: "/Movie_Trivia",
-    isOpen: true,
+    isOpen: false,
   },
   {
     id: 11,
