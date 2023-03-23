@@ -320,7 +320,7 @@ const cardData = [
       "https://drive.google.com/file/d/12RReGj611y4fWZ8dy2OIzd95TGMZ-3b5/view?usp=share_link",
     image: "./posters/movieTrivia.jpg",
     path: "/Movie_Trivia",
-    isOpen: true,
+    isOpen: false,
   },
   {
     id: 11,
