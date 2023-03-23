@@ -19,7 +19,7 @@ const TeamData = [
     img: "/Developers/Suraj.jpg",
     name: "Suraj Tade",
     Profession: "WebMaster",
-    git: "github.com/surajTade",
+    git: "https://github.com/surajTade/",
     linkdin: "https://www.linkedin.com/in/suraj-tade",
     instagram: " https://instagram.com/suraj__tade?igshid=ZDdkNTZiNTM=",
   },
@@ -111,6 +111,50 @@ const TeamData = [
     linkdin: "https://www.linkedin.com/in/kanak-agrawal-78791a259/",
     instagram: "https://www.instagram.com/kanakagrawal08/. ",
   },
+
+  {
+    img: "/Developers/prathamesh.jpeg",
+    name: "Prathamesh Bachhav",
+    Profession: "SY Management head",
+    git: "http://github.com/itspratham02",
+    linkdin: "http://linkedin.com/in/prathamesh-bachhav-282b11229",
+    instagram: "https://instagram.com/itspratham_02?igshid=YmMyMTA2M2Y=",
+  },
+
+  {
+    img: "/Developers/Sahil_S.jpg",
+    name: "Sahil Shinde",
+    Profession: "Vice-President",
+    git: "",
+    linkdin: "https://www.linkedin.com/in/thesahilshinde",
+    instagram: "https://www.instagram.com/thesahilshinde/",
+  }, 
+
+  
+  {
+    img: "/Developers/Om Bidve.jpeg",
+    name: "Om Bidve",
+    Profession: "GDSC LEAD, CESA Vice President",
+    git: "https://github.com/ombidve",
+    linkdin: "https://www.linkedin.com/in/om-bidve-aa436a1ba/",
+    instagram: "https://www.instagram.com/om__bidve/",
+  },
+  {
+    img: "/Developers/aray_kaslikar.jpg",
+    name: "Arya Kaslikar",
+    Profession: "OWASP Lead",
+    git: "https://github.com/AryaK-31",
+    linkdin: "https://www.linkedin.com/in/arya-kaslikar-bb6957268/",
+    instagram: "https://instagram.com/monsieur_ak31?igshid=ZDdkNTZiNTM=",
+  },
+  {
+    img: "/Developers/Kartik_chaudhari.jpg",
+    name: "Kartik Chaudhari",
+    Profession: "Secretary",
+    git: "https://github.com/Kartik1646",
+    linkdin: "https://www.linkedin.com/in/kartik-chaudhari-39a872209",
+    instagram: "https://www.instagram.com/_kartik.56",
+  },
   {
     img: "/Developers/vaishnavi.jpeg",
     name: "Vaishnavi Jadhav",
@@ -153,14 +197,7 @@ const TeamData = [
     linkdin: "https://www.linkedin.com/in/sarthakzambre",
     instagram: "https://instagram.com/sarthakz_9?igshid=YmMyMTA2M2Y=",
   },
-  {
-    img: "/Developers/Kartik_chaudhari.jpg",
-    name: "Kartik Chaudhari",
-    Profession: "Secretary",
-    git: "https://github.com/Kartik1646",
-    linkdin: "https://www.linkedin.com/in/kartik-chaudhari-39a872209",
-    instagram: "https://www.instagram.com/_kartik.56",
-  },
+  
   {
     img: "/Developers/mukgdha.jpg",
     name: "Mugdha Kshirsagar",
@@ -178,6 +215,14 @@ const TeamData = [
     instagram: "https://www.instagram.com/itsvallabh/",
   },
   {
+    img: "/Developers/sahil.jpg",
+    name: "Sahil Dhanwani",
+    Profession: "Event Co-ordinator",
+    git: "https://github.com/SahilDhanwani",
+    linkdin: "https://www.linkedin.com/in/sahil-dhanwani-37825822b",
+    instagram: "https://instagram.com/sahil_dhanwani3260?igshid=ZDdkNTZiNTM=",
+  },
+  {
     img: "/Developers/Aniket.jpg",
     name: "Aniket Choudhar",
     Profession: "Sports Cell",
@@ -193,6 +238,7 @@ const TeamData = [
     linkdin: "https://www.linkedin.com/in/tirthesh121",
     instagram: "instagram.com/tiirthesh",
   },
+
   {
     img: "/Developers/aray_kaslikar.jpg",
     name: "Arya Kaslikar",
@@ -201,6 +247,7 @@ const TeamData = [
     linkdin: "https://www.linkedin.com/in/arya-kaslikar-bb6957268/",
     instagram: "https://instagram.com/monsieur_ak31?igshid=ZDdkNTZiNTM=",
   },
+
   {
     img: "/Developers/khush.jpg",
     name: "Khush Kothari",
@@ -242,14 +289,7 @@ const TeamData = [
     linkdin: "https://www.linkedin.com/in/sahil-bomble-0432a01b9",
     instagram: "https://www.instagram.com/justsahil._/",
   },
-  {
-    img: "/Developers/sahil.jpg",
-    name: "Sahil Dhanwani",
-    Profession: "Event Co-ordinator",
-    git: "https://github.com/SahilDhanwani",
-    linkdin: "https://www.linkedin.com/in/sahil-dhanwani-37825822b",
-    instagram: "https://instagram.com/sahil_dhanwani3260?igshid=ZDdkNTZiNTM=",
-  },
+  
   {
     img: "/Developers/Vishakha.jpeg",
     name: "Vishakha Deshpande ",
@@ -274,6 +314,7 @@ const TeamData = [
     linkdin: "https://www.linkedin.com/in/radhika-gaikwad-0372a5202",
     instagram: "https://instagram.com/radhikaaa_g?igshid=YmMyMTA2M2Y=",
   },
+
   {
     img: "/Developers/aditya_agre.jpeg",
     name: "Aditya Agre",
@@ -290,14 +331,24 @@ const TeamData = [
     linkdin: "https://www.linkedin.com/in/tanmay-jain-3a8243223",
     instagram: "https://instagram.com/skywalker_.15?igshid=ZDdkNTZiNTM=",
   },
+
   {
-    img: "/Developers/prathamesh.jpeg",
-    name: "Prathamesh Bachhav",
-    Profession: "SY Management head",
-    git: "http://github.com/itspratham02",
-    linkdin: "http://linkedin.com/in/prathamesh-bachhav-282b11229",
-    instagram: "https://instagram.com/itspratham_02?igshid=YmMyMTA2M2Y=",
+    img: "/Developers/aditya_agre.jpeg",
+    name: "Aditya Agre",
+    Profession: "Management head GDSC",
+    git: "https://github.com/adityaagre",
+    linkdin: "https://www.linkedin.com/in/aditya-agre-816558220/",
+    instagram: "https://www.instagram.com/_adityaagre_/",
   },
+  {
+    img: "/Developers/tanmay.jpg",
+    name: "Tanmay Jain ",
+    Profession: "Photography Cell Head",
+    git: "",
+    linkdin: "https://www.linkedin.com/in/tanmay-jain-3a8243223",
+    instagram: "https://instagram.com/skywalker_.15?igshid=ZDdkNTZiNTM=",
+  },
+  
   {
     img: "/Developers/saie.jpg",
     name: "Saie Mukane ",
@@ -306,6 +357,7 @@ const TeamData = [
     linkdin: "https://www.linkedin.com/in/saie-mukane-242562229",
     instagram: "https://instagram.com/_saieee?igshid=MGNiNDI5ZTU=",
   },
+
   {
     img: "/Developers/Om Bidve.jpeg",
     name: "Om Bidve",
@@ -314,6 +366,7 @@ const TeamData = [
     linkdin: "https://www.linkedin.com/in/om-bidve-aa436a1ba/",
     instagram: "https://www.instagram.com/om__bidve/",
   },
+
   {
     img: "/Developers/Vidyesh.jpg",
     name: "Vidyesh Gajanan Dhande",
@@ -330,6 +383,105 @@ const TeamData = [
     linkdin: "https://www.linkedin.com/in/shyam-sundar-tiwari-780869208/",
     instagram: "https://www.instagram.com/everythingshyam/",
   },
+
+  {
+    img: "/Developers/prajakta_m.jpg",
+    name: "Prajakta maratkar",
+    Profession: "Social media ",
+    git: "https://github.com/Prajakta293",
+    linkdin: "https://www.linkedin.com/in/prajakta-maratkar-3682a4231",
+    instagram: "https://instagram.com/praj_akta293?igshid=ZDdkNTZiNTM=",
+  },
+  {
+    img: "/Developers/onkar.jpg",
+    name: "Onkar Dokhe",
+    Profession: "Application Developer",
+    git: "https://github.com/onkar-dokhe",
+    linkdin: "https://linkedin.com/in/onkar-dokhe;",
+    instagram: "https://instagram.com/onkar_dokhe",
+  },
+  {
+    img: "/Developers/Siddhi_B.jpg",
+    name: "Siddhi Bajpai",
+    Profession: "Art Circle Cell ",
+    git: "https://github.com/siddhi-bajpai",
+    linkdin: "https://www.linkedin.com/in/siddhi-bajpai-4a20bb22a/",
+    instagram: "https://www.instagram.com/siddhibajpai12/",
+  },
+  {
+    img: "/Developers/Saish_K.jpg",
+    name: "Saish Kothawade",
+    Profession: "Co-Treasurer",
+    git: "https://github.com/saishk237",
+    linkdin: "https://www.linkedin.com/in/saish-kothawade-173609208",
+    instagram: "https://www.instagram.com/saishk237/",
+  },
+  {
+    img: "/Developers/Vaibhavi_P.jpg",
+    name: "Vaibhavi Pawar",
+    Profession: "Higher Studies Cell coordinator ",
+    git: "https://github.com/vaibhaviP12",
+    linkdin: "https://www.linkedin.com/in/vaibhavi-pawar-404906259",
+    instagram: "https://www.instagram.com/invites/contact/?i=92zwdwrkh375&utm_content=pqzt0q0",
+  },
+  {
+    img: "/Developers/Ruchi_T.png",
+    name: "Ruchi Thakkar",
+    Profession: "Marketing & Sponsorship Head",
+    git: "https://github.com/ruchiee27",
+    linkdin: "https://www.linkedin.com/in/ruchi-thakkar-a43799209/",
+    instagram: "https://instagram.com/_ruchi27?igshid=YmMyMTA2M2Y=",
+  },
+  {
+    img: "/Developers/Ayush_S.jpg",
+    name: "Ayush Sarode ",
+    Profession: "Design Head",
+    git: "",
+    linkdin: "https://www.linkedin.com/in/ayush-sarode-b4993a215",
+    instagram: "https://instagram.com/ayush_sarode_183?igshid=ZDdkNTZiNTM=",
+  },
+  {
+    img: "/Developers/Kedar_k.jpg",
+    name: "Kedar Kulkarni ",
+    Profession: "Higher Studies Cell ",
+    git: "https://github.com/KedarK17",
+    linkdin: "https://www.linkedin.com/in/kedar-kulkarni-237a42217",
+    instagram: "https://instagram.com/kedar_715?igshid=OTJhZDVkZWE=",
+  },
+  {
+    img: "/Developers/Maithili_S.jpg",
+    name: "Maithili Sude",
+    Profession: "ACMW Treasurer ",
+    git: "https://github.com/Maithiligithub19",
+    linkdin: "https://www.linkedin.com/in/maithili-sude-92b60023a",
+    instagram: "https://instagram.com/mahi19_07?igshid=MGU3ZTQzNzY=",
+  },
+  {
+    img: "/Developers/Jayati_W.JPG",
+    name: "Jayati Wajire",
+    Profession: "Design Team",
+    git: "https://github.com/Jayati-Wajire",
+    linkdin: "https://www.linkedin.com/in/jayati-wajire-27056423a/",
+    instagram: "https://www.instagram.com/jayatiwajire/",
+  },
+  
+  {
+    img: "/Developers/Mahesh_D.jpeg",
+    name: "Mahesh Dargad",
+    Profession: "Marketing and Sponsorship",
+    git: "https://github.com/MrDargad",
+    linkdin: "https://linkedin.com/in/maheshdargad/",
+    instagram: "https://instagram.com/mahesh_dargad/",
+  },
+  {
+    img: "/Developers/Sejal_K.jpg",
+    name: "Sejal Kotkar ",
+    Profession: "Art Circle ",
+    git: "https://github.com/",
+    linkdin: "https://www.linkedin.com/in/sejal-kotkar-6ab916231",
+    instagram: "https://instagram.com/sejal_kotkar?igshid=ZDdkNTZiNTM=",
+  },
+
 ];
 
 export default TeamData;
