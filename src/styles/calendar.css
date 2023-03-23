@@ -28,7 +28,7 @@
 
 .timeline-heading {
     color: red;
-    align-self: center;
+    text-align: center;
     font-family: "Play";
     font-weight: 200;
 }

@@ -22,7 +22,8 @@ display: block;
     color: red;
     font-family: "Play";
     font-weight: 300;
-    align-self: center;
+    /* align-self: center; */
+    text-align: center;
 }
 
 .p-tag

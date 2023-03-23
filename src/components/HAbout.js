@@ -20,7 +20,7 @@ const HAbout = () => {
                             With 14 different technical and non-technical
                             events, participants can showcase their skills and
                             knowledge in a competitive yet friendly environment.
-                            Anantya is designed to test participants' technical
+                            Anantya is designed to test participant's technical
                             expertise, creativity, and critical thinking skills,
                             pushing them to their limits and beyond. <br />
                             <br />
