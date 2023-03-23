@@ -155,7 +155,7 @@ const cardData = [
       "https://drive.google.com/file/d/11CbXHOANM5pJ6sLxWnTeUpxgbV9-xSah/view?usp=share_link",
     image: "./posters/cat.jpg",
     path: "/cosmic_Aptitude_Test",
-    isOpen: true,
+    isOpen: false,
   },
   {
     id: 6,
@@ -220,7 +220,7 @@ const cardData = [
       "https://drive.google.com/file/d/13F7wws8mhnhmXjb03BW0H1rNP9kIsay0/view?usp=share_link",
     image: "./posters/startupmania.jpg",
     path: "/Startup_Mania",
-    isOpen: true,
+    isOpen: false,
   },
   {
     id: 8,
