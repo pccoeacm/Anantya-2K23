@@ -89,7 +89,7 @@ const TeamData = [
   },
   {
     img: "/Developers/shraddha.jpg",
-    name:"Shradha Yeole",
+    name: "Shradha Yeole",
     Profession: "Jr. WebMaster",
     git: "https://github.com/MrudulAhirrao",
     linkdin: "https://www.linkedin.com/in/shraddha-yeole-8519161b4/",
@@ -126,7 +126,8 @@ const TeamData = [
     git: "http://github.com/Bhumi9403",
     linkdin: "http://linkedin.com/in/bhumika-patil-77a8a5220/",
     instagram: "http://instagram.com/_bhumikapatil_2003/",
-  },{
+  },
+  {
     img: "/Developers/Yash_patel.jpg",
     name: "Yash Patel",
     Profession: "Marketing OWASP",
@@ -196,7 +197,8 @@ const TeamData = [
     Profession: "Marketting Head",
     git: "https://www.linkedin.com/in/khush-kothari-6991b7213",
     linkdin: "https://www.linkedin.com/in/khush-kothari-6991b7213",
-    instagram: "https://drive.google.com/open?id=1izVryZSdBWp2x7d1ImjhNxyp9BdDHj6j",
+    instagram:
+      "https://drive.google.com/open?id=1izVryZSdBWp2x7d1ImjhNxyp9BdDHj6j",
   },
   {
     img: "/Developers/mahima.jpg",
@@ -294,30 +296,30 @@ const TeamData = [
     linkdin: "https://www.linkedin.com/in/saie-mukane-242562229",
     instagram: "https://instagram.com/_saieee?igshid=MGNiNDI5ZTU=",
   },
-  // {
-  //   img: "/Developers/",
-  //   name: "",
-  //   Profession: "",
-  //   git: "",
-  //   linkdin: "",
-  //   instagram: "",
-  // },
-  // {
-  //   img: "/Developers/",
-  //   name: "",
-  //   Profession: "",
-  //   git: "",
-  //   linkdin: "",
-  //   instagram: "",
-  // },
-  // {
-  //   img: "/Developers/",
-  //   name: "",
-  //   Profession: "",
-  //   git: "",
-  //   linkdin: "",
-  //   instagram: "",
-  // },
+  {
+    img: "/Developers/Om Bidve.jpeg",
+    name: "Om Bidve",
+    Profession: "GDSC LEAD, CESA Vice President",
+    git: "https://github.com/ombidve",
+    linkdin: "https://www.linkedin.com/in/om-bidve-aa436a1ba/",
+    instagram: "https://www.instagram.com/om__bidve/",
+  },
+  {
+    img: "/Developers/Vidyesh.jpg",
+    name: "Vidyesh Gajanan Dhande",
+    Profession: "NSS Cell",
+    git: "http://github.com/viddhande",
+    linkdin: "https://www.linkedin.com/in/vidyesh-dhande-181613229",
+    instagram: "https://instagram.com/vid_2772?igshid=YmMyMTA2M2Y=",
+  },
+  {
+    img: "/Developers/Shyam.jpg",
+    name: "Shyam Tiwari",
+    Profession: "Photography Cell Head",
+    git: "https://github.com/shyam-1024",
+    linkdin: "https://www.linkedin.com/in/shyam-sundar-tiwari-780869208/",
+    instagram: "https://www.instagram.com/everythingshyam/",
+  },
 ];
 
 export default TeamData;

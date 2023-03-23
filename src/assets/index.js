@@ -13,9 +13,10 @@ import mainLogo from "./main_logo.png";
 import mainLogoM from "./main_logo_m.png";
 import astroOnA from "./astrooOnA.png";
 import mfive from "./mfive.jpg"
-import budhani from "./budhani_sponsor.jpg"
+import budhani from "./Budhani.jpg"
 import scriptAnalytica from "./scriptAnalytica.jpg";
-
+import pathLogics from "./PathLogics.jpg";
+import stockGro from "./StockGro.jpg";
 
 export {
     astronaut,
@@ -34,5 +35,7 @@ export {
     astroOnA,
     mfive,
     budhani,
-    scriptAnalytica
+    scriptAnalytica,
+    pathLogics,
+    stockGro
 };

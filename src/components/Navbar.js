@@ -82,13 +82,13 @@ const Navbar = () => {
                   {/* <a className="nav-link" href="#"></a> */}
                 </li>
 
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <NavLink to="/Team" className="nav-link">
                     <span className="navitem" activeClassName="active">
                       Team
                     </span>
                   </NavLink>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   {/* <NavLink to="/Login" className="nav-link">
 									<span className="navitem">LogIn</span>
