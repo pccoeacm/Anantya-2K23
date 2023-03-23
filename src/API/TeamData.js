@@ -127,8 +127,18 @@ const TeamData = [
     linkdin: "http://linkedin.com/in/bhumika-patil-77a8a5220/",
     instagram: "http://instagram.com/_bhumikapatil_2003/",
   },
+
   {
-    img: "/Developers/Yash_patel.jpg",
+    img: "/Developers/Sanika.jpeg",
+    name: "Sanika Mahabaleshwarkar",
+    Profession: "SY Design Team",
+    git: "https://github.com/mkarsanika",
+    linkdin: "https://www.linkedin.com/in/sanika-mahabaleshwarkar-22051823b/",
+    instagram: "https://www.instagram.com/sanika1072/",
+  },
+
+  {
+    img: "/Developers/yash_patel.jpeg",
     name: "Yash Patel",
     Profession: "Marketing OWASP",
     git: "https://github.com/Yaaashh",

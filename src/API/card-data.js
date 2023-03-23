@@ -230,7 +230,7 @@ const cardData = [
       "The Alpha Analyst event to test your trading skills based on real market based situation without the risk of loosing real money.",
     detailed_description:
       "Looking to showcase your trading skills and Stock Market knowledge ? Look no further than THE ALPHA ANALYAST , the ultimate inter collegiate event that offers a platform for students to exhibit their talents and skills.THE ALPHA ANALYAST will bring you the opportunity to participate in a 2 day virtual trading competition with help of our sponsored platform  of Stockgro which will test your trading skills. So, what are you waiting for? Gear up and get ready to showcase your skills and talents at THE ALPHA ANALYAST . Spread the word and invite your friends to come along and join in the fun. This is an opportunity not to be missed!",
-    Type: "Team of 3",
+    Type: "Solo",
     prize1: "Prizes Worth Rs. 2500",
     prize2: "",
     prize3: "",
@@ -244,7 +244,7 @@ const cardData = [
     rule3: "⦿ No fees for the event registration ",
     rule4: "⦿ you need to download and register the StockGro App ",
     rule5: "⦿ Last date to register for event is 25th march",
-    fee: "FREE FREE FREE",
+    fee: "FREE",
     rulelink:
       "https://drive.google.com/file/d/1jIwfzKsDhH2jzxIKJvCdhCptwhURaHNt/view?usp=share_link",
     image: "./posters/AlphaAnalyst.jpg",

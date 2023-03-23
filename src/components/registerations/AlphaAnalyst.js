@@ -92,12 +92,8 @@ const EventRegister = () => {
           >
             <h2 className="font-normal">The Alpha Analyst</h2>
             <div id="personalInfo">
-              <h1 id="personal-info">Team Lead Information</h1>
+              <h1 id="personal-info">Personal Information</h1>
             </div>
-            <p id="registration-info">
-              The team leader is expected to provide their information only,
-              other members of the group do not need to register.{" "}
-            </p>
           </div>
 
           <form
