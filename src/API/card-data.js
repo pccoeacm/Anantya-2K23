@@ -33,8 +33,7 @@ const cardData = [
       "https://drive.google.com/file/d/1bgSE10H5ndN1ZH9n9QYY5N7c755RFg6s/view?usp=share_link",
     image: "./posters/codigo.jpg",
     path: "/codigo",
-	isOpen: true,
-
+    isOpen: true,
   },
 
   {
@@ -68,7 +67,7 @@ const cardData = [
       "https://drive.google.com/file/d/1d1aGQYlWvUir6ZRVhyy-3nbJC2VLx8rr/view?usp=share_link",
     image: "./posters/Webbit.jpg",
     path: "/webbit",
-	isOpen: true,
+    isOpen: true,
   },
   {
     id: 3,
@@ -91,7 +90,7 @@ const cardData = [
     rulelink: "#",
     image: "./posters/perplexo.jpg",
     path: "/Perplexo",
-	isOpen: true,
+    isOpen: true,
   },
   {
     id: 4,
@@ -125,7 +124,7 @@ const cardData = [
       "https://drive.google.com/file/d/1Ah0JPJsbqxvnuWdZ1ljF_2kb_WpYhqo0/view?usp=sharing",
     image: "./posters/Hackathon.jpg",
     path: "/hackathon",
-	isOpen: true,
+    isOpen: true,
   },
   {
     id: 5,
@@ -156,7 +155,7 @@ const cardData = [
       "https://drive.google.com/file/d/11CbXHOANM5pJ6sLxWnTeUpxgbV9-xSah/view?usp=share_link",
     image: "./posters/cat.jpg",
     path: "/cosmic_Aptitude_Test",
-	isOpen: true,
+    isOpen: true,
   },
   {
     id: 6,
@@ -188,7 +187,7 @@ const cardData = [
       "https://drive.google.com/file/d/16-GlvRCTn_gmLYxizpC28LZyeTRQA0L9/view?usp=share_link",
     image: "./posters/IPL.jpg",
     path: "/IPL_Auction",
-	isOpen: false,
+    isOpen: false,
   },
   {
     id: 7,
@@ -221,7 +220,7 @@ const cardData = [
       "https://drive.google.com/file/d/13F7wws8mhnhmXjb03BW0H1rNP9kIsay0/view?usp=share_link",
     image: "./posters/startupmania.jpg",
     path: "/Startup_Mania",
-	isOpen: true,
+    isOpen: true,
   },
   {
     id: 8,
@@ -230,7 +229,7 @@ const cardData = [
     short_description:
       "The Alpha Analyst event to test your trading skills based on real market based situation without the risk of loosing real money.",
     detailed_description:
-      "The Alpha Analyst event to test your trading skills based on real market based situation without the risk of loosing real money.",
+      "Looking to showcase your trading skills and Stock Market knowledge ? Look no further than THE ALPHA ANALYAST , the ultimate inter collegiate event that offers a platform for students to exhibit their talents and skills.THE ALPHA ANALYAST will bring you the opportunity to participate in a 2 day virtual trading competition with help of our sponsored platform  of Stockgro which will test your trading skills. So, what are you waiting for? Gear up and get ready to showcase your skills and talents at THE ALPHA ANALYAST . Spread the word and invite your friends to come along and join in the fun. This is an opportunity not to be missed!",
     Type: "Team of 3",
     prize1: "Prizes Worth Rs. 2500",
     prize2: "",
@@ -240,16 +239,17 @@ const cardData = [
     studn2: "Saijeet Chitte",
     scontact2: "7083926241",
     faculty: "Mr. Amit Khedkar.",
-    rule1: "Registration rules:",
-    rule2: "1)All departments are eligible to participate in this event.",
-    rule3: "2)Rs.100/- participation for non-PCCOEian.",
-    rule4: "3)Team size-3 Individuals only.",
-    fee: "Rs.100",
+    rule1: "⦿ It is an online event",
+    rule2: "⦿ It is an individual event ",
+    rule3: "⦿ No fees for the event registration ",
+    rule4: "⦿ you need to download and register the StockGro App ",
+    rule5: "⦿ Last date to register for event is 25th march",
+    fee: "FREE FREE FREE",
     rulelink:
-      "https://drive.google.com/file/d/15GMDQIX5YBqocNSK0YbOozkUVDSEZt_t/view?usp=share_link",
-    image: "./posters/AlphaAnaylst.jpg",
+      "https://drive.google.com/file/d/1jIwfzKsDhH2jzxIKJvCdhCptwhURaHNt/view?usp=share_link",
+    image: "./posters/AlphaAnalyst.jpg",
     path: "/The_Alpha_Analyst",
-	isOpen: true,
+    isOpen: true,
   },
   {
     id: 9,
@@ -283,7 +283,7 @@ const cardData = [
       "https://drive.google.com/file/d/16nQgNzxUUEtBXD3gQ2DxJOvL5jWl_FwL/view?usp=share_link",
     image: "./posters/G20.jpg",
     path: "/G20x_Anantya",
-	isOpen: true,
+    isOpen: true,
   },
   {
     id: 10,
@@ -320,7 +320,7 @@ const cardData = [
       "https://drive.google.com/file/d/12RReGj611y4fWZ8dy2OIzd95TGMZ-3b5/view?usp=share_link",
     image: "./posters/movieTrivia.jpg",
     path: "/Movie_Trivia",
-	isOpen: true,
+    isOpen: true,
   },
   {
     id: 11,
@@ -353,7 +353,7 @@ const cardData = [
       "https://drive.google.com/file/d/1_eAkYeCCeAD2UcAfVMcoNKyV73wOVi25/view?usp=share_link",
     image: "./posters/Unleash.jpg",
     path: "https://forms.gle/HmnSMCRqookrN3xm6",
-	isOpen: true,
+    isOpen: true,
   },
   // {
   // 	id: 12,
@@ -392,7 +392,7 @@ const cardData = [
     rulelink: "https://pccoeowasp.github.io/sherlock/",
     image: "./posters/sherlock.jpg",
     path: "/Sherlock",
-	isOpen: true,
+    isOpen: false,
   },
   {
     id: 14,
@@ -413,7 +413,7 @@ const cardData = [
     rulelink: "#",
     image: "./posters/babyconn.jpg",
     path: "/Babyconn",
-	isOpen: true,
+    isOpen: true,
   },
 ];
 

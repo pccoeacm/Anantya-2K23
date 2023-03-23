@@ -1,5 +1,5 @@
 import React from "react";
-import { budhani, mfive, scriptAnalytica } from "../assets";
+import { budhani, mfive, pathLogics, scriptAnalytica, stockGro } from "../assets";
 import "./Sponsor.css";
 import { NavLink, Link } from "react-router-dom";
 
@@ -26,6 +26,14 @@ const Sponsor = () => {
 
           <div className="container sponsor-card col-lg-3 col-md-6 ">
             <img src={budhani} className="img-fluid sponsor-card-img" />
+          </div>
+
+          <div className="container sponsor-card col-lg-3 col-md-6 ">
+            <img src={stockGro} className="img-fluid sponsor-card-img" />
+          </div>
+
+          <div className="container sponsor-card col-lg-3 col-md-6 ">
+            <img src={pathLogics} className="img-fluid sponsor-card-img" />
           </div>
 
           {/* <div className="container sponsor-card col-lg-3 col-md-6 ">

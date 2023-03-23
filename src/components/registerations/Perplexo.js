@@ -96,7 +96,7 @@ const EventRegister = () => {
             </div>
             <p id="registration-info">
               The team leader is expected to provide their information only,
-              other members of the group do not need to register.{" "}
+              other members of the group do not need to register.
             </p>
           </div>
 
