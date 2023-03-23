@@ -19,7 +19,7 @@ const TeamData = [
     img: "/Developers/Suraj.jpg",
     name: "Suraj Tade",
     Profession: "WebMaster",
-    git: "github.com/surajTade",
+    git: "https://github.com/surajTade/",
     linkdin: "https://www.linkedin.com/in/suraj-tade",
     instagram: " https://instagram.com/suraj__tade?igshid=ZDdkNTZiNTM=",
   },
