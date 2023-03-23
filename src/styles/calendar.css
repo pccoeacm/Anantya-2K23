@@ -209,13 +209,13 @@
 /* Perplexo */
 .Event-10-d1 {
     grid-row: 7;
-    grid-column: 5 / span 2;
+    grid-column: 7 / span 2;
 }
 
 /* CAT R1*/
 .Event-11-d1 {
     grid-row: 6;
-    grid-column: 5 / span 2;
+    grid-column: 7 / span 2;
 }
 
 /* CAT R2 */
@@ -353,7 +353,7 @@
 /* G20 r1 */
 .Event-6-d2 {
     grid-row: 5;
-    grid-column: 6 / span 2;
+    grid-column: 3 / span 2;
 }
 
 /* Alpha Analyst */
