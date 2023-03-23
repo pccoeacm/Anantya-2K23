@@ -114,7 +114,7 @@ const TeamData = [
   {
     img: "/Developers/vaishnavi.jpeg",
     name: "Vaishnavi Jadhav",
-    Profession: "Marketting OWASP",
+    Profession: "Marketing OWASP",
     git: "",
     linkdin: "https://www.linkedin.com/in/vaishnavi-jadhav-3b6abb250/",
     instagram: "",
@@ -289,7 +289,7 @@ const TeamData = [
   {
     img: "/Developers/saie.jpg",
     name: "Saie Mukane ",
-    Profession: "PR exicutive ",
+    Profession: "PR executive ",
     git: "",
     linkdin: "https://www.linkedin.com/in/saie-mukane-242562229",
     instagram: "https://instagram.com/_saieee?igshid=MGNiNDI5ZTU=",
