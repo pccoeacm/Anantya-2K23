@@ -34,6 +34,7 @@ const cardData = [
     image: "./posters/codigo.jpg",
     path: "/codigo",
     isOpen: false,
+
   },
 
   {
@@ -321,6 +322,7 @@ const cardData = [
     image: "./posters/movieTrivia.jpg",
     path: "/Movie_Trivia",
     isOpen: false,
+
   },
   {
     id: 11,
