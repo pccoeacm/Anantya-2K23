@@ -114,7 +114,7 @@ const TeamData = [
   {
     img: "/Developers/vaishnavi.jpeg",
     name: "Vaishnavi Jadhav",
-    Profession: "Marketting OWASP",
+    Profession: "Marketing OWASP",
     git: "",
     linkdin: "https://www.linkedin.com/in/vaishnavi-jadhav-3b6abb250/",
     instagram: "",
