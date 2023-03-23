@@ -289,7 +289,7 @@ const TeamData = [
   {
     img: "/Developers/saie.jpg",
     name: "Saie Mukane ",
-    Profession: "PR exicutive ",
+    Profession: "PR executive ",
     git: "",
     linkdin: "https://www.linkedin.com/in/saie-mukane-242562229",
     instagram: "https://instagram.com/_saieee?igshid=MGNiNDI5ZTU=",
