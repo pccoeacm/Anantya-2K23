@@ -42,7 +42,7 @@ const MyComponent = (props) => {
         <div style={{ textAlign: "center" }}>
           <h3 className="mainlogo-h1">2023</h3>
           <h1 className="mainlogo-h1">
-            "Experience the Universe of Innovation"
+            "EXPLORE BEYOND INFINITY"
           </h1>
         </div>
         <div style={{marginTop:'5%'}}></div>

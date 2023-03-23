@@ -19,7 +19,7 @@ const TeamData = [
     img: "/Developers/Suraj.jpg",
     name: "Suraj Tade",
     Profession: "WebMaster",
-    git: "github.com/surajTade",
+    git: "https://github.com/surajTade/",
     linkdin: "https://www.linkedin.com/in/suraj-tade",
     instagram: " https://instagram.com/suraj__tade?igshid=ZDdkNTZiNTM=",
   },
@@ -238,7 +238,16 @@ const TeamData = [
     linkdin: "https://www.linkedin.com/in/tirthesh121",
     instagram: "instagram.com/tiirthesh",
   },
-  
+
+  {
+    img: "/Developers/aray_kaslikar.jpg",
+    name: "Arya Kaslikar",
+    Profession: "OWASP Lead",
+    git: "https://github.com/AryaK-31",
+    linkdin: "https://www.linkedin.com/in/arya-kaslikar-bb6957268/",
+    instagram: "https://instagram.com/monsieur_ak31?igshid=ZDdkNTZiNTM=",
+  },
+
   {
     img: "/Developers/khush.jpg",
     name: "Khush Kothari",
@@ -305,6 +314,24 @@ const TeamData = [
     linkdin: "https://www.linkedin.com/in/radhika-gaikwad-0372a5202",
     instagram: "https://instagram.com/radhikaaa_g?igshid=YmMyMTA2M2Y=",
   },
+
+  {
+    img: "/Developers/aditya_agre.jpeg",
+    name: "Aditya Agre",
+    Profession: "Management head GDSC",
+    git: "https://github.com/adityaagre",
+    linkdin: "https://www.linkedin.com/in/aditya-agre-816558220/",
+    instagram: "https://www.instagram.com/_adityaagre_/",
+  },
+  {
+    img: "/Developers/tanmay.jpg",
+    name: "Tanmay Jain ",
+    Profession: "Photography Cell Head",
+    git: "",
+    linkdin: "https://www.linkedin.com/in/tanmay-jain-3a8243223",
+    instagram: "https://instagram.com/skywalker_.15?igshid=ZDdkNTZiNTM=",
+  },
+
   {
     img: "/Developers/aditya_agre.jpeg",
     name: "Aditya Agre",
@@ -330,7 +357,16 @@ const TeamData = [
     linkdin: "https://www.linkedin.com/in/saie-mukane-242562229",
     instagram: "https://instagram.com/_saieee?igshid=MGNiNDI5ZTU=",
   },
-  
+
+  {
+    img: "/Developers/Om Bidve.jpeg",
+    name: "Om Bidve",
+    Profession: "GDSC LEAD, CESA Vice President",
+    git: "https://github.com/ombidve",
+    linkdin: "https://www.linkedin.com/in/om-bidve-aa436a1ba/",
+    instagram: "https://www.instagram.com/om__bidve/",
+  },
+
   {
     img: "/Developers/Vidyesh.jpg",
     name: "Vidyesh Gajanan Dhande",
@@ -347,6 +383,7 @@ const TeamData = [
     linkdin: "https://www.linkedin.com/in/shyam-sundar-tiwari-780869208/",
     instagram: "https://www.instagram.com/everythingshyam/",
   },
+
   {
     img: "/Developers/prajakta_m.jpg",
     name: "Prajakta maratkar",
@@ -444,6 +481,7 @@ const TeamData = [
     linkdin: "https://www.linkedin.com/in/sejal-kotkar-6ab916231",
     instagram: "https://instagram.com/sejal_kotkar?igshid=ZDdkNTZiNTM=",
   },
+
 ];
 
 export default TeamData;
