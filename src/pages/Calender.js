@@ -294,7 +294,7 @@ const Calender = () => {
               <div
                 className={`Event Event-8-d2 ${
                   day2 &&
-                  currTime >= 1400 &&
+                  currTime >= 900 &&
                   currTime < 1500 &&
                   "Event-8-d2-active"
                 }`}

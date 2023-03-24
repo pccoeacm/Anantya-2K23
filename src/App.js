@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Events from "./pages/Events";
-// import SportsEvent from "./pages/SportsEvent"
+import SportsEvent from "./pages/SportsEvent"
 import Calender from "./pages/Calender";
 import Registration from "./pages/Registration";
 import React from "react";
@@ -37,7 +37,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/events" element={<Events />} />
-          {/* <Route path="/sportsevents" element={<SportsEvent />} /> */}
+          <Route path="/sportsevents" element={<SportsEvent />} />
           <Route path="/calender" element={<Calender />} />
           <Route path="/registration" element={<Registration />} />
           <Route path="/Team" element={<Team />} />
@@ -61,9 +61,9 @@ function App() {
           {/* <Route path="/codigo" element={<Codigo />} /> */}
           <Route path="/perplexo" element={<Perplexo />} />
           <Route path="/hackathon" element={<Hackathon />} />
-          <Route path="/cosmic_Aptitude_Test" element={<Cosmic />} />
+          {/* <Route path="/cosmic_Aptitude_Test" element={<Cosmic />} /> */}
           {/* <Route path="/IPL_Auction" element={<IplAuction />} /> */}
-          <Route path="/Startup_Mania" element={<StarupMenia />} />
+          {/* <Route path="/Startup_Mania" element={<StarupMenia />} /> */}
           <Route path="/The_Alpha_Analyst" element={<AlphaAnalyst />} />
           <Route path="/G20x_Anantya" element={<G20x />} />
           <Route path="/Movie_Trivia" element={<MovieTrivia />} />

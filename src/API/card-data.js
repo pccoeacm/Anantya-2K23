@@ -120,7 +120,7 @@ const cardData = [
       "⦿ Those Teams which get selected, certain changes will be communicated to the respective teams which they will be expected to do overnight.",
     rule6:
       "⦿ Next Day i.e. 28th March, the final evaluation will be conducted and participants will be evaluated on their project (and on the changes).",
-    fee: "Free to All Participants",
+    fee: "FREE",
     rulelink:
       "https://drive.google.com/file/d/1Ah0JPJsbqxvnuWdZ1ljF_2kb_WpYhqo0/view?usp=sharing",
     image: "./posters/Hackathon.jpg",
@@ -284,7 +284,7 @@ const cardData = [
       "https://drive.google.com/file/d/16nQgNzxUUEtBXD3gQ2DxJOvL5jWl_FwL/view?usp=share_link",
     image: "./posters/G20.jpg",
     path: "/G20x_Anantya",
-    isOpen: true,
+    isOpen: false,
   },
   {
     id: 10,
@@ -411,7 +411,7 @@ const cardData = [
     scontact2: "9503380951",
     faculty: "Mr. Ganesh Deshmukh",
     rule1: "N/A",
-    fee: "No fees",
+    fee: "FREE",
     rulelink: "#",
     image: "./posters/babyconn.jpg",
     path: "/Babyconn",
