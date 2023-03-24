@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
-import "../styles/SportCard.css";
 import Data from "../API/sports_card-data";
 import { NavLink } from "react-router-dom";
-
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import { useFirebase, firebaseApp } from "../context/Firebase";
 
@@ -36,17 +34,11 @@ const SportCard = () => {
           {data.map((elem) => {
             return (
               <div className="card col-lg-4">
-                <img src={elem.image} alt="image" />
+                <img src={elem.image} alt="image" style={{ width: "100%" }} />
                 <div className="data">
-                  <h3 className="card-title">{elem.event_name}</h3>
-                  <p className="card-subtitle">dd/mm/yyyy</p>
-                  <p className="card-info">
-                    {/* {elem.short_description} */}
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Blanditiis, minima recusandae. Similique consequatur
-                    excepturi, soluta nam, vero corrupti aut fuga voluptatum ex
-                    ipsam error laborum, eos laboriosam veritatis rerum. Dolore?
-                  </p>
+                  <h1 className="card-title">{elem.event_name}</h1>
+                  <p className="card-subtitle">{elem.date}</p>
+                  <p className="card-info">{elem.short_description}</p>
                   <div className="btn">
                     {/* <NavLink to={"/about" + elem.id} className="nav-link"> */}
                     <button
@@ -68,28 +60,35 @@ const SportCard = () => {
 
   return (
     <>
-      <div className="card-main-container row  ">
+      <div className="bg-1-gradient"></div>
+      <div className="card-main-container row">
+        <div className="bg-2-gradient">.</div>
         {data.map((elem) => {
           return (
             <div className="card col-lg-4">
-              <img
-                src="https://t4.ftcdn.net/jpg/05/59/08/01/240_F_559080129_4fWvQkVrQQCAJxaLFstZIfmWUW7DEgQ2.jpg"
-                alt="image"
-              />
+              <img src={elem.image} alt="image" style={{ width: "100%" }} />
               <div className="data">
                 <h1 className="card-title">{elem.event_name}</h1>
-                <p className="card-subtitle">dd/mm/yyyy</p>
-                <p className="card-info">
-                  {/* {elem.short_description} */}
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Blanditiis, minima recusandae. Similique consequatur
-                  excepturi, soluta nam, vero corrupti aut fuga voluptatum ex
-                  ipsam error laborum, eos laboriosam veritatis rerum. Dolore?
-                </p>
-                <div style={{ textAlign: "center" }}>
-                  <NavLink to={"/about" + elem.id} className="nav-link">
+                <p className="card-subtitle">{elem.date}</p>
+                <p className="card-info">{elem.short_description}</p>
+                <div className="btn">
+                  {/* <NavLink to={"/about" + elem.id} className="nav-link">
                     <button className="raise">Register</button>
-                  </NavLink>
+                  </NavLink> */}
+                  <a href={elem.formLink}
+                      target={"_blank"}
+                      style={{ color: "white" }}>
+                    <button className="raise">Register</button>
+                  </a>
+                  {/* <button className="raise">
+                    <a
+                      href={elem.formLink}
+                      target={"_blank"}
+                      style={{ color: "white" }}
+                    >
+                      Register
+                    </a>
+                  </button> */}
                 </div>
               </div>
             </div>

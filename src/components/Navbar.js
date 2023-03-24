@@ -12,33 +12,37 @@ import Team from "../pages/Team";
 const auth = getAuth(firebaseApp);
 
 const Navbar = () => {
-    const firebase = useFirebase();
+  const firebase = useFirebase();
 
-    // console.log(firebase);
-    const [user, setUser] = useState(null);
-    var clicked = false;
+  // console.log(firebase);
+  const [user, setUser] = useState(null);
+  var clicked = false;
 
-    useEffect(() => {
-        onAuthStateChanged(auth, (user) => {
-            if (user) {
-                // Yes, user is logged in
-                setUser(user);
+  useEffect(() => {
+    onAuthStateChanged(auth, (user) => {
+      if (user) {
+        // Yes, user is logged in
+        setUser(user);
 
-				// notify;
-			} else {
-				// Use is logged out
-				console.log("You are logged out");
-				setUser(null);
-			}
-		});
-	}, []);
+        // notify;
+      } else {
+        // Use is logged out
+        console.log("You are logged out");
+        setUser(null);
+      }
+    });
+  }, []);
 
-	if (user === null) {
-		return (
+  if (user === null) {
+    return (
       <>
         <nav className="navbar navbar-expand-lg sticky-top">
           <div className="container-fluid">
-            <Link to="/" className="navbar-brand title" style={{textDecoration:'none',border:'none'}}>
+            <Link
+              to="/"
+              className="navbar-brand title"
+              style={{ textDecoration: "none", border: "none" }}
+            >
               <img src={Logo} className="img-fluid logo" />
             </Link>
             <button
@@ -60,9 +64,12 @@ const Navbar = () => {
               <ul className="navbar-nav  ms-auto">
                 <li className="nav-item">
                   <NavLink to="/" className="nav-link">
-                    <span className="navitem" >
-                      Home
-                    </span>
+                    <span className="navitem">Home</span>
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink to="/sportsevents" className="nav-link">
+                    <span className="navitem">Sports</span>
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -77,69 +84,59 @@ const Navbar = () => {
                     <span className="navitem" activeClassName="active">
                       Calendar
                     </span>
-
                   </NavLink>
                   {/* <a className="nav-link" href="#"></a> */}
                 </li>
 
-                {/* <li className="nav-item">
+                <li className="nav-item">
                   <NavLink to="/Team" className="nav-link">
                     <span className="navitem" activeClassName="active">
                       Team
                     </span>
                   </NavLink>
-                </li> */}
+                </li>
                 <li className="nav-item">
-                  {/* <NavLink to="/Login" className="nav-link">
-									<span className="navitem">LogIn</span>
+                  <a
+                    onClick={() =>
+                      firebase
+                        .signupWithGoogle()
+                        .then((userCredential) => {
+                          // alert("successfully logged in");
+                          const user = userCredential.user;
+                          // console.log(user.displayName);
+                          // console.log(user);
+                          console.log(user.email);
+                          toast.success(`Welcome ${user.displayName}!`, {
+                            position: "top-center",
+                            autoClose: 5000,
+                            hideProgressBar: false,
+                            closeOnClick: true,
+                            pauseOnHover: true,
+                            draggable: true,
+                            progress: undefined,
+                            theme: "dark",
+                          });
+                        })
+                        .catch((error) => {
+                          console.error(error);
+                        })
+                    }
+                    href="#"
+                    className="login-navitem navitem"
+                  >
+                    Log in
+                  </a>
+                  <ToastContainer />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </>
+    );
+  }
 
-								</NavLink> */}
-                                    <a
-                                        onClick={() =>
-                                            firebase
-                                                .signupWithGoogle()
-                                                .then((userCredential) => {
-                                                    // alert("successfully logged in");
-                                                    const user =
-                                                        userCredential.user;
-                                                    // console.log(user.displayName);
-                                                    // console.log(user);
-                                                    console.log(user.email);
-                                                    toast.success(
-                                                        `Welcome ${user.displayName}!`,
-                                                        {
-                                                            position:
-                                                                "top-center",
-                                                            autoClose: 5000,
-                                                            hideProgressBar: false,
-                                                            closeOnClick: true,
-                                                            pauseOnHover: true,
-                                                            draggable: true,
-                                                            progress: undefined,
-                                                            theme: "dark",
-                                                        }
-                                                    );
-                                                })
-                                                .catch((error) => {
-                                                    console.error(error);
-                                                })
-                                        }
-                                        href="#"
-                                        className="login-navitem navitem"
-                                    >
-                                        Log in
-                                    </a>
-                                    <ToastContainer />
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </>
-        );
-    }
-
-	return (
+  return (
     <>
       <nav className="navbar navbar-expand-lg sticky-top">
         <div className="container-fluid">
@@ -166,6 +163,11 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li className="nav-item">
+                <NavLink to="/sportsevents" className="nav-link">
+                  <span className="navitem">Sports</span>
+                </NavLink>
+              </li>
+              <li className="nav-item">
                 <NavLink to="/events" className="nav-link">
                   <span className="navitem">Events</span>
                 </NavLink>
@@ -177,12 +179,12 @@ const Navbar = () => {
                 {/* <a className="nav-link" href="#"></a> */}
               </li>
               <li className="nav-item">
-                  <NavLink to="/Team" className="nav-link">
-                    <span className="navitem" activeClassName="active">
-                      Team
-                    </span>
-                  </NavLink>
-                </li>
+                <NavLink to="/Team" className="nav-link">
+                  <span className="navitem" activeClassName="active">
+                    Team
+                  </span>
+                </NavLink>
+              </li>
               <li className="nav-item">
                 <a
                   onClick={() => signOut(auth)}
