@@ -5,13 +5,10 @@ import SportCard from "../components/SportCard";
 const SportsEvents = () => {
   return (
     <>
-      {/* <Design /> */}
       <Navbar />
-
-      {/* <div style={{textAlign:'center',marginTop:'70px'}}>
-      <h1 style={{color:'white', fontSize: '6rem', fontWeight: '400' }} >EVENTS</h1>
-      </div> */}
-
+      <div className="container d-flex justify-content-center">
+        <h1 className="event-heading">SPORTS</h1>
+      </div>
       <SportCard />
     </>
   );

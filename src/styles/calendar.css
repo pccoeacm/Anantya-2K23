@@ -223,10 +223,7 @@
     grid-column: 13 / span 4;
 }
 /* final sprint */
-.Event-13-d1 {
-    grid-row: 5;
-    grid-column: 17 / span 4;
-}
+
 
 .Event-1-d1-active,
 .Event-1-d1:hover {
@@ -324,13 +321,7 @@
         0 0 20px rgba(120, 37, 254, 0.832), 0 0 40px rgba(120, 37, 254, 0.832);
 }
 
-.Event-13-d1-active,
-.Event-13-d1:hover {
-    transform: scale(1.03);
-    box-shadow: 0 0 5px rgba(254, 37, 182, 0.832),
-        0 0 5px rgba(254, 37, 250, 0.832), 0 0 10px rgba(240, 37, 254, 0.832),
-        0 0 20px rgba(250, 37, 254, 0.832), 0 0 40px rgba(236, 37, 254, 0.832);
-}
+
 
 /* Webbit */
 .Event-1-d2 {
@@ -389,7 +380,12 @@
 /* queens gambit */
 .Event-10-d2 {
     grid-row: 6;
-    grid-column: 3 / span 6;
+    grid-column: 7 / span 6;
+}
+
+.Event-11-d2 {
+    grid-row: 6;
+    grid-column: 1 / span 3;
 }
 
 .Event-1-d2-active,
@@ -470,6 +466,14 @@
     box-shadow: 0 0 5px rgba(246, 232, 37, 0.756),
         0 0 5px rgba(215, 246, 37, 0.756), 0 0 10px rgba(246, 239, 37, 0.756),
         0 0 20px rgba(246, 243, 37, 0.756), 0 0 40px rgba(246, 246, 37, 0.756);
+}
+
+.Event-11-d2-active,
+.Event-11-d2:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 5px rgba(254, 37, 182, 0.832),
+        0 0 5px rgba(254, 37, 250, 0.832), 0 0 10px rgba(240, 37, 254, 0.832),
+        0 0 20px rgba(250, 37, 254, 0.832), 0 0 40px rgba(236, 37, 254, 0.832);
 }
 
 @media screen and (max-width: 830px) {

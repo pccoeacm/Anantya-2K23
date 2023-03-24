@@ -232,11 +232,11 @@ const TeamData = [
   },
   {
     img: "/Developers/Tirthesh.jpeg",
-    name: "Tirthesh Patange",
+    name: "Tirthesh S Patange",
     Profession: "Photography Cell",
     git: "https://github.com/tiirthesh",
     linkdin: "https://www.linkedin.com/in/tirthesh121",
-    instagram: "http://instagram.com/tiirthesh",
+    instagram: "https://www.instagram.com/tiirthesh",
   },
   {
     img: "/Developers/khush.jpg",

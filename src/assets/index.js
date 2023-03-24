@@ -17,6 +17,7 @@ import budhani from "./Budhani.jpg"
 import scriptAnalytica from "./scriptAnalytica.jpg";
 import pathLogics from "./PathLogics.jpg";
 import stockGro from "./StockGro.jpg";
+import ShilpaCake from "./ShilpaCake.jpg"
 
 export {
     astronaut,
@@ -37,5 +38,6 @@ export {
     budhani,
     scriptAnalytica,
     pathLogics,
-    stockGro
+    stockGro,
+    ShilpaCake
 };

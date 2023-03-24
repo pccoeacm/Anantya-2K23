@@ -1,5 +1,5 @@
 import React from "react";
-import { budhani, mfive, pathLogics, scriptAnalytica, stockGro } from "../assets";
+import { budhani, mfive, pathLogics, scriptAnalytica, stockGro, ShilpaCake } from "../assets";
 import "./Sponsor.css";
 import { NavLink, Link } from "react-router-dom";
 
@@ -36,24 +36,10 @@ const Sponsor = () => {
             <img src={pathLogics} className="img-fluid sponsor-card-img" />
           </div>
 
-          {/* <div className="container sponsor-card col-lg-3 col-md-6 ">
-					<img
-						src="https://m.media-amazon.com/images/M/MV5BZDA1YWY5ZjUtMWUyYi00MmY2LWFmMGYtMWVkZDRiMDcyNmNiXkEyXkFqcGdeQXVyOTM3NjIzNzk@._V1_FMjpg_UY720_.jpg"
-						className="img-fluid sponsor-card-img"
-					/>
-				</div>
-
-
-				<div className="container sponsor-card col-lg-3 col-md-6 ">
-					<img src={budhani} className="img-fluid sponsor-card-img" />
-				</div>
-				<div className="container sponsor-card col-lg-3 col-md-6 ">
-
-					<img
-						src="https://m.media-amazon.com/images/M/MV5BZDA1YWY5ZjUtMWUyYi00MmY2LWFmMGYtMWVkZDRiMDcyNmNiXkEyXkFqcGdeQXVyOTM3NjIzNzk@._V1_FMjpg_UY720_.jpg"
-						className="img-fluid sponsor-card-img"
-					/>
-				</div> */}
+          <div className="container sponsor-card col-lg-3 col-md-6 ">
+            <img src={ShilpaCake} className="img-fluid sponsor-card-img" />
+          </div>
+          
         </div>
       </>
     );
