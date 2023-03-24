@@ -33,7 +33,7 @@ const cardData = [
       "https://drive.google.com/file/d/1bgSE10H5ndN1ZH9n9QYY5N7c755RFg6s/view?usp=share_link",
     image: "./posters/codigo.jpg",
     path: "/codigo",
-    isOpen: false,
+    isOpen: true,
 
   },
 
@@ -91,7 +91,7 @@ const cardData = [
     rulelink: "#",
     image: "./posters/perplexo.jpg",
     path: "/Perplexo",
-    isOpen: true,
+    isOpen: false,
   },
   {
     id: 4,

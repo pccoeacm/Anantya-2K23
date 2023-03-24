@@ -92,7 +92,6 @@ const About = ({ ids }) => {
                       <h2 style={{ textAlign: "center" }}>Fees</h2>
                       <h5>PCCoE Students: FREE</h5>
                       <h5>Other Colleges: {elem.fee}</h5>
-                      
                     </div>
                   </div>
                 </div>
@@ -104,6 +103,9 @@ const About = ({ ids }) => {
                     </span>
                   </NavLink>
                 ) : (
+                  // <span className="navitem">
+                  //   <button className="offset" disabled={true}>Registration closed</button>
+                  // </span>
                   <span className="reg-closed">Registrations closed</span>
                 )}
               </div>
