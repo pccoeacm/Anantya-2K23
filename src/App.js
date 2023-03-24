@@ -58,7 +58,7 @@ function App() {
           <Route path="/about14" element={<About ids={14} />} />
 
           <Route path="/webbit" element={<Webbit />} />
-          <Route path="/codigo" element={<Codigo />} />
+          {/* <Route path="/codigo" element={<Codigo />} /> */}
           <Route path="/perplexo" element={<Perplexo />} />
           <Route path="/hackathon" element={<Hackathon />} />
           {/* <Route path="/cosmic_Aptitude_Test" element={<Cosmic />} /> */}
