@@ -166,7 +166,7 @@ const TeamData = [
   {
     img: "/Developers/Bhumika.jpg",
     name: "Bhumika Patil",
-    Profession: "WebMaster",
+    Profession: "WebMaster ACM-W",
     git: "http://github.com/Bhumi9403",
     linkdin: "http://linkedin.com/in/bhumika-patil-77a8a5220/",
     instagram: "http://instagram.com/_bhumikapatil_2003/",
@@ -193,7 +193,7 @@ const TeamData = [
     img: "/Developers/sarthak_zambre.JPG",
     name: "Sarthak Zambre",
     Profession: "Treasurer",
-    git: "https://github.com/kanak8403",
+    git: "",
     linkdin: "https://www.linkedin.com/in/sarthakzambre",
     instagram: "https://instagram.com/sarthakz_9?igshid=YmMyMTA2M2Y=",
   },
@@ -238,24 +238,13 @@ const TeamData = [
     linkdin: "https://www.linkedin.com/in/tirthesh121",
     instagram: "instagram.com/tiirthesh",
   },
-
-  {
-    img: "/Developers/aray_kaslikar.jpg",
-    name: "Arya Kaslikar",
-    Profession: "OWASP Lead",
-    git: "https://github.com/AryaK-31",
-    linkdin: "https://www.linkedin.com/in/arya-kaslikar-bb6957268/",
-    instagram: "https://instagram.com/monsieur_ak31?igshid=ZDdkNTZiNTM=",
-  },
-
   {
     img: "/Developers/khush.jpg",
     name: "Khush Kothari",
     Profession: "Marketing Head",
     git: "https://www.linkedin.com/in/khush-kothari-6991b7213",
     linkdin: "https://www.linkedin.com/in/khush-kothari-6991b7213",
-    instagram:
-      "https://drive.google.com/open?id=1izVryZSdBWp2x7d1ImjhNxyp9BdDHj6j",
+    instagram:"https://instagram.com/khushkothari31?igshid=ZDdkNTZiNTM=",
   },
   {
     img: "/Developers/mahima.jpg",
@@ -331,23 +320,6 @@ const TeamData = [
     linkdin: "https://www.linkedin.com/in/tanmay-jain-3a8243223",
     instagram: "https://instagram.com/skywalker_.15?igshid=ZDdkNTZiNTM=",
   },
-
-  {
-    img: "/Developers/aditya_agre.jpeg",
-    name: "Aditya Agre",
-    Profession: "Management head GDSC",
-    git: "https://github.com/adityaagre",
-    linkdin: "https://www.linkedin.com/in/aditya-agre-816558220/",
-    instagram: "https://www.instagram.com/_adityaagre_/",
-  },
-  {
-    img: "/Developers/tanmay.jpg",
-    name: "Tanmay Jain ",
-    Profession: "Photography Cell Head",
-    git: "",
-    linkdin: "https://www.linkedin.com/in/tanmay-jain-3a8243223",
-    instagram: "https://instagram.com/skywalker_.15?igshid=ZDdkNTZiNTM=",
-  },
   
   {
     img: "/Developers/saie.jpg",
@@ -356,15 +328,6 @@ const TeamData = [
     git: "",
     linkdin: "https://www.linkedin.com/in/saie-mukane-242562229",
     instagram: "https://instagram.com/_saieee?igshid=MGNiNDI5ZTU=",
-  },
-
-  {
-    img: "/Developers/Om Bidve.jpeg",
-    name: "Om Bidve",
-    Profession: "GDSC LEAD, CESA Vice President",
-    git: "https://github.com/ombidve",
-    linkdin: "https://www.linkedin.com/in/om-bidve-aa436a1ba/",
-    instagram: "https://www.instagram.com/om__bidve/",
   },
 
   {
@@ -386,7 +349,7 @@ const TeamData = [
 
   {
     img: "/Developers/prajakta_m.jpg",
-    name: "Prajakta maratkar",
+    name: "Prajakta Maratkar",
     Profession: "Social media ",
     git: "https://github.com/Prajakta293",
     linkdin: "https://www.linkedin.com/in/prajakta-maratkar-3682a4231",
@@ -477,9 +440,81 @@ const TeamData = [
     img: "/Developers/Sejal_K.jpg",
     name: "Sejal Kotkar ",
     Profession: "Art Circle ",
-    git: "https://github.com/",
+    git: "",
     linkdin: "https://www.linkedin.com/in/sejal-kotkar-6ab916231",
     instagram: "https://instagram.com/sejal_kotkar?igshid=ZDdkNTZiNTM=",
+  },
+  {
+    img: "/Developers/Prajakta_T.jpg",
+    name: "Prajakta Tambe ",
+    Profession: "NSS cell",
+    git: "https://github.com/Prajakta514",
+    linkdin: "https://www.linkedin.com/in/prajakta-tambe-56672424b",
+    instagram: "",
+  },
+  {
+    img: "/Developers/Aditi_D.jpeg",
+    name: "Aditi Dabhade",
+    Profession: "Marketing and Sponsorship ",
+    git: "https://github.com/dabhadeaditi",
+    linkdin: "https://www.linkedin.com/in/aditi-dabhade-b5039326b",
+    instagram: "https://instagram.com/aaditi_943?igshid=YmMyMTA2M2Y=",
+  },
+  {
+    img: "/Developers/Prajwal_L.jpg",
+    name: "Prajwal Lonari",
+    Profession: "ISR CELL ",
+    git: "https://github.com/PRAJWAL3628",
+    linkdin: "https://www.linkedin.com/in/prajwal-lonari-55932222a",
+    instagram: "https://instagram.com/prajwal_lonari21903?igshid=ZDdkNTZiNTM=",
+  },
+  {
+    img: "/Developers/Pranjali_D.jpg",
+    name: "Pranjali Deshpande",
+    Profession: "Junior Secretary",
+    git: "https://github.com/pranjali1312",
+    linkdin: "https://www.linkedin.com/in/pranjali-deshpande-ba5995229",
+    instagram: "",
+  },
+  {
+    img: "/Developers/Satyam_M.jpg",
+    name: "Satyam Mirgane ",
+    Profession: "SY Coordinator ",
+    git: "https://github.com/satyam01mirgane",
+    linkdin: "https://www.linkedin.com/in/satyam-mirgane-747009238",
+    instagram: "https://instagram.com/shots_of_life01?igshid=ZDdkNTZiNTM=",
+  },
+  {
+    img: "/Developers/Shruti_B.jpg",
+    name: "Shruti Baravkar",
+    Profession: "NSS ",
+    git: "https://github.com/Shrut0025",
+    linkdin: "https://www.linkedin.com/in/shruti-baravkar-348a63259",
+    instagram: "https://instagram.com/shruti001243?igshid=ZDdkNTZiNTM=",
+  },
+  {
+    img: "/Developers/Prajwal_M.jpg",
+    name: "Prajwal More",
+    Profession: "Designer  ",
+    git: "https://github.com/PrajwalMore26",
+    linkdin: "https://www.linkedin.com/in/prajwal-more-a097211a3",
+    instagram: "https://instagram.com/prajwal._.more_?igshid=ZDdkNTZiNTM=",
+  },
+  {
+    img: "/Developers/Sanjay_C.jpg",
+    name: "Sanjay Chilveri",
+    Profession: "Art Circle Head",
+    git: "https://github.com/Sanjaychilveri",
+    linkdin: "https://www.linkedin.com/in/sanjay-chilveri-b118971bb/",
+    instagram: "https://instagram.com/sanjaygopalchilveri?igshid=ZDdkNTZiNTM=",
+  },
+  {
+    img: "/Developers/Prathmesh_K.jpeg",
+    name: "Prathamesh kshirsagar ",
+    Profession: "Design Executive ",
+    git: "https://github.com/Prathamesh06203",
+    linkdin: "https://www.linkedin.com/in/prathamesh-kshirsagar-65812a217/",
+    instagram: "https://instagram.com/kshirsagar_prathmesh_0602/",
   },
 
 ];
