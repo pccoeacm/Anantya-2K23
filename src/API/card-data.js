@@ -415,7 +415,7 @@ const cardData = [
     rulelink: "#",
     image: "./posters/babyconn.jpg",
     path: "/Babyconn",
-    isOpen: true,
+    isOpen: false,
   },
 ];
 
