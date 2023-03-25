@@ -138,6 +138,15 @@ const TeamData = [
     instagram: "https://instagram.com/monsieur_ak31?igshid=ZDdkNTZiNTM=",
   },
   {
+    img: "/Developers/bhagyesha.jpg",
+    name: "Bhagyesha Patil ",
+    Profession: "ACM-W President ",
+    git: "http://github.com/Bhagyesha-P",
+    linkdin: "https://www.linkedin.com/in/bhagyesha-patil-b78a88236",
+    instagram: "http://instagram.com/bhagyesha_patil_28",
+  },
+
+  {
     img: "/Developers/Kartik_chaudhari.jpg",
     name: "Kartik Chaudhari",
     Profession: "Secretary",
@@ -222,15 +231,7 @@ const TeamData = [
     linkdin: "https://www.linkedin.com/in/shrushti-k-29726520a",
     instagram: "https://instagram.com/kshrushti_?igshid=ZDdkNTZiNTM=",
   },
-  {
-    img: "/Developers/Sahil_bomble.jpg",
-    name: "Sahil Bomble",
-    Profession: "Security Team",
-    git: "https://github.com/Justsah1l",
-    linkdin: "https://www.linkedin.com/in/sahil-bomble-0432a01b9",
-    instagram: "https://www.instagram.com/justsahil._/",
-  },
-  
+
   {
     img: "/Developers/Vishakha.jpeg",
     name: "Vishakha Deshpande ",
@@ -337,7 +338,7 @@ const TeamData = [
   },
 
   {
-    img: "/Developers/Sahil_bomble.JPG",
+    img: "/Developers/sahil_bomble.jpg",
     name: "Sahil Bomble",
     Profession: "Security Team",
     git: "https://github.com/Justsah1l",
@@ -460,14 +461,6 @@ const TeamData = [
     instagram: "https://instagram.com/kedar_715?igshid=OTJhZDVkZWE=",
   },
 
-  {
-    img: "/Developers/Maithili_S.jpg",
-    name: "Maithili Sude",
-    Profession: "ACMW Treasurer ",
-    git: "https://github.com/Maithiligithub19",
-    linkdin: "https://www.linkedin.com/in/maithili-sude-92b60023a",
-    instagram: "https://instagram.com/mahi19_07?igshid=MGU3ZTQzNzY=",
-  },
   {
     img: "/Developers/Jayati_W.jpg",
     name: "Jayati Wajire",
