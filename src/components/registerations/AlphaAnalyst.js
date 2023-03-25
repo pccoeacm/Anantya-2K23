@@ -67,7 +67,7 @@ const EventRegister = () => {
     });
   }
 
-  const isPccoeEmail = userEmail.endsWith("@pccoepune.org");
+  // const isPccoeEmail = userEmail.endsWith("@pccoepune.org");
 
   return (
     <>
@@ -188,23 +188,23 @@ const EventRegister = () => {
               placeholder="Eg. FE/SE/TE/BE"
               required
             ></input>
-
-            {isPccoeEmail && (
-              <div>
-                <label id="lable-tag" className="" for="">
-                  Enter Your PRN
-                </label>
-                <input
-                  type="text"
-                  className="column"
-                  name="PRN"
-                  id="registeration-input"
-                  placeholder="PRN"
-                  required
-                ></input>
-              </div>
-            )}
-
+            <div>
+              <label id="lable-tag" className="" for="">
+                Enter Your PRN
+              </label>
+              <input
+                type="text"
+                className="column"
+                name="PRN"
+                id="registeration-input"
+                placeholder="PRN"
+                required
+              ></input>
+            </div>
+            {/* {isPccoeEmail && (
+              
+            )} */}
+{/* 
             {!isPccoeEmail && (
               <div>
                 <label id="lable-tag" className="" for="">
@@ -237,7 +237,7 @@ const EventRegister = () => {
                   <p className="p-tag2">Scan QR to pay</p>
                 </div>
               </div>
-            )}
+            )} */}
 
             <div
               style={{

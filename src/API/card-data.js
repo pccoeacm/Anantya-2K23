@@ -68,7 +68,7 @@ const cardData = [
       "https://drive.google.com/file/d/1d1aGQYlWvUir6ZRVhyy-3nbJC2VLx8rr/view?usp=share_link",
     image: "./posters/Webbit.jpg",
     path: "/webbit",
-    isOpen: true,
+    isOpen: false,
   },
   {
     id: 3,
@@ -415,7 +415,7 @@ const cardData = [
     rulelink: "#",
     image: "./posters/babyconn.jpg",
     path: "/Babyconn",
-    isOpen: false,
+    isOpen: true,
   },
 ];
 

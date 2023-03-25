@@ -13,7 +13,7 @@ const Team = () => {
      <div className='row developers-container-main'>
      <div class="title">
   {/* <h1 class="icon-container2">Web Team</h1> */}
-  <h1 className="text-fluid text-center calendar-heading" style={{ margin: "20px" }}>Team</h1>
+  <h1 className="text-fluid text-center calendar-heading" style={{ margin: "20px" }}>Team Anantya</h1>
 </div>
      {
       TeamData.map((props)=>{

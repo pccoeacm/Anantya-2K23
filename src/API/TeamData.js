@@ -200,7 +200,7 @@ const TeamData = [
     img: "/Developers/khush.jpg",
     name: "Khush Kothari",
     Profession: "Marketing Head",
-    git: "https://www.linkedin.com/in/khush-kothari-6991b7213",
+    git: "https://github.com/khussh3105",
     linkdin: "https://www.linkedin.com/in/khush-kothari-6991b7213",
     instagram: "https://instagram.com/khushkothari31?igshid=ZDdkNTZiNTM=",
   },
@@ -444,7 +444,7 @@ const TeamData = [
   },
 
   {
-    img: "/Developers/Jayati_W.JPG",
+    img: "/Developers/jayati_W.JPG",
     name: "Jayati Wajire",
     Profession: "Design Team",
     git: "https://github.com/Jayati-Wajire",
