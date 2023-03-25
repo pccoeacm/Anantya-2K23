@@ -288,7 +288,7 @@ const TeamData = [
     instagram: "https://instagram.com/vishhaakhaa?igshid=ZDdkNTZiNTM=",
   },
   {
-    img: "/Developers/mahesh.jPG",
+    img: "/Developers/mahesh.JPG",
     name: "Mahesh Yarra",
     Profession: "Marketing Head",
     git: "https://github.com/Mahesh-Yarra",
