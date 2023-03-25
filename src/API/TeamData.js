@@ -201,6 +201,7 @@ const TeamData = [
     name: "Khush Kothari",
     Profession: "Marketing Head",
     git: "https://github.com/khussh3105",
+    git: "https://github.com/khussh3105",
     linkdin: "https://www.linkedin.com/in/khush-kothari-6991b7213",
     instagram: "https://instagram.com/khushkothari31?igshid=ZDdkNTZiNTM=",
   },
@@ -221,9 +222,25 @@ const TeamData = [
     linkdin: "https://www.linkedin.com/in/shrushti-k-29726520a",
     instagram: "https://instagram.com/kshrushti_?igshid=ZDdkNTZiNTM=",
   },
-
   {
-    img: "/Developers/mahesh.jPG",
+    img: "/Developers/Sahil_bomble.jpg",
+    name: "Sahil Bomble",
+    Profession: "Security Team",
+    git: "https://github.com/Justsah1l",
+    linkdin: "https://www.linkedin.com/in/sahil-bomble-0432a01b9",
+    instagram: "https://www.instagram.com/justsahil._/",
+  },
+  
+  {
+    img: "/Developers/Vishakha.jpeg",
+    name: "Vishakha Deshpande ",
+    Profession: "Jr. Secretary ",
+    git: "https://github.com/VishhAAkha",
+    linkdin: "https://www.linkedin.com/in/vishakha-deshpande-152a5b230",
+    instagram: "https://instagram.com/vishhaakhaa?igshid=ZDdkNTZiNTM=",
+  },
+  {
+    img: "/Developers/mahesh.JPG",
     name: "Mahesh Yarra",
     Profession: "Marketing Head",
     git: "https://github.com/Mahesh-Yarra",
@@ -408,11 +425,11 @@ const TeamData = [
     instagram: "https://instagram.com/praj_akta293?igshid=ZDdkNTZiNTM=",
   },
   {
-    img: "/Developers/onkar.jpg",
+    img: "/Developers/Onkar.jpg",
     name: "Onkar Dokhe",
     Profession: "Application Developer",
     git: "https://github.com/onkar-dokhe",
-    linkdin: "https://linkedin.com/in/onkar-dokhe;",
+    linkdin: "https://linkedin.com/in/onkar-dokhe",
     instagram: "https://instagram.com/onkar_dokhe",
   },
   {
@@ -444,7 +461,15 @@ const TeamData = [
   },
 
   {
-    img: "/Developers/jayati_W.JPG",
+    img: "/Developers/Maithili_S.jpg",
+    name: "Maithili Sude",
+    Profession: "ACMW Treasurer ",
+    git: "https://github.com/Maithiligithub19",
+    linkdin: "https://www.linkedin.com/in/maithili-sude-92b60023a",
+    instagram: "https://instagram.com/mahi19_07?igshid=MGU3ZTQzNzY=",
+  },
+  {
+    img: "/Developers/Jayati_W.jpg",
     name: "Jayati Wajire",
     Profession: "Design Team",
     git: "https://github.com/Jayati-Wajire",
