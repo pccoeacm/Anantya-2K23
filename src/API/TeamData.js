@@ -242,7 +242,7 @@ const TeamData = [
     img: "/Developers/khush.jpg",
     name: "Khush Kothari",
     Profession: "Marketing Head",
-    git: "https://www.linkedin.com/in/khush-kothari-6991b7213",
+    git: "https://github.com/khussh3105",
     linkdin: "https://www.linkedin.com/in/khush-kothari-6991b7213",
     instagram:"https://instagram.com/khushkothari31?igshid=ZDdkNTZiNTM=",
   },
@@ -271,7 +271,7 @@ const TeamData = [
     instagram: "https://instagram.com/kshrushti_?igshid=ZDdkNTZiNTM=",
   },
   {
-    img: "/Developers/Sahil_bomble.JPG",
+    img: "/Developers/Sahil_bomble.jpg",
     name: "Sahil Bomble",
     Profession: "Security Team",
     git: "https://github.com/Justsah1l",
@@ -356,11 +356,11 @@ const TeamData = [
     instagram: "https://instagram.com/praj_akta293?igshid=ZDdkNTZiNTM=",
   },
   {
-    img: "/Developers/onkar.jpg",
+    img: "/Developers/Onkar.jpg",
     name: "Onkar Dokhe",
     Profession: "Application Developer",
     git: "https://github.com/onkar-dokhe",
-    linkdin: "https://linkedin.com/in/onkar-dokhe;",
+    linkdin: "https://linkedin.com/in/onkar-dokhe",
     instagram: "https://instagram.com/onkar_dokhe",
   },
   {
@@ -420,7 +420,7 @@ const TeamData = [
     instagram: "https://instagram.com/mahi19_07?igshid=MGU3ZTQzNzY=",
   },
   {
-    img: "/Developers/Jayati_W.JPG",
+    img: "/Developers/Jayati_W.jpg",
     name: "Jayati Wajire",
     Profession: "Design Team",
     git: "https://github.com/Jayati-Wajire",
