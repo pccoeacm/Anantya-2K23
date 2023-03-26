@@ -338,7 +338,7 @@ const TeamData = [
   },
 
   {
-    img: "/Developers/sahil_bomble.jpg",
+    img: "/Developers/sahil_bomble.JPG",
     name: "Sahil Bomble",
     Profession: "Security Team",
     git: "https://github.com/Justsah1l",

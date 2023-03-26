@@ -355,7 +355,7 @@ const cardData = [
       "https://drive.google.com/file/d/1_eAkYeCCeAD2UcAfVMcoNKyV73wOVi25/view?usp=share_link",
     image: "./posters/Unleash.jpg",
     path: "https://forms.gle/HmnSMCRqookrN3xm6",
-    isOpen: true,
+    isOpen: false,
   },
   // {
   // 	id: 12,
@@ -415,7 +415,7 @@ const cardData = [
     rulelink: "#",
     image: "./posters/babyconn.jpg",
     path: "/Babyconn",
-    isOpen: true,
+    isOpen: false,
   },
 ];
 
