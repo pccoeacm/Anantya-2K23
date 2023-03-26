@@ -67,7 +67,7 @@ const Calender = () => {
                     "Event-1-d1-active"
                   }`}
                 >
-                  <p className="hour-para">ALPHA ANALYST</p>
+                  <p className="hour-para">ALPHA ANALYST (Online)</p>
                 </div>
                 <div
                   className={`Event Event-2-d1 ${
@@ -122,8 +122,8 @@ const Calender = () => {
                 <div
                   className={`Event Event-7-d1 ${
                     day1 &&
-                    currTime >= 1030 &&
-                    currTime < 1430 &&
+                    currTime >= 930 &&
+                    currTime < 1230 &&
                     "Event-7-d1-active"
                   }`}
                 >
@@ -162,7 +162,7 @@ const Calender = () => {
                 <div
                   className={`Event Event-11-d1 ${
                     day1 &&
-                    currTime >= 1100 &&
+                    currTime >= 1000 &&
                     currTime < 1200 &&
                     "Event-11-d1-active"
                   }`}
@@ -289,13 +289,13 @@ const Calender = () => {
                     "Event-7-d2-active"
                   }`}
                 >
-                  <p className="hour-para">ALPHA ANALYST</p>
+                  <p className="hour-para">ALPHA ANALYST (Online)</p>
                 </div>
                 <div
                   className={`Event Event-8-d2 ${
                     day2 &&
-                    currTime >= 1400 &&
-                    currTime < 1500 &&
+                    currTime >= 1300 &&
+                    currTime < 1400 &&
                     "Event-8-d2-active"
                   }`}
                 >
@@ -315,7 +315,7 @@ const Calender = () => {
                 <div
                   className={`Event Event-10-d2 ${
                     day2 &&
-                    currTime >= 1100 &&
+                    currTime >= 1000 &&
                     currTime < 1400 &&
                     "Event-10-d2-active"
                   }`}

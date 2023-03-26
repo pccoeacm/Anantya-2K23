@@ -188,7 +188,7 @@
 /* Startup Mania */
 .Event-7-d1 {
     grid-row: 5;
-    grid-column: 6 / span 8;
+    grid-column: 4 / span 6;
 }
 
 /* ipl auction */
@@ -214,13 +214,13 @@
 /* CAT R1*/
 .Event-11-d1 {
     grid-row: 6;
-    grid-column: 7 / span 2;
+    grid-column: 5 / span 4;
 }
 
 /* CAT R2 */
 .Event-12-d1 {
     grid-row: 7;
-    grid-column: 13 / span 4;
+    grid-column: 13 / span 6;
 }
 /* final sprint */
 
@@ -368,7 +368,7 @@
 /* G20 r2 */
 .Event-8-d2 {
     grid-row: 5;
-    grid-column: 13 / span 2;
+    grid-column: 11 / span 2;
 }
 
 /* valedictory */
@@ -380,11 +380,11 @@
 /* queens gambit */
 .Event-10-d2 {
     grid-row: 6;
-    grid-column: 7 / span 6;
+    grid-column: 5 / span 8;
 }
-
+/*Final Sprint*/
 .Event-11-d2 {
-    grid-row: 6;
+    grid-row: 3;
     grid-column: 1 / span 3;
 }
 

@@ -57,17 +57,17 @@ function App() {
           <Route path="/about13" element={<About ids={13} />} />
           <Route path="/about14" element={<About ids={14} />} />
 
-          <Route path="/webbit" element={<Webbit />} />
+          {/* <Route path="/webbit" element={<Webbit />} /> */}
           {/* <Route path="/codigo" element={<Codigo />} /> */}
-          <Route path="/perplexo" element={<Perplexo />} />
+          {/* <Route path="/perplexo" element={<Perplexo />} /> */}
           <Route path="/hackathon" element={<Hackathon />} />
           {/* <Route path="/cosmic_Aptitude_Test" element={<Cosmic />} /> */}
           {/* <Route path="/IPL_Auction" element={<IplAuction />} /> */}
           {/* <Route path="/Startup_Mania" element={<StarupMenia />} /> */}
           <Route path="/The_Alpha_Analyst" element={<AlphaAnalyst />} />
-          <Route path="/G20x_Anantya" element={<G20x />} />
-          <Route path="/Movie_Trivia" element={<MovieTrivia />} />
-          <Route path="/Babyconn" element={<Babyconn />} />
+          {/* <Route path="/G20x_Anantya" element={<G20x />} /> */}
+          {/* <Route path="/Movie_Trivia" element={<MovieTrivia />} /> */}
+          {/* <Route path="/Babyconn" element={<Babyconn />} /> */}
           {/* <Route path="/Sherlock" element={<Sherlock />} /> */}
         </Routes>
       </BrowserRouter>
